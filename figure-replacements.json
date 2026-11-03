@@ -1,0 +1,30 @@
+{
+  "entries": {
+    "43a57aa5174aa48c749d72adc0ecc342": {
+      "original_asset": "section_01/43a57aa5174aa48c749d72adc0ecc342.jpg",
+      "original_sha256": "c3d525aca39a3447ce1eb663ba3e52d17a557c73ef11bc55d9e1dc5a3cad3377",
+      "path": "images/replacements/douglas-s-shafer.svg",
+      "sha256": "74c774c349358f54eeb35b9634ee96fc537b7cbe0347cfe52e81b9e04b214ef9",
+      "alt": "Author name card for Douglas S. Shafer; typographic replacement for the source portrait.",
+      "credit": "QuadriviumPress",
+      "license": "CC BY-NC-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-nc-sa/3.0/",
+      "source": "scripts/figure_replacements.py",
+      "page": "front/about-the-authors.md",
+      "title": "Douglas S. Shafer"
+    },
+    "27273eef185dd7263d7c9f9954725169": {
+      "original_asset": "section_01/27273eef185dd7263d7c9f9954725169.jpg",
+      "original_sha256": "68dd236a147ff6939ecb5ada8d30b846f6c207ed151b3a5e80547892536c8e6d",
+      "path": "images/replacements/zhiyi-zhang.svg",
+      "sha256": "ba6e8e3525947c76c43570f19d649cab0b93927771ecbbbc3ac6e31feaaa7fd7",
+      "alt": "Author name card for Zhiyi Zhang; typographic replacement for the source portrait.",
+      "credit": "QuadriviumPress",
+      "license": "CC BY-NC-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-nc-sa/3.0/",
+      "source": "scripts/figure_replacements.py",
+      "page": "front/about-the-authors.md",
+      "title": "Zhiyi Zhang"
+    }
+  }
+}

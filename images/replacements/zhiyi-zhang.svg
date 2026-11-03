@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 180" role="img" aria-labelledby="title">
+<title id="title">Zhiyi Zhang — author name card</title>
+<rect width="640" height="180" rx="16" fill="#edf3f9"/>
+<path d="M38 40v100h80" fill="none" stroke="#315c8c" stroke-width="4"/>
+<path d="M44 130q30-170 68 0" fill="none" stroke="#315c8c" stroke-width="4"/>
+<text x="155" y="98" font-family="sans-serif" font-size="32" fill="#173451">Zhiyi Zhang</text>
+<text x="155" y="132" font-family="sans-serif" font-size="18" fill="#315c8c">Source-edition author</text>
+</svg>

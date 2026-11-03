@@ -1,0 +1,77 @@
+version: 1
+project:
+  title: Beginning Statistics
+  short_title: Beginning Statistics
+  description: 'A complete MyST Markdown adaptation of Beginning Statistics: eleven
+    chapters, exercises, answers, and statistical reference tables.'
+  authors:
+  - name:
+      literal: QuadriviumPress
+    note: MyST adaptation of the 2012 open textbook; see Sources and Attribution.
+  license: CC-BY-NC-SA-3.0
+  open_access: true
+  github: QuadriviumPress/beginningStatistics
+  keywords:
+  - statistics
+  - probability
+  - data analysis
+  - hypothesis testing
+  - regression
+  - open textbook
+  error_rules:
+  - rule: link-resolves
+    severity: ignore
+    keys:
+    - '{http,https}://**'
+  - rule: doi-link-valid
+    severity: ignore
+  toc:
+  - file: index.md
+  - title: Front matter
+    children:
+    - file: front/license.md
+    - file: front/about-the-authors.md
+    - file: front/acknowledgements.md
+    - file: front/dedication.md
+    - file: front/preface.md
+  - title: Chapters
+    children:
+    - file: chapters/ch-01-introduction.md
+    - file: chapters/ch-02-descriptive-statistics.md
+    - file: chapters/ch-03-basic-concepts-of-probability.md
+    - file: chapters/ch-04-discrete-random-variables.md
+    - file: chapters/ch-05-continuous-random-variables.md
+    - file: chapters/ch-06-sampling-distributions.md
+    - file: chapters/ch-07-estimation.md
+    - file: chapters/ch-08-testing-hypotheses.md
+    - file: chapters/ch-09-two-sample-problems.md
+    - file: chapters/ch-10-correlation-and-regression.md
+    - file: chapters/ch-11-chi-square-tests-and-f-tests.md
+  - title: Appendix
+    children:
+    - file: appendices/appendix.md
+  - file: SOURCES.md
+  - file: image-credits.md
+  - file: FIGURE-AUDIT.md
+  numbering:
+    headings: false
+    equations: false
+    figures: false
+    tables: false
+site:
+  template: book-theme
+  title: Beginning Statistics
+  options:
+    favicon: images/favicon.svg
+    logo: images/logo.svg
+    logo_dark: images/logo-dark.svg
+    logo_alt: Histogram and probability curve
+    logo_text: Beginning Statistics
+    logo_url: /
+    style: css/custom.css
+    hide_authors: false
+  nav:
+  - title: Sources & Attribution
+    url: /sources
+  - title: Image credits
+    url: /image-credits

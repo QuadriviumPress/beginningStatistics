@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="title">
+<title id="title">Beginning Statistics: histogram and probability curve</title>
+<rect width="512" height="512" rx="96" fill="#dcecff"/>
+<g fill="#173451" opacity=".4"><path d="M92 330h56v76H92zM160 240h56v166h-56zM228 158h56v248h-56zM296 240h56v166h-56zM364 330h56v76h-56z"/></g>
+<path d="M74 380C145 380 176 110 256 110S367 380 438 380" fill="none" stroke="#173451" stroke-width="16" stroke-linecap="round"/>
+<path d="M74 410h364" stroke="#173451" stroke-width="8"/>
+</svg>
