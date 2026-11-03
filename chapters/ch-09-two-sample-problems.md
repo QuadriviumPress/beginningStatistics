@@ -512,7 +512,7 @@ Figure 9.3 *P*-Value for [Note 9.7 \"Example 3\"](/chapters/ch-09-two-sample-pro
 
     ````````
 
-    1.  Construct the 90% confidence interval for the difference in the mean number of daily travellers on the 8:15 train and the mean number of daily travellers on the 8:30 train.
+    1.  Construct the 90% confidence interval for the difference in the mean number of daily travelers on the 8:15 train and the mean number of daily travelers on the 8:30 train.
     2.  Test at the 5% level of significance whether the data provide sufficient evidence to conclude that more passengers ride the 8:30 train.
     3.  Compute the observed significance of the test.
 
@@ -1228,7 +1228,7 @@ Table 9.1 Fuel Economy of Pairs of Vehicles
 
 ````````
 
-The first column of numbers form a sample from Population 1, the population of all cars operated on Type 1 gasoline; the second column of numbers form a sample from Population 2, the population of all cars operated on Type 2 gasoline. It would be incorrect to analyze the data using the formulas from the previous section, however, since the samples were not drawn independently. What *is* correct is to compute the difference in the numbers in each pair (subtracting in the same order each time) to obtain the third column of numbers as shown in [Table 9.2 \"Fuel Economy of Pairs of Vehicles\"](/chapters/ch-09-two-sample-problems.md#src-fwk-shafer-ch09-s03-t02) and treat the differences as the data. At this point, the new sample of differences $d_{1} = 0.0,\ldots,d_{9} = 0.1$ in the third column of [Table 9.2 \"Fuel Economy of Pairs of Vehicles\"](/chapters/ch-09-two-sample-problems.md#src-fwk-shafer-ch09-s03-t02) may be considered as a random sample of size *n* = 9 selected from a population with mean $\mathit{\mu}_{d} = \mathit{\mu}_{1} - \mathit{\mu}_{2}.$ This approach essentially transforms the paired two-sample problem into a one-sample problem as discussed in the previous two chapters.
+The first column of numbers forms a sample from Population 1, the population of all cars operated on Type 1 gasoline; the second column of numbers forms a sample from Population 2, the population of all cars operated on Type 2 gasoline. It would be incorrect to analyze the data using the formulas from the previous section, however, since the samples were not drawn independently. What *is* correct is to compute the difference in the numbers in each pair (subtracting in the same order each time) to obtain the third column of numbers as shown in [Table 9.2 \"Fuel Economy of Pairs of Vehicles\"](/chapters/ch-09-two-sample-problems.md#src-fwk-shafer-ch09-s03-t02) and treat the differences as the data. At this point, the new sample of differences $d_{1} = 0.0,\ldots,d_{9} = 0.1$ in the third column of [Table 9.2 \"Fuel Economy of Pairs of Vehicles\"](/chapters/ch-09-two-sample-problems.md#src-fwk-shafer-ch09-s03-t02) may be considered as a random sample of size *n* = 9 selected from a population with mean $\mathit{\mu}_{d} = \mathit{\mu}_{1} - \mathit{\mu}_{2}.$ This approach essentially transforms the paired two-sample problem into a one-sample problem as discussed in the previous two chapters.
 
 (src-fwk-shafer-ch09-s03-t02)=
 
@@ -1433,7 +1433,7 @@ If the sample is large (meaning that *n* ≥ 30) then in the formula for the con
 
 - When the data are collected in pairs, the differences computed for each pair are the data that are used in the formulas.
 - A confidence interval for the difference in two population means using paired sampling is computed using a formula in the same fashion as was done for a single population mean.
-- The same five-step procedure used to test hypotheses concerning a single population mean is used to test hypotheses concerning the difference between two population means using pair sampling. The only difference is in the formula for the standardized test statistic.
+- The same five-step procedure used to test hypotheses concerning a single population mean is used to test hypotheses concerning the difference between two population means using paired sampling. The only difference is in the formula for the standardized test statistic.
 
 ````````````
 
@@ -1614,7 +1614,7 @@ In all exercises for this section assume that the population of differences is n
     2.  Construct the 99% confidence interval based on these data for the difference.
     3.  Test, at the 1% level of significance, the hypothesis that appraised values by the county government of all such houses is greater than the appraised values by the private appraisal company.
 
-8.  In order to cut costs a wine producer is considering using duo or 1 + 1 corks in place of full natural wood corks, but is concerned that it could affect buyers's perception of the quality of the wine. The wine producer shipped eight pairs of bottles of its best young wines to eight wine experts. Each pair includes one bottle with a natural wood cork and one with a duo cork. The experts are asked to rate the wines on a one to ten scale, higher numbers corresponding to higher quality. The results are:
+8.  In order to cut costs a wine producer is considering using duo or 1 + 1 corks in place of full natural wood corks, but is concerned that it could affect buyers' perception of the quality of the wine. The wine producer shipped eight pairs of bottles of its best young wines to eight wine experts. Each pair includes one bottle with a natural wood cork and one with a duo cork. The experts are asked to rate the wines on a one to ten scale, higher numbers corresponding to higher quality. The results are:
 
     ````````{list-table}
     :header-rows: 1
@@ -1868,7 +1868,7 @@ In all exercises for this section assume that the population of differences is n
     3.  $\left( {11.31,22.05} \right)$
     4.  $H_{0}:\mathit{\mu}_{1} - \mathit{\mu}_{2} = 10$ vs. $H_{a}:\mathit{\mu}_{1} - \mathit{\mu}_{2} > 10.$ Test Statistic: *T* = 3.1014. $d.f. = 24.$ Rejection Region: $\left\lbrack {2.492,\infty} \right).$ Decision: Reject *H*<sub>0</sub>.
 12. &nbsp;
-13. 1.  $\left( {1.6266,2.6401} \right).$ Endpoints change in the third deciaml place.
+13. 1.  $\left( {1.6266,2.6401} \right).$ Endpoints change in the third decimal place.
     2.  $H_{0}:\mathit{\mu}_{1} - \mathit{\mu}_{2} = 1$ vs. $H_{a}:\mathit{\mu}_{1} - \mathit{\mu}_{2} > 1.$ Test Statistic: *Z* = 3.6791. Rejection Region: $\left\lbrack {2.33,\infty} \right).$ Decision: Reject *H*<sub>0</sub>. The decision is the same as in the previous problem.
     3.  Using the $t -$distribution, $\left( {1.3188,2.9478} \right).$ Using the $z -$distribution, $\left( {1.3401,2.9266} \right).$ There is a difference.
 
@@ -2237,7 +2237,7 @@ Finally a common misuse of the formulas given in this section must be mentioned.
 
 ### Applications
 
-In all the remaining exercsises the samples are sufficiently large (so this need not be checked).
+In all the remaining exercises the samples are sufficiently large (so this need not be checked).
 
 13. Voters in a particular city who identify themselves with one or the other of two political parties were randomly selected and asked if they favor a proposal to allow citizens with proper license to carry a concealed handgun in city parks. The results are:
 
@@ -2366,7 +2366,7 @@ In all the remaining exercsises the samples are sufficiently large (so this need
     <http://www.flatworldknowledge.com/sites/all/files/data11.xls>
 
     1.  Use the sample data to construct point estimates ${\hat{p}}_{1}$ and ${\hat{p}}_{2}$ of the proportions *p*<sub>1</sub> and *p*<sub>2</sub> of all real estate sales in this region in 2008 and 2010 that were foreclosure sales. Construct a point estimate of $p_{1} - p_{2}.$
-    2.  Use the sample data to construct a 90% confidence for $p_{1} - p_{2}.$
+    2.  Use the sample data to construct a 90% confidence interval for $p_{1} - p_{2}.$
     3.  Test, at the 10% level of significance, the hypothesis that the proportion of real estate sales in the region in 2010 that were foreclosure sales was greater than the proportion of real estate sales in the region in 2008 that were foreclosure sales. (The default is that the proportions were the same.)
 
 `````````````{admonition} Answers
@@ -2429,7 +2429,7 @@ In all the remaining exercsises the samples are sufficiently large (so this need
 
 ````````````
 
-As was pointed out at the beginning of [Section 7.4 \"Sample Size Considerations\"](/chapters/ch-07-estimation.md#src-fwk-shafer-ch07-s04) in [Chapter 7 \"Estimation\"](/chapters/ch-07-estimation.md#src-fwk-shafer-ch07), sampling is typically done with definite objectives in mind. For example, a physician might wish to estimate the difference in the average amount of sleep gotten by patients suffering a certain condition with the average amount of sleep got by healthy adults, at 90% confidence and to within half an hour. Since sampling costs time, effort, and money, it would be useful to be able to estimate the smallest size samples that are likely to meet these criteria.
+As was pointed out at the beginning of [Section 7.4 \"Sample Size Considerations\"](/chapters/ch-07-estimation.md#src-fwk-shafer-ch07-s04) in [Chapter 7 \"Estimation\"](/chapters/ch-07-estimation.md#src-fwk-shafer-ch07), sampling is typically done with definite objectives in mind. For example, a physician might wish to estimate the difference in the average amount of sleep gotten by patients suffering a certain condition with the average amount of sleep gotten by healthy adults, at 90% confidence and to within half an hour. Since sampling costs time, effort, and money, it would be useful to be able to estimate the smallest size samples that are likely to meet these criteria.
 
 ### Estimating $\mathit{\mu}_{1} - \mathit{\mu}_{2}$ with Independent Samples
 
@@ -2491,7 +2491,7 @@ In all the examples and exercises the population standard deviation of the diffe
 
 ### Example 14
 
-A automotive tire manufacturer wishes to compare the mean lifetime of two tread designs under actual driving conditions. They will mount one of each type of tire on *n* vehicles (both on the front or both on the back) and measure the difference in remaining tread after 20,000 miles of driving. If the standard deviation of the differences is assumed to be 0.025 inch, find the minimum samples size needed to estimate the difference in mean depth (at 20,000 miles use) to within 0.01 inch at 99.9% confidence.
+An automotive tire manufacturer wishes to compare the mean lifetime of two tread designs under actual driving conditions. They will mount one of each type of tire on *n* vehicles (both on the front or both on the back) and measure the difference in remaining tread after 20,000 miles of driving. If the standard deviation of the differences is assumed to be 0.025 inch, find the minimum sample size needed to estimate the difference in mean depth (at 20,000 miles use) to within 0.01 inch at 99.9% confidence.
 
 Solution:
 
@@ -2636,7 +2636,7 @@ Confidence level 98% means that $\alpha = 1 - 0.98 = 0.02$ so $\left. \alpha/ 2 
 
 9.  An automotive tire manufacturer wishes to estimate the difference in mean wear of tires manufactured with an experimental material and ordinary production tire, with 90% confidence and to within 0.5 mm. To eliminate extraneous factors arising from different driving conditions the tires will be tested in pairs on the same vehicles. It is known from prior studies that the standard deviations of the differences of wear of tires constructed with the two kinds of materials is 1.75 mm. Estimate the minimum number of pairs in the sample necessary to meet these criteria.
 
-10. To assess to the relative happiness of men and women in their marriages, a marriage counselor plans to administer a test measuring happiness in marriage to *n* randomly selected married couples, record the their test scores, find the differences, and then draw inferences on the possible difference. Let $\mathit{\mu}_{1}$ and $\mathit{\mu}_{2}$ be the true average levels of happiness in marriage for men and women respectively as measured by this test. Suppose it is desired to find a 90% confidence interval for estimating $\mathit{\mu}_{d} = \mathit{\mu}_{1} - \mathit{\mu}_{2}$ to within two test points. Suppose further that, from prior studies, it is known that the standard deviation of the differences in test scores is $\mathit{\sigma}_{d} \approx 10.$ What is the minimum number of married couples that must be included in this study?
+10. To assess the relative happiness of men and women in their marriages, a marriage counselor plans to administer a test measuring happiness in marriage to *n* randomly selected married couples, record their test scores, find the differences, and then draw inferences on the possible difference. Let $\mathit{\mu}_{1}$ and $\mathit{\mu}_{2}$ be the true average levels of happiness in marriage for men and women respectively as measured by this test. Suppose it is desired to find a 90% confidence interval for estimating $\mathit{\mu}_{d} = \mathit{\mu}_{1} - \mathit{\mu}_{2}$ to within two test points. Suppose further that, from prior studies, it is known that the standard deviation of the differences in test scores is $\mathit{\sigma}_{d} \approx 10.$ What is the minimum number of married couples that must be included in this study?
 
 11. A journalist plans to interview an equal number of members of two political parties to compare the proportions in each party who favor a proposal to allow citizens with a proper license to carry a concealed handgun in public parks. Let *p*<sub>1</sub> and *p*<sub>2</sub> be the true proportions of members of the two parties who are in favor of the proposal. Suppose it is desired to find a 95% confidence interval for estimating $p_{1} - p_{2}$ to within 0.05. Estimate the minimum equal number of members of each party that must be sampled to meet these criteria.
 

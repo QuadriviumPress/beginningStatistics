@@ -541,7 +541,7 @@ Solution:
 
 ````````````
 
-If *X* is any normally distributed normal random variable then [Figure 12.2 \"Cumulative Normal Probability\"](/appendices/appendix.md#src-fwk-shafer-ch12-f02) can also be used to compute a probability of the form $P\left( {a < X < b} \right)$ by means of the following equality.
+If *X* is any normally distributed random variable then [Figure 12.2 \"Cumulative Normal Probability\"](/appendices/appendix.md#src-fwk-shafer-ch12-f02) can also be used to compute a probability of the form $P\left( {a < X < b} \right)$ by means of the following equality.
 
 If *X* is a normally distributed random variable with mean *μ* and standard deviation *σ*, then
 
@@ -628,11 +628,11 @@ Note that the two *z*-scores were rounded to two decimal places in order to use 
 
 ### Example 11
 
-Scores on a standardized college entrance examination (*CEE*) are normally distributed with mean 510 and standard deviation 60. A selective university considers for admission only applicants with *CEE* scores over 650. Find percentage of all individuals who took the *CEE* who meet the university\'s *CEE* requirement for consideration for admission.
+Scores on a standardized college entrance examination (*CEE*) are normally distributed with mean 510 and standard deviation 60. A selective university considers for admission only applicants with *CEE* scores over 650. Find the percentage of all individuals who took the *CEE* who meet the university\'s *CEE* requirement for consideration for admission.
 
 Solution:
 
-Let *X* denote the score made on the *CEE* by a randomly selected individual. Then *X* is normally distributed with mean 510 and standard deviation 60. The probability that *X* lie in a particular interval is the same as the proportion of all exam scores that lie in that interval. Thus the solution to the problem is *P*(*X* \> 650), expressed as a percentage. [Figure 5.18 \"Probability Computation for Exam Scores\"](/chapters/ch-05-continuous-random-variables.md#src-fwk-shafer-ch05-s03-f05) illustrates the following computation:
+Let *X* denote the score made on the *CEE* by a randomly selected individual. Then *X* is normally distributed with mean 510 and standard deviation 60. The probability that *X* lies in a particular interval is the same as the proportion of all exam scores that lie in that interval. Thus the solution to the problem is *P*(*X* \> 650), expressed as a percentage. [Figure 5.18 \"Probability Computation for Exam Scores\"](/chapters/ch-05-continuous-random-variables.md#src-fwk-shafer-ch05-s03-f05) illustrates the following computation:
 
 ``````{figure} /images/section_09/f652f315d2286107695053b9212f66de.jpg
 :alt: Statistical diagram: Figure 5.18 Probability Computation for Exam Scores
@@ -1000,7 +1000,7 @@ Scores on a standardized college entrance examination (*CEE*) are normally distr
 
 Solution:
 
-Let *X* denote the score made on the *CEE* by a randomly selected individual. Then *X* is normally distributed with mean 510 and standard deviation 60. The probability that *X* lie in a particular interval is the same as the proportion of all exam scores that lie in that interval. Thus the minimum score that is in the top 5% of all *CEE* is the score $x*$ that cuts off a right tail in the distribution of *X* of area 0.05 (5% expressed as a proportion). See [Figure 5.26 \"Tail of a Normally Distributed Random Variable\"](/chapters/ch-05-continuous-random-variables.md#src-fwk-shafer-ch05-s04-s02-f03).
+Let *X* denote the score made on the *CEE* by a randomly selected individual. Then *X* is normally distributed with mean 510 and standard deviation 60. The probability that *X* lies in a particular interval is the same as the proportion of all exam scores that lie in that interval. Thus the minimum score that is in the top 5% of all *CEE* is the score $x*$ that cuts off a right tail in the distribution of *X* of area 0.05 (5% expressed as a proportion). See [Figure 5.26 \"Tail of a Normally Distributed Random Variable\"](/chapters/ch-05-continuous-random-variables.md#src-fwk-shafer-ch05-s04-s02-f03).
 
 ``````{figure} /images/section_09/41425a476cf02dd0a5716a9b894cb84c.jpg
 :alt: Statistical diagram: Figure 5.26 Tail of a Normally Distributed Random Variable
@@ -1019,7 +1019,7 @@ All boys at a military school must run a fixed course as fast as they can as par
 
 Solution:
 
-Let *X* denote the finish time of a randomly selected boy. Then *X* is normally distributed with mean 29 and standard deviation 2. The probability that *X* lie in a particular interval is the same as the proportion of all finish times that lie in that interval. Thus the situation is as shown in [Figure 5.27 \"Distribution of Times to Run a Course\"](/chapters/ch-05-continuous-random-variables.md#src-fwk-shafer-ch05-s04-s02-f04). Because the area in the middle corresponding to "average" times is 0.75, the areas of the two tails add up to 1 − 0.75 = 0.25 in all. By the symmetry of the density curve each tail must have half of this total, or area 0.125 each. Thus the fastest time that is "average" has *z*-score $\text{-}z_{.125}$, which by [Figure 12.2 \"Cumulative Normal Probability\"](/appendices/appendix.md#src-fwk-shafer-ch12-f02) is −1.15, and the slowest time that is "average" has *z*-score $z_{.125} = 1.15.$ The fastest and slowest times that are still considered average are
+Let *X* denote the finish time of a randomly selected boy. Then *X* is normally distributed with mean 29 and standard deviation 2. The probability that *X* lies in a particular interval is the same as the proportion of all finish times that lie in that interval. Thus the situation is as shown in [Figure 5.27 \"Distribution of Times to Run a Course\"](/chapters/ch-05-continuous-random-variables.md#src-fwk-shafer-ch05-s04-s02-f04). Because the area in the middle corresponding to "average" times is 0.75, the areas of the two tails add up to 1 − 0.75 = 0.25 in all. By the symmetry of the density curve each tail must have half of this total, or area 0.125 each. Thus the fastest time that is "average" has *z*-score $\text{-}z_{.125}$, which by [Figure 12.2 \"Cumulative Normal Probability\"](/appendices/appendix.md#src-fwk-shafer-ch12-f02) is −1.15, and the slowest time that is "average" has *z*-score $z_{.125} = 1.15.$ The fastest and slowest times that are still considered average are
 
 $$x_{\,\text{fast}} = \mathit{\mu} + \left( {\text{-}z_{.125}} \right)\mathit{\sigma} = 29 + \left( {\text{-}1.15} \right) \cdot 2 = 26.7$$
 
@@ -1087,19 +1087,19 @@ A boy has an average finishing time if he runs the course with a time between 26
     1.  *z*<sub>0.002</sub>
     2.  *z*<sub>0.02</sub>
 
-7.  Find the value of $x*$ that yields the probability shown, where *X* is a normally distributed random variable *X* with mean 83 and standard deviation 4.
+7.  Find the value of $x*$ that yields the probability shown, where *X* is a normally distributed random variable with mean 83 and standard deviation 4.
 
     1.  $P\left( {X < {x*}} \right) = 0.8700$
     2.  $P\left( {X > {x*}} \right) = 0.0500$
 
-8.  Find the value of $x*$ that yields the probability shown, where *X* is a normally distributed random variable *X* with mean 54 and standard deviation 12.
+8.  Find the value of $x*$ that yields the probability shown, where *X* is a normally distributed random variable with mean 54 and standard deviation 12.
 
     1.  $P\left( {X < {x*}} \right) = 0.0900$
     2.  $P\left( {X > {x*}} \right) = 0.6500$
 
-9.  *X* is a normally distributed random variable *X* with mean 15 and standard deviation 0.25. Find the values *x<sub>L</sub>* and *x<sub>R</sub>* of *X* that are symmetrically located with respect to the mean of *X* and satisfy *P*(*x<sub>L</sub>* \< *X* \< *x<sub>R</sub>*) = 0.80. (Hint. First solve the corresponding problem for *Z*.)
+9.  *X* is a normally distributed random variable with mean 15 and standard deviation 0.25. Find the values *x<sub>L</sub>* and *x<sub>R</sub>* of *X* that are symmetrically located with respect to the mean of *X* and satisfy *P*(*x<sub>L</sub>* \< *X* \< *x<sub>R</sub>*) = 0.80. (Hint. First solve the corresponding problem for *Z*.)
 
-10. *X* is a normally distributed random variable *X* with mean 28 and standard deviation 3.7. Find the values *x<sub>L</sub>* and *x<sub>R</sub>* of *X* that are symmetrically located with respect to the mean of *X* and satisfy *P*(*x<sub>L</sub>* \< *X* \< *x<sub>R</sub>*) = 0.65. (Hint. First solve the corresponding problem for *Z*.)
+10. *X* is a normally distributed random variable with mean 28 and standard deviation 3.7. Find the values *x<sub>L</sub>* and *x<sub>R</sub>* of *X* that are symmetrically located with respect to the mean of *X* and satisfy *P*(*x<sub>L</sub>* \< *X* \< *x<sub>R</sub>*) = 0.65. (Hint. First solve the corresponding problem for *Z*.)
 
 ### Applications
 

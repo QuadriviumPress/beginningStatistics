@@ -257,14 +257,14 @@ One may be 90% confident that the true average GPA of all students at the univer
     <http://www.flatworldknowledge.com/sites/all/files/data1.xls>
 
     1.  Regard the data as arising from a census of all students at a high school, in which the SAT score of every student was measured. Compute the population mean *μ*.
-    2.  Regard the first 36 students as a random sample and use it to construct a 99% confidence for the mean *μ* of all 1,000 SAT scores. Does it actually capture the mean *μ*?
+    2.  Regard the first 36 students as a random sample and use it to construct a 99% confidence interval for the mean *μ* of all 1,000 SAT scores. Does it actually capture the mean *μ*?
 
 26. Large Data Set 1 lists the GPAs of 1,000 students.
 
     <http://www.flatworldknowledge.com/sites/all/files/data1.xls>
 
-    1.  Regard the data as arising from a census of all freshman at a small college at the end of their first academic year of college study, in which the GPA of every such person was measured. Compute the population mean *μ*.
-    2.  Regard the first 36 students as a random sample and use it to construct a 95% confidence for the mean *μ* of all 1,000 GPAs. Does it actually capture the mean *μ*?
+    1.  Regard the data as arising from a census of all freshmen at a small college at the end of their first academic year of college study, in which the GPA of every such person was measured. Compute the population mean *μ*.
+    2.  Regard the first 36 students as a random sample and use it to construct a 95% confidence interval for the mean *μ* of all 1,000 GPAs. Does it actually capture the mean *μ*?
 
 `````````````{admonition} Answers
 :class: dropdown
@@ -340,7 +340,7 @@ One may be 90% confident that the true average GPA of all students at the univer
 
 The confidence interval formulas in the previous section are based on the Central Limit Theorem, the statement that for large samples $\overset{-}{X}$ is normally distributed with mean *μ* and standard deviation $\left. \mathit{\sigma}/\sqrt{n}. \right.$ When the population mean *μ* is estimated with a small sample (*n* \< 30), the Central Limit Theorem does not apply. In order to proceed we assume that the numerical population from which the sample is taken has a normal distribution to begin with. If this condition is satisfied then when the population standard deviation *σ* is known the old formula $\overset{-}{x} \pm z_{\alpha / 2}\left( \mathit{\sigma}/\sqrt{n} \right)$ can still be used to construct a $100\left( {1 - \alpha} \right)$% confidence interval for *μ*.
 
-If the population standard deviation is unknown and the sample size *n* is small then when we substitute the sample standard deviation *s* for *σ* the normal approximation is no longer valid. The solution is to use a different distribution, called Student's *t*-distribution[^stats-4] **with** $n\text{-}1$ degrees of freedom[^stats-5]. Student's *t*-distribution is very much like the standard normal distribution in that it is centered at 0 and has the same qualitative bell shape, but it has heavier tails than the standard normal distribution does, as indicated by [Figure 7.5 \"Student's \"](/chapters/ch-07-estimation.md#src-fwk-shafer-ch07-s02-f05), in which the curve (in brown) that meets the dashed vertical line at the lowest point is the *t*-distribution with two degrees of freedom, the next curve (in blue) is the *t*-distribution with five degrees of freedom, and the thin curve (in red) is the standard normal distribution. As also indicated by the figure, as the sample size *n* increases, Student's *t*-distribution ever more closely resembles the standard normal distribution. Although there is a different *t*-distribution for every value of *n*, once the sample size is 30 or more it is typically acceptable to use the standard normal distribution instead, as we will always do in this text.
+If the population standard deviation is unknown and the sample size *n* is small then when we substitute the sample standard deviation *s* for *σ* the normal approximation is no longer valid. The solution is to use a different distribution, called Student's *t*-distribution[^stats-4] **with** $n\text{-}1$ degrees of freedom[^stats-5]. Student's *t*-distribution is very much like the standard normal distribution in that it is centered at 0 and has the same qualitative bell shape, but it has heavier tails than the standard normal distribution does, as indicated by [Figure 7.5 \"Student's t-Distribution\"](/chapters/ch-07-estimation.md#src-fwk-shafer-ch07-s02-f05), in which the curve (in brown) that meets the dashed vertical line at the lowest point is the *t*-distribution with two degrees of freedom, the next curve (in blue) is the *t*-distribution with five degrees of freedom, and the thin curve (in red) is the standard normal distribution. As also indicated by the figure, as the sample size *n* increases, Student's *t*-distribution ever more closely resembles the standard normal distribution. Although there is a different *t*-distribution for every value of *n*, once the sample size is 30 or more it is typically acceptable to use the standard normal distribution instead, as we will always do in this text.
 
 ``````{figure} /images/section_11/3435a692ad23c4d5cf2b42e6aa8f5191.jpg
 :alt: Statistical diagram: Figure 7.5 Student’s t -Distribution
@@ -349,7 +349,7 @@ If the population standard deviation is unknown and the sample size *n* is small
 Figure 7.5 Student's *t*-Distribution
 ``````
 
-Just as the symbol *z<sub>c</sub>* stands for the value that cuts off a right tail of area *c* in the standard normal distribution, so the symbol *t<sub>c</sub>* stands for the value that cuts off a right tail of area *c* in the standard normal distribution. This gives us the following confidence interval formulas.
+Just as the symbol *z<sub>c</sub>* stands for the value that cuts off a right tail of area *c* in the standard normal distribution, so the symbol *t<sub>c</sub>* stands for the value that cuts off a right tail of area *c* in Student's *t*-distribution. This gives us the following confidence interval formulas.
 
 ````````````{important} Small Sample $100\left( {1 - \alpha} \right)\%$ Confidence Interval for a Population Mean
 
@@ -484,7 +484,7 @@ Compare [Note 7.9 \"Example 4\"](/chapters/ch-07-estimation.md#src-fwk-shafer-ch
     188 & {\text{-}102} & 259 & 226 & 152 & 167
     \end{matrix}$$
 
-    Construct a 99.8% confidence interval for the mean increase in caloric intake for all people who are put on this diet. Assume that population of differences in intake is normally distributed.
+    Construct a 99.8% confidence interval for the mean increase in caloric intake for all people who are put on this diet. Assume that the population of differences in intake is normally distributed.
 
 19. A machine for making precision cuts in dimension lumber produces studs with lengths that vary with standard deviation 0.003 inch. Five trial cuts are made to check the machine's calibration. The mean length of the studs produced is 104.998 inches with sample standard deviation 0.004 inch. Construct a 99.5% confidence interval for the mean lengths of all studs cut by this machine. Assume lengths are normally distributed. Hint: Not all the numbers given in the problem are used.
 
@@ -601,7 +601,7 @@ One may be 90% confident that the true proportion of all students at the college
 ````````````{important} Key Takeaways
 
 - We have a single formula for a confidence interval for a population proportion, which is valid when the sample is large.
-- The condition that a sample be large is not that its size *n* be at least 30, but that the density function fit inside the interval $\lbrack 0,1\rbrack.$
+- The condition that a sample be large is not that its size *n* be at least 30, but that the density function fits inside the interval $\lbrack 0,1\rbrack.$
 
 ````````````
 
@@ -680,7 +680,7 @@ One may be 90% confident that the true proportion of all students at the college
     2.  Verify that the sample is sufficiently large to use it to construct a confidence interval for that proportion.
     3.  Construct a 99.8% confidence interval for the proportion of all packages that weigh at least 490 grams.
 
-13. A survey of 50 randomly selected adults in a small town asked them if their opinion on a proposed "no cruising" restriction late at night. Responses were coded 1 for in favor, 0 for indifferent, and 2 for opposed, with the results shown in the table.
+13. A survey of 50 randomly selected adults in a small town asked them their opinion on a proposed "no cruising" restriction late at night. Responses were coded 1 for in favor, 0 for indifferent, and 2 for opposed, with the results shown in the table.
 
     $$\begin{matrix}
     1 & 0 & 2 & 0 & 1 & 0 & 0 & 1 & 1 & 2 \\
@@ -740,7 +740,7 @@ One may be 90% confident that the true proportion of all students at the college
     1.  Give a point estimate for the proportion of all households in which there is a cell phone but no landline.
     2.  Assuming the sample is sufficiently large, construct a 99.9% confidence interval for the proportion of all households in which there is a cell phone but no landline.
     3.  Give a point estimate for the proportion of all households in which there is no telephone service of either kind.
-    4.  Assuming the sample is sufficiently large, construct a 99.9% confidence interval for the proportion of all all households in which there is no telephone service of either kind.
+    4.  Assuming the sample is sufficiently large, construct a 99.9% confidence interval for the proportion of all households in which there is no telephone service of either kind.
 
 ### Additional Exercises
 
@@ -748,7 +748,7 @@ One may be 90% confident that the true proportion of all students at the college
 
     1.  Give a point estimate of the proportion of all self-described vegetarians who are women.
     2.  Verify that the sample is sufficiently large to use it to construct a confidence interval for that proportion.
-    3.  Construct a 90% confidence interval for the proportion of all all self-described vegetarians who are women.
+    3.  Construct a 90% confidence interval for the proportion of all self-described vegetarians who are women.
 
 20. A random sample of 185 college soccer players who had suffered injuries that resulted in loss of playing time was made with the results shown in the table. Injuries are classified according to severity of the injury and the condition under which it was sustained.
 
@@ -831,14 +831,14 @@ One may be 90% confident that the true proportion of all students at the college
     <http://www.flatworldknowledge.com/sites/all/files/data11.xls>
 
     1.  Use these data to construct a point estimate $\hat{p}$ of the proportion *p* of all real estate sales in this region in 2008 that were foreclosure sales.
-    2.  Use these data to construct a 90% confidence for *p*.
+    2.  Use these data to construct a 90% confidence interval for *p*.
 
 26. Lines 537 through 1106 in Large Data Set 11 is a sample of 570 real estate sales in a certain region in 2010. Those that were foreclosure sales are identified with a 1 in the second column.
 
     <http://www.flatworldknowledge.com/sites/all/files/data11.xls>
 
     1.  Use these data to construct a point estimate $\hat{p}$ of the proportion *p* of all real estate sales in this region in 2010 that were foreclosure sales.
-    2.  Use these data to construct a 90% confidence for *p*.
+    2.  Use these data to construct a 90% confidence interval for *p*.
 
 `````````````{admonition} Answers
 :class: dropdown

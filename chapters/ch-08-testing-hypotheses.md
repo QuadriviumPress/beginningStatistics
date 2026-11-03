@@ -36,12 +36,12 @@ Hypothesis testing[^stats-4] *is a statistical procedure in which a choice is ma
 
 ````````````
 
-The end result of a hypotheses testing procedure is a choice of one of the following two possible conclusions:
+The end result of a hypothesis testing procedure is a choice of one of the following two possible conclusions:
 
 1.  Reject *H*<sub>0</sub> (and therefore accept *H<sub>a</sub>*), or
 2.  Fail to reject *H*<sub>0</sub> (and therefore fail to accept *H<sub>a</sub>*).
 
-The null hypothesis typically represents the status quo, or what has historically been true. In the example of the respirators, we would believe the claim of the manufacturer unless there is reason not to do so, so the null hypotheses is $H_{0}:\mathit{\mu} = 75.$ The alternative hypothesis in the example is the contradictory statement $H_{a}:\mathit{\mu} < 75.$ The null hypothesis will always be an assertion containing an equals sign, but depending on the situation the alternative hypothesis can have any one of three forms: with the symbol "\<," as in the example just discussed, with the symbol "\>," or with the symbol "≠" The following two examples illustrate the latter two cases.
+The null hypothesis typically represents the status quo, or what has historically been true. In the example of the respirators, we would believe the claim of the manufacturer unless there is reason not to do so, so the null hypothesis is $H_{0}:\mathit{\mu} = 75.$ The alternative hypothesis in the example is the contradictory statement $H_{a}:\mathit{\mu} < 75.$ The null hypothesis will always be an assertion containing an equals sign, but depending on the situation the alternative hypothesis can have any one of three forms: with the symbol "\<," as in the example just discussed, with the symbol "\>," or with the symbol "≠." The following two examples illustrate the latter two cases.
 
 (src-fwk-shafer-ch08-s01-s01-n03)=
 
@@ -177,7 +177,7 @@ The format of the testing procedure in general terms is to take a sample and use
 1.  reject the null hypothesis *H*<sub>0</sub> in favor of the alternative *H<sub>a</sub>* presented, or
 2.  do not reject the null hypothesis *H*<sub>0</sub> in favor of the alternative *H<sub>a</sub>* presented.
 
-There are four possible outcomes of hypothesis testing procedure, as shown in the following table:
+There are four possible outcomes of a hypothesis testing procedure, as shown in the following table:
 
 ````````{list-table}
 :header-rows: 0
@@ -225,7 +225,7 @@ The probability of making a Type II error is too complicated to discuss in a beg
 
 ### Standardizing the Test Statistic
 
-Hypotheses testing will be considered in a number of contexts, and great unification as well as simplification results when the relevant sample statistic is *standardized* by subtracting its mean from it and then dividing by its standard deviation. The resulting statistic is called a *standardized test statistic*. In every situation treated in this and the following two chapters the standardized test statistic will have either the standard normal distribution or Student's *t*-distribution.
+Hypothesis testing will be considered in a number of contexts, and great unification as well as simplification results when the relevant sample statistic is *standardized* by subtracting its mean from it and then dividing by its standard deviation. The resulting statistic is called a *standardized test statistic*. In every situation treated in this and the following two chapters the standardized test statistic will have either the standard normal distribution or Student's *t*-distribution.
 
 ````````````{important} Definition
 
@@ -312,13 +312,13 @@ The procedure that we have outlined in this section is called the "Critical Valu
     2.  The average weight of a female airline passenger with luggage was 145 pounds ten years ago. The FAA believes it to be higher now.
     3.  The average stipend for doctoral students in a particular discipline at a state university is \$14,756. The department chairman believes that the national average is higher.
     4.  The average room rate in hotels in a certain region is \$82.53. A travel agent believes that the average in a particular resort area is different.
-    5.  The average farm size in a predominately rural state was 69.4 acres. The secretary of agriculture of that state asserts that it is less today.
+    5.  The average farm size in a predominantly rural state was 69.4 acres. The secretary of agriculture of that state asserts that it is less today.
 
 2.  State the null and alternative hypotheses for each of the following situations. (That is, identify the correct number $\mathit{\mu}_{0}$ and write $H_{0}:\mathit{\mu} = \mathit{\mu}_{0}$ and the appropriate analogous expression for *H<sub>a</sub>*.)
 
     1.  The average time workers spent commuting to work in Verona five years ago was 38.2 minutes. The Verona Chamber of Commerce asserts that the average is less now.
     2.  The mean salary for all men in a certain profession is \$58,291. A special interest group thinks that the mean salary for women in the same profession is different.
-    3.  The accepted figure for the caffeine content of an 8-ounce cup of coffee is 133 mg. A dietitian believes that the average for coffee served in a local restaurants is higher.
+    3.  The accepted figure for the caffeine content of an 8-ounce cup of coffee is 133 mg. A dietitian believes that the average for coffee served in a local restaurant is higher.
     4.  The average yield per acre for all types of corn in a recent year was 161.9 bushels. An economist believes that the average yield per acre is different this year.
     5.  An industry association asserts that the average age of all self-described fly fishermen is 42.8 years. A sociologist suspects that it is higher.
 
@@ -582,7 +582,7 @@ Figure 8.6 Rejection Region and Test Statistic for [Note 8.28 \"Example 5\"](/ch
 
     <http://www.flatworldknowledge.com/sites/all/files/data1.xls>
 
-    1.  Regard the data as arising from a census of all freshman at a small college at the end of their first academic year of college study, in which the GPA of every such person was measured. Compute the population mean *μ*.
+    1.  Regard the data as arising from a census of all freshmen at a small college at the end of their first academic year of college study, in which the GPA of every such person was measured. Compute the population mean *μ*.
     2.  Regard the first 50 students in the data set as a random sample drawn from the population of part (a) and use it to test the hypothesis that the population mean is less than 2.50, at the 10% level of significance. (The null hypothesis is that *μ* = 2.50.)
     3.  Is your conclusion in part (b) in agreement with the true state of nature (which by part (a) you know), or is your decision in error? If your decision is in error, is it a Type I error or a Type II error?
 
@@ -954,11 +954,11 @@ Figure 8.10 Test Statistic for [Note 8.38 \"Example 9\"](/chapters/ch-08-testing
 
 ````````````{note} Learning Objective
 
-1.  To learn how to apply the five-step test procedure for test of hypotheses concerning a population mean when the sample size is small.
+1.  To learn how to apply the five-step test procedure for a test of hypotheses concerning a population mean when the sample size is small.
 
 ````````````
 
-In the previous section hypotheses testing for population means was described in the case of large samples. The statistical validity of the tests was insured by the Central Limit Theorem, with essentially no assumptions on the distribution of the population. When sample sizes are small, as is often the case in practice, the Central Limit Theorem does not apply. One must then impose stricter assumptions on the population to give statistical validity to the test procedure. One common assumption is that the population from which the sample is taken has a normal probability distribution to begin with. Under such circumstances, if the population standard deviation is known, then the test statistic $\left. \left( {\overset{-}{x} - \mathit{\mu}_{0}} \right)/\left( \mathit{\sigma}/\sqrt{n} \right) \right.$ still has the standard normal distribution, as in the previous two sections. If *σ* is unknown and is approximated by the sample standard deviation *s*, then the resulting test statistic $\left. \left( {\overset{-}{x} - \mathit{\mu}_{0}} \right)/\left( s/\sqrt{n} \right) \right.$ follows Student's *t*-distribution with $n\text{-}1$ degrees of freedom.
+In the previous section hypothesis testing for population means was described in the case of large samples. The statistical validity of the tests was ensured by the Central Limit Theorem, with essentially no assumptions on the distribution of the population. When sample sizes are small, as is often the case in practice, the Central Limit Theorem does not apply. One must then impose stricter assumptions on the population to give statistical validity to the test procedure. One common assumption is that the population from which the sample is taken has a normal probability distribution to begin with. Under such circumstances, if the population standard deviation is known, then the test statistic $\left. \left( {\overset{-}{x} - \mathit{\mu}_{0}} \right)/\left( \mathit{\sigma}/\sqrt{n} \right) \right.$ still has the standard normal distribution, as in the previous two sections. If *σ* is unknown and is approximated by the sample standard deviation *s*, then the resulting test statistic $\left. \left( {\overset{-}{x} - \mathit{\mu}_{0}} \right)/\left( s/\sqrt{n} \right) \right.$ follows Student's *t*-distribution with $n\text{-}1$ degrees of freedom.
 
 ````````````{important} Standardized Test Statistics for Small Sample Hypothesis Tests Concerning a Single Population Mean
 
@@ -1275,8 +1275,8 @@ To perform the test in [Note 8.43 \"Example 11\"](/chapters/ch-08-testing-hypoth
 
 ````````````{note} Learning Objectives
 
-1.  To learn how to apply the five-step critical value test procedure for test of hypotheses concerning a population proportion.
-2.  To learn how to apply the five-step *p*-value test procedure for test of hypotheses concerning a population proportion.
+1.  To learn how to apply the five-step critical value test procedure for a test of hypotheses concerning a population proportion.
+2.  To learn how to apply the five-step *p*-value test procedure for a test of hypotheses concerning a population proportion.
 
 ````````````
 

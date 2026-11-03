@@ -20,11 +20,21 @@ Seeded from [opiniatedMystmdBookTemplate](https://github.com/QuadriviumPress/opi
 
 The textbook is a source adaptation, not a new statistical content revision. Source-era examples, numerical answers, terminology, and teaching conventions are retained. No full mathematical or statistical audit is claimed. Any later corrections must be documented here and applied reproducibly by `scripts/import_source.py`, with source-drift checks.
 
+### Editorial corrections (2026-11-03)
+
+`scripts/content_corrections.py` runs at the end of every import. It applies high-confidence proofreading fixes found in a fleet grammar pass and normalizes British spellings to American English (fleet convention). Summary:
+
+- **Typos:** `Probablity` → Probability; `Univeristy` → University; `exercsises`, `deciaml`, `buyers's`, `predominately`; doubled words (`to to`, `all all`, `the their`); `{0.1.2}` → `{0,1,2}`.
+- **Grammar and wording:** subject–verb agreement (`A list … is`, `The set of assumptions … is`, `numbers forms`); missing words (`confidence interval for`, `Find the percentage`, articles); wrong forms (`must first compute`, `selected at random`, `*X* lies`, `hypothesis testing`, `freshmen`, `An investigator` / `An automotive`); `neither … nor`; `every day`; `test booklet`; `paired sampling`; `ensure` where “make certain” is meant.
+- **Content:** *t<sub>c</sub>* defined on Student’s *t*-distribution (not the standard normal); event label `P(MF)` for the MF event; agency name National Institutes of Health with definite articles.
+- **American spelling:** Modelling/modelling → Modeling/modeling; travellers/travelling; judgement; Acknowledgements → Acknowledgments (filename `front/acknowledgements.md` kept as the source slug); cancelling → canceling.
+- **Truncated xref titles** already broken in the 2012 HTML restored for Figures 7.5, 10.6, 11.1, 11.7 and the Chapter 11 self-reference. Other titles that drop inline math (`Critical Values of `, and similar) remain as in the source archive.
+
 No third-party simulations or interactive activities are embedded. The template provides navigation, search, and offline access to previously visited pages.
 
 ## Missing companion data
 
-The preserved archive contains no companion spreadsheets for the exercises labelled “Large Data Set Exercises.” Those prompts are preserved, but cannot be completed from this edition alone without separately supplied data. This limitation is disclosed on the landing page. No synthetic data have been substituted for the original observations.
+The preserved archive contains no companion spreadsheets for the exercises labeled “Large Data Set Exercises.” Those prompts are preserved, but cannot be completed from this edition alone without separately supplied data. This limitation is disclosed on the landing page. No synthetic data have been substituted for the original observations.
 
 ## Template code
 

@@ -15,7 +15,7 @@ In previous chapters you saw how to test hypotheses concerning population means 
 
 ### Chi-Square Distributions
 
-As you know, there is a whole family of *t*-distributions, each one specified by a parameter called the *degrees of freedom*, denoted $df.$ Similarly, all the chi-square distributions form a family, and each of its members is also specified by a parameter $df$, the number of degrees of freedom. Chi is a Greek letter denoted by the symbol $\chi$ and chi-square is often denoted by $\chi^{2}.$ [Figure 11.1 \"Many \"](/chapters/ch-11-chi-square-tests-and-f-tests.md#src-fwk-shafer-ch11-s01-s01-f01) shows several chi-square distributions for different degrees of freedom. A chi-square random variable[^stats-3] is a random variable that assumes only positive values and follows a chi-square distribution.
+As you know, there is a whole family of *t*-distributions, each one specified by a parameter called the *degrees of freedom*, denoted $df.$ Similarly, all the chi-square distributions form a family, and each of its members is also specified by a parameter $df$, the number of degrees of freedom. Chi is a Greek letter denoted by the symbol $\chi$ and chi-square is often denoted by $\chi^{2}.$ [Figure 11.1 \"Many Chi-Square Distributions\"](/chapters/ch-11-chi-square-tests-and-f-tests.md#src-fwk-shafer-ch11-s01-s01-f01) shows several chi-square distributions for different degrees of freedom. A chi-square random variable[^stats-3] is a random variable that assumes only positive values and follows a chi-square distribution.
 
 ``````{figure} /images/section_15/5a0c7bbacb4242555e8a85c9767c03ee.jpg
 :alt: Statistical diagram: Figure 11.1 Many χ 2 Distributions
@@ -541,7 +541,7 @@ We perform the test using the critical value approach, following the usual five-
 
 - Step 2. The distribution is chi-square.
 
-- Step 3. To compute the value of the test statistic we must first computed the expected number for each of the six core cells (the ones whose entries are boldface):
+- Step 3. To compute the value of the test statistic we must first compute the expected number for each of the six core cells (the ones whose entries are boldface):
 
   - 1st row and 1st column: $\left. E = \left( {R \times C} \right)/ n = 41 \times 52/ 100 = 21.32 \right.$
   - 1st row and 2nd column: $\left. E = \left( {R \times C} \right)/ n = 36 \times 52/ 100 = 18.72 \right.$
@@ -796,7 +796,7 @@ Figure 11.4 [Note 11.9 \"Example 1\"](/chapters/ch-11-chi-square-tests-and-f-tes
 
 ### Applications
 
-9.  A child psychologist believes that children perform better on tests when they are given perceived freedom of choice. To test this belief, the psychologist carried out an experiment in which 200 third graders were randomly assigned to two groups, *A* and *B*. Each child was given the same simple logic test. However in group *B*, each child was given the freedom to choose a text booklet from many with various drawings on the covers. The performance of each child was rated as Very Good, Good, and Fair. The results are summarized in the table provided. Test, at the 5% level of significance, whether there is sufficient evidence in the data to support the psychologist's belief.
+9.  A child psychologist believes that children perform better on tests when they are given perceived freedom of choice. To test this belief, the psychologist carried out an experiment in which 200 third graders were randomly assigned to two groups, *A* and *B*. Each child was given the same simple logic test. However in group *B*, each child was given the freedom to choose a test booklet from many with various drawings on the covers. The performance of each child was rated as Very Good, Good, and Fair. The results are summarized in the table provided. Test, at the 5% level of significance, whether there is sufficient evidence in the data to support the psychologist's belief.
 
     ````````{list-table}
     :header-rows: 2
@@ -964,7 +964,7 @@ Figure 11.4 [Note 11.9 \"Example 1\"](/chapters/ch-11-chi-square-tests-and-f-tes
 
     ````````
 
-14. A large middle school administrator wishes to use celebrity influence to encourage students to make healthier choices in the school cafeteria. The cafeteria is situated at the center of an open space. Everyday at lunch time students get their lunch and a drink in three separate lines leading to three separate serving stations. As an experiment, the school administrator displayed a poster of a popular teen pop star drinking milk at each of the three areas where drinks are provided, except the milk in the poster is different at each location: one shows white milk, one shows strawberry-flavored pink milk, and one shows chocolate milk. After the first day of the experiment the administrator noted the students' milk choices separately for the three lines. The data are given in the table provided. Test, at the 1% level of significance, whether there is sufficient evidence in the data to conclude that the posters had some impact on the students' drink choices.
+14. A large middle school administrator wishes to use celebrity influence to encourage students to make healthier choices in the school cafeteria. The cafeteria is situated at the center of an open space. Every day at lunchtime students get their lunch and a drink in three separate lines leading to three separate serving stations. As an experiment, the school administrator displayed a poster of a popular teen pop star drinking milk at each of the three areas where drinks are provided, except the milk in the poster is different at each location: one shows white milk, one shows strawberry-flavored pink milk, and one shows chocolate milk. After the first day of the experiment the administrator noted the students' milk choices separately for the three lines. The data are given in the table provided. Test, at the 1% level of significance, whether there is sufficient evidence in the data to conclude that the posters had some impact on the students' drink choices.
 
     ````````{list-table}
     :header-rows: 2
@@ -1717,7 +1717,7 @@ Figure 11.6 [Note 11.15 \"Example 2\"](/chapters/ch-11-chi-square-tests-and-f-te
 
 ### *F*-Distributions
 
-Another important and useful family of distributions in statistics is the family of *F*-distributions. Each member of the *F*-distribution family is specified by a pair of parameters called *degrees of freedom* and denoted $df_{1}$ and $df_{2}.$ [Figure 11.7 \"Many \"](/chapters/ch-11-chi-square-tests-and-f-tests.md#src-fwk-shafer-ch11-s03-s01-f01) shows several *F*-distributions for different pairs of degrees of freedom. An $\mathbf{F}$ random variable[^stats-7] is a random variable that assumes only positive values and follows an *F*-distribution.
+Another important and useful family of distributions in statistics is the family of *F*-distributions. Each member of the *F*-distribution family is specified by a pair of parameters called *degrees of freedom* and denoted $df_{1}$ and $df_{2}.$ [Figure 11.7 \"Many F Distributions\"](/chapters/ch-11-chi-square-tests-and-f-tests.md#src-fwk-shafer-ch11-s03-s01-f01) shows several *F*-distributions for different pairs of degrees of freedom. An $\mathbf{F}$ random variable[^stats-7] is a random variable that assumes only positive values and follows an *F*-distribution.
 
 ``````{figure} /images/section_15/75fd6a2d869b9403de8408b42a054db9.jpg
 :alt: Statistical diagram: Figure 11.7 Many F -Distributions
@@ -1741,7 +1741,7 @@ Figure 11.8 *F<sub>c</sub>* Illustrated
 
 ````````````
 
-Tables containing the values of *F<sub>c</sub>* are given in [Chapter 11 \"Chi-Square Tests and \"](/chapters/ch-11-chi-square-tests-and-f-tests.md#src-fwk-shafer-ch11). Each of the tables is for a fixed collection of values of *c*, either 0.900, 0.950, 0.975, 0.990, and 0.995 (yielding what are called "lower" critical values), or 0.005, 0.010, 0.025, 0.050, and 0.100 (yielding what are called "upper" critical values). In each table critical values are given for various pairs $\left( {df_{1},df_{2}} \right).$ We illustrate the use of the tables with several examples.
+Tables containing the values of *F<sub>c</sub>* are given in [Chapter 11 \"Chi-Square Tests and F-Tests\"](/chapters/ch-11-chi-square-tests-and-f-tests.md#src-fwk-shafer-ch11). Each of the tables is for a fixed collection of values of *c*, either 0.900, 0.950, 0.975, 0.990, and 0.995 (yielding what are called "lower" critical values), or 0.005, 0.010, 0.025, 0.050, and 0.100 (yielding what are called "upper" critical values). In each table critical values are given for various pairs $\left( {df_{1},df_{2}} \right).$ We illustrate the use of the tables with several examples.
 
 ### Example 3
 
@@ -2213,7 +2213,7 @@ The test is performed using the usual five-step procedure described at the end o
 
 ### Example 6
 
-One of the quality measures of blood glucose meter strips is the consistency of the test results on the same sample of blood. The consistency is measured by the variance of the readings in repeated testing. Suppose two types of strips, *A* and *B*, are compared for their respective consistencies. We arbitrarily label the population of Type *A* strips Population 1 and the population of Type *B* strips Population 2. Suppose 15 Type *A* strips were tested with blood drops from a well-shaken vial and 20 Type *B* strips were tested with the blood from the same vial. The results are summarized in [Table 11.16 \"Two Types of Test Strips\"](/chapters/ch-11-chi-square-tests-and-f-tests.md#src-fwk-shafer-ch11-s03-s02-t01). Assume the glucose readings using Type *A* strips follow a normal distribution with variance $\mathit{\sigma}_{1}^{2}$ and those using Type *B* strips follow a normal distribution with variance with $\mathit{\sigma}_{2}^{2}.$ Test, at the 10% level of significance, whether the data provide sufficient evidence to conclude that the consistencies of the two types of strips are different.
+One of the quality measures of blood glucose meter strips is the consistency of the test results on the same sample of blood. The consistency is measured by the variance of the readings in repeated testing. Suppose two types of strips, *A* and *B*, are compared for their respective consistencies. We arbitrarily label the population of Type *A* strips Population 1 and the population of Type *B* strips Population 2. Suppose 15 Type *A* strips were tested with blood drops from a well-shaken vial and 20 Type *B* strips were tested with the blood from the same vial. The results are summarized in [Table 11.16 \"Two Types of Test Strips\"](/chapters/ch-11-chi-square-tests-and-f-tests.md#src-fwk-shafer-ch11-s03-s02-t01). Assume the glucose readings using Type *A* strips follow a normal distribution with variance $\mathit{\sigma}_{1}^{2}$ and those using Type *B* strips follow a normal distribution with variance $\mathit{\sigma}_{2}^{2}.$ Test, at the 10% level of significance, whether the data provide sufficient evidence to conclude that the consistencies of the two types of strips are different.
 
 (src-fwk-shafer-ch11-s03-s02-t01)=
 
@@ -2741,7 +2741,7 @@ $$F = \frac{MST}{MSE}$$
 
 If the *K* populations are normally distributed with a common variance and if $H_{0}:\mathit{\mu}_{1} = \text{ }\cdot \text{ }\cdot \text{ }\cdot \text{ } = \mathit{\mu}_{K}$ is true then under independent random sampling *F* approximately follows an *F*-distribution with degrees of freedom $df_{1} = K\text{-}1$ and $df_{2} = n - K.$
 
-The test is right-tailed: *H*<sub>0</sub> is rejected at level of significance $\alpha$ if $\mathbf{F} \geq F_{\alpha}.$
+The test is right-tailed: *H*<sub>0</sub> is rejected at the level of significance $\alpha$ if $\mathbf{F} \geq F_{\alpha}.$
 
 ````````````
 
@@ -2995,7 +2995,7 @@ Figure 11.13 [Note 11.37 \"Example 9\"](/chapters/ch-11-chi-square-tests-and-f-t
 
 - Step 5. Since $F = 5.65 > 5.39$, we reject *H*<sub>0</sub>. The data provide sufficient evidence, at the 1% level of significance, to conclude that a treatment effect exists at least for one of the two treatments in increasing the mean survival time of mice with thymic leukemia.
 
-It is important to to note that, if the null hypothesis of equal population means is rejected, the statistical implication is that not all population means are equal. It does not however tell which population mean is different from which. The inference about where the suggested difference lies is most frequently made by a follow-up study.
+It is important to note that, if the null hypothesis of equal population means is rejected, the statistical implication is that not all population means are equal. It does not however tell which population mean is different from which. The inference about where the suggested difference lies is most frequently made by a follow-up study.
 
 ````````````{important} Key Takeaway
 
@@ -3095,7 +3095,7 @@ It is important to to note that, if the null hypothesis of equal population mean
 
     1.  Find the number of populations under consideration *K*.
 
-    2.  Find the degrees of freedoms $df_{1} = K\text{-}1$ and $df_{2} = n - K.$
+    2.  Find the degrees of freedom $df_{1} = K\text{-}1$ and $df_{2} = n - K.$
 
     3.  For $\alpha = 0.01$, find $F_{\alpha}$ with the degrees of freedom computed above.
 
@@ -3229,7 +3229,7 @@ It is important to to note that, if the null hypothesis of equal population mean
 
     Test, using the ANOVA *F*-test at the 5% level of significance, whether the data provide sufficient evidence to conclude that there are differences among the mean real costs of ownership for these four models.
 
-9.  Helping people to lose weight has become a huge industry in the United States, with annual revenue in the hundreds of billion dollars. Recently each of the three market-leading weight reducing programs claimed to be the most effective. A consumer research company recruited 33 people who wished to lose weight and sent them to the three leading programs. After six months their weight losses were recorded. The results are summarized below:
+9.  Helping people to lose weight has become a huge industry in the United States, with annual revenue in the hundreds of billions of dollars. Recently each of the three market-leading weight reducing programs claimed to be the most effective. A consumer research company recruited 33 people who wished to lose weight and sent them to the three leading programs. After six months their weight losses were recorded. The results are summarized below:
 
     ````````{list-table}
     :header-rows: 1

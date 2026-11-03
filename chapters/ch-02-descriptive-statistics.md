@@ -148,7 +148,7 @@ Figure 2.6 A Very Fine Relative Frequency Histogram
 
     Construct a frequency histogram and a relative frequency histogram for the data set.
 
-6.  A data set contains the *n* = 20 observations The values *x* and their frequencies *f* are summarized in the following data frequency table.
+6.  A data set contains the *n* = 20 observations. The values *x* and their frequencies *f* are summarized in the following data frequency table.
 
     $$\begin{matrix}
     x & {\text{-}1} & 0 & 1 & 2 \\
@@ -889,7 +889,7 @@ The mean, the median, and the mode each answer the question "Where is the center
 
     <http://www.flatworldknowledge.com/sites/all/files/data1.xls>
 
-    1.  Regard the data as arising from a census of all freshman at a small college at the end of their first academic year of college study, in which the GPA of every such person was measured. Compute the population mean *μ*.
+    1.  Regard the data as arising from a census of all freshmen at a small college at the end of their first academic year of college study, in which the GPA of every such person was measured. Compute the population mean *μ*.
     2.  Regard the first 25 observations as a random sample drawn from this population. Compute the sample mean $\overset{-}{x}$ and compare it to *μ*.
     3.  Regard the next 25 observations as a random sample drawn from this population. Compute the sample mean $\overset{-}{x}$ and compare it to *μ*.
 
@@ -1309,7 +1309,7 @@ The range, the standard deviation, and the variance each give a quantitative ans
 
     <http://www.flatworldknowledge.com/sites/all/files/data1.xls>
 
-    1.  Regard the data as arising from a census of all freshman at a small college at the end of their first academic year of college study, in which the GPA of every such person was measured. Compute the population range and population standard deviation *σ*.
+    1.  Regard the data as arising from a census of all freshmen at a small college at the end of their first academic year of college study, in which the GPA of every such person was measured. Compute the population range and population standard deviation *σ*.
     2.  Regard the first 25 observations as a random sample drawn from this population. Compute the sample range and sample standard deviation *s* and compare them to the population range and *σ*.
     3.  Regard the next 25 observations as a random sample drawn from this population. Compute the sample range and sample standard deviation *s* and compare them to the population range and *σ*.
 

@@ -9,6 +9,7 @@ import subprocess
 from pathlib import Path
 from urllib.parse import unquote, urlsplit
 
+from content_corrections import apply_content_corrections
 from figure_replacements import prepare_figures, figure_node, asset_record
 
 from bs4 import BeautifulSoup
@@ -333,6 +334,8 @@ def main():
         # their trailing spaces otherwise changes Markdown list nesting.
         text = re.sub(r'(?m)^([ \t]*(?:\d+\.[ \t]+)*\d+\.)[^\S\r\n]*$', r'\1 &nbsp;', text)
         text = '\n'.join(line.rstrip() for line in text.splitlines()) + '\n'
+        # Documented typo, grammar, and American-spelling corrections.
+        text = apply_content_corrections(text)
         target = ROOT / entry['file']
         target.parent.mkdir(parents=True, exist_ok=True)
         target.write_text(text)

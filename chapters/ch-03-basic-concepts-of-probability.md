@@ -245,7 +245,7 @@ Now the sample space is $S = \left\{ {wm,bm,hm,am,om,wf,bf,hf,af,of} \right\}.$ 
 ````````
 
 1.  Since $B = \left\{ {bm,bf} \right\}$, $P(B) = P\left( {bm} \right) + P\left( {bf} \right) = 0.12 + 0.15 = 0.27.$
-2.  Since $MF = \left\{ {bf,hf,af,of} \right\}$, $P(M) = P\left( {bf} \right) + P\left( {hf} \right) + P\left( {af} \right) + P\left( {of} \right) = 0.15 + 0.05 + 0.03 + 0.04 = 0.27$
+2.  Since $MF = \left\{ {bf,hf,af,of} \right\}$, $P(MF) = P\left( {bf} \right) + P\left( {hf} \right) + P\left( {af} \right) + P\left( {of} \right) = 0.15 + 0.05 + 0.03 + 0.04 = 0.27$
 3.  Since $FN = \left\{ {wf,hf,af,of} \right\}$, $P\left( {FN} \right) = P\left( {wf} \right) + P\left( {hf} \right) + P\left( {af} \right) + P\left( {of} \right) = 0.26 + 0.05 + 0.03 + 0.04 = 0.38$
 
 ````````````{important} Key Takeaways
@@ -316,7 +316,7 @@ Now the sample space is $S = \left\{ {wm,bm,hm,am,om,wf,bf,hf,af,of} \right\}.$ 
 
     $$\begin{array}{lccccc}
     \text{Outcome} & m & n & q & r & s \\
-    \text{Probablity} & 0.18 & 0.16 & & 0.24 & 0.21
+    \text{Probability} & 0.18 & 0.16 & & 0.24 & 0.21
     \end{array}$$
 
     1.  Determine what $P(q)$ must be.
@@ -327,7 +327,7 @@ Now the sample space is $S = \left\{ {wm,bm,hm,am,om,wf,bf,hf,af,of} \right\}.$ 
 
     $$\begin{array}{lccccc}
     \text{Outcome} & d & e & f & g & h \\
-    \text{Probablity} & 0.22 & 0.13 & 0.27 & & 0.19
+    \text{Probability} & 0.22 & 0.13 & 0.27 & & 0.19
     \end{array}$$
 
     1.  Determine what $P(g)$ must be.
@@ -631,13 +631,13 @@ This formula is particularly useful when finding the probability of an event dir
 
 ### Example 11
 
-Find the probability that at least one heads will appear in five tosses of a fair coin.
+Find the probability that at least one head will appear in five tosses of a fair coin.
 
 Solution:
 
 Identify outcomes by lists of five *h*s and *t*s, such as $tthtt$ and $hhttt.$ Although it is tedious to list them all, it is not difficult to count them. Think of using a tree diagram to do so. There are two choices for the first toss. For each of these there are two choices for the second toss, hence $2 \times 2 = 4$ outcomes for two tosses. For each of these four outcomes, there are two possibilities for the third toss, hence $4 \times 2 = 8$ outcomes for three tosses. Similarly, there are $8 \times 2 = 16$ outcomes for four tosses and finally $16 \times 2 = 32$ outcomes for five tosses.
 
-Let *O* denote the event "at least one heads." There are many ways to obtain at least one heads, but only one way to fail to do so: all tails. Thus although it is difficult to list all the outcomes that form *O*, it is easy to write $O^{c} = \left\{ {ttttt} \right\}.$ Since there are 32 equally likely outcomes, each has probability 1/32, so $\left. P\left( O^{c} \right) = 1/ 32 \right.$, hence $\left. P(O) = 1 - 1/ 32 \approx 0.97 \right.$ or about a 97% chance.
+Let *O* denote the event "at least one head." There are many ways to obtain at least one head, but only one way to fail to do so: all tails. Thus although it is difficult to list all the outcomes that form *O*, it is easy to write $O^{c} = \left\{ {ttttt} \right\}.$ Since there are 32 equally likely outcomes, each has probability 1/32, so $\left. P\left( O^{c} \right) = 1/ 32 \right.$, hence $\left. P(O) = 1 - 1/ 32 \approx 0.97 \right.$ or about a 97% chance.
 
 ### Intersection of Events
 
@@ -683,7 +683,7 @@ In both cases the sample space is $S = \left\{ 1,2,3,4,5,6 \right\}$ and the eve
 
     $$\begin{array}{lcccccc}
     \text{Outcome} & 1 & 2 & 3 & 4 & 5 & 6 \\
-    \text{Probablity} & \frac{1}{12} & p & p & p & p & \frac{3}{12}
+    \text{Probability} & \frac{1}{12} & p & p & p & p & \frac{3}{12}
     \end{array}$$
 
 Since $\left. P(1) + P(6) = 4/ 12 = 1/ 3 \right.$ and the probabilities of all six outcomes add up to 1,
@@ -1062,14 +1062,14 @@ When information is presented in a two-way classification table it is typically 
 
     1.  In the roll of a die: "five or more."
     2.  In a roll of a die: "an even number."
-    3.  In two tosses of a coin: "at least one heads."
+    3.  In two tosses of a coin: "at least one head."
     4.  In the random selection of a college student: "Not a freshman."
 
 12. Make a statement in ordinary English that describes the complement of each event (do not simply insert the word "not").
 
     1.  In the roll of a die: "two or less."
     2.  In the roll of a die: "one, three, or four."
-    3.  In two tosses of a coin: "at most one heads."
+    3.  In two tosses of a coin: "at most one head."
     4.  In the random selection of a college student: "Neither a freshman nor a senior."
 
 13. The sample space that describes all three-child families according to the genders of the children with respect to birth order is

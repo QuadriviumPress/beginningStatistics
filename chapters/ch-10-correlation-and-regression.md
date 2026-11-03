@@ -2,7 +2,7 @@
 
 Our interest in this chapter is in situations in which we can associate to each element of a population or sample two measurements *x* and *y*, particularly in the case that it is of interest to use the value of *x* to predict the value of *y*. For example, the population could be the air in automobile garages, *x* could be the electrical current produced by an electrochemical reaction taking place in a carbon monoxide meter, and *y* the concentration of carbon monoxide in the air. In this chapter we will learn statistical methods for analyzing the relationship between variables *x* and *y* in this context.
 
-A list of all the formulas that appear anywhere in this chapter are collected in the last section for ease of reference.
+A list of all the formulas that appear anywhere in this chapter is collected in the last section for ease of reference.
 
 (src-fwk-shafer-ch10-s01)=
 
@@ -411,7 +411,7 @@ The number $r = 0.868$ quantifies what is visually apparent from [Figure 10.2 \"
 
 ### Basic
 
-With the exception of the exercises at the end of [Section 10.3 \"Modelling Linear Relationships with Randomness Present\"](/chapters/ch-10-correlation-and-regression.md#src-fwk-shafer-ch10-s03), the first Basic exercise in each of the following sections through [Section 10.7 \"Estimation and Prediction\"](/chapters/ch-10-correlation-and-regression.md#src-fwk-shafer-ch10-s07) uses the data from the first exercise here, the second Basic exercise uses the data from the second exercise here, and so on, and similarly for the Application exercises. Save your computations done on these exercises so that you do not need to repeat them later.
+With the exception of the exercises at the end of [Section 10.3 \"Modeling Linear Relationships with Randomness Present\"](/chapters/ch-10-correlation-and-regression.md#src-fwk-shafer-ch10-s03), the first Basic exercise in each of the following sections through [Section 10.7 \"Estimation and Prediction\"](/chapters/ch-10-correlation-and-regression.md#src-fwk-shafer-ch10-s07) uses the data from the first exercise here, the second Basic exercise uses the data from the second exercise here, and so on, and similarly for the Application exercises. Save your computations done on these exercises so that you do not need to repeat them later.
 
 1.  For the sample data
 
@@ -786,7 +786,7 @@ With the exception of the exercises at the end of [Section 10.3 \"Modelling Line
 
 (src-fwk-shafer-ch10-s03)=
 
-## 10.3 Modelling Linear Relationships with Randomness Present
+## 10.3 Modeling Linear Relationships with Randomness Present
 
 ````````````{note} Learning Objective
 
@@ -794,7 +794,7 @@ With the exception of the exercises at the end of [Section 10.3 \"Modelling Line
 
 ````````````
 
-In this chapter we are dealing with a population for which we can associate to each element two measurements, *x* and *y*. We are interested in situations in which the value of *x* can be used to draw conclusions about the value of *y*, such as predicting the resale value *y* of a residential house based on its size *x*. Since the relationship between *x* and *y* is not deterministic, statistical procedures must be applied. For any statistical procedures, given in this book or elsewhere, the associated formulas are valid only under specific assumptions. The set of assumptions in simple linear regression are a mathematical description of the relationship between *x* and *y*. Such a set of assumptions is known as a **model**.
+In this chapter we are dealing with a population for which we can associate to each element two measurements, *x* and *y*. We are interested in situations in which the value of *x* can be used to draw conclusions about the value of *y*, such as predicting the resale value *y* of a residential house based on its size *x*. Since the relationship between *x* and *y* is not deterministic, statistical procedures must be applied. For any statistical procedures, given in this book or elsewhere, the associated formulas are valid only under specific assumptions. The set of assumptions in simple linear regression is a mathematical description of the relationship between *x* and *y*. Such a set of assumptions is known as a **model**.
 
 For each fixed value of *x* a sub-population of the full population is determined, such as the collection of all houses with 2,100 square feet of living space. For each element of that sub-population there is a measurement *y*, such as the value of any 2,100-square-foot house. Let $E(y)$ denote the mean of all the *y*-values for each particular value of *x*. $E(y)$ can change from *x*-value to *x*-value, such as the mean value of all 2,100-square-foot houses, the (different) mean value for all 2,500-square foot-houses, and so on.
 
@@ -917,7 +917,7 @@ y & 0 & 1 & 2 & 3 & 3
 
 (which will be used as a running example for the next three sections). We will write the equation of this line as $\hat{y} = \frac{1}{2}x\text{-}1$ with an accent on the *y* to indicate that the *y*-values computed using this equation are not from the data. We will do this with all lines approximating data sets. The line $\hat{y} = \frac{1}{2}x\text{-}1$ was selected as one that seems to fit the data reasonably well.
 
-The idea for measuring the goodness of fit of a straight line to data is illustrated in [Figure 10.6 \"Plot of the Five-Point Data and the Line \"](/chapters/ch-10-correlation-and-regression.md#src-fwk-shafer-ch10-s04-s01-f01), in which the graph of the line $\hat{y} = \frac{1}{2}x\text{-}1$ has been superimposed on the scatter plot for the sample data set.
+The idea for measuring the goodness of fit of a straight line to data is illustrated in [Figure 10.6 \"Plot of the Five-Point Data and the Line\"](/chapters/ch-10-correlation-and-regression.md#src-fwk-shafer-ch10-s04-s01-f01), in which the graph of the line $\hat{y} = \frac{1}{2}x\text{-}1$ has been superimposed on the scatter plot for the sample data set.
 
 ``````{figure} /images/section_14/2f707e3177c1a3f56b84fb8ded3894aa.jpg
 :alt: Statistical diagram: Figure 10.6 Plot of the Five-Point Data and the Line y ^ = 1 2 x − 1
@@ -984,7 +984,7 @@ Table 10.1 The Errors in Fitting Data with a Straight Line
 
 ````````
 
-A first thought for a measure of the goodness of fit of the line to the data would be simply to add the errors at every point, but the example shows that this cannot work well in general. The line does not fit the data perfectly (no line can), yet because of cancellation of positive and negative errors the sum of the errors (the fourth column of numbers) is zero. Instead goodness of fit is measured by the sum of the squares of the errors. Squaring eliminates the minus signs, so no cancellation can occur. For the data and line in [Figure 10.6 \"Plot of the Five-Point Data and the Line \"](/chapters/ch-10-correlation-and-regression.md#src-fwk-shafer-ch10-s04-s01-f01) the sum of the squared errors (the last column of numbers) is 2. This number measures the goodness of fit of the line to the data.
+A first thought for a measure of the goodness of fit of the line to the data would be simply to add the errors at every point, but the example shows that this cannot work well in general. The line does not fit the data perfectly (no line can), yet because of cancellation of positive and negative errors the sum of the errors (the fourth column of numbers) is zero. Instead goodness of fit is measured by the sum of the squares of the errors. Squaring eliminates the minus signs, so no cancellation can occur. For the data and line in [Figure 10.6 \"Plot of the Five-Point Data and the Line\"](/chapters/ch-10-correlation-and-regression.md#src-fwk-shafer-ch10-s04-s01-f01) the sum of the squared errors (the last column of numbers) is 2. This number measures the goodness of fit of the line to the data.
 
 ````````````{important} Definition
 
@@ -1016,7 +1016,7 @@ $\overset{-}{x}$ *is the mean of all the* *x-values,* $\overset{-}{y}$ *is the m
 
 ````````````
 
-Remember from [Section 10.3 \"Modelling Linear Relationships with Randomness Present\"](/chapters/ch-10-correlation-and-regression.md#src-fwk-shafer-ch10-s03) that the line with the equation $y = \mathit{\beta}_{1}x + \mathit{\beta}_{0}$ is called the population regression line. The numbers ${\hat{\mathit{\beta}}}_{1}$ and ${\hat{\mathit{\beta}}}_{0}$ are statistics that estimate the population parameters $\mathit{\beta}_{1}$ and $\mathit{\beta}_{0}.$
+Remember from [Section 10.3 \"Modeling Linear Relationships with Randomness Present\"](/chapters/ch-10-correlation-and-regression.md#src-fwk-shafer-ch10-s03) that the line with the equation $y = \mathit{\beta}_{1}x + \mathit{\beta}_{0}$ is called the population regression line. The numbers ${\hat{\mathit{\beta}}}_{1}$ and ${\hat{\mathit{\beta}}}_{0}$ are statistics that estimate the population parameters $\mathit{\beta}_{1}$ and $\mathit{\beta}_{0}.$
 
 We will compute the least squares regression line for the five-point data set, then for a more practical example that will be another running example for the introduction of new concepts in this and the next three sections.
 
@@ -1579,13 +1579,13 @@ $${\hat{\mathit{\beta}}}_{1} \pm t_{\alpha / 2}\;\frac{s_{\mathit{\varepsilon}}}
 
 where $s_{\mathit{\varepsilon}} = \sqrt{\frac{SSE}{n\text{-}2}}$ and the number of degrees of freedom is $df = n\text{-}2.$
 
-The assumptions listed in [Section 10.3 \"Modelling Linear Relationships with Randomness Present\"](/chapters/ch-10-correlation-and-regression.md#src-fwk-shafer-ch10-s03) must hold.
+The assumptions listed in [Section 10.3 \"Modeling Linear Relationships with Randomness Present\"](/chapters/ch-10-correlation-and-regression.md#src-fwk-shafer-ch10-s03) must hold.
 
 ````````````
 
 ````````````{important} Definition
 
-*The statistic* $s_{\mathit{\varepsilon}}$ *is called the* sample standard deviation of errors[^stats-7]*. It estimates the standard deviation* *σ* *of the errors in the population of* *y-values for each fixed value of* *x* *(see [Figure 10.5 \"The Simple Linear Model Concept\"](/chapters/ch-10-correlation-and-regression.md#src-fwk-shafer-ch10-s03-f01) in [Section 10.3 \"Modelling Linear Relationships with Randomness Present\"](/chapters/ch-10-correlation-and-regression.md#src-fwk-shafer-ch10-s03)).*
+*The statistic* $s_{\mathit{\varepsilon}}$ *is called the* sample standard deviation of errors[^stats-7]*. It estimates the standard deviation* *σ* *of the errors in the population of* *y-values for each fixed value of* *x* *(see [Figure 10.5 \"The Simple Linear Model Concept\"](/chapters/ch-10-correlation-and-regression.md#src-fwk-shafer-ch10-s03-f01) in [Section 10.3 \"Modeling Linear Relationships with Randomness Present\"](/chapters/ch-10-correlation-and-regression.md#src-fwk-shafer-ch10-s03)).*
 
 ````````````
 
@@ -1658,7 +1658,7 @@ $$T = \frac{{\hat{\mathit{\beta}}}_{1} - B_{0}}{\left. s_{\mathit{\varepsilon}}/
 
 The test statistic has Student's *t*-distribution with $df = n\text{-}2$ degrees of freedom.
 
-The assumptions listed in [Section 10.3 \"Modelling Linear Relationships with Randomness Present\"](/chapters/ch-10-correlation-and-regression.md#src-fwk-shafer-ch10-s03) must hold.
+The assumptions listed in [Section 10.3 \"Modeling Linear Relationships with Randomness Present\"](/chapters/ch-10-correlation-and-regression.md#src-fwk-shafer-ch10-s03) must hold.
 
 ````````````
 
@@ -1796,7 +1796,7 @@ For the Basic and Application exercises in this section use the computations tha
     1.  Construct the 95% confidence interval for the mean increase in revenue per additional thousand dollars spent on advertising.
     2.  An advertising agency tells the business owner that for every additional thousand dollars spent on advertising, revenue will increase by over \$25,000. Test this claim (which is the alternative hypothesis) at the 5% level of significance.
     3.  Perform the test of part (b) at the 10% level of significance.
-    4.  Based on the results in (b) and (c), how believable is the ad agency's claim? (This is a subjective judgement.)
+    4.  Based on the results in (b) and (c), how believable is the ad agency's claim? (This is a subjective judgment.)
 
 16. For the situation described in Exercise 16 of [Section 10.2 \"The Linear Correlation Coefficient\"](/chapters/ch-10-correlation-and-regression.md#src-fwk-shafer-ch10-s02)
 
@@ -1914,7 +1914,7 @@ For the Basic and Application exercises in this section use the computations tha
 
 ````````````
 
-If the scatter diagram of a set of $\left( {x,y} \right)$ pairs shows neither an upward or downward trend, then the horizontal line $\hat{y} = \overset{-}{y}$ fits it well, as illustrated in [Figure 10.11](/chapters/ch-10-correlation-and-regression.md#src-fwk-shafer-ch10-s06-f01). The lack of any upward or downward trend means that when an element of the population is selected at random, knowing the value of the measurement *x* for that element is not helpful in predicting the value of the measurement *y*.
+If the scatter diagram of a set of $\left( {x,y} \right)$ pairs shows neither an upward nor a downward trend, then the horizontal line $\hat{y} = \overset{-}{y}$ fits it well, as illustrated in [Figure 10.11](/chapters/ch-10-correlation-and-regression.md#src-fwk-shafer-ch10-s06-f01). The lack of any upward or downward trend means that when an element of the population is selected at random, knowing the value of the measurement *x* for that element is not helpful in predicting the value of the measurement *y*.
 
 ``````{figure} /images/section_14/e3940708a65910fcf14d0a5e9ba1f037.jpg
 :alt: Statistical diagram: Figure 10.11
@@ -2162,7 +2162,7 @@ where
 2.  ${\hat{y}}_{p}$ is the numerical value obtained when the least square regression equation is evaluated at $x = x_{p}$; and
 3.  the number of degrees of freedom for $t_{\alpha / 2}$ is $df = n\text{-}2.$
 
-The assumptions listed in [Section 10.3 \"Modelling Linear Relationships with Randomness Present\"](/chapters/ch-10-correlation-and-regression.md#src-fwk-shafer-ch10-s03) must hold.
+The assumptions listed in [Section 10.3 \"Modeling Linear Relationships with Randomness Present\"](/chapters/ch-10-correlation-and-regression.md#src-fwk-shafer-ch10-s03) must hold.
 
 ````````````
 
@@ -2178,7 +2178,7 @@ where
 2.  ${\hat{y}}_{p}$ is the numerical value obtained when the least square regression equation is evaluated at $x = x_{p}$; and
 3.  the number of degrees of freedom for $t_{\alpha / 2}$ is $df = n\text{-}2.$
 
-The assumptions listed in [Section 10.3 \"Modelling Linear Relationships with Randomness Present\"](/chapters/ch-10-correlation-and-regression.md#src-fwk-shafer-ch10-s03) must hold.
+The assumptions listed in [Section 10.3 \"Modeling Linear Relationships with Randomness Present\"](/chapters/ch-10-correlation-and-regression.md#src-fwk-shafer-ch10-s03) must hold.
 
 ````````````
 
@@ -2448,7 +2448,7 @@ For the Basic and Application exercises in this section use the computations tha
 
 In the preceding sections numerous concepts were introduced and illustrated, but the analysis was broken into disjoint pieces by sections. In this section we will go through a complete example of the use of correlation and regression analysis of data from start to finish, touching on all the topics of this chapter in sequence.
 
-In general educators are convinced that, all other factors being equal, class attendance has a significant bearing on course performance. To investigate the relationship between attendance and performance, an education researcher selects for study a multiple section introductory statistics course at a large university. Instructors in the course agree to keep an accurate record of attendance throughout one semester. At the end of the semester 26 students are selected a random. For each student in the sample two measurements are taken: *x*, the number of days the student was absent, and *y*, the student's score on the common final exam in the course. The data are summarized in [Table 10.4 \"Absence and Score Data\"](/chapters/ch-10-correlation-and-regression.md#src-fwk-shafer-ch10-s08-t01).
+In general educators are convinced that, all other factors being equal, class attendance has a significant bearing on course performance. To investigate the relationship between attendance and performance, an education researcher selects for study a multiple section introductory statistics course at a large university. Instructors in the course agree to keep an accurate record of attendance throughout one semester. At the end of the semester 26 students are selected at random. For each student in the sample two measurements are taken: *x*, the number of days the student was absent, and *y*, the student's score on the common final exam in the course. The data are summarized in [Table 10.4 \"Absence and Score Data\"](/chapters/ch-10-correlation-and-regression.md#src-fwk-shafer-ch10-s08-t01).
 
 (src-fwk-shafer-ch10-s08-t01)=
 
@@ -2703,7 +2703,7 @@ and
 
 $$\overset{-}{x} = \frac{\Sigma x}{n} = \frac{71}{26} = 2.730769231\quad\text{ and}\quad\overset{-}{y} = \frac{\Sigma y}{n} = \frac{2001}{26} = 76.96153846$$
 
-We begin the actual modelling by finding the least squares regression line, the line that best fits the data. Its slope and *y*-intercept are
+We begin the actual modeling by finding the least squares regression line, the line that best fits the data. Its slope and *y*-intercept are
 
 $$\begin{array}{rll}
 {\hat{\mathit{\beta}}}_{1} & = & {\frac{SS_{xy}}{SS_{xx}} = \frac{\text{-}706.2692308}{135.1153846} = \text{-}5.227156278} \\
@@ -2794,7 +2794,7 @@ or about 49%. Thus although there is a significant correlation between attendanc
 
 The exercises in this section are unrelated to those in previous sections.
 
-1.  The data give the amount *x* of silicofluoride in the water (mg/L) and the amount *y* of lead in the bloodstream (*μ*g/dL) of ten children in various communities with and without municipal water. Perform a complete analysis of the data, in analogy with the discussion in this section (that is, make a scatter plot, do preliminary computations, find the least squares regression line, find $SSE$, $s_{\mathit{\varepsilon}}$, and *r*, and so on). In the hypothesis test use as the alternative hypothesis $\mathit{\beta}_{1} > 0$, and test at the 5% level of significance. Use confidence level 95% for the confidence interval for $\mathit{\beta}_{1}.$ Construct 95% confidence and predictions intervals at $x_{p} = 2$ at the end.
+1.  The data give the amount *x* of silicofluoride in the water (mg/L) and the amount *y* of lead in the bloodstream (*μ*g/dL) of ten children in various communities with and without municipal water. Perform a complete analysis of the data, in analogy with the discussion in this section (that is, make a scatter plot, do preliminary computations, find the least squares regression line, find $SSE$, $s_{\mathit{\varepsilon}}$, and *r*, and so on). In the hypothesis test use as the alternative hypothesis $\mathit{\beta}_{1} > 0$, and test at the 5% level of significance. Use confidence level 95% for the confidence interval for $\mathit{\beta}_{1}.$ Construct 95% confidence and prediction intervals at $x_{p} = 2$ at the end.
 
     $$\begin{matrix}
     x & 0.0 & 0.0 & 1.1 & 1.4 & 1.6 \\
@@ -2806,7 +2806,7 @@ The exercises in this section are unrelated to those in previous sections.
     y & 7.0 & 5.0 & 6.1 & 8.6 & 9.5
     \end{matrix}$$
 
-2.  The table gives the weight *x* (thousands of pounds) and available heat energy *y* (million BTU) of a standard cord of various species of wood typically used for heating. Perform a complete analysis of the data, in analogy with the discussion in this section (that is, make a scatter plot, do preliminary computations, find the least squares regression line, find $SSE$, $s_{\mathit{\varepsilon}}$, and *r*, and so on). In the hypothesis test use as the alternative hypothesis $\mathit{\beta}_{1} > 0$, and test at the 5% level of significance. Use confidence level 95% for the confidence interval for $\mathit{\beta}_{1}.$ Construct 95% confidence and predictions intervals at $x_{p} = 5$ at the end.
+2.  The table gives the weight *x* (thousands of pounds) and available heat energy *y* (million BTU) of a standard cord of various species of wood typically used for heating. Perform a complete analysis of the data, in analogy with the discussion in this section (that is, make a scatter plot, do preliminary computations, find the least squares regression line, find $SSE$, $s_{\mathit{\varepsilon}}$, and *r*, and so on). In the hypothesis test use as the alternative hypothesis $\mathit{\beta}_{1} > 0$, and test at the 5% level of significance. Use confidence level 95% for the confidence interval for $\mathit{\beta}_{1}.$ Construct 95% confidence and prediction intervals at $x_{p} = 5$ at the end.
 
     $$\begin{matrix}
     x & 3.37 & 3.50 & 4.29 & 4.00 & 4.64 \\

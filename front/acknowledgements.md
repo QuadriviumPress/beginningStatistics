@@ -1,6 +1,6 @@
-# Acknowledgements
+# Acknowledgments
 
-### Acknowledgements
+### Acknowledgments
 
 We would like to thank the following colleagues whose comprehensive feedback and suggestions for improving the material helped us make a better text:
 
@@ -24,7 +24,7 @@ Denise Johansen, University of Cincinnati
 
 Eric Kean, Western Washington University
 
-Yolanda Kumar, Univeristy of Missouri-Columbia
+Yolanda Kumar, University of Missouri-Columbia
 
 Eileen Stock, Baylor University
 

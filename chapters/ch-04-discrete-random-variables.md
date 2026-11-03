@@ -23,7 +23,7 @@ It is often the case that a number is naturally associated to the outcome of a r
 
 We will denote random variables by capital letters, such as *X* or *Z*, and the actual values that they can take by lowercase letters, such as *x* and *z*.
 
-[Table 4.1 \"Four Random Variables\"](/chapters/ch-04-discrete-random-variables.md#src-fwk-shafer-ch04-s01-t01) gives four examples of random variables. In the second example, the three dots indicates that every counting number is a possible value for *X*. Although it is highly unlikely, for example, that it would take 50 tosses of the coin to observe heads for the first time, nevertheless it is conceivable, hence the number 50 is a possible value. The set of possible values is infinite, but is still at least *countable*, in the sense that all possible values can be listed one after another. In the last two examples, by way of contrast, the possible values cannot be individually listed, but take up a whole interval of numbers. In the fourth example, since the light bulb could conceivably continue to shine indefinitely, there is no natural greatest value for its lifetime, so we simply place the symbol $\infty$ for infinity as the right endpoint of the interval of possible values.
+[Table 4.1 \"Four Random Variables\"](/chapters/ch-04-discrete-random-variables.md#src-fwk-shafer-ch04-s01-t01) gives four examples of random variables. In the second example, the three dots indicate that every counting number is a possible value for *X*. Although it is highly unlikely, for example, that it would take 50 tosses of the coin to observe heads for the first time, nevertheless it is conceivable, hence the number 50 is a possible value. The set of possible values is infinite, but is still at least *countable*, in the sense that all possible values can be listed one after another. In the last two examples, by way of contrast, the possible values cannot be individually listed, but take up a whole interval of numbers. In the fourth example, since the light bulb could conceivably continue to shine indefinitely, there is no natural greatest value for its lifetime, so we simply place the symbol $\infty$ for infinity as the right endpoint of the interval of possible values.
 
 (src-fwk-shafer-ch04-s01-t01)=
 
@@ -133,7 +133,7 @@ The examples in the table are typical in that discrete random variables typicall
     4.  discrete
     5.  continuous
 4. &nbsp;
-5.  1.  $\left\{ {0.1.2} \right\}$
+5.  1.  $\left\{ {0,1,2} \right\}$
     2.  an interval $\left( {a,b} \right)$ (answers vary)
     3.  an interval $\left( {a,b} \right)$ (answers vary)
     4.  {4,5,6,7}
@@ -673,7 +673,7 @@ Solution:
     \text{Clear} & \text{\$3000} & {\text{0}\text{.61}} \\
     \text{Threatening} & \text{\$2800} & {\text{0}\text{.17}} \\
     \text{Light rain} & \text{\$1975} & {\text{0}\text{.11}} \\
-    \text{Show-cancelling rain} & \text{\$0} & {\text{0}\text{.11}}
+    \text{Show-canceling rain} & \text{\$0} & {\text{0}\text{.11}}
     \end{array}$$
 
     The additional cost of the cover is \$410,000. The owner will have it built if this cost can be recovered from the increased revenue the cover affords in the first ten 90-night seasons.
@@ -761,7 +761,7 @@ Solution:
         {P(x)} & \frac{20}{38} & \frac{18}{38}
         \end{matrix}$
 
-    2.  $E(X) = \text{-}0.0526$ In many bets the bettor sustains an average loss of about 5.25 cents per bet.
+    2.  $E(X) = \text{-}0.0526$. In many bets the bettor sustains an average loss of about 5.25 cents per bet.
 
     3.  0.9986
 
@@ -876,8 +876,8 @@ $$m! = 1 \cdot 2\text{ }\cdot \text{ }\cdot \text{ }\cdot \text{ }\left( {m\text
 Seventeen percent of victims of financial fraud know the perpetrator of the fraud personally.
 
 1.  Use the formula to construct the probability distribution for the number *X* of people in a random sample of five victims of financial fraud who knew the perpetrator personally.
-2.  A investigator examines five cases of financial fraud every day. Find the most frequent number of cases each day in which the victim knew the perpetrator.
-3.  A investigator examines five cases of financial fraud every day. Find the average number of cases per day in which the victim knew the perpetrator.
+2.  An investigator examines five cases of financial fraud every day. Find the most frequent number of cases each day in which the victim knew the perpetrator.
+3.  An investigator examines five cases of financial fraud every day. Find the average number of cases per day in which the victim knew the perpetrator.
 
 Solution:
 
@@ -1033,7 +1033,7 @@ Let *X* denote the number of service calls today on which the part is required. 
 
 1.  Determine whether or not the random variable *X* is a binomial random variable. If so, give the values of *n* and *p*. If not, explain why not.
 
-    1.  *X* is the number of dots on the top face of fair die that is rolled.
+    1.  *X* is the number of dots on the top face of a fair die that is rolled.
     2.  *X* is the number of hearts in a five-card hand drawn (without replacement) from a well-shuffled ordinary deck.
     3.  *X* is the number of defective parts in a sample of ten randomly selected parts coming from a manufacturing process in which 0.02% of all parts are defective.
     4.  *X* is the number of times the number of dots on the top face of a fair die is even in six rolls of the die.
@@ -1043,7 +1043,7 @@ Let *X* denote the number of service calls today on which the part is required. 
 
     1.  *X* is the number of black marbles in a sample of 5 marbles drawn randomly and without replacement from a box that contains 25 white marbles and 15 black marbles.
     2.  *X* is the number of black marbles in a sample of 5 marbles drawn randomly and with replacement from a box that contains 25 white marbles and 15 black marbles.
-    3.  *X* is the number of voters in favor of proposed law in a sample 1,200 randomly selected voters drawn from the entire electorate of a country in which 35% of the voters favor the law.
+    3.  *X* is the number of voters in favor of the proposed law in a sample of 1,200 randomly selected voters drawn from the entire electorate of a country in which 35% of the voters favor the law.
     4.  *X* is the number of fish of a particular species, among the next ten landed by a commercial fishing boat, that are more than 13 inches in length, when 17% of all such fish exceed 13 inches in length.
     5.  *X* is the number of coins that match at least one other coin when four coins are tossed at once.
 
@@ -1166,19 +1166,19 @@ Let *X* denote the number of service calls today on which the part is required. 
     3.  Find the average number of patients each day who require a sedative.
     4.  Using the cumulative probability distribution for *X* in [Chapter 12 \"Appendix\"](/appendices/appendix.md#src-fwk-shafer-ch12), find the minimum number $x_{\text{ min}}$ of doses of the sedative that should be on hand at the start of the day so that there is a 99% chance that the laboratory will not run out.
 
-23. About 2% of alumni give money upon receiving a solicitation from the college or university from which they graduated. Find the average number monetary gifts a college can expect from every 2,000 solicitations it sends.
+23. About 2% of alumni give money upon receiving a solicitation from the college or university from which they graduated. Find the average number of monetary gifts a college can expect from every 2,000 solicitations it sends.
 
 24. Of all college students who are eligible to give blood, about 18% do so on a regular basis. Each month a local blood bank sends an appeal to give blood to 250 randomly selected students. Find the average number of appeals in such mailings that are made to students who already give blood.
 
 25. About 12% of all individuals write with their left hands. A class of 130 students meets in a classroom with 130 individual desks, exactly 14 of which are constructed for people who write with their left hands. Find the probability that exactly 14 of the students enrolled in the class write with their left hands.
 
-26. A travelling salesman makes a sale on 65% of his calls on regular customers. He makes four sales calls each day.
+26. A traveling salesman makes a sale on 65% of his calls on regular customers. He makes four sales calls each day.
 
     1.  Construct the probability distribution of *X*, the number of sales made each day.
     2.  Find the probability that, on a randomly selected day, the salesman will make a sale.
     3.  Assuming that the salesman makes 20 sales calls per week, find the mean and standard deviation of the number of sales made *per week*.
 
-27. A corporation has advertised heavily to try to insure that over half the adult population recognizes the brand name of its products. In a random sample of 20 adults, 14 recognized its brand name. What is the probability that 14 or more people in such a sample would recognize its brand name if the actual proportion *p* of all adults who recognize the brand name were only 0.50?
+27. A corporation has advertised heavily to try to ensure that over half the adult population recognizes the brand name of its products. In a random sample of 20 adults, 14 recognized its brand name. What is the probability that 14 or more people in such a sample would recognize its brand name if the actual proportion *p* of all adults who recognize the brand name were only 0.50?
 
 ### Additional Exercises
 

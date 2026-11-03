@@ -15,7 +15,7 @@
       "answers": 0,
       "list_items": 0,
       "source_sha256": "2b5d11281ef0ff0805e2cb9fa4e26f3d82afd7fa6bc38c5b78f625da6a85453c",
-      "markdown_sha256": "d9ddf80100197317c952a290100593349d24b14f56364404b8b66aff1905fe04"
+      "markdown_sha256": "7bc0ece241664e5fa935cb50ef9ef962a215cb89d5844c4bb81a8a7e7ee05b4d"
     },
     {
       "source": "s02-acknowledgements.html",
@@ -28,7 +28,7 @@
       "answers": 0,
       "list_items": 0,
       "source_sha256": "73d4f8d87b8055e4ee42c852540d6e66a88582151423afdbe212aab7de5984bc",
-      "markdown_sha256": "2ad37d4154b659d472e21e7c3ff70c781fd2b1e8e4490b7440e87e95e972dc1b"
+      "markdown_sha256": "0aadaaf503c5df1d6980b7282ea2e1202739e812c10dece8b62d8213f50cee6c"
     },
     {
       "source": "s03-dedication.html",
@@ -80,7 +80,7 @@
       "answers": 138,
       "list_items": 594,
       "source_sha256": "93dd877dadce2a0c8f0bc9908fd2dcc6a91aaccb50774d2466171620a6dfe65b",
-      "markdown_sha256": "6dedb264324c224811431fadc66ae6222a0b5d2e317dc0a9d31cc74c5d10ffe5"
+      "markdown_sha256": "00f8f6b9736c9d6afe65714c6d1a1f47aba745b9170e40e37b25ffa7b9ed659d"
     },
     {
       "source": "s07-basic-concepts-of-probability.html",
@@ -93,7 +93,7 @@
       "answers": 77,
       "list_items": 565,
       "source_sha256": "88404f56afaaeb39fda28d20743ef4e5183b5ff2f7f3da23902124f6314e4a0d",
-      "markdown_sha256": "f9ff6b8142b63d322cac6cef89c80efefed5767494c84fcc266d64ad7657963b"
+      "markdown_sha256": "4365987c0f80861030b5985218609eb331ac87051b98ddc933c808a15b178fc8"
     },
     {
       "source": "s08-discrete-random-variables.html",
@@ -106,7 +106,7 @@
       "answers": 65,
       "list_items": 483,
       "source_sha256": "fbe0fd0c3c0a4b19ceeeedd281cee1470f6518fdded13ffcf1563ec38d958328",
-      "markdown_sha256": "e6b1f8201d8f38bc9fdcda3a1632fe86afb9c0d2962106e6a1b7f62050f1c9a3"
+      "markdown_sha256": "bb83bda7b69d5e14026ec365280df9c35ac1c76dd5b377564bda384e701839e3"
     },
     {
       "source": "s09-continuous-random-variables.html",
@@ -119,7 +119,7 @@
       "answers": 76,
       "list_items": 393,
       "source_sha256": "5cd26e897b0fe59dda7f5259c69526988ee7772acd071884f4a49349e045f3b7",
-      "markdown_sha256": "a2ca0028cac406d65736520b60bf92df34874597a1e740da81a386add94e0816"
+      "markdown_sha256": "6c2ff174fb9ce38ea989cc77d7d9073db9acf5314067f40a69651d7557b0a4a1"
     },
     {
       "source": "s10-sampling-distributions.html",
@@ -145,7 +145,7 @@
       "answers": 96,
       "list_items": 402,
       "source_sha256": "9f4ab58cd333b1bda83c8c10ca55ca7be71fe392cc2ce88bdb20030a741f623a",
-      "markdown_sha256": "cb8c45212bddc8ba149bd603b1cd1fac0ae40dd3ef544bf0351ee6335dc481fa"
+      "markdown_sha256": "5b0e44177b51d8732d00095c1e16db9fba7a7f9a286b243f2aa692746dd14347"
     },
     {
       "source": "s12-testing-hypotheses.html",
@@ -158,7 +158,7 @@
       "answers": 88,
       "list_items": 493,
       "source_sha256": "e3d7b85d0edeb5ba6275d4007a0ac3532aef4a7f80b85f4347eae85895d1d146",
-      "markdown_sha256": "2dc8767955a7afe6b48abfb4de3699e37eb9f9d57b6b75f75aab70bf93a5322e"
+      "markdown_sha256": "85c4abb9323645d86cdf7d86ac7619fe2743c5280e4c51ca48cc7b63ea7fe66d"
     },
     {
       "source": "s13-two-sample-problems.html",
@@ -171,7 +171,7 @@
       "answers": 90,
       "list_items": 566,
       "source_sha256": "ff8e171e32b1ce652a31e6fd231a75fb62daa0aba16fa4c03d8d0d6e590fa47c",
-      "markdown_sha256": "649a562ee6d649de9637d0f725940ca43fbe6c19b72a8c6deaf4fd3af79b85c7"
+      "markdown_sha256": "f8a361cc8b0c2fc617ea56d21d73973179841b5d7434511962c94d33603e22c3"
     },
     {
       "source": "s14-correlation-and-regression.html",
@@ -184,7 +184,7 @@
       "answers": 161,
       "list_items": 697,
       "source_sha256": "fa4ee3df1f97cc24b2682a79e0a10dbbe1e58ea01e655e71f37d7ca41b5a461e",
-      "markdown_sha256": "8bb7e76ee65b7f96b08ff87440f849652e8f2a1a93e62889d7c486f44cd4379f"
+      "markdown_sha256": "0bccf90a4f214a415c45585cb5eae1815cf70a6c1173d646529c9df9deafe63b"
     },
     {
       "source": "s15-chi-square-tests-and-f-tests.html",
@@ -197,7 +197,7 @@
       "answers": 57,
       "list_items": 347,
       "source_sha256": "8b5487a2dcc4aefed045cbd2ce36834b4d19c10e5d409095e3dc1d698c337cc4",
-      "markdown_sha256": "8df682ebb6d0c0063403bb0d00b3dade4addd0d3575f00d6cbe33a0568850345"
+      "markdown_sha256": "29325d339d0122441111e49fabd6f57fb929297f2d3f50668ffec32357058f92"
     },
     {
       "source": "s16-appendix.html",
