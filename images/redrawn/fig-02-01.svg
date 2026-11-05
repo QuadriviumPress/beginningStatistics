@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 560" role="img" aria-labelledby="title desc" font-family="'STIX Two Text','Times New Roman',Times,'Liberation Serif',serif">
+<title id="title">Figure 2.1 Stem and leaf diagram</title>
+<desc id="desc">Stem and leaf diagram of the 30 test scores, with stems 2 through 10 and leaves in the order the scores were listed: 2 | 5; 3 | (none); 4 | 0; 5 | 8; 6 | 9 8 9; 7 | 7 3 6 0 3 3 0 1 8 4; 8 | 6 0 3 3 7; 9 | 0 3 0 0 5 7 2; 10 | 0 0.</desc>
+<rect width="860" height="560" fill="#fff"/>
+<text x="78.0" y="58.0" font-size="42" text-anchor="end" fill="#1a1a1a" xml:space="preserve"><tspan font-size="42.0">2</tspan></text>
+<text x="140.0" y="58.0" font-size="42" text-anchor="middle" fill="#1a1a1a" xml:space="preserve"><tspan font-size="42.0">5</tspan></text>
+<text x="78.0" y="114.0" font-size="42" text-anchor="end" fill="#1a1a1a" xml:space="preserve"><tspan font-size="42.0">3</tspan></text>
+<text x="78.0" y="170.0" font-size="42" text-anchor="end" fill="#1a1a1a" xml:space="preserve"><tspan font-size="42.0">4</tspan></text>
+<text x="140.0" y="170.0" font-size="42" text-anchor="middle" fill="#1a1a1a" xml:space="preserve"><tspan font-size="42.0">0</tspan></text>
+<text x="78.0" y="226.0" font-size="42" text-anchor="end" fill="#1a1a1a" xml:space="preserve"><tspan font-size="42.0">5</tspan></text>
+<text x="140.0" y="226.0" font-size="42" text-anchor="middle" fill="#1a1a1a" xml:space="preserve"><tspan font-size="42.0">8</tspan></text>
+<text x="78.0" y="282.0" font-size="42" text-anchor="end" fill="#1a1a1a" xml:space="preserve"><tspan font-size="42.0">6</tspan></text>
+<text x="140.0" y="282.0" font-size="42" text-anchor="middle" fill="#1a1a1a" xml:space="preserve"><tspan font-size="42.0">9</tspan></text>
+<text x="212.0" y="282.0" font-size="42" text-anchor="middle" fill="#1a1a1a" xml:space="preserve"><tspan font-size="42.0">8</tspan></text>
+<text x="284.0" y="282.0" font-size="42" text-anchor="middle" fill="#1a1a1a" xml:space="preserve"><tspan font-size="42.0">9</tspan></text>
+<text x="78.0" y="338.0" font-size="42" text-anchor="end" fill="#1a1a1a" xml:space="preserve"><tspan font-size="42.0">7</tspan></text>
+<text x="140.0" y="338.0" font-size="42" text-anchor="middle" fill="#1a1a1a" xml:space="preserve"><tspan font-size="42.0">7</tspan></text>
+<text x="212.0" y="338.0" font-size="42" text-anchor="middle" fill="#1a1a1a" xml:space="preserve"><tspan font-size="42.0">3</tspan></text>
+<text x="284.0" y="338.0" font-size="42" text-anchor="middle" fill="#1a1a1a" xml:space="preserve"><tspan font-size="42.0">6</tspan></text>
+<text x="356.0" y="338.0" font-size="42" text-anchor="middle" fill="#1a1a1a" xml:space="preserve"><tspan font-size="42.0">0</tspan></text>
+<text x="428.0" y="338.0" font-size="42" text-anchor="middle" fill="#1a1a1a" xml:space="preserve"><tspan font-size="42.0">3</tspan></text>
+<text x="500.0" y="338.0" font-size="42" text-anchor="middle" fill="#1a1a1a" xml:space="preserve"><tspan font-size="42.0">3</tspan></text>
+<text x="572.0" y="338.0" font-size="42" text-anchor="middle" fill="#1a1a1a" xml:space="preserve"><tspan font-size="42.0">0</tspan></text>
+<text x="644.0" y="338.0" font-size="42" text-anchor="middle" fill="#1a1a1a" xml:space="preserve"><tspan font-size="42.0">1</tspan></text>
+<text x="716.0" y="338.0" font-size="42" text-anchor="middle" fill="#1a1a1a" xml:space="preserve"><tspan font-size="42.0">8</tspan></text>
+<text x="788.0" y="338.0" font-size="42" text-anchor="middle" fill="#1a1a1a" xml:space="preserve"><tspan font-size="42.0">4</tspan></text>
+<text x="78.0" y="394.0" font-size="42" text-anchor="end" fill="#1a1a1a" xml:space="preserve"><tspan font-size="42.0">8</tspan></text>
+<text x="140.0" y="394.0" font-size="42" text-anchor="middle" fill="#1a1a1a" xml:space="preserve"><tspan font-size="42.0">6</tspan></text>
+<text x="212.0" y="394.0" font-size="42" text-anchor="middle" fill="#1a1a1a" xml:space="preserve"><tspan font-size="42.0">0</tspan></text>
+<text x="284.0" y="394.0" font-size="42" text-anchor="middle" fill="#1a1a1a" xml:space="preserve"><tspan font-size="42.0">3</tspan></text>
+<text x="356.0" y="394.0" font-size="42" text-anchor="middle" fill="#1a1a1a" xml:space="preserve"><tspan font-size="42.0">3</tspan></text>
+<text x="428.0" y="394.0" font-size="42" text-anchor="middle" fill="#1a1a1a" xml:space="preserve"><tspan font-size="42.0">7</tspan></text>
+<text x="78.0" y="450.0" font-size="42" text-anchor="end" fill="#1a1a1a" xml:space="preserve"><tspan font-size="42.0">9</tspan></text>
+<text x="140.0" y="450.0" font-size="42" text-anchor="middle" fill="#1a1a1a" xml:space="preserve"><tspan font-size="42.0">0</tspan></text>
+<text x="212.0" y="450.0" font-size="42" text-anchor="middle" fill="#1a1a1a" xml:space="preserve"><tspan font-size="42.0">3</tspan></text>
+<text x="284.0" y="450.0" font-size="42" text-anchor="middle" fill="#1a1a1a" xml:space="preserve"><tspan font-size="42.0">0</tspan></text>
+<text x="356.0" y="450.0" font-size="42" text-anchor="middle" fill="#1a1a1a" xml:space="preserve"><tspan font-size="42.0">0</tspan></text>
+<text x="428.0" y="450.0" font-size="42" text-anchor="middle" fill="#1a1a1a" xml:space="preserve"><tspan font-size="42.0">5</tspan></text>
+<text x="500.0" y="450.0" font-size="42" text-anchor="middle" fill="#1a1a1a" xml:space="preserve"><tspan font-size="42.0">7</tspan></text>
+<text x="572.0" y="450.0" font-size="42" text-anchor="middle" fill="#1a1a1a" xml:space="preserve"><tspan font-size="42.0">2</tspan></text>
+<text x="78.0" y="506.0" font-size="42" text-anchor="end" fill="#1a1a1a" xml:space="preserve"><tspan font-size="42.0">10</tspan></text>
+<text x="140.0" y="506.0" font-size="42" text-anchor="middle" fill="#1a1a1a" xml:space="preserve"><tspan font-size="42.0">0</tspan></text>
+<text x="212.0" y="506.0" font-size="42" text-anchor="middle" fill="#1a1a1a" xml:space="preserve"><tspan font-size="42.0">0</tspan></text>
+<line x1="102.0" y1="14.0" x2="102.0" y2="545.0" stroke="#1a1a1a" stroke-width="2"/>
+</svg>

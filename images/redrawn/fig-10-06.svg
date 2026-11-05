@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 760" role="img" aria-labelledby="title desc" font-family="'STIX Two Text','Times New Roman',Times,'Liberation Serif',serif">
+<title id="title">Figure 10.6 Plot of the five-point data and the line ŷ = ½x − 1</title>
+<desc id="desc">The five points (2, 0), (2, 1), (6, 2), (8, 3), and (10, 3) with the line ŷ = ½x − 1. Vertical segments show error₂, from (2, 1) down to the line, and error₅, from (10, 3) up to the line.</desc>
+<rect width="1000" height="760" fill="#fff"/>
+<rect x="80.0" y="20.0" width="880.0" height="670.0" fill="none" stroke="#1a1a1a" stroke-width="1.6"/>
+<line x1="80.0" y1="690.0" x2="80.0" y2="682.0" stroke="#1a1a1a" stroke-width="1.6"/>
+<line x1="80.0" y1="20.0" x2="80.0" y2="28.0" stroke="#1a1a1a" stroke-width="1.6"/>
+<text x="80.0" y="724.0" font-size="24" text-anchor="middle" fill="#1a1a1a" xml:space="preserve"><tspan font-size="24.0">0</tspan></text>
+<line x1="226.7" y1="690.0" x2="226.7" y2="682.0" stroke="#1a1a1a" stroke-width="1.6"/>
+<line x1="226.7" y1="20.0" x2="226.7" y2="28.0" stroke="#1a1a1a" stroke-width="1.6"/>
+<text x="226.7" y="724.0" font-size="24" text-anchor="middle" fill="#1a1a1a" xml:space="preserve"><tspan font-size="24.0">2</tspan></text>
+<line x1="373.3" y1="690.0" x2="373.3" y2="682.0" stroke="#1a1a1a" stroke-width="1.6"/>
+<line x1="373.3" y1="20.0" x2="373.3" y2="28.0" stroke="#1a1a1a" stroke-width="1.6"/>
+<text x="373.3" y="724.0" font-size="24" text-anchor="middle" fill="#1a1a1a" xml:space="preserve"><tspan font-size="24.0">4</tspan></text>
+<line x1="520.0" y1="690.0" x2="520.0" y2="682.0" stroke="#1a1a1a" stroke-width="1.6"/>
+<line x1="520.0" y1="20.0" x2="520.0" y2="28.0" stroke="#1a1a1a" stroke-width="1.6"/>
+<text x="520.0" y="724.0" font-size="24" text-anchor="middle" fill="#1a1a1a" xml:space="preserve"><tspan font-size="24.0">6</tspan></text>
+<line x1="666.7" y1="690.0" x2="666.7" y2="682.0" stroke="#1a1a1a" stroke-width="1.6"/>
+<line x1="666.7" y1="20.0" x2="666.7" y2="28.0" stroke="#1a1a1a" stroke-width="1.6"/>
+<text x="666.7" y="724.0" font-size="24" text-anchor="middle" fill="#1a1a1a" xml:space="preserve"><tspan font-size="24.0">8</tspan></text>
+<line x1="813.3" y1="690.0" x2="813.3" y2="682.0" stroke="#1a1a1a" stroke-width="1.6"/>
+<line x1="813.3" y1="20.0" x2="813.3" y2="28.0" stroke="#1a1a1a" stroke-width="1.6"/>
+<text x="813.3" y="724.0" font-size="24" text-anchor="middle" fill="#1a1a1a" xml:space="preserve"><tspan font-size="24.0">10</tspan></text>
+<line x1="960.0" y1="690.0" x2="960.0" y2="682.0" stroke="#1a1a1a" stroke-width="1.6"/>
+<line x1="960.0" y1="20.0" x2="960.0" y2="28.0" stroke="#1a1a1a" stroke-width="1.6"/>
+<text x="960.0" y="724.0" font-size="24" text-anchor="middle" fill="#1a1a1a" xml:space="preserve"><tspan font-size="24.0">12</tspan></text>
+<line x1="80.0" y1="690.0" x2="88.0" y2="690.0" stroke="#1a1a1a" stroke-width="1.6"/>
+<line x1="960.0" y1="690.0" x2="952.0" y2="690.0" stroke="#1a1a1a" stroke-width="1.6"/>
+<text x="72.0" y="698.4" font-size="24" text-anchor="end" fill="#1a1a1a" xml:space="preserve"><tspan font-size="24.0">−2</tspan></text>
+<line x1="80.0" y1="594.3" x2="88.0" y2="594.3" stroke="#1a1a1a" stroke-width="1.6"/>
+<line x1="960.0" y1="594.3" x2="952.0" y2="594.3" stroke="#1a1a1a" stroke-width="1.6"/>
+<text x="72.0" y="602.7" font-size="24" text-anchor="end" fill="#1a1a1a" xml:space="preserve"><tspan font-size="24.0">−1</tspan></text>
+<line x1="80.0" y1="498.6" x2="88.0" y2="498.6" stroke="#1a1a1a" stroke-width="1.6"/>
+<line x1="960.0" y1="498.6" x2="952.0" y2="498.6" stroke="#1a1a1a" stroke-width="1.6"/>
+<text x="72.0" y="507.0" font-size="24" text-anchor="end" fill="#1a1a1a" xml:space="preserve"><tspan font-size="24.0">0</tspan></text>
+<line x1="80.0" y1="402.9" x2="88.0" y2="402.9" stroke="#1a1a1a" stroke-width="1.6"/>
+<line x1="960.0" y1="402.9" x2="952.0" y2="402.9" stroke="#1a1a1a" stroke-width="1.6"/>
+<text x="72.0" y="411.3" font-size="24" text-anchor="end" fill="#1a1a1a" xml:space="preserve"><tspan font-size="24.0">1</tspan></text>
+<line x1="80.0" y1="307.1" x2="88.0" y2="307.1" stroke="#1a1a1a" stroke-width="1.6"/>
+<line x1="960.0" y1="307.1" x2="952.0" y2="307.1" stroke="#1a1a1a" stroke-width="1.6"/>
+<text x="72.0" y="315.5" font-size="24" text-anchor="end" fill="#1a1a1a" xml:space="preserve"><tspan font-size="24.0">2</tspan></text>
+<line x1="80.0" y1="211.4" x2="88.0" y2="211.4" stroke="#1a1a1a" stroke-width="1.6"/>
+<line x1="960.0" y1="211.4" x2="952.0" y2="211.4" stroke="#1a1a1a" stroke-width="1.6"/>
+<text x="72.0" y="219.8" font-size="24" text-anchor="end" fill="#1a1a1a" xml:space="preserve"><tspan font-size="24.0">3</tspan></text>
+<line x1="80.0" y1="115.7" x2="88.0" y2="115.7" stroke="#1a1a1a" stroke-width="1.6"/>
+<line x1="960.0" y1="115.7" x2="952.0" y2="115.7" stroke="#1a1a1a" stroke-width="1.6"/>
+<text x="72.0" y="124.1" font-size="24" text-anchor="end" fill="#1a1a1a" xml:space="preserve"><tspan font-size="24.0">4</tspan></text>
+<line x1="80.0" y1="20.0" x2="88.0" y2="20.0" stroke="#1a1a1a" stroke-width="1.6"/>
+<line x1="960.0" y1="20.0" x2="952.0" y2="20.0" stroke="#1a1a1a" stroke-width="1.6"/>
+<text x="72.0" y="28.4" font-size="24" text-anchor="end" fill="#1a1a1a" xml:space="preserve"><tspan font-size="24.0">5</tspan></text>
+<clipPath id="plot"><rect x="80.0" y="20.0" width="880.0" height="670.0"/></clipPath>
+<line x1="80.0" y1="594.3" x2="960.0" y2="20.0" stroke="#1a1a1a" stroke-width="2.5" clip-path="url(#plot)"/>
+<line x1="226.7" y1="402.9" x2="226.7" y2="498.6" stroke="#1a1a1a" stroke-width="1.6"/>
+<line x1="813.3" y1="211.4" x2="813.3" y2="115.7" stroke="#1a1a1a" stroke-width="1.6"/>
+<text x="146.0" y="455.5" font-size="32" text-anchor="middle" fill="#1a1a1a" xml:space="preserve"><tspan font-size="32.0" font-style="italic">error</tspan><tspan dy="9.6" font-size="22.4">2</tspan></text>
+<text x="886.7" y="158.8" font-size="32" text-anchor="middle" fill="#1a1a1a" xml:space="preserve"><tspan font-size="32.0" font-style="italic">error</tspan><tspan dy="9.6" font-size="22.4">5</tspan></text>
+<line x1="520.0" y1="498.6" x2="395.3" y2="396.2" stroke="#1a1a1a" stroke-width="1.4"/>
+<line x1="395.3" y1="396.2" x2="409.8" y2="400.1" stroke="#1a1a1a" stroke-width="1.4"/>
+<line x1="395.3" y1="396.2" x2="402.0" y2="409.6" stroke="#1a1a1a" stroke-width="1.4"/>
+<text x="666.7" y="546.4" font-size="36" text-anchor="middle" fill="#1a1a1a" xml:space="preserve"><tspan font-size="36.0" font-style="italic">ŷ</tspan><tspan font-size="36.0"> = ½</tspan><tspan font-size="36.0" font-style="italic">x</tspan><tspan font-size="36.0"> − 1</tspan></text>
+<circle cx="226.7" cy="498.6" r="10.0" fill="#1f56a8" stroke="none" stroke-width="0"/>
+<circle cx="226.7" cy="402.9" r="10.0" fill="#1f56a8" stroke="none" stroke-width="0"/>
+<circle cx="520.0" cy="307.1" r="10.0" fill="#1f56a8" stroke="none" stroke-width="0"/>
+<circle cx="666.7" cy="211.4" r="10.0" fill="#1f56a8" stroke="none" stroke-width="0"/>
+<circle cx="813.3" cy="211.4" r="10.0" fill="#1f56a8" stroke="none" stroke-width="0"/>
+</svg>

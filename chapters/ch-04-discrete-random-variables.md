@@ -190,8 +190,8 @@ Solution:
 
     A histogram that graphically illustrates the probability distribution is given in [Figure 4.1 \"Probability Distribution for Tossing a Fair Coin Twice\"](/chapters/ch-04-discrete-random-variables.md#src-fwk-shafer-ch04-s02-s01-f01).
 
-``````{figure} /images/section_08/5a6f9d6916537351ff23fd52c995f8f2.jpg
-:alt: Statistical diagram: Figure 4.1 Probability Distribution for Tossing a Fair Coin Twice
+``````{figure} /images/redrawn/fig-04-01.svg
+:alt: Probability histogram for the number of heads in two tosses of a fair coin: bars of height 0.25 at 0, 0.50 at 1, and 0.25 at 2.
 :name: src-fwk-shafer-ch04-s02-s01-f01
 
 Figure 4.1 Probability Distribution for Tossing a Fair Coin Twice
@@ -240,8 +240,8 @@ $$\begin{matrix}
 
     A histogram that graphically illustrates the probability distribution is given in [Figure 4.2 \"Probability Distribution for Tossing Two Fair Dice\"](/chapters/ch-04-discrete-random-variables.md#src-fwk-shafer-ch04-s02-s01-f02).
 
-``````{figure} /images/section_08/7a7d2ff3f3d6052070731dc4f23e5b15.jpg
-:alt: Statistical diagram: Figure 4.2 Probability Distribution for Tossing Two Fair Dice
+``````{figure} /images/redrawn/fig-04-02.svg
+:alt: Probability histogram for the sum of two fair dice, from 2 to 12: the bar heights rise from 1/36 at 2 to 6/36 at 7 and fall back to 1/36 at 12.
 :name: src-fwk-shafer-ch04-s02-s01-f02
 
 Figure 4.2 Probability Distribution for Tossing Two Fair Dice
@@ -360,8 +360,8 @@ x & {\text{-}1} & 0 & 1 & 4 \\
 
 A histogram that graphically illustrates the probability distribution is given in [Figure 4.3 \"Probability Distribution of a Discrete Random Variable\"](/chapters/ch-04-discrete-random-variables.md#src-fwk-shafer-ch04-s02-s02-f01).
 
-``````{figure} /images/section_08/e9934b4ffecff3624a1002dbfc6a247c.jpg
-:alt: Statistical diagram: Figure 4.3 Probability Distribution of a Discrete Random Variable
+``````{figure} /images/redrawn/fig-04-03.svg
+:alt: Probability histogram with bars of height 0.2 at −1, 0.5 at 0, 0.2 at 1, and 0.1 at 4; there are no bars at 2 and 3.
 :name: src-fwk-shafer-ch04-s02-s02-f01
 
 Figure 4.3 Probability Distribution of a Discrete Random Variable
@@ -827,8 +827,8 @@ x & 0 & 1 & 2 & 3 \\
 
 A histogram that graphically illustrates this probability distribution is given in [Figure 4.4 \"Probability Distribution for Three Coins and Three Children\"](/chapters/ch-04-discrete-random-variables.md#src-fwk-shafer-ch04-s03-f01). What is common to the two experiments is that we perform three identical and independent trials of the same action, each trial has only two outcomes (heads or tails, boy or girl), and the probability of success is the same number, 0.5, on every trial. The random variable that is generated is called the binomial random variable[^stats-8] **with parameters** *n* = 3 **and** *p* = 0.5. This is just one case of a general situation.
 
-``````{figure} /images/section_08/38928bb96eec1a3decfd6ac8e189a437.jpg
-:alt: Statistical diagram: Figure 4.4 Probability Distribution for Three Coins and Three Children
+``````{figure} /images/redrawn/fig-04-04.svg
+:alt: Probability histogram for the number of heads in three coin tosses, or boys among three children: bars of height 0.125 at 0, 0.375 at 1, 0.375 at 2, and 0.125 at 3.
 :name: src-fwk-shafer-ch04-s03-f01
 
 Figure 4.4 Probability Distribution for Three Coins and Three Children
@@ -912,8 +912,8 @@ Solution:
 
     This probability distribution is represented by the histogram in [Figure 4.5 \"Probability Distribution of the Binomial Random Variable in \"](/chapters/ch-04-discrete-random-variables.md#src-fwk-shafer-ch04-s03-s01-f01), which graphically illustrates just how improbable the events *X* = 4 and *X* = 5 are. The corresponding bar in the histogram above the number 4 is barely visible, if visible at all, and the bar above 5 is far too short to be visible.
 
-``````{figure} /images/section_08/2fcd12630df97eb0e8aebc3dfb3e7887.jpg
-:alt: Statistical diagram: Figure 4.5 Probability Distribution of the Binomial Random Variable in Note 4.29 "Example 7"
+``````{figure} /images/redrawn/fig-04-05.svg
+:alt: Probability histogram of the binomial distribution with n = 5 and p = 0.17: bars of height 0.3939 at 0, 0.4034 at 1, 0.1652 at 2, 0.0338 at 3, 0.0035 at 4, and 0.0001 at 5.
 :name: src-fwk-shafer-ch04-s03-s01-f01
 
 Figure 4.5 Probability Distribution of the Binomial Random Variable in [Note 4.29 \"Example 7\"](/chapters/ch-04-discrete-random-variables.md#src-fwk-shafer-ch04-s03-s01-n02){.xref xrefstyle="select: title"}
@@ -961,8 +961,8 @@ $$P\left( {X \leq x} \right) = P(0) + P(1) + \text{ }\cdot \text{ }\cdot \text{ 
 
 This is illustrated in [Figure 4.6 \"Cumulative Probabilities\"](/chapters/ch-04-discrete-random-variables.md#src-fwk-shafer-ch04-s03-s03-f01). The probability entered in the table corresponds to the area of the shaded region. The reason for providing a cumulative table is that in practical problems that involve a binomial random variable typically the probability that is sought is of the form $P\left( {X \leq x} \right)$ or $P\left( {X \geq x} \right).$ The cumulative table is much easier to use for computing $P\left( {X \leq x} \right)$ since all the individual probabilities have already been computed and added. The one table suffices for both $P\left( {X \leq x} \right)$ or $P\left( {X \geq x} \right)$ and can be used to readily obtain probabilities of the form $P(x)$, too, because of the following formulas. The first is just the Probability Rule for Complements.
 
-``````{figure} /images/section_08/a939536e3189562fdfb0f9323e6c3e68.jpg
-:alt: Statistical diagram: Figure 4.6 Cumulative Probabilities
+``````{figure} /images/redrawn/fig-04-06.svg
+:alt: Probability histogram of a discrete random variable in which the bars for all values up to and including x are shaded; the shaded area is the cumulative probability P(X ≤ x).
 :name: src-fwk-shafer-ch04-s03-s03-f01
 
 Figure 4.6 Cumulative Probabilities

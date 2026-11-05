@@ -17,8 +17,8 @@ In previous chapters you saw how to test hypotheses concerning population means 
 
 As you know, there is a whole family of *t*-distributions, each one specified by a parameter called the *degrees of freedom*, denoted $df.$ Similarly, all the chi-square distributions form a family, and each of its members is also specified by a parameter $df$, the number of degrees of freedom. Chi is a Greek letter denoted by the symbol $\chi$ and chi-square is often denoted by $\chi^{2}.$ [Figure 11.1 \"Many Chi-Square Distributions\"](/chapters/ch-11-chi-square-tests-and-f-tests.md#src-fwk-shafer-ch11-s01-s01-f01) shows several chi-square distributions for different degrees of freedom. A chi-square random variable[^stats-3] is a random variable that assumes only positive values and follows a chi-square distribution.
 
-``````{figure} /images/section_15/5a0c7bbacb4242555e8a85c9767c03ee.jpg
-:alt: Statistical diagram: Figure 11.1 Many χ 2 Distributions
+``````{figure} /images/redrawn/fig-11-01.svg
+:alt: Chi-square density curves for 1, 2, 3, 5, and 10 degrees of freedom on a horizontal axis from 0 to 15. With 1 or 2 degrees of freedom the curve is highest at 0 and decreases; with more degrees of freedom it rises to a peak and has a long right tail, and the peak moves right and flattens as df grows.
 :name: src-fwk-shafer-ch11-s01-s01-f01
 
 Figure 11.1 Many $\chi^{2}$ Distributions
@@ -28,8 +28,8 @@ Figure 11.1 Many $\chi^{2}$ Distributions
 
 *The value of the chi-square random variable* $\chi^{2}$ *with* $df = k$ *that cuts off a right tail of area* *c* *is denoted* $\chi_{c}^{2}$ *and is called a* **critical value**. *See [Figure 11.2](/chapters/ch-11-chi-square-tests-and-f-tests.md#src-fwk-shafer-ch11-s01-s01-f02).*
 
-``````{figure} /images/section_15/34d06306c2e726f6d5cd7479d9736e5e.jpg
-:alt: Statistical diagram: Figure 11.2 χ c 2 Illustrated
+``````{figure} /images/redrawn/fig-11-02.svg
+:alt: A right-skewed chi-square density. The right tail beyond the point χ²_c is shaded and labeled c; the area to its left is labeled 1 − c.
 :name: src-fwk-shafer-ch11-s01-s01-f02
 
 Figure 11.2 $\chi_{c}^{2}$ Illustrated
@@ -159,8 +159,8 @@ $$\Sigma\frac{\left( {O - E} \right)^{2}}{E} = \frac{\left( {11 - 12.6} \right)^
 
 Since 1.231 \< 2.706, the decision is not to reject *H*<sub>0</sub>. See [Figure 11.3 \"Baby Gender Prediction\"](/chapters/ch-11-chi-square-tests-and-f-tests.md#src-fwk-shafer-ch11-s01-s02-f01). The data do not provide sufficient evidence, at the 10% level of significance, to conclude that heart rate and gender are related.
 
-``````{figure} /images/section_15/a2d445829c9e324c32b00dad5870eb22.jpg
-:alt: Statistical diagram: Figure 11.3 Baby Gender Prediction
+``````{figure} /images/redrawn/fig-11-03.svg
+:alt: Chi-square density with 1 degree of freedom. The right tail of area α = 0.10 beyond the critical value χ²_α = 2.706 is shaded. On the number line below, the rejection region χ² ≥ 2.706 is red, and the test statistic χ² = 1.231, marked with a star, lies outside it.
 :name: src-fwk-shafer-ch11-s01-s02-f01
 
 Figure 11.3 Baby Gender Prediction
@@ -630,8 +630,8 @@ We perform the test using the critical value approach, following the usual five-
 
 - Step 5. Since 31.75 \> 9.21 the decision is to reject the null hypothesis. See [Figure 11.4](/chapters/ch-11-chi-square-tests-and-f-tests.md#src-fwk-shafer-ch11-s01-s02-f02). The data provide sufficient evidence, at the 1% level of significance, to conclude that CEE score and GPA are not independent: the entrance exam score has predictive power.
 
-``````{figure} /images/section_15/68bbab395044eb9d625f2e5d5ad79f81.jpg
-:alt: Statistical diagram: Figure 11.4 Note 11.9 "Example 1"
+``````{figure} /images/redrawn/fig-11-04.svg
+:alt: Chi-square density with 2 degrees of freedom. The thin right tail of area α = 0.01 beyond the critical value χ²_α = 9.210 is shaded. On the number line below, the rejection region χ² ≥ 9.210 is red, and the test statistic χ² = 31.75, marked with a star near the right end, lies far inside it.
 :name: src-fwk-shafer-ch11-s01-s02-f02
 
 Figure 11.4 [Note 11.9 \"Example 1\"](/chapters/ch-11-chi-square-tests-and-f-tests.md#src-fwk-shafer-ch11-s01-s02-n03){.xref xrefstyle="select: title"}
@@ -1137,8 +1137,8 @@ $$\begin{array}{l}
 
 Since 5.6 \< 9.236 the decision is not to reject *H*<sub>0</sub>. See [Figure 11.5 \"Balanced Die\"](/chapters/ch-11-chi-square-tests-and-f-tests.md#src-fwk-shafer-ch11-s02-f01). The data do not provide sufficient evidence, at the 10% level of significance, to conclude that the die is loaded.
 
-``````{figure} /images/section_15/3406a41dcf8b2ad498d3271e90a762c1.jpg
-:alt: Statistical diagram: Figure 11.5 Balanced Die
+``````{figure} /images/redrawn/fig-11-05.svg
+:alt: Chi-square density with 5 degrees of freedom. The right tail of area α = 0.10 beyond the critical value χ²_α = 9.236 is shaded. On the number line below, the rejection region χ² ≥ 9.236 is red, and the test statistic χ² = 5.6, marked with a star, lies outside it.
 :name: src-fwk-shafer-ch11-s02-f01
 
 Figure 11.5 Balanced Die
@@ -1410,8 +1410,8 @@ We test using the critical value approach.
 
 - Since 651.881 \> 15.086 the decision is to reject the null hypothesis. See [Figure 11.6](/chapters/ch-11-chi-square-tests-and-f-tests.md#src-fwk-shafer-ch11-s02-f02). The data provide sufficient evidence, at the 1% level of significance, to conclude that the ethnic distribution in this state has changed in the five years since the U.S. census.
 
-``````{figure} /images/section_15/85a1393f4233c942c36e25df39e0b384.jpg
-:alt: Statistical diagram: Figure 11.6 Note 11.15 "Example 2"
+``````{figure} /images/redrawn/fig-11-06.svg
+:alt: Chi-square density with 5 degrees of freedom. The thin right tail of area α = 0.01 beyond the critical value χ²_α = 15.086 is shaded. On the number line below, the rejection region χ² ≥ 15.086 is red, and the test statistic χ² = 651.881, marked with a star near the right end, lies far inside it.
 :name: src-fwk-shafer-ch11-s02-f02
 
 Figure 11.6 [Note 11.15 \"Example 2\"](/chapters/ch-11-chi-square-tests-and-f-tests.md#src-fwk-shafer-ch11-s02-n04){.xref xrefstyle="select: title"}
@@ -1719,8 +1719,8 @@ Figure 11.6 [Note 11.15 \"Example 2\"](/chapters/ch-11-chi-square-tests-and-f-te
 
 Another important and useful family of distributions in statistics is the family of *F*-distributions. Each member of the *F*-distribution family is specified by a pair of parameters called *degrees of freedom* and denoted $df_{1}$ and $df_{2}.$ [Figure 11.7 \"Many F Distributions\"](/chapters/ch-11-chi-square-tests-and-f-tests.md#src-fwk-shafer-ch11-s03-s01-f01) shows several *F*-distributions for different pairs of degrees of freedom. An $\mathbf{F}$ random variable[^stats-7] is a random variable that assumes only positive values and follows an *F*-distribution.
 
-``````{figure} /images/section_15/75fd6a2d869b9403de8408b42a054db9.jpg
-:alt: Statistical diagram: Figure 11.7 Many F -Distributions
+``````{figure} /images/redrawn/fig-11-07.svg
+:alt: F density curves for degrees of freedom (1, 1), (10, 20), and (5, 4) on a horizontal axis from 0 to 5. The (1, 1) curve is highest at 0 and decreases slowly; the (10, 20) curve has a tall peak near 1; the (5, 4) curve peaks lower, closer to 0, and has a heavier right tail.
 :name: src-fwk-shafer-ch11-s03-s01-f01
 
 Figure 11.7 Many *F*-Distributions
@@ -1732,8 +1732,8 @@ The parameter $df_{1}$ is often referred to as the *numerator* degrees of freedo
 
 *The value of the* *F* *random variable* *F* *with degrees of freedom* $df_{1}$ *and* $df_{2}$ *that cuts off a right tail of area* *c* *is denoted* *F<sub>c</sub>* *and is called a* **critical value**. *See [Figure 11.8](/chapters/ch-11-chi-square-tests-and-f-tests.md#src-fwk-shafer-ch11-s03-s01-f02).*
 
-``````{figure} /images/section_15/59a41857cbaae56b820472577df06b26.jpg
-:alt: Statistical diagram: Figure 11.8 F c Illustrated
+``````{figure} /images/redrawn/fig-11-08.svg
+:alt: A right-skewed F density. The right tail beyond the point F_c is shaded and labeled c; the area to its left is labeled 1 − c.
 :name: src-fwk-shafer-ch11-s03-s01-f02
 
 Figure 11.8 *F<sub>c</sub>* Illustrated
@@ -2200,8 +2200,8 @@ A most important point is that while the rejection region for a right-tailed tes
 
 [Figure 11.9 \"Rejection Regions: (a) Right-Tailed; (b) Left-Tailed; (c) Two-Tailed\"](/chapters/ch-11-chi-square-tests-and-f-tests.md#src-fwk-shafer-ch11-s03-s02-f01) illustrates these rejection regions.
 
-``````{figure} /images/section_15/da58e4f2977f4b9644c6f0c320af4429.jpg
-:alt: Statistical diagram: Figure 11.9 Rejection Regions: (a) Right-Tailed; (b) Left-Tailed; (c) Two-Tailed
+``````{figure} /images/redrawn/fig-11-09.svg
+:alt: Three F density curves. (a) For Hₐ: σ₁² > σ₂², the right tail of area α above F_α is shaded, and the rejection region is F ≥ F_α. (b) For Hₐ: σ₁² < σ₂², the left tail of area α below F₁₋α is shaded, and the rejection region runs from 0 to F₁₋α. (c) For Hₐ: σ₁² ≠ σ₂², both tails, each of area α/2, are shaded, below F₁₋α/2 and above F_α/2, and the rejection region is both intervals.
 :name: src-fwk-shafer-ch11-s03-s02-f01
 
 Figure 11.9 Rejection Regions: (a) Right-Tailed; (b) Left-Tailed; (c) Two-Tailed
@@ -2247,8 +2247,8 @@ Solution:
 
 - Step 3. The test is two-tailed. The left or lower critical value is $F_{1 - \alpha / 2} = F_{0.95} = 0.43.$ The right or upper critical value is $F_{\alpha / 2} = F_{0.05} = 2.20.$ Thus the rejection region is $\left\lbrack {0,\text{-}0.43} \right\rbrack \cup \left\lbrack {2.20,\infty} \right)$, as illustrated in [Figure 11.10 \"Rejection Region and Test Statistic for \"](/chapters/ch-11-chi-square-tests-and-f-tests.md#src-fwk-shafer-ch11-s03-s02-f02).
 
-``````{figure} /images/section_15/5529f95c575a61746d7c6db537493c0f.jpg
-:alt: Statistical diagram: Figure 11.10 Rejection Region and Test Statistic for Note 11.27 "Example 6"
+``````{figure} /images/redrawn/fig-11-10.svg
+:alt: F density with 15 and 20 degrees of freedom. Both tails, each of area α/2 = 0.05, are shaded: below F₁₋α/2 = 0.43 and above F_α/2 = 2.20. On the number line below, the rejection intervals from 0 to 0.43 and from 2.20 on are red, and the test statistic F = 1.90, marked with a star, lies between them.
 :name: src-fwk-shafer-ch11-s03-s02-f02
 
 Figure 11.10 Rejection Region and Test Statistic for [Note 11.27 \"Example 6\"](/chapters/ch-11-chi-square-tests-and-f-tests.md#src-fwk-shafer-ch11-s03-s02-n02){.xref xrefstyle="select: title"}
@@ -2283,8 +2283,8 @@ Solution:
 
 - Step 4. The test is right-tailed. The single critical value is $F_{\alpha} = F_{0.10} = 1.84.$ Thus the rejection region is $\left\lbrack {1.84,\infty} \right)$, as illustrated in [Figure 11.11 \"Rejection Region and Test Statistic for \"](/chapters/ch-11-chi-square-tests-and-f-tests.md#src-fwk-shafer-ch11-s03-s02-f03).
 
-``````{figure} /images/section_15/0dee7b0964c04670ae90832291b81e85.jpg
-:alt: Statistical diagram: Figure 11.11 Rejection Region and Test Statistic for Note 11.28 "Example 7"
+``````{figure} /images/redrawn/fig-11-11.svg
+:alt: F density with 15 and 20 degrees of freedom. The right tail of area α = 0.10 beyond the critical value F_α = 1.84 is shaded. On the number line below, the rejection region F ≥ 1.84 is red, and the test statistic F = 1.90, marked with a star, lies just inside it.
 :name: src-fwk-shafer-ch11-s03-s02-f03
 
 Figure 11.11 Rejection Region and Test Statistic for [Note 11.28 \"Example 7\"](/chapters/ch-11-chi-square-tests-and-f-tests.md#src-fwk-shafer-ch11-s03-s02-n03){.xref xrefstyle="select: title"}
@@ -2872,8 +2872,8 @@ Solution:
 
 - Step 4. The test is right-tailed. The single critical value is (since $df_{1} = 3$ and $df_{2} = 40$) $F_{\alpha} = F_{0.05} = 2.84.$ Thus the rejection region is $\left\lbrack {2.84,\infty} \right)$, as illustrated in [Figure 11.12](/chapters/ch-11-chi-square-tests-and-f-tests.md#src-fwk-shafer-ch11-s04-f01).
 
-``````{figure} /images/section_15/c89e2a4bd81e46a6967fd270bd1cba69.jpg
-:alt: Statistical diagram: Figure 11.12 Note 11.36 "Example 8" Rejection Region
+``````{figure} /images/redrawn/fig-11-12.svg
+:alt: F density with 3 and 40 degrees of freedom. The right tail of area α = 0.05 beyond the critical value F_α = 2.84 is shaded. On the number line below, the rejection region F ≥ 2.84 is red, and the test statistic F = 3.232, marked with a star, lies inside it.
 :name: src-fwk-shafer-ch11-s04-f01
 
 Figure 11.12 [Note 11.36 \"Example 8\"](/chapters/ch-11-chi-square-tests-and-f-tests.md#src-fwk-shafer-ch11-s04-n04){.xref xrefstyle="select: title"} Rejection Region
@@ -2986,8 +2986,8 @@ Solution:
 
 - Step 4. The test is right-tailed. The single critical value is $F_{\alpha} = F_{0.01} = 5.39.$ Thus the rejection region is $\left\lbrack {5.39,\infty} \right)$, as illustrated in [Figure 11.13](/chapters/ch-11-chi-square-tests-and-f-tests.md#src-fwk-shafer-ch11-s04-f02).
 
-``````{figure} /images/section_15/0cebffc666cda270843e897188456909.jpg
-:alt: Statistical diagram: Figure 11.13 Note 11.37 "Example 9" Rejection Region
+``````{figure} /images/redrawn/fig-11-13.svg
+:alt: F density with 2 and 30 degrees of freedom, highest at 0 and decreasing. The thin right tail of area α = 0.01 beyond the critical value F_α = 5.39 is shaded. On the number line below, the rejection region F ≥ 5.39 is red, and the test statistic F = 5.65, marked with a star, lies just inside it.
 :name: src-fwk-shafer-ch11-s04-f02
 
 Figure 11.13 [Note 11.37 \"Example 9\"](/chapters/ch-11-chi-square-tests-and-f-tests.md#src-fwk-shafer-ch11-s04-n05){.xref xrefstyle="select: title"} Rejection Region

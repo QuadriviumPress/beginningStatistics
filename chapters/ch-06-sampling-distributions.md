@@ -191,8 +191,8 @@ $$\begin{matrix}
 
 [Figure 6.1 \"Distribution of a Population and a Sample Mean\"](/chapters/ch-06-sampling-distributions.md#src-fwk-shafer-ch06-s02-s01-f01) shows a side-by-side comparison of a histogram for the original population and a histogram for this distribution. Whereas the distribution of the population is uniform, the sampling distribution of the mean has a shape approaching the shape of the familiar bell curve. This phenomenon of the sampling distribution of the mean taking on a bell shape even though the population distribution is not bell-shaped happens in general. Here is a somewhat more realistic example.
 
-``````{figure} /images/section_10/c3b2aca7c7131e34c962382d64253af6.jpg
-:alt: Statistical diagram: Figure 6.1 Distribution of a Population and a Sample Mean
+``````{figure} /images/redrawn/fig-06-01.svg
+:alt: (a) Population: probability 0.25 at each of 152, 156, 160, and 164. (b) Sample mean of two draws: probabilities 1/16, 2/16, 3/16, 4/16, 3/16, 2/16, and 1/16 at 152, 154, 156, 158, 160, 162, and 164.
 :name: src-fwk-shafer-ch06-s02-s01-f01
 
 Figure 6.1 Distribution of a Population and a Sample Mean
@@ -235,8 +235,8 @@ $$\begin{array}{lcccccccccc}
 
 Histograms illustrating these distributions are shown in [Figure 6.2 \"Distributions of the Sample Mean\"](/chapters/ch-06-sampling-distributions.md#src-fwk-shafer-ch06-s02-s01-f02).
 
-``````{figure} /images/section_10/1137490f079c63b40d08ff8df24a962b.jpg
-:alt: Statistical diagram: Figure 6.2 Distributions of the Sample Mean
+``````{figure} /images/redrawn/fig-06-02.svg
+:alt: Probability histograms of the sample mean of n draws from a population of 0s and 1s in equal proportion, each on its own scale from 0 to 1, for n = 1, 5, 10, and 20. For n = 1 there are two equal bars; as n grows the histogram becomes a narrower, taller bell centered at 0.5.
 :name: src-fwk-shafer-ch06-s02-s01-f02
 
 Figure 6.2 Distributions of the Sample Mean
@@ -254,8 +254,8 @@ For samples of size 30 or more, the sample mean is approximately normally distri
 
 The Central Limit Theorem is illustrated for several common population distributions in [Figure 6.3 \"Distribution of Populations and Sample Means\"](/chapters/ch-06-sampling-distributions.md#src-fwk-shafer-ch06-s02-s01-f03).
 
-``````{figure} /images/section_10/17fa70bfc1cbbc6d6476b9f45c9e9d07.jpg
-:alt: Statistical diagram: Figure 6.3 Distribution of Populations and Sample Means
+``````{figure} /images/redrawn/fig-06-03.svg
+:alt: A three-by-three grid. The top row shows three populations: uniform, two-humped, and skewed right. Below each are the distributions of the sample mean for n = 5, already more bell-shaped, and for n = 30, a narrow bell centered at the population mean in every case.
 :name: src-fwk-shafer-ch06-s02-s01-f03
 
 Figure 6.3 Distribution of Populations and Sample Means
@@ -327,8 +327,8 @@ For samples of *any* size drawn from a normally distributed population, the samp
 
 The effect of increasing the sample size is shown in [Figure 6.4 \"Distribution of Sample Means for a Normal Population\"](/chapters/ch-06-sampling-distributions.md#src-fwk-shafer-ch06-s02-s02-f04).
 
-``````{figure} /images/section_10/86efb32d8f607d8fc448b44f66c8a4c7.jpg
-:alt: Statistical diagram: Figure 6.4 Distribution of Sample Means for a Normal Population
+``````{figure} /images/redrawn/fig-06-04.svg
+:alt: A normal population centered at μ, then the distributions of the sample mean for n = 5 and n = 30, which are normal, centered at μ, and progressively narrower and taller, and finally all three superimposed.
 :name: src-fwk-shafer-ch06-s02-s02-f04
 
 Figure 6.4 Distribution of Sample Means for a Normal Population
@@ -604,15 +604,15 @@ lies wholly within the interval $\lbrack 0,1\rbrack.$ This is illustrated in the
 
 [Figure 6.5 \"Distribution of Sample Proportions\"](/chapters/ch-06-sampling-distributions.md#src-fwk-shafer-ch06-s03-f05) shows that when *p* = 0.1 a sample of size 15 is too small but a sample of size 100 is acceptable. [Figure 6.6 \"Distribution of Sample Proportions for \"](/chapters/ch-06-sampling-distributions.md#src-fwk-shafer-ch06-s03-f06) shows that when *p* = 0.5 a sample of size 15 is acceptable.
 
-``````{figure} /images/section_10/1f88d2a9e0be51323bf4afea7ec3a305.jpg
-:alt: Statistical diagram: Figure 6.5 Distribution of Sample Proportions
+``````{figure} /images/redrawn/fig-06-05.svg
+:alt: Histograms of the sample proportion with normal curves overlaid, for p = 0.1. (a) For n = 15 the histogram is skewed right and the interval p ± 3√(p(1 − p)/n), from −0.13 to 0.33, extends below 0. (b) For n = 100 the histogram is nearly bell-shaped and the interval, from 0.01 to 0.19, lies within [0, 1].
 :name: src-fwk-shafer-ch06-s03-f05
 
 Figure 6.5 Distribution of Sample Proportions
 ``````
 
-``````{figure} /images/section_10/50631caf59b26b1b3cdb66efe4c303ac.jpg
-:alt: Statistical diagram: Figure 6.6 Distribution of Sample Proportions for p = 0.5 and n = 15
+``````{figure} /images/redrawn/fig-06-06.svg
+:alt: Histogram of the sample proportion for p = 0.5 and n = 15, symmetric about 0.5, with a normal curve overlaid; the interval p ± 3√(p(1 − p)/n), from 0.11 to 0.89, lies within [0, 1].
 :name: src-fwk-shafer-ch06-s03-f06
 
 Figure 6.6 Distribution of Sample Proportions for *p* = 0.5 and *n* = 15

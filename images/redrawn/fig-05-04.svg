@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 430" role="img" aria-labelledby="title desc" font-family="'STIX Two Text','Times New Roman',Times,'Liberation Serif',serif">
+<title id="title">Figure 5.4 Probability of waiting at most 10 minutes for a bus</title>
+<desc id="desc">Uniform density of height 1/30 on the interval from 0 to 30 minutes. The rectangle from 0 to 10 is shaded.</desc>
+<rect width="1000" height="430" fill="#fff"/>
+<line x1="130.0" y1="350.0" x2="870.0" y2="350.0" stroke="#1a1a1a" stroke-width="1.6"/>
+<line x1="201.6" y1="388.4" x2="201.6" y2="30.0" stroke="#1a1a1a" stroke-width="1.6"/>
+<rect x="201.6" y="78.8" width="198.9" height="271.2" fill="#dde2f3"/>
+<line x1="400.5" y1="78.8" x2="400.5" y2="350.0" stroke="#1a1a1a" stroke-width="1.6" stroke-dasharray="9 8"/>
+<line x1="798.4" y1="78.8" x2="798.4" y2="350.0" stroke="#1a1a1a" stroke-width="1.6" stroke-dasharray="9 8"/>
+<line x1="201.6" y1="78.8" x2="798.4" y2="78.8" stroke="#1f56a8" stroke-width="6"/>
+<line x1="118.0" y1="350.0" x2="201.6" y2="350.0" stroke="#1f56a8" stroke-width="6"/>
+<line x1="798.4" y1="350.0" x2="882.0" y2="350.0" stroke="#1f56a8" stroke-width="6"/>
+<circle cx="201.6" cy="350.0" r="9.6" fill="#fff" stroke="#1f56a8" stroke-width="4.8"/>
+<circle cx="798.4" cy="350.0" r="9.6" fill="#fff" stroke="#1f56a8" stroke-width="4.8"/>
+<text x="188.1" y="89.3" font-size="30" text-anchor="end" fill="#1a1a1a" xml:space="preserve"><tspan font-size="30.0">1/30</tspan></text>
+<text x="188.1" y="392.0" font-size="30" text-anchor="end" fill="#1a1a1a" xml:space="preserve"><tspan font-size="30.0">0</tspan></text>
+<text x="400.5" y="392.0" font-size="30" text-anchor="middle" fill="#1a1a1a" xml:space="preserve"><tspan font-size="30.0">10</tspan></text>
+<text x="798.4" y="392.0" font-size="30" text-anchor="middle" fill="#1a1a1a" xml:space="preserve"><tspan font-size="30.0">30</tspan></text>
+</svg>

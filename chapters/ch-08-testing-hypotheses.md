@@ -85,8 +85,8 @@ Supposing for now that $\overset{-}{X}$ follows a normal distribution, when the 
 2.  if *H<sub>a</sub>* has the form $H_{a}:\mathit{\mu} > \mathit{\mu}_{0}$ then reject *H*<sub>0</sub> if $\overset{-}{x}$ is far to the right of $\mathit{\mu}_{0}$;
 3.  if *H<sub>a</sub>* has the form $H_{a}:\mathit{\mu} \neq \mathit{\mu}_{0}$ then reject *H*<sub>0</sub> if $\overset{-}{x}$ is far away from $\mathit{\mu}_{0}$ in either direction.
 
-``````{figure} /images/section_12/b91b73d0dbbd53dc069a390a463118a2.jpg
-:alt: Statistical diagram: Figure 8.1 The Density Curve for X - if H 0 Is True
+``````{figure} /images/redrawn/fig-08-01.svg
+:alt: A bell-shaped normal density curve for the sample mean, drawn over the x̄ axis and centered at μ₀, with a dashed vertical line at the center.
 :name: src-fwk-shafer-ch08-s01-s02-f01
 
 Figure 8.1 The Density Curve for $\overset{-}{X}$ if *H*<sub>0</sub> Is True
@@ -118,8 +118,8 @@ The key issue in our line of reasoning is the question of how to determine the n
 
 Suppose the rejection region is a single interval, so we need to select a single number *C*. Here is the procedure for doing so. We select a small probability, denoted $\alpha$, say 1%, which we take as our definition of "rare event:" an event is "rare" if its probability of occurrence is less than $\alpha.$ (In all the examples and problems in this text the value of $\alpha$ will be given already.) The probability that $\overset{-}{X}$ takes a value in an interval is the area under its density curve and above that interval, so as shown in [Figure 8.2](/chapters/ch-08-testing-hypotheses.md#src-fwk-shafer-ch08-s01-s03-f01) (drawn under the assumption that *H*<sub>0</sub> is true, so that the curve centers at $\mathit{\mu}_{0}$) the critical value *C* is the value of $\overset{-}{X}$ that cuts off a tail area $\alpha$ in the probability density curve of $\overset{-}{X}.$ When the rejection region is in two pieces, that is, composed of two intervals, the total area above both of them must be $\alpha$, so the area above each one is $\left. \alpha/ 2 \right.$, as also shown in [Figure 8.2](/chapters/ch-08-testing-hypotheses.md#src-fwk-shafer-ch08-s01-s03-f01).
 
-``````{figure} /images/section_12/72f0cd42fda04cdfb0341bcfe11601c1.jpg
-:alt: Statistical diagram: Figure 8.2
+``````{figure} /images/redrawn/fig-08-02.svg
+:alt: Three normal curves for the sample mean, each centered at μ₀ on the x̄ axis. For Hₐ: μ < μ₀, the left tail of area α below the critical value C is shaded, and the rejection region below it is the interval to the left of C. For Hₐ: μ > μ₀, the right tail of area α above the critical value C′ is shaded, and the rejection region is the interval to the right of C′. For Hₐ: μ ≠ μ₀, both tails, each of area α/2, are shaded beyond C and C′, and the rejection region is both outer intervals.
 :name: src-fwk-shafer-ch08-s01-s03-f01
 
 Figure 8.2
@@ -145,8 +145,8 @@ Since *H<sub>a</sub>* contains the ≠ symbol the rejection region will be in tw
 
 The result is shown in [Figure 8.3 \"Rejection Region for the Choice \"](/chapters/ch-08-testing-hypotheses.md#src-fwk-shafer-ch08-s01-s03-f02).
 
-``````{figure} /images/section_12/6ed58a35480090fa999b53b443a266a5.jpg
-:alt: Statistical diagram: Figure 8.3 Rejection Region for the Choice α = 0.10
+``````{figure} /images/redrawn/fig-08-03.svg
+:alt: Normal curve for the sample mean, centered at 8.0, for Hₐ: μ ≠ 8.0. Both tails, each of area α/2 = 0.05, are shaded beyond the critical values 7.89 and 8.11. A number line below marks the rejection region in red: x̄ ≤ 7.89 and x̄ ≥ 8.11.
 :name: src-fwk-shafer-ch08-s01-s03-f02
 
 Figure 8.3 Rejection Region for the Choice $\alpha = 0.10$
@@ -375,8 +375,8 @@ The test statistic has the standard normal distribution.
 
 The distribution of the standardized test statistic and the corresponding rejection region for each form of the alternative hypothesis (left-tailed, right-tailed, or two-tailed), is shown in [Figure 8.4 \"Distribution of the Standardized Test Statistic and the Rejection Region\"](/chapters/ch-08-testing-hypotheses.md#src-fwk-shafer-ch08-s02-f01).
 
-``````{figure} /images/section_12/526c9e81a596b999ae191031b1b8bc47.jpg
-:alt: Statistical diagram: Figure 8.4 Distribution of the Standardized Test Statistic and the Rejection Region
+``````{figure} /images/redrawn/fig-08-04.svg
+:alt: Three standard normal curves on the z axis, centered at 0. For Hₐ: μ < μ₀, the left tail of area α below −z_α is shaded and the rejection region is z ≤ −z_α. For Hₐ: μ > μ₀, the right tail of area α above z_α is shaded and the rejection region is z ≥ z_α. For Hₐ: μ ≠ μ₀, both tails of area α/2 beyond −z_α/2 and z_α/2 are shaded and the rejection region is both outer intervals.
 :name: src-fwk-shafer-ch08-s02-f01
 
 Figure 8.4 Distribution of the Standardized Test Statistic and the Rejection Region
@@ -415,8 +415,8 @@ We perform the test of hypotheses using the five-step procedure given at the end
 
   The data provide sufficient evidence, at the 5% level of significance, to conclude that the average time until patients experience perceptible relief from pain using the new pain reliever is smaller than the average time for the standard pain reliever.
 
-``````{figure} /images/section_12/c18d107b4145b363951540fc519137b2.jpg
-:alt: Statistical diagram: Figure 8.5 Rejection Region and Test Statistic for Note 8.27 "Example 4"
+``````{figure} /images/redrawn/fig-08-05.svg
+:alt: Standard normal curve for Hₐ: μ < 3.5. The left tail of area α = 0.05 is shaded below the critical value −z_α = −1.645. On the number line below, the rejection region z ≤ −1.645 is red, and the test statistic Z = −1.886, marked with a star, lies inside it.
 :name: src-fwk-shafer-ch08-s02-f02
 
 Figure 8.5 Rejection Region and Test Statistic for [Note 8.27 \"Example 4\"](/chapters/ch-08-testing-hypotheses.md#src-fwk-shafer-ch08-s02-n03){.xref xrefstyle="select: title"}
@@ -453,8 +453,8 @@ Solution:
 
   The data do not provide sufficient evidence, at the 1% level of significance, to conclude that the average amount of product dispensed is different from 8.1 ounce. We conclude that the machine does not need to be recalibrated.
 
-``````{figure} /images/section_12/98f4ee32ab4fe3e9766adeca42e127e9.jpg
-:alt: Statistical diagram: Figure 8.6 Rejection Region and Test Statistic for Note 8.28 "Example 5"
+``````{figure} /images/redrawn/fig-08-06.svg
+:alt: Standard normal curve for Hₐ: μ ≠ 8.1. Both tails, each of area α/2 = 0.005, are shaded beyond the critical values −z_α/2 = −2.576 and z_α/2 = 2.576. On the number line below, the two rejection intervals are red, and the test statistic Z = 2.49, marked with a star, lies between 0 and 2.576, outside the rejection region.
 :name: src-fwk-shafer-ch08-s02-f03
 
 Figure 8.6 Rejection Region and Test Statistic for [Note 8.28 \"Example 5\"](/chapters/ch-08-testing-hypotheses.md#src-fwk-shafer-ch08-s02-n04){.xref xrefstyle="select: title"}
@@ -693,8 +693,8 @@ Solution:
 
 The value of the test statistic was *z* = 2.490, which by [Figure 12.2 \"Cumulative Normal Probability\"](/appendices/appendix.md#src-fwk-shafer-ch12-f02) cuts off a tail of area 0.0064, as shown in [Figure 8.7 \"Area of the Tail for \"](/chapters/ch-08-testing-hypotheses.md#src-fwk-shafer-ch08-s03-s01-f01). Since the test was two-tailed, the observed significance is $2 \times 0.0064 = 0.0128.$
 
-``````{figure} /images/section_12/34d69a9504c62766c5a75e20cad436e5.jpg
-:alt: Statistical diagram: Figure 8.7 Area of the Tail for Note 8.34 "Example 6"
+``````{figure} /images/redrawn/fig-08-07.svg
+:alt: Standard normal curve for Hₐ: μ ≠ 8.1, with the test statistic Z = 2.49 starred on the z axis. The right tail beyond it is shaded and labeled area = 0.0064.
 :name: src-fwk-shafer-ch08-s03-s01-f01
 
 Figure 8.7 Area of the Tail for [Note 8.34 \"Example 6\"](/chapters/ch-08-testing-hypotheses.md#src-fwk-shafer-ch08-s03-s01-n03){.xref xrefstyle="select: title"}
@@ -751,8 +751,8 @@ Solution:
 
   The data do not provide sufficient evidence, at the 5% level of significance, to conclude that the average total score of NBA games is less than 202.5.
 
-``````{figure} /images/section_12/6c41ed97cffe263a3c04b5f649f640d7.jpg
-:alt: Statistical diagram: Figure 8.8 Test Statistic for Note 8.36 "Example 7"
+``````{figure} /images/redrawn/fig-08-08.svg
+:alt: Standard normal curve for Hₐ: μ < 202.5, with the test statistic Z = −1.55 starred on the z axis. The left tail below it is shaded and labeled area = 0.0606.
 :name: src-fwk-shafer-ch08-s03-s02-f01
 
 Figure 8.8 Test Statistic for [Note 8.36 \"Example 7\"](/chapters/ch-08-testing-hypotheses.md#src-fwk-shafer-ch08-s03-s02-n02){.xref xrefstyle="select: title"}
@@ -789,8 +789,8 @@ Solution:
 
   The data provide sufficient evidence, at the 1% level of significance, to conclude that the average EOC exam score of students taking the Algebra II course from Mr. Prospero using the new book is higher than the average score of those taking the course from him but using the old book.
 
-``````{figure} /images/section_12/f1c4577bbb5541d6829e57597570bc47.jpg
-:alt: Statistical diagram: Figure 8.9 Test Statistic for Note 8.37 "Example 8"
+``````{figure} /images/redrawn/fig-08-09.svg
+:alt: Standard normal curve for Hₐ: μ > 67, with the test statistic Z = 3.15 starred on the z axis. The right tail beyond it is shaded and labeled area = 0.0008.
 :name: src-fwk-shafer-ch08-s03-s02-f02
 
 Figure 8.9 Test Statistic for [Note 8.37 \"Example 8\"](/chapters/ch-08-testing-hypotheses.md#src-fwk-shafer-ch08-s03-s02-n03){.xref xrefstyle="select: title"}
@@ -827,8 +827,8 @@ Solution:
 
   The data provide sufficient evidence, at the 1% level of significance, to conclude that the average pH of surface water in the lake is different from 7.4. That is, remedial action is indicated.
 
-``````{figure} /images/section_12/d3f75c51124aea89828bc106da10a29c.jpg
-:alt: Statistical diagram: Figure 8.10 Test Statistic for Note 8.38 "Example 9"
+``````{figure} /images/redrawn/fig-08-10.svg
+:alt: Standard normal curve for Hₐ: μ ≠ 7.4, with the test statistic Z = 3.29 starred on the z axis. The right tail beyond it is shaded and labeled area = 0.0005.
 :name: src-fwk-shafer-ch08-s03-s02-f03
 
 Figure 8.10 Test Statistic for [Note 8.38 \"Example 9\"](/chapters/ch-08-testing-hypotheses.md#src-fwk-shafer-ch08-s03-s02-n04){.xref xrefstyle="select: title"}
@@ -977,8 +977,8 @@ The population must be normally distributed.
 
 The distribution of the second standardized test statistic (the one containing *s*) and the corresponding rejection region for each form of the alternative hypothesis (left-tailed, right-tailed, or two-tailed), is shown in [Figure 8.11 \"Distribution of the Standardized Test Statistic and the Rejection Region\"](/chapters/ch-08-testing-hypotheses.md#src-fwk-shafer-ch08-s04-f01). This is just like [Figure 8.4 \"Distribution of the Standardized Test Statistic and the Rejection Region\"](/chapters/ch-08-testing-hypotheses.md#src-fwk-shafer-ch08-s02-f01), except that now the critical values are from the *t*-distribution. [Figure 8.4 \"Distribution of the Standardized Test Statistic and the Rejection Region\"](/chapters/ch-08-testing-hypotheses.md#src-fwk-shafer-ch08-s02-f01) still applies to the first standardized test statistic (the one containing *σ*) since it follows the standard normal distribution.
 
-``````{figure} /images/section_12/ecf5f771ca148089665859c88d8679df.jpg
-:alt: Statistical diagram: Figure 8.11 Distribution of the Standardized Test Statistic and the Rejection Region
+``````{figure} /images/redrawn/fig-08-11.svg
+:alt: Three bell-shaped Student t curves on the t axis, centered at 0. For Hₐ: μ < μ₀, the left tail of area α below −t_α is shaded and the rejection region is t ≤ −t_α. For Hₐ: μ > μ₀, the right tail of area α above t_α is shaded and the rejection region is t ≥ t_α. For Hₐ: μ ≠ μ₀, both tails of area α/2 beyond −t_α/2 and t_α/2 are shaded and the rejection region is both outer intervals.
 :name: src-fwk-shafer-ch08-s04-f01
 
 Figure 8.11 Distribution of the Standardized Test Statistic and the Rejection Region
@@ -1023,8 +1023,8 @@ Solution:
 
   The data provide sufficient evidence, at the 5% level of significance, to conclude that the average price of such rackets purchased at online auctions is less than \$179.
 
-``````{figure} /images/section_12/37a4f201cad923d15a8bfab828bd7640.jpg
-:alt: Statistical diagram: Figure 8.12 Rejection Region and Test Statistic for Note 8.42 "Example 10"
+``````{figure} /images/redrawn/fig-08-12.svg
+:alt: Student t curve with 4 degrees of freedom for Hₐ: μ < 179. The left tail of area α = 0.05 is shaded below the critical value −t_α = −2.132. On the number line below, the rejection region t ≤ −2.132 is red, and the test statistic T = −2.152, marked with a star, lies just inside it.
 :name: src-fwk-shafer-ch08-s04-f02
 
 Figure 8.12 Rejection Region and Test Statistic for [Note 8.42 \"Example 10\"](/chapters/ch-08-testing-hypotheses.md#src-fwk-shafer-ch08-s04-n03){.xref xrefstyle="select: title"}
@@ -1071,8 +1071,8 @@ Solution:
 
   The data do not provide sufficient evidence, at the 1% level of significance, to conclude that the mean distance between the holes in the component differs from 0.02 mm.
 
-``````{figure} /images/section_12/ac90ded7d10c3b0d2ccfb5daea47745f.jpg
-:alt: Statistical diagram: Figure 8.13 Rejection Region and Test Statistic for Note 8.43 "Example 11"
+``````{figure} /images/redrawn/fig-08-13.svg
+:alt: Student t curve with 3 degrees of freedom for Hₐ: μ ≠ 0.02. Both tails, each of area α/2 = 0.005, are shaded beyond the critical values −t_α/2 = −5.841 and t_α/2 = 5.841. On the number line below, the two rejection intervals are red, and the test statistic T = 0.877, marked with a star, lies near the center, outside the rejection region.
 :name: src-fwk-shafer-ch08-s04-f03
 
 Figure 8.13 Rejection Region and Test Statistic for [Note 8.43 \"Example 11\"](/chapters/ch-08-testing-hypotheses.md#src-fwk-shafer-ch08-s04-n04){.xref xrefstyle="select: title"}
@@ -1302,8 +1302,8 @@ The test statistic has the standard normal distribution.
 
 The distribution of the standardized test statistic and the corresponding rejection region for each form of the alternative hypothesis (left-tailed, right-tailed, or two-tailed), is shown in [Figure 8.14 \"Distribution of the Standardized Test Statistic and the Rejection Region\"](/chapters/ch-08-testing-hypotheses.md#src-fwk-shafer-ch08-s05-f01).
 
-``````{figure} /images/section_12/01fe19537789cf83979f79f172b522c5.jpg
-:alt: Statistical diagram: Figure 8.14 Distribution of the Standardized Test Statistic and the Rejection Region
+``````{figure} /images/redrawn/fig-08-14.svg
+:alt: Three standard normal curves on the z axis, centered at 0, for tests about a population proportion. For Hₐ: p < p₀, the left tail of area α below −z_α is shaded and the rejection region is z ≤ −z_α. For Hₐ: p > p₀, the right tail of area α above z_α is shaded and the rejection region is z ≥ z_α. For Hₐ: p ≠ p₀, both tails of area α/2 beyond −z_α/2 and z_α/2 are shaded and the rejection region is both outer intervals.
 :name: src-fwk-shafer-ch08-s05-f01
 
 Figure 8.14 Distribution of the Standardized Test Statistic and the Rejection Region
@@ -1358,8 +1358,8 @@ so the sample is sufficiently large.
 
   The data provide sufficient evidence, at the 5% level of significance, to conclude that a majority of adults prefer the company's beverage to that of their competitor's.
 
-``````{figure} /images/section_12/e667418a241c22871b5d19c2938793f4.jpg
-:alt: Statistical diagram: Figure 8.15 Rejection Region and Test Statistic for Note 8.47 "Example 12"
+``````{figure} /images/redrawn/fig-08-15.svg
+:alt: Standard normal curve for Hₐ: p > 0.5. The right tail of area α = 0.05 is shaded above the critical value z_α = 1.645. On the number line below, the rejection region z ≥ 1.645 is red, and the test statistic Z = 1.789, marked with a star, lies inside it.
 :name: src-fwk-shafer-ch08-s05-f02
 
 Figure 8.15 Rejection Region and Test Statistic for [Note 8.47 \"Example 12\"](/chapters/ch-08-testing-hypotheses.md#src-fwk-shafer-ch08-s05-n03){.xref xrefstyle="select: title"}
@@ -1410,8 +1410,8 @@ $$\begin{array}{l}
 
   The data do not provide sufficient evidence, at the 10% level of significance, to conclude that the proportion of newborns who are male differs from the historic proportion in times of economic recession.
 
-``````{figure} /images/section_12/22cd2e9cac5d9dac6cd8ee19078f74cb.jpg
-:alt: Statistical diagram: Figure 8.16 Rejection Region and Test Statistic for Note 8.48 "Example 13"
+``````{figure} /images/redrawn/fig-08-16.svg
+:alt: Standard normal curve for Hₐ: p ≠ 0.5146. Both tails, each of area α/2 = 0.05, are shaded beyond the critical values −z_α/2 = −1.645 and z_α/2 = 1.645. On the number line below, the two rejection intervals are red, and the test statistic Z = 1.542, marked with a star, lies just short of 1.645, outside the rejection region.
 :name: src-fwk-shafer-ch08-s05-f03
 
 Figure 8.16 Rejection Region and Test Statistic for [Note 8.48 \"Example 13\"](/chapters/ch-08-testing-hypotheses.md#src-fwk-shafer-ch08-s05-n04){.xref xrefstyle="select: title"}
@@ -1431,8 +1431,8 @@ We already know that the sample size is sufficiently large to validly perform th
 - Step 4. Since the test is right-tailed the *p*-value is the area under the standard normal curve cut off by the observed test statistic, *z* = 1.789, as illustrated in [Figure 8.17](/chapters/ch-08-testing-hypotheses.md#src-fwk-shafer-ch08-s05-f04). By [Figure 12.2 \"Cumulative Normal Probability\"](/appendices/appendix.md#src-fwk-shafer-ch12-f02) that area and therefore the *p*-value is $1 - 0.9633 = 0.0367.$
 - Step 5. Since the *p*-value is less than $\alpha = 0.05$ the decision is to reject *H*<sub>0</sub>.
 
-``````{figure} /images/section_12/53ce189932428f408b5b4f0cfa1b7a28.jpg
-:alt: Statistical diagram: Figure 8.17 P -Value for Note 8.49 "Example 14"
+``````{figure} /images/redrawn/fig-08-17.svg
+:alt: Standard normal curve for Hₐ: p > 0.5, with the test statistic Z = 1.789 starred on the z axis. The right tail beyond it is shaded and labeled area = 0.0367.
 :name: src-fwk-shafer-ch08-s05-f04
 
 Figure 8.17 *P*-Value for [Note 8.49 \"Example 14\"](/chapters/ch-08-testing-hypotheses.md#src-fwk-shafer-ch08-s05-n05){.xref xrefstyle="select: title"}
@@ -1452,8 +1452,8 @@ We already know that the sample size is sufficiently large to validly perform th
 - Step 4. Since the test is two-tailed the *p*-value is the double of the area under the standard normal curve cut off by the observed test statistic, *z* = 1.542. By [Figure 12.2 \"Cumulative Normal Probability\"](/appendices/appendix.md#src-fwk-shafer-ch12-f02) that area is $1 - 0.9382 = 0.0618$, as illustrated in [Figure 8.18](/chapters/ch-08-testing-hypotheses.md#src-fwk-shafer-ch08-s05-f05), hence the *p*-value is $2 \times 0.0618 = 0.1236.$
 - Step 5. Since the *p*-value is greater than $\alpha = 0.10$ the decision is not to reject *H*<sub>0</sub>.
 
-``````{figure} /images/section_12/65a0c37cb34d23ad1f8d640e3442bf18.jpg
-:alt: Statistical diagram: Figure 8.18 P -Value for Note 8.50 "Example 15"
+``````{figure} /images/redrawn/fig-08-18.svg
+:alt: Standard normal curve for Hₐ: p ≠ 0.5146, with the test statistic Z = 1.542 starred on the z axis. The right tail beyond it is shaded and labeled area = 0.0618.
 :name: src-fwk-shafer-ch08-s05-f05
 
 Figure 8.18 *P*-Value for [Note 8.50 \"Example 15\"](/chapters/ch-08-testing-hypotheses.md#src-fwk-shafer-ch08-s05-n06){.xref xrefstyle="select: title"}

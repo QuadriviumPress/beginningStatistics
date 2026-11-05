@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 680" role="img" aria-labelledby="title desc" font-family="'STIX Two Text','Times New Roman',Times,'Liberation Serif',serif">
+<title id="title">Figure 9.1 Independent sampling from two populations</title>
+<desc id="desc">Two boxes labeled Population 1 and Population 2, with means μ₁ and μ₂ and standard deviations σ₁ and σ₂. An arrow from each leads to a box for its sample, Sample 1 or Sample 2, with size n₁ or n₂, mean x̄₁ or x̄₂, and standard deviation s₁ or s₂.</desc>
+<rect width="1000" height="680" fill="#fff"/>
+<text x="250.0" y="52.0" font-size="36" text-anchor="middle" fill="#1a1a1a" xml:space="preserve"><tspan font-size="36.0">Population 1</tspan></text>
+<rect x="70" y="72" width="360" height="180" fill="none" stroke="#8c8c8c" stroke-width="4"/>
+<text x="250.0" y="149.0" font-size="30" text-anchor="middle" fill="#1a1a1a" xml:space="preserve"><tspan font-size="30.0">mean: </tspan><tspan font-size="30.0" font-style="italic">μ</tspan><tspan dy="9.0" font-size="21.0">1</tspan></text>
+<text x="250.0" y="195.0" font-size="30" text-anchor="middle" fill="#1a1a1a" xml:space="preserve"><tspan font-size="30.0">s.d.: </tspan><tspan font-size="30.0" font-style="italic">σ</tspan><tspan dy="9.0" font-size="21.0">1</tspan></text>
+<text x="250.0" y="390.0" font-size="36" text-anchor="middle" fill="#1a1a1a" xml:space="preserve"><tspan font-size="36.0">Sample 1</tspan></text>
+<rect x="80" y="410" width="340" height="220" fill="none" stroke="#8c8c8c" stroke-width="4"/>
+<text x="250.0" y="484.0" font-size="30" text-anchor="middle" fill="#1a1a1a" xml:space="preserve"><tspan font-size="30.0">size: </tspan><tspan font-size="30.0" font-style="italic">n</tspan><tspan dy="9.0" font-size="21.0">1</tspan></text>
+<text x="250.0" y="530.0" font-size="30" text-anchor="middle" fill="#1a1a1a" xml:space="preserve"><tspan font-size="30.0">mean: </tspan><tspan font-size="30.0" font-style="italic">x̄</tspan><tspan dy="9.0" font-size="21.0">1</tspan></text>
+<text x="250.0" y="576.0" font-size="30" text-anchor="middle" fill="#1a1a1a" xml:space="preserve"><tspan font-size="30.0">s.d.: </tspan><tspan font-size="30.0" font-style="italic">s</tspan><tspan dy="9.0" font-size="21.0">1</tspan></text>
+<line x1="250.0" y1="272.0" x2="250.0" y2="340.0" stroke="#8c8c8c" stroke-width="2"/>
+<line x1="250.0" y1="340.0" x2="242.7" y2="323.6" stroke="#8c8c8c" stroke-width="2"/>
+<line x1="250.0" y1="340.0" x2="257.3" y2="323.6" stroke="#8c8c8c" stroke-width="2"/>
+<text x="750.0" y="52.0" font-size="36" text-anchor="middle" fill="#1a1a1a" xml:space="preserve"><tspan font-size="36.0">Population 2</tspan></text>
+<rect x="570" y="72" width="360" height="180" fill="none" stroke="#8c8c8c" stroke-width="4"/>
+<text x="750.0" y="149.0" font-size="30" text-anchor="middle" fill="#1a1a1a" xml:space="preserve"><tspan font-size="30.0">mean: </tspan><tspan font-size="30.0" font-style="italic">μ</tspan><tspan dy="9.0" font-size="21.0">2</tspan></text>
+<text x="750.0" y="195.0" font-size="30" text-anchor="middle" fill="#1a1a1a" xml:space="preserve"><tspan font-size="30.0">s.d.: </tspan><tspan font-size="30.0" font-style="italic">σ</tspan><tspan dy="9.0" font-size="21.0">2</tspan></text>
+<text x="750.0" y="390.0" font-size="36" text-anchor="middle" fill="#1a1a1a" xml:space="preserve"><tspan font-size="36.0">Sample 2</tspan></text>
+<rect x="580" y="410" width="340" height="220" fill="none" stroke="#8c8c8c" stroke-width="4"/>
+<text x="750.0" y="484.0" font-size="30" text-anchor="middle" fill="#1a1a1a" xml:space="preserve"><tspan font-size="30.0">size: </tspan><tspan font-size="30.0" font-style="italic">n</tspan><tspan dy="9.0" font-size="21.0">2</tspan></text>
+<text x="750.0" y="530.0" font-size="30" text-anchor="middle" fill="#1a1a1a" xml:space="preserve"><tspan font-size="30.0">mean: </tspan><tspan font-size="30.0" font-style="italic">x̄</tspan><tspan dy="9.0" font-size="21.0">2</tspan></text>
+<text x="750.0" y="576.0" font-size="30" text-anchor="middle" fill="#1a1a1a" xml:space="preserve"><tspan font-size="30.0">s.d.: </tspan><tspan font-size="30.0" font-style="italic">s</tspan><tspan dy="9.0" font-size="21.0">2</tspan></text>
+<line x1="750.0" y1="272.0" x2="750.0" y2="340.0" stroke="#8c8c8c" stroke-width="2"/>
+<line x1="750.0" y1="340.0" x2="742.7" y2="323.6" stroke="#8c8c8c" stroke-width="2"/>
+<line x1="750.0" y1="340.0" x2="757.3" y2="323.6" stroke="#8c8c8c" stroke-width="2"/>
+</svg>

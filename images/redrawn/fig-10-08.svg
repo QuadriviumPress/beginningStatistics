@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 760" role="img" aria-labelledby="title desc" font-family="'STIX Two Text','Times New Roman',Times,'Liberation Serif',serif">
+<title id="title">Figure 10.8 Scatter diagram and regression line for age and value of used automobiles</title>
+<desc id="desc">The scatter plot of age against value for the ten automobiles, with the least squares regression line ŷ = −2.05x + 32.83 falling from about 32.8 at age 0 to about 16.4 at age 8.</desc>
+<rect width="1000" height="760" fill="#fff"/>
+<rect x="80.0" y="20.0" width="880.0" height="670.0" fill="none" stroke="#1a1a1a" stroke-width="1.6"/>
+<line x1="80.0" y1="690.0" x2="80.0" y2="682.0" stroke="#1a1a1a" stroke-width="1.6"/>
+<line x1="80.0" y1="20.0" x2="80.0" y2="28.0" stroke="#1a1a1a" stroke-width="1.6"/>
+<text x="80.0" y="724.0" font-size="24" text-anchor="middle" fill="#1a1a1a" xml:space="preserve"><tspan font-size="24.0">0</tspan></text>
+<line x1="190.0" y1="690.0" x2="190.0" y2="682.0" stroke="#1a1a1a" stroke-width="1.6"/>
+<line x1="190.0" y1="20.0" x2="190.0" y2="28.0" stroke="#1a1a1a" stroke-width="1.6"/>
+<text x="190.0" y="724.0" font-size="24" text-anchor="middle" fill="#1a1a1a" xml:space="preserve"><tspan font-size="24.0">1</tspan></text>
+<line x1="300.0" y1="690.0" x2="300.0" y2="682.0" stroke="#1a1a1a" stroke-width="1.6"/>
+<line x1="300.0" y1="20.0" x2="300.0" y2="28.0" stroke="#1a1a1a" stroke-width="1.6"/>
+<text x="300.0" y="724.0" font-size="24" text-anchor="middle" fill="#1a1a1a" xml:space="preserve"><tspan font-size="24.0">2</tspan></text>
+<line x1="410.0" y1="690.0" x2="410.0" y2="682.0" stroke="#1a1a1a" stroke-width="1.6"/>
+<line x1="410.0" y1="20.0" x2="410.0" y2="28.0" stroke="#1a1a1a" stroke-width="1.6"/>
+<text x="410.0" y="724.0" font-size="24" text-anchor="middle" fill="#1a1a1a" xml:space="preserve"><tspan font-size="24.0">3</tspan></text>
+<line x1="520.0" y1="690.0" x2="520.0" y2="682.0" stroke="#1a1a1a" stroke-width="1.6"/>
+<line x1="520.0" y1="20.0" x2="520.0" y2="28.0" stroke="#1a1a1a" stroke-width="1.6"/>
+<text x="520.0" y="724.0" font-size="24" text-anchor="middle" fill="#1a1a1a" xml:space="preserve"><tspan font-size="24.0">4</tspan></text>
+<line x1="630.0" y1="690.0" x2="630.0" y2="682.0" stroke="#1a1a1a" stroke-width="1.6"/>
+<line x1="630.0" y1="20.0" x2="630.0" y2="28.0" stroke="#1a1a1a" stroke-width="1.6"/>
+<text x="630.0" y="724.0" font-size="24" text-anchor="middle" fill="#1a1a1a" xml:space="preserve"><tspan font-size="24.0">5</tspan></text>
+<line x1="740.0" y1="690.0" x2="740.0" y2="682.0" stroke="#1a1a1a" stroke-width="1.6"/>
+<line x1="740.0" y1="20.0" x2="740.0" y2="28.0" stroke="#1a1a1a" stroke-width="1.6"/>
+<text x="740.0" y="724.0" font-size="24" text-anchor="middle" fill="#1a1a1a" xml:space="preserve"><tspan font-size="24.0">6</tspan></text>
+<line x1="850.0" y1="690.0" x2="850.0" y2="682.0" stroke="#1a1a1a" stroke-width="1.6"/>
+<line x1="850.0" y1="20.0" x2="850.0" y2="28.0" stroke="#1a1a1a" stroke-width="1.6"/>
+<text x="850.0" y="724.0" font-size="24" text-anchor="middle" fill="#1a1a1a" xml:space="preserve"><tspan font-size="24.0">7</tspan></text>
+<line x1="960.0" y1="690.0" x2="960.0" y2="682.0" stroke="#1a1a1a" stroke-width="1.6"/>
+<line x1="960.0" y1="20.0" x2="960.0" y2="28.0" stroke="#1a1a1a" stroke-width="1.6"/>
+<text x="960.0" y="724.0" font-size="24" text-anchor="middle" fill="#1a1a1a" xml:space="preserve"><tspan font-size="24.0">8</tspan></text>
+<line x1="80.0" y1="690.0" x2="88.0" y2="690.0" stroke="#1a1a1a" stroke-width="1.6"/>
+<line x1="960.0" y1="690.0" x2="952.0" y2="690.0" stroke="#1a1a1a" stroke-width="1.6"/>
+<text x="72.0" y="698.4" font-size="24" text-anchor="end" fill="#1a1a1a" xml:space="preserve"><tspan font-size="24.0">15</tspan></text>
+<line x1="80.0" y1="522.5" x2="88.0" y2="522.5" stroke="#1a1a1a" stroke-width="1.6"/>
+<line x1="960.0" y1="522.5" x2="952.0" y2="522.5" stroke="#1a1a1a" stroke-width="1.6"/>
+<text x="72.0" y="530.9" font-size="24" text-anchor="end" fill="#1a1a1a" xml:space="preserve"><tspan font-size="24.0">20</tspan></text>
+<line x1="80.0" y1="355.0" x2="88.0" y2="355.0" stroke="#1a1a1a" stroke-width="1.6"/>
+<line x1="960.0" y1="355.0" x2="952.0" y2="355.0" stroke="#1a1a1a" stroke-width="1.6"/>
+<text x="72.0" y="363.4" font-size="24" text-anchor="end" fill="#1a1a1a" xml:space="preserve"><tspan font-size="24.0">25</tspan></text>
+<line x1="80.0" y1="187.5" x2="88.0" y2="187.5" stroke="#1a1a1a" stroke-width="1.6"/>
+<line x1="960.0" y1="187.5" x2="952.0" y2="187.5" stroke="#1a1a1a" stroke-width="1.6"/>
+<text x="72.0" y="195.9" font-size="24" text-anchor="end" fill="#1a1a1a" xml:space="preserve"><tspan font-size="24.0">30</tspan></text>
+<line x1="80.0" y1="20.0" x2="88.0" y2="20.0" stroke="#1a1a1a" stroke-width="1.6"/>
+<line x1="960.0" y1="20.0" x2="952.0" y2="20.0" stroke="#1a1a1a" stroke-width="1.6"/>
+<text x="72.0" y="28.4" font-size="24" text-anchor="end" fill="#1a1a1a" xml:space="preserve"><tspan font-size="24.0">35</tspan></text>
+<clipPath id="plot"><rect x="80.0" y="20.0" width="880.0" height="670.0"/></clipPath>
+<line x1="80.0" y1="92.7" x2="960.0" y2="642.1" stroke="#1a1a1a" stroke-width="2.5" clip-path="url(#plot)"/>
+<circle cx="300.0" cy="231.1" r="10.0" fill="#1f56a8" stroke="none" stroke-width="0"/>
+<circle cx="410.0" cy="361.7" r="10.0" fill="#1f56a8" stroke="none" stroke-width="0"/>
+<circle cx="410.0" cy="321.5" r="10.0" fill="#1f56a8" stroke="none" stroke-width="0"/>
+<circle cx="410.0" cy="170.8" r="10.0" fill="#1f56a8" stroke="none" stroke-width="0"/>
+<circle cx="520.0" cy="395.2" r="10.0" fill="#1f56a8" stroke="none" stroke-width="0"/>
+<circle cx="520.0" cy="368.4" r="10.0" fill="#1f56a8" stroke="none" stroke-width="0"/>
+<circle cx="630.0" cy="395.2" r="10.0" fill="#1f56a8" stroke="none" stroke-width="0"/>
+<circle cx="630.0" cy="509.1" r="10.0" fill="#1f56a8" stroke="none" stroke-width="0"/>
+<circle cx="630.0" cy="468.9" r="10.0" fill="#1f56a8" stroke="none" stroke-width="0"/>
+<circle cx="740.0" cy="452.1" r="10.0" fill="#1f56a8" stroke="none" stroke-width="0"/>
+</svg>

@@ -1,0 +1,115 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 700" role="img" aria-labelledby="title desc" font-family="'STIX Two Text','Times New Roman',Times,'Liberation Serif',serif">
+<title id="title">Figure 1.1 The grand picture of statistics</title>
+<desc id="desc">A population drawn as a grid of 64 circles, nine of them filled, with an arrow to a sample of those nine. Arrows lead from the sample to its data (x₁, x₂, …, xₙ) and from the data to statistics x̄, s², s, and p̂, which point back to the population parameters μ, σ², σ, and p that they estimate.</desc>
+<rect width="900" height="700" fill="#fff"/>
+<text x="170.0" y="42.0" font-size="30" text-anchor="middle" fill="#1a1a1a" xml:space="preserve"><tspan font-size="30.0">Population</tspan></text>
+<rect x="20.0" y="60.0" width="300.0" height="300.0" fill="none" stroke="#1a1a1a" stroke-width="1.6"/>
+<circle cx="45.0" cy="85.0" r="9.0" fill="#1a1a1a" stroke="#1a1a1a" stroke-width="1.6"/>
+<circle cx="81.0" cy="85.0" r="9.0" fill="#fff" stroke="#1a1a1a" stroke-width="1.6"/>
+<circle cx="117.0" cy="85.0" r="9.0" fill="#fff" stroke="#1a1a1a" stroke-width="1.6"/>
+<circle cx="153.0" cy="85.0" r="9.0" fill="#fff" stroke="#1a1a1a" stroke-width="1.6"/>
+<circle cx="189.0" cy="85.0" r="9.0" fill="#fff" stroke="#1a1a1a" stroke-width="1.6"/>
+<circle cx="225.0" cy="85.0" r="9.0" fill="#fff" stroke="#1a1a1a" stroke-width="1.6"/>
+<circle cx="261.0" cy="85.0" r="9.0" fill="#fff" stroke="#1a1a1a" stroke-width="1.6"/>
+<circle cx="297.0" cy="85.0" r="9.0" fill="#1a1a1a" stroke="#1a1a1a" stroke-width="1.6"/>
+<circle cx="45.0" cy="121.0" r="9.0" fill="#fff" stroke="#1a1a1a" stroke-width="1.6"/>
+<circle cx="81.0" cy="121.0" r="9.0" fill="#1a1a1a" stroke="#1a1a1a" stroke-width="1.6"/>
+<circle cx="117.0" cy="121.0" r="9.0" fill="#fff" stroke="#1a1a1a" stroke-width="1.6"/>
+<circle cx="153.0" cy="121.0" r="9.0" fill="#fff" stroke="#1a1a1a" stroke-width="1.6"/>
+<circle cx="189.0" cy="121.0" r="9.0" fill="#fff" stroke="#1a1a1a" stroke-width="1.6"/>
+<circle cx="225.0" cy="121.0" r="9.0" fill="#fff" stroke="#1a1a1a" stroke-width="1.6"/>
+<circle cx="261.0" cy="121.0" r="9.0" fill="#fff" stroke="#1a1a1a" stroke-width="1.6"/>
+<circle cx="297.0" cy="121.0" r="9.0" fill="#fff" stroke="#1a1a1a" stroke-width="1.6"/>
+<circle cx="45.0" cy="157.0" r="9.0" fill="#fff" stroke="#1a1a1a" stroke-width="1.6"/>
+<circle cx="81.0" cy="157.0" r="9.0" fill="#fff" stroke="#1a1a1a" stroke-width="1.6"/>
+<circle cx="117.0" cy="157.0" r="9.0" fill="#1a1a1a" stroke="#1a1a1a" stroke-width="1.6"/>
+<circle cx="153.0" cy="157.0" r="9.0" fill="#fff" stroke="#1a1a1a" stroke-width="1.6"/>
+<circle cx="189.0" cy="157.0" r="9.0" fill="#fff" stroke="#1a1a1a" stroke-width="1.6"/>
+<circle cx="225.0" cy="157.0" r="9.0" fill="#fff" stroke="#1a1a1a" stroke-width="1.6"/>
+<circle cx="261.0" cy="157.0" r="9.0" fill="#fff" stroke="#1a1a1a" stroke-width="1.6"/>
+<circle cx="297.0" cy="157.0" r="9.0" fill="#fff" stroke="#1a1a1a" stroke-width="1.6"/>
+<circle cx="45.0" cy="193.0" r="9.0" fill="#fff" stroke="#1a1a1a" stroke-width="1.6"/>
+<circle cx="81.0" cy="193.0" r="9.0" fill="#fff" stroke="#1a1a1a" stroke-width="1.6"/>
+<circle cx="117.0" cy="193.0" r="9.0" fill="#fff" stroke="#1a1a1a" stroke-width="1.6"/>
+<circle cx="153.0" cy="193.0" r="9.0" fill="#fff" stroke="#1a1a1a" stroke-width="1.6"/>
+<circle cx="189.0" cy="193.0" r="9.0" fill="#1a1a1a" stroke="#1a1a1a" stroke-width="1.6"/>
+<circle cx="225.0" cy="193.0" r="9.0" fill="#fff" stroke="#1a1a1a" stroke-width="1.6"/>
+<circle cx="261.0" cy="193.0" r="9.0" fill="#fff" stroke="#1a1a1a" stroke-width="1.6"/>
+<circle cx="297.0" cy="193.0" r="9.0" fill="#fff" stroke="#1a1a1a" stroke-width="1.6"/>
+<circle cx="45.0" cy="229.0" r="9.0" fill="#1a1a1a" stroke="#1a1a1a" stroke-width="1.6"/>
+<circle cx="81.0" cy="229.0" r="9.0" fill="#fff" stroke="#1a1a1a" stroke-width="1.6"/>
+<circle cx="117.0" cy="229.0" r="9.0" fill="#fff" stroke="#1a1a1a" stroke-width="1.6"/>
+<circle cx="153.0" cy="229.0" r="9.0" fill="#fff" stroke="#1a1a1a" stroke-width="1.6"/>
+<circle cx="189.0" cy="229.0" r="9.0" fill="#fff" stroke="#1a1a1a" stroke-width="1.6"/>
+<circle cx="225.0" cy="229.0" r="9.0" fill="#fff" stroke="#1a1a1a" stroke-width="1.6"/>
+<circle cx="261.0" cy="229.0" r="9.0" fill="#fff" stroke="#1a1a1a" stroke-width="1.6"/>
+<circle cx="297.0" cy="229.0" r="9.0" fill="#fff" stroke="#1a1a1a" stroke-width="1.6"/>
+<circle cx="45.0" cy="265.0" r="9.0" fill="#fff" stroke="#1a1a1a" stroke-width="1.6"/>
+<circle cx="81.0" cy="265.0" r="9.0" fill="#fff" stroke="#1a1a1a" stroke-width="1.6"/>
+<circle cx="117.0" cy="265.0" r="9.0" fill="#fff" stroke="#1a1a1a" stroke-width="1.6"/>
+<circle cx="153.0" cy="265.0" r="9.0" fill="#fff" stroke="#1a1a1a" stroke-width="1.6"/>
+<circle cx="189.0" cy="265.0" r="9.0" fill="#fff" stroke="#1a1a1a" stroke-width="1.6"/>
+<circle cx="225.0" cy="265.0" r="9.0" fill="#fff" stroke="#1a1a1a" stroke-width="1.6"/>
+<circle cx="261.0" cy="265.0" r="9.0" fill="#fff" stroke="#1a1a1a" stroke-width="1.6"/>
+<circle cx="297.0" cy="265.0" r="9.0" fill="#fff" stroke="#1a1a1a" stroke-width="1.6"/>
+<circle cx="45.0" cy="301.0" r="9.0" fill="#fff" stroke="#1a1a1a" stroke-width="1.6"/>
+<circle cx="81.0" cy="301.0" r="9.0" fill="#fff" stroke="#1a1a1a" stroke-width="1.6"/>
+<circle cx="117.0" cy="301.0" r="9.0" fill="#fff" stroke="#1a1a1a" stroke-width="1.6"/>
+<circle cx="153.0" cy="301.0" r="9.0" fill="#fff" stroke="#1a1a1a" stroke-width="1.6"/>
+<circle cx="189.0" cy="301.0" r="9.0" fill="#1a1a1a" stroke="#1a1a1a" stroke-width="1.6"/>
+<circle cx="225.0" cy="301.0" r="9.0" fill="#1a1a1a" stroke="#1a1a1a" stroke-width="1.6"/>
+<circle cx="261.0" cy="301.0" r="9.0" fill="#fff" stroke="#1a1a1a" stroke-width="1.6"/>
+<circle cx="297.0" cy="301.0" r="9.0" fill="#fff" stroke="#1a1a1a" stroke-width="1.6"/>
+<circle cx="45.0" cy="337.0" r="9.0" fill="#fff" stroke="#1a1a1a" stroke-width="1.6"/>
+<circle cx="81.0" cy="337.0" r="9.0" fill="#fff" stroke="#1a1a1a" stroke-width="1.6"/>
+<circle cx="117.0" cy="337.0" r="9.0" fill="#fff" stroke="#1a1a1a" stroke-width="1.6"/>
+<circle cx="153.0" cy="337.0" r="9.0" fill="#fff" stroke="#1a1a1a" stroke-width="1.6"/>
+<circle cx="189.0" cy="337.0" r="9.0" fill="#fff" stroke="#1a1a1a" stroke-width="1.6"/>
+<circle cx="225.0" cy="337.0" r="9.0" fill="#1a1a1a" stroke="#1a1a1a" stroke-width="1.6"/>
+<circle cx="261.0" cy="337.0" r="9.0" fill="#fff" stroke="#1a1a1a" stroke-width="1.6"/>
+<circle cx="297.0" cy="337.0" r="9.0" fill="#fff" stroke="#1a1a1a" stroke-width="1.6"/>
+<text x="505.0" y="42.0" font-size="30" text-anchor="middle" fill="#1a1a1a" xml:space="preserve"><tspan font-size="30.0">Sample</tspan></text>
+<rect x="440.0" y="60.0" width="130.0" height="130.0" fill="none" stroke="#1a1a1a" stroke-width="1.6"/>
+<circle cx="465.0" cy="85.0" r="9.0" fill="#1a1a1a" stroke="none" stroke-width="0"/>
+<circle cx="505.0" cy="85.0" r="9.0" fill="#1a1a1a" stroke="none" stroke-width="0"/>
+<circle cx="545.0" cy="85.0" r="9.0" fill="#1a1a1a" stroke="none" stroke-width="0"/>
+<circle cx="465.0" cy="125.0" r="9.0" fill="#1a1a1a" stroke="none" stroke-width="0"/>
+<circle cx="505.0" cy="125.0" r="9.0" fill="#1a1a1a" stroke="none" stroke-width="0"/>
+<circle cx="545.0" cy="125.0" r="9.0" fill="#1a1a1a" stroke="none" stroke-width="0"/>
+<circle cx="465.0" cy="165.0" r="9.0" fill="#1a1a1a" stroke="none" stroke-width="0"/>
+<circle cx="505.0" cy="165.0" r="9.0" fill="#1a1a1a" stroke="none" stroke-width="0"/>
+<circle cx="545.0" cy="165.0" r="9.0" fill="#1a1a1a" stroke="none" stroke-width="0"/>
+<line x1="345.0" y1="120.0" x2="420.0" y2="120.0" stroke="#1a1a1a" stroke-width="1.4"/>
+<line x1="420.0" y1="120.0" x2="406.3" y2="126.1" stroke="#1a1a1a" stroke-width="1.4"/>
+<line x1="420.0" y1="120.0" x2="406.3" y2="113.9" stroke="#1a1a1a" stroke-width="1.4"/>
+<line x1="505.0" y1="205.0" x2="505.0" y2="262.0" stroke="#1a1a1a" stroke-width="1.4"/>
+<line x1="505.0" y1="262.0" x2="498.9" y2="248.3" stroke="#1a1a1a" stroke-width="1.4"/>
+<line x1="505.0" y1="262.0" x2="511.1" y2="248.3" stroke="#1a1a1a" stroke-width="1.4"/>
+<text x="505.0" y="300.0" font-size="30" text-anchor="middle" fill="#1a1a1a" xml:space="preserve"><tspan font-size="30.0">Data</tspan></text>
+<text x="505.0" y="340.0" font-size="30" text-anchor="middle" fill="#1a1a1a" xml:space="preserve"><tspan font-size="30.0">(</tspan><tspan font-size="30.0" font-style="italic">x</tspan><tspan dy="9.0" font-size="21.0">1</tspan><tspan dy="-9.0" font-size="30.0">, </tspan><tspan font-size="30.0" font-style="italic">x</tspan><tspan dy="9.0" font-size="21.0">2</tspan><tspan dy="-9.0" font-size="30.0">, ⋯, </tspan><tspan font-size="30.0" font-style="italic">x</tspan><tspan dy="9.0" font-size="21.0" font-style="italic">n</tspan><tspan dy="-9.0" font-size="30.0">)</tspan></text>
+<line x1="505.0" y1="365.0" x2="505.0" y2="422.0" stroke="#1a1a1a" stroke-width="1.4"/>
+<line x1="505.0" y1="422.0" x2="498.9" y2="408.3" stroke="#1a1a1a" stroke-width="1.4"/>
+<line x1="505.0" y1="422.0" x2="511.1" y2="408.3" stroke="#1a1a1a" stroke-width="1.4"/>
+<text x="505.0" y="470.0" font-size="30" text-anchor="middle" fill="#1a1a1a" xml:space="preserve"><tspan font-size="30.0">Statistics</tspan></text>
+<text x="170.0" y="470.0" font-size="30" text-anchor="middle" fill="#1a1a1a" xml:space="preserve"><tspan font-size="30.0">Parameters</tspan></text>
+<text x="170.0" y="525.0" font-size="32" text-anchor="middle" fill="#1a1a1a" xml:space="preserve"><tspan font-size="32.0" font-style="italic">μ</tspan></text>
+<text x="505.0" y="525.0" font-size="32" text-anchor="middle" fill="#1a1a1a" xml:space="preserve"><tspan font-size="32.0" font-style="italic">x̄</tspan></text>
+<line x1="440.0" y1="515.0" x2="250.0" y2="515.0" stroke="#1a1a1a" stroke-width="1.4"/>
+<line x1="250.0" y1="515.0" x2="263.7" y2="508.9" stroke="#1a1a1a" stroke-width="1.4"/>
+<line x1="250.0" y1="515.0" x2="263.7" y2="521.1" stroke="#1a1a1a" stroke-width="1.4"/>
+<text x="170.0" y="570.0" font-size="32" text-anchor="middle" fill="#1a1a1a" xml:space="preserve"><tspan font-size="32.0" font-style="italic">σ</tspan><tspan dy="-12.2" font-size="22.4">2</tspan></text>
+<text x="505.0" y="570.0" font-size="32" text-anchor="middle" fill="#1a1a1a" xml:space="preserve"><tspan font-size="32.0" font-style="italic">s</tspan><tspan dy="-12.2" font-size="22.4">2</tspan></text>
+<line x1="440.0" y1="560.0" x2="250.0" y2="560.0" stroke="#1a1a1a" stroke-width="1.4"/>
+<line x1="250.0" y1="560.0" x2="263.7" y2="553.9" stroke="#1a1a1a" stroke-width="1.4"/>
+<line x1="250.0" y1="560.0" x2="263.7" y2="566.1" stroke="#1a1a1a" stroke-width="1.4"/>
+<text x="170.0" y="615.0" font-size="32" text-anchor="middle" fill="#1a1a1a" xml:space="preserve"><tspan font-size="32.0" font-style="italic">σ</tspan></text>
+<text x="505.0" y="615.0" font-size="32" text-anchor="middle" fill="#1a1a1a" xml:space="preserve"><tspan font-size="32.0" font-style="italic">s</tspan></text>
+<line x1="440.0" y1="605.0" x2="250.0" y2="605.0" stroke="#1a1a1a" stroke-width="1.4"/>
+<line x1="250.0" y1="605.0" x2="263.7" y2="598.9" stroke="#1a1a1a" stroke-width="1.4"/>
+<line x1="250.0" y1="605.0" x2="263.7" y2="611.1" stroke="#1a1a1a" stroke-width="1.4"/>
+<text x="170.0" y="660.0" font-size="32" text-anchor="middle" fill="#1a1a1a" xml:space="preserve"><tspan font-size="32.0" font-style="italic">p</tspan></text>
+<text x="505.0" y="660.0" font-size="32" text-anchor="middle" fill="#1a1a1a" xml:space="preserve"><tspan font-size="32.0" font-style="italic">p̂</tspan></text>
+<line x1="440.0" y1="650.0" x2="250.0" y2="650.0" stroke="#1a1a1a" stroke-width="1.4"/>
+<line x1="250.0" y1="650.0" x2="263.7" y2="643.9" stroke="#1a1a1a" stroke-width="1.4"/>
+<line x1="250.0" y1="650.0" x2="263.7" y2="656.1" stroke="#1a1a1a" stroke-width="1.4"/>
+</svg>

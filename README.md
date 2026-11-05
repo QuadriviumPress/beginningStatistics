@@ -49,7 +49,7 @@ The preserved archive does not include the companion spreadsheets used by “Lar
 - `chapters/`: eleven complete chapters, one file per chapter.
 - `front/`: license, author biographies, acknowledgements, dedication, and preface.
 - `appendices/`: statistical reference tables at their original scan resolution.
-- `images/`: source diagrams, reference scans, branding, and replacement name cards.
+- `images/`: SVG redraws of every diagram (`images/redrawn/`), appendix table scans, two equation images, branding, and replacement name cards.
 - `source/`: original combined HTML pages and import manifest.
 - `scripts/`: conversion, verification, and PWA setup.
 - `.github/`: shared CI, dependency updates, and Pages deployment configuration.

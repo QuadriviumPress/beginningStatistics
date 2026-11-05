@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 660" role="img" aria-labelledby="title desc" font-family="'STIX Two Text','Times New Roman',Times,'Liberation Serif',serif">
+<title id="title">Figure 3.5 The union of events A and B</title>
+<desc id="desc">Venn diagram of two overlapping circles A and B in a rectangle; everything inside either circle, A ∪ B, is shaded.</desc>
+<rect width="1000" height="660" fill="#fff"/>
+<rect x="10.0" y="10.0" width="980.0" height="640.0" fill="none" stroke="#1f56a8" stroke-width="8"/>
+<defs><clipPath id="inA"><circle cx="440" cy="330" r="220"/></clipPath></defs>
+<circle cx="440.0" cy="330.0" r="220.0" fill="#00a9c4" stroke="none" stroke-width="0"/>
+<circle cx="650.0" cy="330.0" r="165.0" fill="#00a9c4" stroke="none" stroke-width="0"/>
+<circle cx="440.0" cy="330.0" r="220.0" fill="none" stroke="#1a1a1a" stroke-width="3"/>
+<circle cx="650.0" cy="330.0" r="165.0" fill="none" stroke="#1a1a1a" stroke-width="3"/>
+<text x="170.0" y="170.0" font-size="60" text-anchor="middle" fill="#1a1a1a" xml:space="preserve"><tspan font-size="60.0" font-style="italic">A</tspan></text>
+<text x="870.0" y="220.0" font-size="60" text-anchor="middle" fill="#1a1a1a" xml:space="preserve"><tspan font-size="60.0" font-style="italic">B</tspan></text>
+</svg>

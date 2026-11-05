@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 640" role="img" aria-labelledby="title desc" font-family="'STIX Two Text','Times New Roman',Times,'Liberation Serif',serif">
+<title id="title">Figure 4.1 Probability distribution for tossing a fair coin twice</title>
+<desc id="desc">Probability histogram for the number of heads in two tosses of a fair coin: bars of height 0.25 at 0, 0.50 at 1, and 0.25 at 2.</desc>
+<rect width="1000" height="640" fill="#fff"/>
+<line x1="100.0" y1="560.0" x2="960.0" y2="560.0" stroke="#1a1a1a" stroke-width="1.6"/>
+<line x1="100.0" y1="560.0" x2="100.0" y2="20.0" stroke="#1a1a1a" stroke-width="1.6"/>
+<rect x="207.5" y="335.0" width="215.0" height="225.0" fill="none" stroke="#1f56a8" stroke-width="1.8"/>
+<rect x="422.5" y="110.0" width="215.0" height="450.0" fill="none" stroke="#1f56a8" stroke-width="1.8"/>
+<rect x="637.5" y="335.0" width="215.0" height="225.0" fill="none" stroke="#1f56a8" stroke-width="1.8"/>
+<line x1="100.0" y1="335.0" x2="108.0" y2="335.0" stroke="#1a1a1a" stroke-width="1.6"/>
+<text x="92.0" y="343.4" font-size="24" text-anchor="end" fill="#1a1a1a" xml:space="preserve"><tspan font-size="24.0">0.25</tspan></text>
+<line x1="100.0" y1="110.0" x2="108.0" y2="110.0" stroke="#1a1a1a" stroke-width="1.6"/>
+<text x="92.0" y="118.4" font-size="24" text-anchor="end" fill="#1a1a1a" xml:space="preserve"><tspan font-size="24.0">0.50</tspan></text>
+<line x1="315.0" y1="560.0" x2="315.0" y2="552.0" stroke="#1a1a1a" stroke-width="1.6"/>
+<text x="315.0" y="594.0" font-size="26" text-anchor="middle" fill="#1a1a1a" xml:space="preserve"><tspan font-size="26.0">0</tspan></text>
+<line x1="530.0" y1="560.0" x2="530.0" y2="552.0" stroke="#1a1a1a" stroke-width="1.6"/>
+<text x="530.0" y="594.0" font-size="26" text-anchor="middle" fill="#1a1a1a" xml:space="preserve"><tspan font-size="26.0">1</tspan></text>
+<line x1="745.0" y1="560.0" x2="745.0" y2="552.0" stroke="#1a1a1a" stroke-width="1.6"/>
+<text x="745.0" y="594.0" font-size="26" text-anchor="middle" fill="#1a1a1a" xml:space="preserve"><tspan font-size="26.0">2</tspan></text>
+</svg>

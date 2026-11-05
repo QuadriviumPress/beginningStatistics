@@ -1,4 +1,4 @@
-"""Preserve teaching diagrams and replace undocumented portraits with name cards."""
+"""Preserve or redraw teaching diagrams and replace undocumented portraits with name cards."""
 import hashlib
 import html
 import json
@@ -7,9 +7,13 @@ import shutil
 import subprocess
 from pathlib import Path
 
+from render_figures import FIGURES, render
+
 ROOT = Path(__file__).resolve().parents[1]
 UPSTREAM = 'https://2012books.lardbucket.org/books/beginning-statistics/'
 CONTENT_LICENSE = 'https://creativecommons.org/licenses/by-nc-sa/3.0/'
+ACTIONS = {'portrait': 'Original name card replaces undocumented portrait',
+           'redraw': 'Redrawn as accessible SVG by QuadriviumPress'}
 PORTRAITS = {
     '43a57aa5174aa48c749d72adc0ecc342': 'Douglas S. Shafer',
     '27273eef185dd7263d7c9f9954725169': 'Zhiyi Zhang',
@@ -61,17 +65,31 @@ def prepare_figures(source, entries):
                               'alt': f'Author name card for {name}; typographic replacement for the source portrait.',
                               'credit': 'QuadriviumPress', 'license': 'CC BY-NC-SA 3.0',
                               'license_url': CONTENT_LICENSE, 'source': 'scripts/figure_replacements.py',
-                              'page': entry['file'], 'title': name}
+                              'page': entry['file'], 'title': name, 'kind': 'portrait'}
+            elif key in FIGURES:
+                dest = render(key)
+                plans[key] = {'original_asset': src, 'original_sha256': sha(source / src),
+                              'path': str(dest.relative_to(ROOT)), 'sha256': sha(dest),
+                              'alt': FIGURES[key]['alt'],
+                              'credit': 'QuadriviumPress SVG redraw of source figure', 'license': 'CC BY-NC-SA 3.0',
+                              'license_url': CONTENT_LICENSE, 'source': 'scripts/render_figures.py',
+                              'page': entry['file'], 'title': FIGURES[key]['title'], 'kind': 'redraw'}
             elif figure and re.search(r'Thinkstock|Getty|permission|copyright|©', figure.get_text(), re.I):
                 raise ValueError(f'Unreviewed image credit: {src}')
             slots.append({'page': entry['file'], 'source': src, 'title': context,
-                          'action': 'Original name card replaces undocumented portrait' if key in PORTRAITS else 'Retain source instructional artwork'})
-    if set(plans) != set(PORTRAITS):
+                          'action': ACTIONS[plans[key]['kind']] if key in plans else 'Retain source instructional artwork'})
+    if set(PORTRAITS) - set(plans):
         raise ValueError('Source portrait inventory changed')
+    if set(FIGURES) - set(plans):
+        raise ValueError(f'Redrawn figures missing from source: {sorted(set(FIGURES) - set(plans))}')
+    redrawn = sum(p['kind'] == 'redraw' for p in plans.values())
+    retained = len(slots) - len(plans)
     (ROOT / 'figure-replacements.json').write_text(json.dumps({'entries': plans}, indent=2, ensure_ascii=False) + '\n')
     credits = ['# Image credits\n',
-               'All 143 source instructional diagrams and statistical table scans are retained under the textbook’s '
+               f'{retained} source images, the statistical table scans and two images of equations, are retained under the textbook’s '
                '[CC BY-NC-SA 3.0 license](https://creativecommons.org/licenses/by-nc-sa/3.0/). '
+               f'{redrawn} diagrams are redrawn by QuadriviumPress as accessible SVG from the source figures; '
+               'as adaptations of the textbook they carry the same license. '
                'The two source portraits have been replaced by original QuadriviumPress typographic name cards, '
                'released under the same license. These cards do not portray the authors. '
                'Every asset’s source, description, license, and checksum is recorded in `source/manifest.json`.\n',
@@ -80,13 +98,15 @@ def prepare_figures(source, entries):
         title = slot['title'].replace('|', '\\|').replace('\n', ' ')
         credits.append(f'| [{Path(slot["page"]).stem}]({slot["page"]}) | {title} (`{Path(slot["source"]).stem[:8]}`) | {slot["action"]} |')
     (ROOT / 'image-credits.md').write_text('\n'.join(credits) + '\n')
-    (ROOT / 'FIGURE-AUDIT.md').write_text('''# Figure audit
+    (ROOT / 'FIGURE-AUDIT.md').write_text(f'''# Figure audit
 
 The 16 top-level source pages contain 145 image slots: 130 instructional diagrams, 13 appendix table scans, and two author photographs. All source slots were inspected in contact sheets. No stock photographs or separately credited third-party images appear among the instructional diagrams and table scans. Their source textbook license is retained.
 
 The two portraits lack separate rights documentation and are replaced with original typographic name cards. Their original image bytes are excluded. `figure-replacements.json` records the original and replacement checksums. Original HTML retains the source references for provenance.
 
-All 143 retained assets are copied without resizing or recompression, including the high-resolution appendix tables. Figure titles and source identifiers are preserved; alternative text is supplied for every image. Table scans remain raster images, so their numeric cells are not screen-reader-accessible tables. This is a known limitation of this source adaptation.
+{redrawn} diagrams are redrawn as SVG by `scripts/render_figures.py`, using only the Python standard library. Curves are computed from the distributions they depict, and every label, value, and critical point is checked against the source figure and the worked example it illustrates. Student *t* figures stay schematic, as in the source: each *t* value is placed where the drawn bell curve encloses the same tail area. Each SVG has a title and a description, and its figure has a full text alternative. Data plots are computed from the data printed in the text; random illustrations are measured from the source images. Four source labeling errors are corrected (in Figures 2.13, 2.18, and 8.16 and the Example 21 illustration; see `SOURCES.md`). The source rasters of redrawn figures are not shipped; `figure-replacements.json` records their checksums.
+
+The other {retained} assets are copied without resizing or recompression, including the high-resolution appendix tables. Figure titles and source identifiers are preserved; alternative text is supplied for every image. Table scans remain raster images, so their numeric cells are not screen-reader-accessible tables. This is a known limitation of this source adaptation.
 
 See [Image credits](image-credits.md) for every slot and `source/manifest.json` for the machine-readable asset ledger. Rendered-content verification checks that all 145 image occurrences survive the build.
 ''')
@@ -128,7 +148,7 @@ def figure_node(figure, source, entry, ledger, manifest):
         if figure.get('id') and i == 0:
             text += f':name: {label(figure["id"])}\n'
         text += '\n' + caption
-        if Path(image['src']).stem in ledger:
+        if ledger.get(Path(image['src']).stem, {}).get('kind') == 'portrait':
             text += f'\n\nOriginal typographic name card by QuadriviumPress; [CC BY-NC-SA 3.0]({CONTENT_LICENSE}).'
         text += '\n``````'
         parts.append(text)

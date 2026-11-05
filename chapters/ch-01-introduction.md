@@ -70,8 +70,8 @@ Qualitative data can generate numerical sample statistics. In the automobile exa
 
 The relationship between a population of interest and a sample drawn from that population is perhaps the most important concept in statistics, since everything else rests on it. This relationship is illustrated graphically in [Figure 1.1 \"The Grand Picture of Statistics\"](/chapters/ch-01-introduction.md#src-fwk-shafer-ch01-s01-f01). The circles in the large box represent elements of the population. In the figure there was room for only a small number of them but in actual situations, like our automobile example, they could very well number in the millions. The solid black circles represent the elements of the population that are selected at random and that together form the sample. For each element of the sample there is a measurement of interest, denoted by a lower case *x* (which we have indexed as $x_{1},\ldots,x_{n}$ to tell them apart); these measurements collectively form the sample data set. From the data we may calculate various statistics. To anticipate the notation that will be used later, we might compute the sample mean $\overset{-}{\mathit{x}}$ and the sample proportion $\hat{\mathit{p}}$, and take them as approximations to the population mean *μ* (this is the lower case Greek letter mu, the traditional symbol for this parameter) and the population proportion *p*, respectively. The other symbols in the figure stand for other parameters and statistics that we will encounter.
 
-``````{figure} /images/section_05/061a9224135424ca4644d6a0bb5f5913.jpg
-:alt: Statistical diagram: Figure 1.1 The Grand Picture of Statistics
+``````{figure} /images/redrawn/fig-01-01.svg
+:alt: A population drawn as a grid of 64 circles, nine of them filled, with an arrow to a sample of those nine. Arrows lead from the sample to its data (x₁, x₂, …, xₙ) and from the data to statistics x̄, s², s, and p̂, which point back to the population parameters μ, σ², σ, and p that they estimate.
 :name: src-fwk-shafer-ch01-s01-f01
 
 Figure 1.1 The Grand Picture of Statistics

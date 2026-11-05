@@ -114,11 +114,13 @@ def main():
     for key, plan in plans.items():
         text = documents[plan['page']]
         if '/images/' + plan['original_asset'] in text or (ROOT / 'images' / plan['original_asset']).exists():
-            errors.append(f'Replaced portrait is still shipped: {key}')
+            errors.append(f'Replaced source image is still shipped: {key}')
+        if '/' + plan['path'] not in text:
+            errors.append(f'Replacement not used on its page: {key}: {plan["path"]}')
         for field in ('path', 'title', 'alt', 'credit', 'license', 'license_url', 'source', 'sha256'):
             if not plan.get(field):
                 errors.append(f'Incomplete replacement provenance: {key}: {field}')
-        if plan['license_url'] not in text or plan['credit'] not in text:
+        if plan.get('kind') == 'portrait' and (plan['license_url'] not in text or plan['credit'] not in text):
             errors.append(f'Replacement credit not visible: {key}')
         if not (ROOT / plan['path']).is_file() or sha(ROOT / plan['path']) != plan['sha256']:
             errors.append(f'Replacement missing or modified: {plan["path"]}')

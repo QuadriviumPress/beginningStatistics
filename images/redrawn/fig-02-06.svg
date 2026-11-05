@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 560" role="img" aria-labelledby="title desc" font-family="'STIX Two Text','Times New Roman',Times,'Liberation Serif',serif">
+<title id="title">Figure 2.6 A very fine relative frequency histogram</title>
+<desc id="desc">A bell-shaped curve with a very fine histogram filling the region under it between a and b; the shaded area equals the proportion of the data between a and b.</desc>
+<rect width="1000" height="560" fill="#fff"/>
+<rect x="342.5" y="261.1" width="12.5" height="218.9" fill="#dde2f3" stroke="#1f56a8" stroke-width="1"/>
+<rect x="355.0" y="238.0" width="12.5" height="242.0" fill="#dde2f3" stroke="#1f56a8" stroke-width="1"/>
+<rect x="367.5" y="215.3" width="12.5" height="264.7" fill="#dde2f3" stroke="#1f56a8" stroke-width="1"/>
+<rect x="380.0" y="193.2" width="12.5" height="286.8" fill="#dde2f3" stroke="#1f56a8" stroke-width="1"/>
+<rect x="392.5" y="172.4" width="12.5" height="307.6" fill="#dde2f3" stroke="#1f56a8" stroke-width="1"/>
+<rect x="405.0" y="153.4" width="12.5" height="326.6" fill="#dde2f3" stroke="#1f56a8" stroke-width="1"/>
+<rect x="417.5" y="136.6" width="12.5" height="343.4" fill="#dde2f3" stroke="#1f56a8" stroke-width="1"/>
+<rect x="430.0" y="122.6" width="12.5" height="357.4" fill="#dde2f3" stroke="#1f56a8" stroke-width="1"/>
+<rect x="442.5" y="111.7" width="12.5" height="368.3" fill="#dde2f3" stroke="#1f56a8" stroke-width="1"/>
+<rect x="455.0" y="104.3" width="12.5" height="375.7" fill="#dde2f3" stroke="#1f56a8" stroke-width="1"/>
+<rect x="467.5" y="100.5" width="12.5" height="379.5" fill="#dde2f3" stroke="#1f56a8" stroke-width="1"/>
+<rect x="480.0" y="100.5" width="12.5" height="379.5" fill="#dde2f3" stroke="#1f56a8" stroke-width="1"/>
+<rect x="492.5" y="104.3" width="12.5" height="375.7" fill="#dde2f3" stroke="#1f56a8" stroke-width="1"/>
+<rect x="505.0" y="111.7" width="12.5" height="368.3" fill="#dde2f3" stroke="#1f56a8" stroke-width="1"/>
+<rect x="517.5" y="122.6" width="12.5" height="357.4" fill="#dde2f3" stroke="#1f56a8" stroke-width="1"/>
+<rect x="530.0" y="136.6" width="12.5" height="343.4" fill="#dde2f3" stroke="#1f56a8" stroke-width="1"/>
+<rect x="542.5" y="153.4" width="12.5" height="326.6" fill="#dde2f3" stroke="#1f56a8" stroke-width="1"/>
+<rect x="555.0" y="172.4" width="12.5" height="307.6" fill="#dde2f3" stroke="#1f56a8" stroke-width="1"/>
+<rect x="567.5" y="193.2" width="12.5" height="286.8" fill="#dde2f3" stroke="#1f56a8" stroke-width="1"/>
+<rect x="580.0" y="215.3" width="12.5" height="264.7" fill="#dde2f3" stroke="#1f56a8" stroke-width="1"/>
+<rect x="592.5" y="238.0" width="12.5" height="242.0" fill="#dde2f3" stroke="#1f56a8" stroke-width="1"/>
+<rect x="605.0" y="261.1" width="12.5" height="218.9" fill="#dde2f3" stroke="#1f56a8" stroke-width="1"/>
+<rect x="617.5" y="283.9" width="12.5" height="196.1" fill="#dde2f3" stroke="#1f56a8" stroke-width="1"/>
+<rect x="630.0" y="306.0" width="12.5" height="174.0" fill="#dde2f3" stroke="#1f56a8" stroke-width="1"/>
+<rect x="642.5" y="327.3" width="12.5" height="152.7" fill="#dde2f3" stroke="#1f56a8" stroke-width="1"/>
+<rect x="655.0" y="347.2" width="12.5" height="132.8" fill="#dde2f3" stroke="#1f56a8" stroke-width="1"/>
+<rect x="667.5" y="365.7" width="12.5" height="114.3" fill="#dde2f3" stroke="#1f56a8" stroke-width="1"/>
+<rect x="680.0" y="382.6" width="12.5" height="97.4" fill="#dde2f3" stroke="#1f56a8" stroke-width="1"/>
+<rect x="692.5" y="397.8" width="12.5" height="82.2" fill="#dde2f3" stroke="#1f56a8" stroke-width="1"/>
+<path d="M67.5,478.4 L70.9,478.2 L74.4,478.0 L77.8,477.9 L81.3,477.7 L84.7,477.4 L88.1,477.2 L91.6,477.0 L95.0,476.7 L98.4,476.4 L101.9,476.1 L105.3,475.7 L108.8,475.4 L112.2,475.0 L115.6,474.6 L119.1,474.1 L122.5,473.6 L125.9,473.1 L129.4,472.6 L132.8,472.0 L136.2,471.3 L139.7,470.7 L143.1,469.9 L146.6,469.2 L150.0,468.4 L153.4,467.5 L156.9,466.6 L160.3,465.6 L163.8,464.5 L167.2,463.4 L170.6,462.2 L174.1,461.0 L177.5,459.7 L180.9,458.3 L184.4,456.8 L187.8,455.3 L191.3,453.6 L194.7,451.9 L198.1,450.1 L201.6,448.2 L205.0,446.2 L208.4,444.1 L211.9,441.9 L215.3,439.6 L218.8,437.2 L222.2,434.7 L225.6,432.1 L229.1,429.3 L232.5,426.5 L235.9,423.5 L239.4,420.4 L242.8,417.2 L246.3,413.9 L249.7,410.4 L253.1,406.8 L256.6,403.1 L260.0,399.3 L263.4,395.3 L266.9,391.2 L270.3,387.0 L273.8,382.6 L277.2,378.1 L280.6,373.5 L284.1,368.8 L287.5,363.9 L290.9,359.0 L294.4,353.9 L297.8,348.6 L301.2,343.3 L304.7,337.9 L308.1,332.4 L311.6,326.7 L315.0,321.0 L318.4,315.2 L321.9,309.3 L325.3,303.3 L328.8,297.3 L332.2,291.2 L335.6,285.0 L339.1,278.8 L342.5,272.5 L345.9,266.2 L349.4,259.9 L352.8,253.6 L356.3,247.2 L359.7,240.9 L363.1,234.6 L366.6,228.3 L370.0,222.0 L373.4,215.8 L376.9,209.7 L380.3,203.6 L383.8,197.5 L387.2,191.6 L390.6,185.8 L394.1,180.0 L397.5,174.4 L400.9,168.9 L404.4,163.6 L407.8,158.4 L411.3,153.4 L414.7,148.5 L418.1,143.9 L421.6,139.4 L425.0,135.1 L428.4,131.0 L431.9,127.2 L435.3,123.6 L438.8,120.2 L442.2,117.0 L445.6,114.2 L449.1,111.5 L452.5,109.1 L455.9,107.0 L459.4,105.2 L462.8,103.6 L466.2,102.3 L469.7,101.3 L473.1,100.6 L476.6,100.2 L480.0,100.1 L483.4,100.2 L486.9,100.6 L490.3,101.3 L493.7,102.3 L497.2,103.6 L500.6,105.2 L504.1,107.0 L507.5,109.1 L510.9,111.5 L514.4,114.2 L517.8,117.0 L521.2,120.2 L524.7,123.6 L528.1,127.2 L531.6,131.0 L535.0,135.1 L538.4,139.4 L541.9,143.9 L545.3,148.5 L548.8,153.4 L552.2,158.4 L555.6,163.6 L559.1,168.9 L562.5,174.4 L565.9,180.0 L569.4,185.8 L572.8,191.6 L576.2,197.5 L579.7,203.6 L583.1,209.7 L586.6,215.8 L590.0,222.0 L593.4,228.3 L596.9,234.6 L600.3,240.9 L603.8,247.2 L607.2,253.6 L610.6,259.9 L614.1,266.2 L617.5,272.5 L620.9,278.8 L624.4,285.0 L627.8,291.2 L631.3,297.3 L634.7,303.3 L638.1,309.3 L641.6,315.2 L645.0,321.0 L648.4,326.7 L651.9,332.4 L655.3,337.9 L658.8,343.3 L662.2,348.6 L665.6,353.9 L669.1,359.0 L672.5,363.9 L675.9,368.8 L679.4,373.5 L682.8,378.1 L686.2,382.6 L689.7,387.0 L693.1,391.2 L696.6,395.3 L700.0,399.3 L703.4,403.1 L706.9,406.8 L710.3,410.4 L713.8,413.9 L717.2,417.2 L720.6,420.4 L724.1,423.5 L727.5,426.5 L730.9,429.3 L734.4,432.1 L737.8,434.7 L741.2,437.2 L744.7,439.6 L748.1,441.9 L751.6,444.1 L755.0,446.2 L758.4,448.2 L761.9,450.1 L765.3,451.9 L768.8,453.6 L772.2,455.3 L775.6,456.8 L779.1,458.3 L782.5,459.7 L785.9,461.0 L789.4,462.2 L792.8,463.4 L796.2,464.5 L799.7,465.6 L803.1,466.6 L806.6,467.5 L810.0,468.4 L813.4,469.2 L816.9,469.9 L820.3,470.7 L823.8,471.3 L827.2,472.0 L830.6,472.6 L834.1,473.1 L837.5,473.6 L840.9,474.1 L844.4,474.6 L847.8,475.0 L851.2,475.4 L854.7,475.7 L858.1,476.1 L861.6,476.4 L865.0,476.7 L868.4,477.0 L871.9,477.2 L875.3,477.4 L878.7,477.7 L882.2,477.9 L885.6,478.0 L889.1,478.2 L892.5,478.4" fill="none" stroke="#1f56a8" stroke-width="2" stroke-linejoin="round"/>
+<line x1="30.0" y1="480.0" x2="930.0" y2="480.0" stroke="#1a1a1a" stroke-width="1.6"/>
+<text x="342.5" y="524.0" font-size="34" text-anchor="middle" fill="#1a1a1a" xml:space="preserve"><tspan font-size="34.0" font-style="italic">a</tspan></text>
+<text x="701.2" y="524.0" font-size="34" text-anchor="middle" fill="#1a1a1a" xml:space="preserve"><tspan font-size="34.0" font-style="italic">b</tspan></text>
+<text x="500.0" y="46.0" font-size="32" text-anchor="middle" fill="#1a1a1a" xml:space="preserve"><tspan font-size="32.0">Shaded Area = Proportion of Data between </tspan><tspan font-size="32.0" font-style="italic">a</tspan><tspan font-size="32.0"> and </tspan><tspan font-size="32.0" font-style="italic">b</tspan></text>
+</svg>

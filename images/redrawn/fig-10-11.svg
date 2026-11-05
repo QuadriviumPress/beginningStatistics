@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 790" role="img" aria-labelledby="title desc" font-family="'STIX Two Text','Times New Roman',Times,'Liberation Serif',serif">
+<title id="title">Figure 10.11</title>
+<desc id="desc">Scatter plot of points with no trend, scattered above and below a horizontal line ŷ = ȳ at the mean of the y values.</desc>
+<rect width="1000" height="790" fill="#fff"/>
+<rect x="10.0" y="10.0" width="980.0" height="770.0" fill="none" stroke="#1a1a1a" stroke-width="1.6"/>
+<line x1="10.0" y1="418.1" x2="990.0" y2="418.1" stroke="#1a1a1a" stroke-width="2.5"/>
+<circle cx="160.9" cy="418.9" r="12.0" fill="#1f56a8" stroke="none" stroke-width="0"/>
+<circle cx="183.5" cy="471.2" r="12.0" fill="#1f56a8" stroke="none" stroke-width="0"/>
+<circle cx="236.4" cy="445.8" r="12.0" fill="#1f56a8" stroke="none" stroke-width="0"/>
+<circle cx="273.6" cy="331.1" r="12.0" fill="#1f56a8" stroke="none" stroke-width="0"/>
+<circle cx="311.8" cy="471.2" r="12.0" fill="#1f56a8" stroke="none" stroke-width="0"/>
+<circle cx="311.8" cy="445.8" r="12.0" fill="#1f56a8" stroke="none" stroke-width="0"/>
+<circle cx="311.8" cy="395.0" r="12.0" fill="#1f56a8" stroke="none" stroke-width="0"/>
+<circle cx="386.3" cy="381.9" r="12.0" fill="#1f56a8" stroke="none" stroke-width="0"/>
+<circle cx="424.5" cy="522.8" r="12.0" fill="#1f56a8" stroke="none" stroke-width="0"/>
+<circle cx="461.8" cy="395.0" r="12.0" fill="#1f56a8" stroke="none" stroke-width="0"/>
+<circle cx="500.0" cy="266.4" r="12.0" fill="#1f56a8" stroke="none" stroke-width="0"/>
+<circle cx="537.2" cy="395.0" r="12.0" fill="#1f56a8" stroke="none" stroke-width="0"/>
+<circle cx="551.9" cy="522.8" r="12.0" fill="#1f56a8" stroke="none" stroke-width="0"/>
+<circle cx="574.5" cy="331.1" r="12.0" fill="#1f56a8" stroke="none" stroke-width="0"/>
+<circle cx="612.7" cy="445.8" r="12.0" fill="#1f56a8" stroke="none" stroke-width="0"/>
+<circle cx="688.2" cy="472.0" r="12.0" fill="#1f56a8" stroke="none" stroke-width="0"/>
+<circle cx="725.4" cy="368.8" r="12.0" fill="#1f56a8" stroke="none" stroke-width="0"/>
+<circle cx="740.1" cy="428.1" r="12.0" fill="#1f56a8" stroke="none" stroke-width="0"/>
+<text x="890.0" y="388.1" font-size="44" text-anchor="middle" fill="#1a1a1a" xml:space="preserve"><tspan font-size="44.0" font-style="italic">ŷ</tspan><tspan font-size="44.0"> = </tspan><tspan font-size="44.0" font-style="italic">ȳ</tspan></text>
+</svg>

@@ -18,8 +18,8 @@ We will study construction of confidence intervals and tests of hypotheses in fo
 
 Suppose we wish to compare the means of two distinct populations. [Figure 9.1 \"Independent Sampling from Two Populations\"](/chapters/ch-09-two-sample-problems.md#src-fwk-shafer-ch09-s01-f01) illustrates the conceptual framework of our investigation in this and the next section. Each population has a mean and a standard deviation. We arbitrarily label one population as Population 1 and the other as Population 2, and subscript the parameters with the numbers 1 and 2 to tell them apart. We draw a random sample from Population 1 and label the sample statistics it yields with the subscript 1. Without reference to the first sample we draw a sample from Population 2 and label its sample statistics with the subscript 2.
 
-``````{figure} /images/section_13/1ad736d4248ac0eb4e843e5bdb063677.jpg
-:alt: Statistical diagram: Figure 9.1 Independent Sampling from Two Populations
+``````{figure} /images/redrawn/fig-09-01.svg
+:alt: Two boxes labeled Population 1 and Population 2, with means μ₁ and μ₂ and standard deviations σ₁ and σ₂. An arrow from each leads to a box for its sample, Sample 1 or Sample 2, with size n₁ or n₂, mean x̄₁ or x̄₂, and standard deviation s₁ or s₂.
 :name: src-fwk-shafer-ch09-s01-f01
 
 Figure 9.1 Independent Sampling from Two Populations
@@ -142,8 +142,8 @@ Solution:
 
 - Step 4. Since the symbol in *H<sub>a</sub>* is "\>" this is a right-tailed test, so there is a single critical value, $z_{\alpha} = z_{0.01}$, which from the last line in [Figure 12.3 \"Critical Values of \"](/appendices/appendix.md#src-fwk-shafer-ch12-f03) we read off as 2.326. The rejection region is $\left\lbrack {2.326,\infty} \right).$
 
-  ``````{figure} /images/section_13/5b3274bd341a0dedc9193ff3b4afa69a.jpg
-  :alt: Statistical diagram: Figure 9.2 Rejection Region and Test Statistic for Note 9.6 "Example 2"
+  ``````{figure} /images/redrawn/fig-09-02.svg
+  :alt: Standard normal curve for Hₐ: μ₁ − μ₂ > 0. The right tail of area α = 0.01 is shaded above the critical value z_α = 2.326. On the number line below, the rejection region z ≥ 2.326 is red, and the test statistic Z = 5.684, marked with a star near the right end, lies far inside it.
   :name: src-fwk-shafer-ch09-s01-s02-f01
 
   Figure 9.2 Rejection Region and Test Statistic for [Note 9.6 \"Example 2\"](/chapters/ch-09-two-sample-problems.md#src-fwk-shafer-ch09-s01-s02-n02){.xref xrefstyle="select: title"}
@@ -165,8 +165,8 @@ The first three steps are identical to those in [Note 9.6 \"Example 2\"](/chapte
 
 - Step 4. The observed significance or *p*-value of the test is the area of the right tail of the standard normal distribution that is cut off by the test statistic *Z* = 5.684. The number 5.684 is too large to appear in [Figure 12.2 \"Cumulative Normal Probability\"](/appendices/appendix.md#src-fwk-shafer-ch12-f02), which means that the area of the *left* tail that it cuts off is 1.0000 to four decimal places. The area that we seek, the area of the *right* tail, is therefore $1 - 1.0000 = 0.0000$ to four decimal places. See [Figure 9.3](/chapters/ch-09-two-sample-problems.md#src-fwk-shafer-ch09-s01-s02-f02). That is, $p\text{ -value} = 0.0000$ to four decimal places. (The actual value is approximately $0.000\, 000\, 007.$)
 
-``````{figure} /images/section_13/dd649c00a430c1f005660c9ed8188d58.jpg
-:alt: Statistical diagram: Figure 9.3 P -Value for Note 9.7 "Example 3"
+``````{figure} /images/redrawn/fig-09-03.svg
+:alt: Standard normal curve with the test statistic Z = 5.684 marked near the right end of the z axis. The area to its left is labeled area ≈ 1.0000; the vanishing tail to its right is labeled area = p-value ≈ 0.000.
 :name: src-fwk-shafer-ch09-s01-s02-f02
 
 Figure 9.3 *P*-Value for [Note 9.7 \"Example 3\"](/chapters/ch-09-two-sample-problems.md#src-fwk-shafer-ch09-s01-s02-n03){.xref xrefstyle="select: title"}
@@ -801,8 +801,8 @@ Solution:
 
 - Step 4. Since the symbol in *H<sub>a</sub>* is "≠" this is a two-tailed test, so there are two critical values, $\pm t_{\alpha / 2} = \pm t_{0.005}.$ From the row in [Figure 12.3 \"Critical Values of \"](/appendices/appendix.md#src-fwk-shafer-ch12-f03) with the heading $df = 15$ we read off $t_{0.005} = 2.947.$ The rejection region is $\left( {\text{-}\infty,\text{-}2.947} \right\rbrack \cup \left\lbrack {2.947,\infty} \right).$
 
-  ``````{figure} /images/section_13/829e1f428616582053c27c2d3b8254e8.jpg
-  :alt: Statistical diagram: Figure 9.4 Rejection Region and Test Statistic for Note 9.13 "Example 5"
+  ``````{figure} /images/redrawn/fig-09-04.svg
+  :alt: Student t curve with 15 degrees of freedom. Both tails, each of area α/2 = 0.005, are shaded beyond the critical values −t_α/2 = −2.947 and t_α/2 = 2.947. On the number line below, the two rejection intervals are red, and the test statistic T = 1.040, marked with a star, lies outside the rejection region.
   :name: src-fwk-shafer-ch09-s02-s02-f01
 
   Figure 9.4 Rejection Region and Test Statistic for [Note 9.13 \"Example 5\"](/chapters/ch-09-two-sample-problems.md#src-fwk-shafer-ch09-s02-s02-n02){.xref xrefstyle="select: title"}
@@ -1391,8 +1391,8 @@ The only part of the table that we use is the third column, the differences.
 
 - Step 5. As shown in [Figure 9.5 \"Rejection Region and Test Statistic for \"](/chapters/ch-09-two-sample-problems.md#src-fwk-shafer-ch09-s03-s02-f01) the test statistic falls in the rejection region. The decision is to reject *H*<sub>0</sub>. In the context of the problem our conclusion is:
 
-  ``````{figure} /images/section_13/65c475a429d83d1c543748d068992428.jpg
-  :alt: Statistical diagram: Figure 9.5 Rejection Region and Test Statistic for Note 9.20 "Example 8"
+  ``````{figure} /images/redrawn/fig-09-05.svg
+  :alt: Student t curve with 8 degrees of freedom for Hₐ: μ_d > 0. The right tail of area α = 0.05 is shaded above the critical value t₀.₀₅ = 1.860. On the number line below, the rejection region t ≥ 1.860 is red, and the test statistic T = 2.600, marked with a star, lies inside it.
   :name: src-fwk-shafer-ch09-s03-s02-f01
 
   Figure 9.5 Rejection Region and Test Statistic for [Note 9.20 \"Example 8\"](/chapters/ch-09-two-sample-problems.md#src-fwk-shafer-ch09-s03-s02-n02){.xref xrefstyle="select: title"}
@@ -1414,8 +1414,8 @@ The first three steps are identical to those in [Note 9.20 \"Example 8\"](/chapt
 
   The area cut off by *t* = 2.306 is 0.025 and the area cut off by *t* = 2.896 is 0.010. Since 2.600 is between 2.306 and 2.896 the area it cuts off is between 0.025 and 0.010. Thus the *p*-value is between 0.025 and 0.010. In particular it is less than 0.025. See [Figure 9.6](/chapters/ch-09-two-sample-problems.md#src-fwk-shafer-ch09-s03-s02-f02).
 
-``````{figure} /images/section_13/39fabc97b76e2fcd598df4157a5af35c.jpg
-:alt: Statistical diagram: Figure 9.6 P -Value for Note 9.21 "Example 9"
+``````{figure} /images/redrawn/fig-09-06.svg
+:alt: Student t curve with 8 degrees of freedom. Vertical lines at 2.306, at the test statistic T = 2.6 (red), and at 2.896 mark right tails of area 0.025, the p-value, and 0.010, so the p-value lies between 0.010 and 0.025.
 :name: src-fwk-shafer-ch09-s03-s02-f02
 
 Figure 9.6 *P*-Value for [Note 9.21 \"Example 9\"](/chapters/ch-09-two-sample-problems.md#src-fwk-shafer-ch09-s03-s02-n03){.xref xrefstyle="select: title"}
@@ -1885,8 +1885,8 @@ In all exercises for this section assume that the population of differences is n
 
 Suppose we wish to compare the proportions of two populations that have a specific characteristic, such as the proportion of men who are left-handed compared to the proportion of women who are left-handed. [Figure 9.7 \"Independent Sampling from Two Populations In Order to Compare Proportions\"](/chapters/ch-09-two-sample-problems.md#src-fwk-shafer-ch09-s04-f01) illustrates the conceptual framework of our investigation. Each population is divided into two groups, the group of elements that have the characteristic of interest (for example, being left-handed) and the group of elements that do not. We arbitrarily label one population as Population 1 and the other as Population 2, and subscript the proportion of each population that possesses the characteristic with the number 1 or 2 to tell them apart. We draw a random sample from Population 1 and label the sample statistic it yields with the subscript 1. Without reference to the first sample we draw a sample from Population 2 and label its sample statistic with the subscript 2.
 
-``````{figure} /images/section_13/53170ede206ef4a4fcde1a7e4d6d046c.jpg
-:alt: Statistical diagram: Figure 9.7 Independent Sampling from Two Populations In Order to Compare Proportions
+``````{figure} /images/redrawn/fig-09-07.svg
+:alt: Two boxes labeled Population 1 and Population 2, with proportions p₁ and p₂. An arrow from each leads to a box for its sample, Sample 1 or Sample 2, with size n₁ or n₂, number of successes x₁ or x₂, and sample proportion p̂₁ or p̂₂.
 :name: src-fwk-shafer-ch09-s04-f01
 
 Figure 9.7 Independent Sampling from Two Populations In Order to Compare Proportions
@@ -2036,8 +2036,8 @@ Solution:
 
   The data provide sufficient evidence, at the 10% level of significance, to conclude that the rate of passing on the first inspection has increased by more than 5 percentage points since records were publicly posted on the web.
 
-``````{figure} /images/section_13/22ebc3b67649345e707b089c29451d59.jpg
-:alt: Statistical diagram: Figure 9.8 Rejection Region and Test Statistic for Note 9.27 "Example 11"
+``````{figure} /images/redrawn/fig-09-08.svg
+:alt: Standard normal curve for Hₐ: p₁ − p₂ < −0.05. The left tail of area α = 0.10 is shaded below the critical value −z₀.₁₀ = −1.282. On the number line below, the rejection region z ≤ −1.282 is red, and the test statistic Z = −1.770, marked with a star, lies inside it.
 :name: src-fwk-shafer-ch09-s04-s02-f01
 
 Figure 9.8 Rejection Region and Test Statistic for [Note 9.27 \"Example 11\"](/chapters/ch-09-two-sample-problems.md#src-fwk-shafer-ch09-s04-s02-n02){.xref xrefstyle="select: title"}

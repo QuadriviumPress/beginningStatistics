@@ -26,15 +26,15 @@ $$\begin{array}{rrrrrrrrrr}
 
 How did the class do on the test? A quick glance at the set of 30 numbers does not immediately give a clear answer. However the data set may be reorganized and rewritten to make relevant information more visible. One way to do so is to construct a **stem and leaf** diagram as shown in [Figure 2.1 \"Stem and Leaf Diagram\"](/chapters/ch-02-descriptive-statistics.md#src-fwk-shafer-ch02-s01-s01-f01). The numbers in the tens place, from 2 through 9, and additionally the number 10, are the "stems," and are arranged in numerical order from top to bottom to the left of a vertical line. The number in the units place in each measurement is a "leaf," and is placed in a row to the right of the corresponding stem, the number in the tens place of that measurement. Thus the three leaves 9, 8, and 9 in the row headed with the stem 6 correspond to the three exam scores in the 60s, 69 (in the first row of data), 68 (in the third row), and 69 (also in the third row). The display is made even more useful for some purposes by rearranging the leaves in numerical order, as shown in [Figure 2.2 \"Ordered Stem and Leaf Diagram\"](/chapters/ch-02-descriptive-statistics.md#src-fwk-shafer-ch02-s01-s01-f02). Either way, with the data reorganized certain information of interest becomes apparent immediately. There are two perfect scores; three students made scores under 60; most students scored in the 70s, 80s and 90s; and the overall average is probably in the high 70s or low 80s.
 
-``````{figure} /images/section_06/34d76826b002f2409a8e598177892296.jpg
-:alt: Statistical diagram: Figure 2.1 Stem and Leaf Diagram
+``````{figure} /images/redrawn/fig-02-01.svg
+:alt: Stem and leaf diagram of the 30 test scores, with stems 2 through 10 and leaves in the order the scores were listed: 2 | 5; 3 | (none); 4 | 0; 5 | 8; 6 | 9 8 9; 7 | 7 3 6 0 3 3 0 1 8 4; 8 | 6 0 3 3 7; 9 | 0 3 0 0 5 7 2; 10 | 0 0.
 :name: src-fwk-shafer-ch02-s01-s01-f01
 
 Figure 2.1 Stem and Leaf Diagram
 ``````
 
-``````{figure} /images/section_06/b62ceb194def760ed76d943233657c53.jpg
-:alt: Statistical diagram: Figure 2.2 Ordered Stem and Leaf Diagram
+``````{figure} /images/redrawn/fig-02-02.svg
+:alt: The stem and leaf diagram of the 30 test scores with each row of leaves sorted: 2 | 5; 3 | (none); 4 | 0; 5 | 8; 6 | 8 9 9; 7 | 0 0 1 3 3 3 4 6 7 8; 8 | 0 3 3 6 7; 9 | 0 0 0 2 3 5 7; 10 | 0 0.
 :name: src-fwk-shafer-ch02-s01-s01-f02
 
 Figure 2.2 Ordered Stem and Leaf Diagram
@@ -55,8 +55,8 @@ Note that all of the original data can be recovered from the stem and leaf diagr
 
 The stem and leaf diagram is not practical for large data sets, so we need a different, purely graphical way to represent data. A frequency histogram[^stats-1] is such a device. We will illustrate it using the same data set from the previous subsection. For the 30 scores on the exam, it is natural to group the scores on the standard ten-point scale, and count the number of scores in each group. Thus there are two 100s, seven scores in the 90s, six in the 80s, and so on. We then construct the diagram shown in [Figure 2.3 \"Frequency Histogram\"](/chapters/ch-02-descriptive-statistics.md#src-fwk-shafer-ch02-s01-s02-f01) by drawing for each group, or class, a vertical bar whose length is the number of observations in that group. In our example, the bar labeled 100 is 2 units long, the bar labeled 90 is 7 units long, and so on. While the individual data values are lost, we know the number in each class. This number is called the frequency[^stats-2] of the class, hence the name frequency histogram.
 
-``````{figure} /images/section_06/f518083d74ec994b6c02eb6e18fd5178.jpg
-:alt: Statistical diagram: Figure 2.3 Frequency Histogram
+``````{figure} /images/redrawn/fig-02-03.svg
+:alt: Frequency histogram of the 30 test scores by tens: 1 score in the 20s, none in the 30s, 1 in the 40s, 1 in the 50s, 3 in the 60s, 10 in the 70s, 5 in the 80s, 7 in the 90s, and 2 of 100.
 :name: src-fwk-shafer-ch02-s01-s02-f01
 
 Figure 2.3 Frequency Histogram
@@ -72,8 +72,8 @@ In general, the definition of the classes in the frequency histogram is flexible
 
 In our example of the exam scores in a statistics class, five students scored in the 80s. The number 5 is the *frequency* of the group labeled "80s." Since there are 30 students in the entire statistics class, the proportion who scored in the 80s is 5/30. The number 5/30, which could also be expressed as $0.1\overset{-}{6} \approx .1667$, or as 16.67%, is the relative frequency[^stats-3] of the group labeled "80s." Every group (the 70s, the 80s, and so on) has a relative frequency. We can thus construct a diagram by drawing for each group, or class, a vertical bar whose length is the relative frequency of that group. For example, the bar for the 80s will have length 5/30 unit, not 5 units. The diagram is a relative frequency histogram[^stats-4] for the data, and is shown in [Figure 2.4 \"Relative Frequency Histogram\"](/chapters/ch-02-descriptive-statistics.md#src-fwk-shafer-ch02-s01-s03-f01). It is exactly the same as the frequency histogram except that the vertical axis in the relative frequency histogram is not frequency but relative frequency.
 
-``````{figure} /images/section_06/2e988c25b2cf9d6250febacb3b0ff940.jpg
-:alt: Statistical diagram: Figure 2.4 Relative Frequency Histogram
+``````{figure} /images/redrawn/fig-02-04.svg
+:alt: Relative frequency histogram of the same 30 scores: the bar heights are the frequencies divided by 30, from 1/30 ≈ 0.033 for the 20s up to 10/30 ≈ 0.333 for the 70s.
 :name: src-fwk-shafer-ch02-s01-s03-f01
 
 Figure 2.4 Relative Frequency Histogram
@@ -85,8 +85,8 @@ Although the histograms in [Figure 2.3 \"Frequency Histogram\"](/chapters/ch-02-
 
 When the size *n* of a sample is small only a few classes can be used in constructing a relative frequency histogram. Such a histogram might look something like the one in panel (a) of [Figure 2.5 \"Sample Size and Relative Frequency Histograms\"](/chapters/ch-02-descriptive-statistics.md#src-fwk-shafer-ch02-s01-s03-f02). If the sample size *n* were increased, then more classes could be used in constructing a relative frequency histogram and the vertical bars of the resulting histogram would be finer, as indicated in panel (b) of [Figure 2.5 \"Sample Size and Relative Frequency Histograms\"](/chapters/ch-02-descriptive-statistics.md#src-fwk-shafer-ch02-s01-s03-f02). For a very large sample the relative frequency histogram would look very fine, like the one in (c) of [Figure 2.5 \"Sample Size and Relative Frequency Histograms\"](/chapters/ch-02-descriptive-statistics.md#src-fwk-shafer-ch02-s01-s03-f02). If the sample size were to increase indefinitely then the corresponding relative frequency histogram would be so fine that it would look like a smooth curve, such as the one in panel (d) of [Figure 2.5 \"Sample Size and Relative Frequency Histograms\"](/chapters/ch-02-descriptive-statistics.md#src-fwk-shafer-ch02-s01-s03-f02).
 
-``````{figure} /images/section_06/3b57db67643235409d2ac7a8573ccda5.jpg
-:alt: Statistical diagram: Figure 2.5 Sample Size and Relative Frequency Histograms
+``````{figure} /images/redrawn/fig-02-05.svg
+:alt: Four panels. (a) A small sample gives a histogram with four wide, uneven bars. (b) A medium sample gives ten narrower, still irregular bars. (c) A large sample gives many thin bars that trace a smooth bell shape. (d) A very large sample is represented by the smooth bell-shaped curve itself.
 :name: src-fwk-shafer-ch02-s01-s03-f02
 
 Figure 2.5 Sample Size and Relative Frequency Histograms
@@ -94,8 +94,8 @@ Figure 2.5 Sample Size and Relative Frequency Histograms
 
 It is common in statistics to represent a population or a very large data set by a smooth curve. It is good to keep in mind that such a curve is actually just a very fine relative frequency histogram in which the exceedingly narrow vertical bars have disappeared. Because the area of each such vertical bar is the proportion of the data that lies in the interval of numbers over which that bar stands, this means that for any two numbers *a* and *b*, the proportion of the data that lies between the two numbers *a* and *b* is the area under the curve that is above the interval (*a*,*b*) in the horizontal axis. This is the area shown in [Figure 2.6 \"A Very Fine Relative Frequency Histogram\"](/chapters/ch-02-descriptive-statistics.md#src-fwk-shafer-ch02-s01-s03-f03). In particular the total area under the curve is 1, or 100%.
 
-``````{figure} /images/section_06/7642732fd47c976f06d45da450bfa675.jpg
-:alt: Statistical diagram: Figure 2.6 A Very Fine Relative Frequency Histogram
+``````{figure} /images/redrawn/fig-02-06.svg
+:alt: A bell-shaped curve with a very fine histogram filling the region under it between a and b; the shaded area equals the proportion of the data between a and b.
 :name: src-fwk-shafer-ch02-s01-s03-f03
 
 Figure 2.6 A Very Fine Relative Frequency Histogram
@@ -579,8 +579,8 @@ The population median is defined in a similar way, but we will not have occasion
 
 The median is a value that divides the observations in a data set so that 50% of the data are on its left and the other 50% on its right. In accordance with [Figure 2.6 \"A Very Fine Relative Frequency Histogram\"](/chapters/ch-02-descriptive-statistics.md#src-fwk-shafer-ch02-s01-s03-f03), therefore, in the curve that represents the distribution of the data, a vertical line drawn at the median divides the area in two, area 0.5 (50% of the total area 1) to the left and area 0.5 (50% of the total area 1) to the right, as shown in [Figure 2.7 \"The Median\"](/chapters/ch-02-descriptive-statistics.md#src-fwk-shafer-ch02-s02-s02-f01). In our income example the median, \$24,600, clearly gave a much better measure of the middle of the data set than did the mean \$47,400. This is typical for situations in which the distribution is skewed. (Skewness and symmetry of distributions are discussed at the end of this subsection.)
 
-``````{figure} /images/section_06/93901701128551a7274badd950102716.jpg
-:alt: Statistical diagram: Figure 2.7 The Median
+``````{figure} /images/redrawn/fig-02-07.svg
+:alt: A two-humped relative frequency curve with a vertical line at the median, which divides the area under the curve into two halves labeled 50% and 50%.
 :name: src-fwk-shafer-ch02-s02-s02-f01
 
 Figure 2.7 The Median
@@ -628,8 +628,8 @@ The relationship between the mean and the median for several common shapes of di
 2.  When the distribution is as shown in panel (c) of [Figure 2.8 \"Skewness of Relative Frequency Histograms\"](/chapters/ch-02-descriptive-statistics.md#src-fwk-shafer-ch02-s02-s02-f02), it is said to be *skewed right*. The mean has been pulled to the right of the median by the long "right tail" of the distribution, the few relatively large data values.
 3.  When the distribution is as shown in panel (d) of [Figure 2.8 \"Skewness of Relative Frequency Histograms\"](/chapters/ch-02-descriptive-statistics.md#src-fwk-shafer-ch02-s02-s02-f02), it is said to be *skewed left*. The mean has been pulled to the left of the median by the long "left tail" of the distribution, the few relatively small data values.
 
-``````{figure} /images/section_06/52c5252bed301c7ba46719c5cd5b4ee0.jpg
-:alt: Statistical diagram: Figure 2.8 Skewness of Relative Frequency Histograms
+``````{figure} /images/redrawn/fig-02-08.svg
+:alt: Four relative frequency curves. (a) A symmetric bell curve and (b) a symmetric two-humped curve, each with mean equal to median. (c) A curve skewed right, with a long right tail, has its mean to the right of its median. (d) A curve skewed left has its mean to the left of its median.
 :name: src-fwk-shafer-ch02-s02-s02-f02
 
 Figure 2.8 Skewness of Relative Frequency Histograms
@@ -649,8 +649,8 @@ The population mode is defined in a similar way, but we will not have occasion t
 
 On a relative frequency histogram, the highest point of the histogram corresponds to the mode of the data set. [Figure 2.9 \"Mode\"](/chapters/ch-02-descriptive-statistics.md#src-fwk-shafer-ch02-s02-s03-f01) illustrates the mode.
 
-``````{figure} /images/section_06/4a3fe4024f24270667c6a8c260f07ad0.jpg
-:alt: Statistical diagram: Figure 2.9 Mode
+``````{figure} /images/redrawn/fig-02-09.svg
+:alt: A two-humped relative frequency curve; the mode is marked on the horizontal axis under its highest peak.
 :name: src-fwk-shafer-ch02-s02-s03-f01
 
 Figure 2.9 Mode
@@ -1029,8 +1029,8 @@ Table 2.1 Two Data Sets
 
 ````````
 
-``````{figure} /images/section_06/732c760e23369309481d84ec3452fa93.jpg
-:alt: Statistical diagram: Figure 2.10 Dot Plots of Data Sets
+``````{figure} /images/redrawn/fig-02-10.svg
+:alt: Dot plots on a scale from 32 to 50. (a) Set I: values tightly clustered at 38, 39, 39, 39, 40, 40, 40, 40, 42, and 43. (b) Set II: values spread out at 33, 34, 36, 37, 40, 40, 42, 45, 46, and 47. Both sets have mean 40.
 :name: src-fwk-shafer-ch02-s03-f01
 
 Figure 2.10 Dot Plots of Data Sets
@@ -1159,8 +1159,8 @@ Note that the denominator in the fraction is the full number of observations, no
 
 Finally, in many real-life situations the most important statistical issues have to do with comparing the means and standard deviations of two data sets. [Figure 2.11 \"Difference between Two Data Sets\"](/chapters/ch-02-descriptive-statistics.md#src-fwk-shafer-ch02-s03-s02-f01) illustrates how a difference in one or both of the sample mean and the sample standard deviation are reflected in the appearance of the data set as shown by the curves derived from the relative frequency histograms built using the data.
 
-``````{figure} /images/section_06/3af2fbfa7c4c956dff2d8aaafa146d2e.jpg
-:alt: Statistical diagram: Figure 2.11 Difference between Two Data Sets
+``````{figure} /images/redrawn/fig-02-11.svg
+:alt: Four panels, each with the relative frequency curves of two data sets. (a) The curves coincide. (b) The curves have the same shape but different centers. (c) The curves have the same center but one is much narrower. (d) The curves differ in both center and spread.
 :name: src-fwk-shafer-ch02-s03-s02-f01
 
 Figure 2.11 Difference between Two Data Sets
@@ -1421,8 +1421,8 @@ The only data value that is less than or equal to 1.39 is 1.39 itself. Since 1 i
 
 The *P*th percentile cuts the data set in two so that approximately *P*% of the data lie below it and $({100 - P})$% of the data lie above it. In particular, the three percentiles that cut the data into fourths, as shown in [Figure 2.12 \"Data Division by Quartiles\"](/chapters/ch-02-descriptive-statistics.md#src-fwk-shafer-ch02-s04-s01-f01), are called the quartiles[^stats-14]. The following simple computational definition of the three quartiles works well in practice.
 
-``````{figure} /images/section_06/bd498ec19e330a43ba648c1e7df70db9.jpg
-:alt: Statistical diagram: Figure 2.12 Data Division by Quartiles
+``````{figure} /images/redrawn/fig-02-12.svg
+:alt: A bell-shaped relative frequency curve divided by vertical lines at the quartiles Q₁, Q₂, and Q₃ into four regions, each labeled 25%.
 :name: src-fwk-shafer-ch02-s04-s01-f01
 
 Figure 2.12 Data Division by Quartiles
@@ -1491,8 +1491,8 @@ $$\left\{ {x_{\text{min}},\, Q_{1},\, Q_{2},\, Q_{3},\, x_{\text{max}}} \right\}
 
 The five-number summary is used to construct a box plot[^stats-16] as in [Figure 2.13 \"The Box Plot\"](/chapters/ch-02-descriptive-statistics.md#src-fwk-shafer-ch02-s04-s01-f02). Each of the five numbers is represented by a vertical line segment, a box is formed using the line segments at $Q_{1}$ and $Q_{3}$ as its two vertical sides, and two horizontal line segments are extended from the vertical segments marking $Q_{1}$ and $Q_{3}$ to the adjacent extreme values. (The two horizontal line segments are referred to as "whiskers," and the diagram is sometimes called a "box and whisker plot.") We caution the reader that there are other types of box plots that differ somewhat from the ones we are constructing, although all are based on the three quartiles.
 
-``````{figure} /images/section_06/cf516ad64fc6aacd308c937ab4f7bcd5.jpg
-:alt: Statistical diagram: Figure 2.13 The Box Plot
+``````{figure} /images/redrawn/fig-02-13.svg
+:alt: A box plot above a number line marked x_min, Q₁, Q₂, Q₃, and x_max. The box spans Q₁ to Q₃ with a line at Q₂, and whiskers extend to x_min and x_max.
 :name: src-fwk-shafer-ch02-s04-s01-f02
 
 Figure 2.13 The Box Plot
@@ -1522,8 +1522,8 @@ $$x_{\text{min}} = 1.39\quad Q_{1} = 1.90\quad Q_{2} = 2.62\quad Q_{3} = 3.33\qu
 
 The box plot is
 
-``````{figure} /images/section_06/513b9995859fcb622bba8376c09253d8.jpg
-:alt: Statistical diagram: The box plot is
+``````{figure} /images/redrawn/fig-02-13b.svg
+:alt: Box plot of the data, drawn to scale above a number line marked 1.39, 1.90, 2.62, 3.33, and 4.00: whiskers from 1.39 to 1.90 and from 3.33 to 4.00, and a box from 1.90 to 3.33 with a line at the median 2.62.
 
 ``````
 
@@ -1551,8 +1551,8 @@ $$x = \overset{-}{x} + sz\quad\text{or}\quad x = \mathit{\mu} + \mathit{\sigma}z
 
 The *z*-score indicates how many standard deviations an individual observation *x* is from the center of the data set, its mean. If *z* is negative then *x* is below average. If *z* is 0 then *x* is equal to the average. If *z* is positive then *x* is above average. See [Figure 2.14](/chapters/ch-02-descriptive-statistics.md#src-fwk-shafer-ch02-s04-s02-f01).
 
-``````{figure} /images/section_06/26fd571691fc0707b45b01d2c189d453.jpg
-:alt: Statistical diagram: Figure 2.14 x -Scale versus z -Score
+``````{figure} /images/redrawn/fig-02-14.svg
+:alt: A bell curve over two aligned scales. On the x scale the marks are μ − 3σ, μ − 2σ, μ − σ, μ, μ + σ, μ + 2σ, and μ + 3σ; on the z scale below, the same marks are −3, −2, −1, 0, 1, 2, and 3.
 :name: src-fwk-shafer-ch02-s04-s02-f01
 
 Figure 2.14 *x*-Scale versus *z*-Score
@@ -2152,8 +2152,8 @@ Table 2.2 Heights of Men
 
 ````````
 
-``````{figure} /images/section_06/b1f0ebf6c74ac069e650a08a864bea87.jpg
-:alt: Statistical diagram: Figure 2.15 Heights of Adult Men
+``````{figure} /images/redrawn/fig-02-15.svg
+:alt: Relative frequency histogram of the 100 heights in Table 2.2, in classes half an inch wide from 65.5 to 75.5 inches, roughly bell-shaped and centered near 70. The axis is marked at x̄ − 3s = 64.82, x̄ − 2s = 66.52, x̄ − s = 68.22, x̄ = 69.92, x̄ + s = 71.62, x̄ + 2s = 73.32, and x̄ + 3s = 75.02.
 :name: src-fwk-shafer-ch02-s05-s01-f01
 
 Figure 2.15 Heights of Adult Men
@@ -2169,8 +2169,8 @@ If a data set has an approximately bell-shaped relative frequency histogram, the
 
 ````````````
 
-``````{figure} /images/section_06/97b4fd107e5c4ef13ba13917c2a260a4.jpg
-:alt: Statistical diagram: Figure 2.16 The Empirical Rule
+``````{figure} /images/redrawn/fig-02-16.svg
+:alt: A bell curve with vertical lines at one, two, and three standard deviations on each side of the mean. About 68% of the data lie between x̄ − s and x̄ + s (μ − σ and μ + σ), about 95% between x̄ − 2s and x̄ + 2s, and about 99.7% between x̄ − 3s and x̄ + 3s.
 :name: src-fwk-shafer-ch02-s05-s01-f02
 
 Figure 2.16 The Empirical Rule
@@ -2197,8 +2197,8 @@ A sketch of the distribution of heights is given in [Figure 2.17 \"Distribution 
 
     the interval in question is the interval from 66.8 inches to 72.4 inches.
 
-``````{figure} /images/section_06/f69970cbd3a0d6b096373e3825dad1c2.jpg
-:alt: Statistical diagram: Figure 2.17 Distribution of Heights
+``````{figure} /images/redrawn/fig-02-17.svg
+:alt: A bell curve of heights with vertical lines at μ − 2σ = 66.9, μ − σ = 68.2, μ + σ = 71.0, and μ + 2σ = 72.4, around μ = 69.6. About 68% of heights lie between 68.2 and 71.0, and about 95% between 66.9 and 72.4.
 :name: src-fwk-shafer-ch02-s05-s01-f03
 
 Figure 2.17 Distribution of Heights
@@ -2216,8 +2216,8 @@ A sketch of the IQ distribution is given in [Figure 2.18 \"Distribution of IQ Sc
 2.  approximately 95% of the IQ scores in the population lie between 80 and 120, and
 3.  approximately 99.7% of the IQ scores in the population lie between 70 and 130.
 
-``````{figure} /images/section_06/72a9ca7507e4a5ae776ae9ccaa950617.jpg
-:alt: Statistical diagram: Figure 2.18 Distribution of IQ Scores
+``````{figure} /images/redrawn/fig-02-18.svg
+:alt: Two bell curves of IQ scores with mean 100 and standard deviation 10, marked at 70, 80, 90, 100, 110, 120, and 130. (a) Whole spectrum: about 68% of scores lie between 90 and 110, 95% between 80 and 120, and 99.7% between 70 and 130. (b) Higher end: about 16% of scores lie above 110, 2.5% above 120, and 0.15% above 130.
 :name: src-fwk-shafer-ch02-s05-s01-f04
 
 Figure 2.18 Distribution of IQ Scores
@@ -2245,8 +2245,8 @@ For any numerical data set,
 
 [Figure 2.19 \"Chebyshev's Theorem\"](/chapters/ch-02-descriptive-statistics.md#src-fwk-shafer-ch02-s05-s02-f01) gives a visual illustration of Chebyshev's Theorem.
 
-``````{figure} /images/section_06/41250222aa4332d8af126bb8d898dcba.jpg
-:alt: Statistical diagram: Figure 2.19 Chebyshev’s Theorem
+``````{figure} /images/redrawn/fig-02-19.svg
+:alt: A lopsided two-humped curve, with vertical lines at two and three standard deviations from its mean. Whatever the shape, at least 75% of the data lie between x̄ − 2s and x̄ + 2s and at least 88.89% between x̄ − 3s and x̄ + 3s.
 :name: src-fwk-shafer-ch02-s05-s02-f01
 
 Figure 2.19 Chebyshev's Theorem
@@ -2264,8 +2264,8 @@ The interval (22,34) is the one that is formed by adding and subtracting two sta
 
 If at least 3/4 of the observations are in the interval, then at most 1/4 of them are outside it. Since 1/4 of 50 is 12.5, at most 12.5 observations are outside the interval. Since again a fraction of an observation is impossible, x (22,34).
 
-``````{figure} /images/section_06/a86d2f0909ac477a1530f7c91e650de8.jpg
-:alt: Statistical diagram: If at least 3/4 of the observations are in the interval, then at most 1/4 of them are outside it. Since 1/4 of 50 is 12.5, at most 12.5 observations are outside the interval. Since again a fraction of an observation is impossible, x (22,34).
+``````{figure} /images/redrawn/fig-02-ex21.svg
+:alt: Two copies of a lopsided curve for a sample with mean 28 and standard deviation 3, marked at 19, 22, 25, 28, 31, 34, and 37. (a) Only the part between 22 and 34 is drawn: at least 75%, so at least 38 of the 50 observations. (b) Only the parts outside that interval are drawn: at most 25%, so at most 12 observations.
 :name: src-fwk-shafer-ch02-s05-s02-fx01
 
 ``````

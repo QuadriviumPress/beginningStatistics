@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 520" role="img" aria-labelledby="title desc" font-family="'STIX Two Text','Times New Roman',Times,'Liberation Serif',serif">
+<title id="title">Venn diagram for Exercise 7</title>
+<desc id="desc">Venn diagram of a sample space with outcomes a, b, c, d, and e and two overlapping events A (red) and B (blue). The outcome a is outside both events, b is in A only, c is in both A and B, and d and e are in B only.</desc>
+<rect width="1000" height="520" fill="#fff"/>
+<rect x="10.0" y="10.0" width="980.0" height="500.0" fill="none" stroke="#8c8c8c" stroke-width="6"/>
+<circle cx="380.0" cy="245.0" r="185.0" fill="none" stroke="#d9262c" stroke-width="5"/>
+<circle cx="560.0" cy="245.0" r="185.0" fill="none" stroke="#1f56a8" stroke-width="5"/>
+<circle cx="140.0" cy="85.0" r="2.6" fill="#1a1a1a" stroke="none" stroke-width="0"/>
+<text x="150.0" y="104.2" font-size="64" text-anchor="start" fill="#1a1a1a" xml:space="preserve"><tspan font-size="64.0" font-style="italic">a</tspan></text>
+<circle cx="265.0" cy="230.0" r="2.6" fill="#1a1a1a" stroke="none" stroke-width="0"/>
+<text x="275.0" y="249.2" font-size="64" text-anchor="start" fill="#1a1a1a" xml:space="preserve"><tspan font-size="64.0" font-style="italic">b</tspan></text>
+<circle cx="520.0" cy="230.0" r="2.6" fill="#1a1a1a" stroke="none" stroke-width="0"/>
+<text x="530.0" y="249.2" font-size="64" text-anchor="start" fill="#1a1a1a" xml:space="preserve"><tspan font-size="64.0" font-style="italic">c</tspan></text>
+<circle cx="680.0" cy="150.0" r="2.6" fill="#1a1a1a" stroke="none" stroke-width="0"/>
+<text x="690.0" y="169.2" font-size="64" text-anchor="start" fill="#1a1a1a" xml:space="preserve"><tspan font-size="64.0" font-style="italic">d</tspan></text>
+<circle cx="680.0" cy="300.0" r="2.6" fill="#1a1a1a" stroke="none" stroke-width="0"/>
+<text x="690.0" y="319.2" font-size="64" text-anchor="start" fill="#1a1a1a" xml:space="preserve"><tspan font-size="64.0" font-style="italic">e</tspan></text>
+<text x="230.0" y="470.0" font-size="72" text-anchor="middle" fill="#d9262c" xml:space="preserve"><tspan font-size="72.0" font-style="italic">A</tspan></text>
+<text x="730.0" y="470.0" font-size="72" text-anchor="middle" fill="#1f56a8" xml:space="preserve"><tspan font-size="72.0" font-style="italic">B</tspan></text>
+</svg>

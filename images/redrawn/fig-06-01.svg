@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 440" role="img" aria-labelledby="title desc" font-family="'STIX Two Text','Times New Roman',Times,'Liberation Serif',serif">
+<title id="title">Figure 6.1 Distribution of a population and a sample mean</title>
+<desc id="desc">(a) Population: probability 0.25 at each of 152, 156, 160, and 164. (b) Sample mean of two draws: probabilities 1/16, 2/16, 3/16, 4/16, 3/16, 2/16, and 1/16 at 152, 154, 156, 158, 160, 162, and 164.</desc>
+<rect width="1000" height="440" fill="#fff"/>
+<rect x="100.0" y="30.0" width="400.0" height="340.0" fill="none" stroke="#8c8c8c" stroke-width="1.6"/>
+<line x1="100.0" y1="330.0" x2="500.0" y2="330.0" stroke="#8c8c8c" stroke-width="1.6"/>
+<rect x="133.3" y="71.4" width="83.3" height="258.6" fill="none" stroke="#1f56a8" stroke-width="2.5"/>
+<rect x="216.7" y="71.4" width="83.3" height="258.6" fill="none" stroke="#1f56a8" stroke-width="2.5"/>
+<rect x="300.0" y="71.4" width="83.3" height="258.6" fill="none" stroke="#1f56a8" stroke-width="2.5"/>
+<rect x="383.3" y="71.4" width="83.3" height="258.6" fill="none" stroke="#1f56a8" stroke-width="2.5"/>
+<line x1="100.0" y1="330.0" x2="108.0" y2="330.0" stroke="#1a1a1a" stroke-width="1.6"/>
+<text x="92.0" y="337.0" font-size="20" text-anchor="end" fill="#1a1a1a" xml:space="preserve"><tspan font-size="20.0">0</tspan></text>
+<line x1="100.0" y1="278.3" x2="108.0" y2="278.3" stroke="#1a1a1a" stroke-width="1.6"/>
+<text x="92.0" y="285.3" font-size="20" text-anchor="end" fill="#1a1a1a" xml:space="preserve"><tspan font-size="20.0">0.05</tspan></text>
+<line x1="100.0" y1="226.6" x2="108.0" y2="226.6" stroke="#1a1a1a" stroke-width="1.6"/>
+<text x="92.0" y="233.6" font-size="20" text-anchor="end" fill="#1a1a1a" xml:space="preserve"><tspan font-size="20.0">0.10</tspan></text>
+<line x1="100.0" y1="174.8" x2="108.0" y2="174.8" stroke="#1a1a1a" stroke-width="1.6"/>
+<text x="92.0" y="181.8" font-size="20" text-anchor="end" fill="#1a1a1a" xml:space="preserve"><tspan font-size="20.0">0.15</tspan></text>
+<line x1="100.0" y1="123.1" x2="108.0" y2="123.1" stroke="#1a1a1a" stroke-width="1.6"/>
+<text x="92.0" y="130.1" font-size="20" text-anchor="end" fill="#1a1a1a" xml:space="preserve"><tspan font-size="20.0">0.20</tspan></text>
+<line x1="100.0" y1="71.4" x2="108.0" y2="71.4" stroke="#1a1a1a" stroke-width="1.6"/>
+<text x="92.0" y="78.4" font-size="20" text-anchor="end" fill="#1a1a1a" xml:space="preserve"><tspan font-size="20.0">0.25</tspan></text>
+<line x1="175.0" y1="330.0" x2="175.0" y2="322.0" stroke="#1a1a1a" stroke-width="1.6"/>
+<text x="175.0" y="360.0" font-size="20" text-anchor="middle" fill="#1a1a1a" xml:space="preserve"><tspan font-size="20.0">152</tspan></text>
+<line x1="258.3" y1="330.0" x2="258.3" y2="322.0" stroke="#1a1a1a" stroke-width="1.6"/>
+<text x="258.3" y="360.0" font-size="20" text-anchor="middle" fill="#1a1a1a" xml:space="preserve"><tspan font-size="20.0">156</tspan></text>
+<line x1="341.7" y1="330.0" x2="341.7" y2="322.0" stroke="#1a1a1a" stroke-width="1.6"/>
+<text x="341.7" y="360.0" font-size="20" text-anchor="middle" fill="#1a1a1a" xml:space="preserve"><tspan font-size="20.0">160</tspan></text>
+<line x1="425.0" y1="330.0" x2="425.0" y2="322.0" stroke="#1a1a1a" stroke-width="1.6"/>
+<text x="425.0" y="360.0" font-size="20" text-anchor="middle" fill="#1a1a1a" xml:space="preserve"><tspan font-size="20.0">164</tspan></text>
+<text transform="translate(30.0,180.0) rotate(-90)" font-size="22" text-anchor="middle" fill="#1a1a1a" xml:space="preserve"><tspan font-size="22.0">Probability</tspan></text>
+<text x="300.0" y="420.0" font-size="26" text-anchor="middle" fill="#1a1a1a" xml:space="preserve"><tspan font-size="26.0">(a) Population</tspan></text>
+<rect x="570.0" y="30.0" width="400.0" height="340.0" fill="none" stroke="#8c8c8c" stroke-width="1.6"/>
+<line x1="570.0" y1="330.0" x2="970.0" y2="330.0" stroke="#8c8c8c" stroke-width="1.6"/>
+<rect x="590.5" y="265.3" width="51.3" height="64.7" fill="none" stroke="#1f56a8" stroke-width="2.5"/>
+<rect x="641.8" y="200.7" width="51.3" height="129.3" fill="none" stroke="#1f56a8" stroke-width="2.5"/>
+<rect x="693.1" y="136.0" width="51.3" height="194.0" fill="none" stroke="#1f56a8" stroke-width="2.5"/>
+<rect x="744.4" y="71.4" width="51.3" height="258.6" fill="none" stroke="#1f56a8" stroke-width="2.5"/>
+<rect x="795.6" y="136.0" width="51.3" height="194.0" fill="none" stroke="#1f56a8" stroke-width="2.5"/>
+<rect x="846.9" y="200.7" width="51.3" height="129.3" fill="none" stroke="#1f56a8" stroke-width="2.5"/>
+<rect x="898.2" y="265.3" width="51.3" height="64.7" fill="none" stroke="#1f56a8" stroke-width="2.5"/>
+<line x1="570.0" y1="330.0" x2="578.0" y2="330.0" stroke="#1a1a1a" stroke-width="1.6"/>
+<text x="562.0" y="337.0" font-size="20" text-anchor="end" fill="#1a1a1a" xml:space="preserve"><tspan font-size="20.0">0</tspan></text>
+<line x1="570.0" y1="278.3" x2="578.0" y2="278.3" stroke="#1a1a1a" stroke-width="1.6"/>
+<text x="562.0" y="285.3" font-size="20" text-anchor="end" fill="#1a1a1a" xml:space="preserve"><tspan font-size="20.0">0.05</tspan></text>
+<line x1="570.0" y1="226.6" x2="578.0" y2="226.6" stroke="#1a1a1a" stroke-width="1.6"/>
+<text x="562.0" y="233.6" font-size="20" text-anchor="end" fill="#1a1a1a" xml:space="preserve"><tspan font-size="20.0">0.10</tspan></text>
+<line x1="570.0" y1="174.8" x2="578.0" y2="174.8" stroke="#1a1a1a" stroke-width="1.6"/>
+<text x="562.0" y="181.8" font-size="20" text-anchor="end" fill="#1a1a1a" xml:space="preserve"><tspan font-size="20.0">0.15</tspan></text>
+<line x1="570.0" y1="123.1" x2="578.0" y2="123.1" stroke="#1a1a1a" stroke-width="1.6"/>
+<text x="562.0" y="130.1" font-size="20" text-anchor="end" fill="#1a1a1a" xml:space="preserve"><tspan font-size="20.0">0.20</tspan></text>
+<line x1="570.0" y1="71.4" x2="578.0" y2="71.4" stroke="#1a1a1a" stroke-width="1.6"/>
+<text x="562.0" y="78.4" font-size="20" text-anchor="end" fill="#1a1a1a" xml:space="preserve"><tspan font-size="20.0">0.25</tspan></text>
+<line x1="616.2" y1="330.0" x2="616.2" y2="322.0" stroke="#1a1a1a" stroke-width="1.6"/>
+<text x="616.2" y="360.0" font-size="20" text-anchor="middle" fill="#1a1a1a" xml:space="preserve"><tspan font-size="20.0">152</tspan></text>
+<line x1="667.4" y1="330.0" x2="667.4" y2="322.0" stroke="#1a1a1a" stroke-width="1.6"/>
+<text x="667.4" y="360.0" font-size="20" text-anchor="middle" fill="#1a1a1a" xml:space="preserve"><tspan font-size="20.0">154</tspan></text>
+<line x1="718.7" y1="330.0" x2="718.7" y2="322.0" stroke="#1a1a1a" stroke-width="1.6"/>
+<text x="718.7" y="360.0" font-size="20" text-anchor="middle" fill="#1a1a1a" xml:space="preserve"><tspan font-size="20.0">156</tspan></text>
+<line x1="770.0" y1="330.0" x2="770.0" y2="322.0" stroke="#1a1a1a" stroke-width="1.6"/>
+<text x="770.0" y="360.0" font-size="20" text-anchor="middle" fill="#1a1a1a" xml:space="preserve"><tspan font-size="20.0">158</tspan></text>
+<line x1="821.3" y1="330.0" x2="821.3" y2="322.0" stroke="#1a1a1a" stroke-width="1.6"/>
+<text x="821.3" y="360.0" font-size="20" text-anchor="middle" fill="#1a1a1a" xml:space="preserve"><tspan font-size="20.0">160</tspan></text>
+<line x1="872.6" y1="330.0" x2="872.6" y2="322.0" stroke="#1a1a1a" stroke-width="1.6"/>
+<text x="872.6" y="360.0" font-size="20" text-anchor="middle" fill="#1a1a1a" xml:space="preserve"><tspan font-size="20.0">162</tspan></text>
+<line x1="923.8" y1="330.0" x2="923.8" y2="322.0" stroke="#1a1a1a" stroke-width="1.6"/>
+<text x="923.8" y="360.0" font-size="20" text-anchor="middle" fill="#1a1a1a" xml:space="preserve"><tspan font-size="20.0">164</tspan></text>
+<text transform="translate(500.0,180.0) rotate(-90)" font-size="22" text-anchor="middle" fill="#1a1a1a" xml:space="preserve"><tspan font-size="22.0">Probability</tspan></text>
+<text x="770.0" y="420.0" font-size="26" text-anchor="middle" fill="#1a1a1a" xml:space="preserve"><tspan font-size="26.0">(b) Sample Mean</tspan></text>
+</svg>

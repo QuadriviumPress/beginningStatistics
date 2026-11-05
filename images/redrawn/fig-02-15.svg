@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 640" role="img" aria-labelledby="title desc" font-family="'STIX Two Text','Times New Roman',Times,'Liberation Serif',serif">
+<title id="title">Figure 2.15 Heights of adult men</title>
+<desc id="desc">Relative frequency histogram of the 100 heights in Table 2.2, in classes half an inch wide from 65.5 to 75.5 inches, roughly bell-shaped and centered near 70. The axis is marked at x̄ − 3s = 64.82, x̄ − 2s = 66.52, x̄ − s = 68.22, x̄ = 69.92, x̄ + s = 71.62, x̄ + 2s = 73.32, and x̄ + 3s = 75.02.</desc>
+<rect width="1000" height="640" fill="#fff"/>
+<rect x="70.0" y="20.0" width="900.0" height="600.0" fill="none" stroke="#1a1a1a" stroke-width="1.6"/>
+<line x1="70.0" y1="520.0" x2="970.0" y2="520.0" stroke="#1a1a1a" stroke-width="1.6"/>
+<text transform="translate(54.0,270.0) rotate(-90)" font-size="26" text-anchor="middle" fill="#1a1a1a" xml:space="preserve"><tspan font-size="26.0">Relative Frequency</tspan></text>
+<rect x="164.7" y="453.3" width="39.5" height="66.7" fill="none" stroke="#1f56a8" stroke-width="1.8"/>
+<rect x="204.2" y="486.7" width="39.5" height="33.3" fill="none" stroke="#1f56a8" stroke-width="1.8"/>
+<rect x="243.7" y="486.7" width="39.5" height="33.3" fill="none" stroke="#1f56a8" stroke-width="1.8"/>
+<rect x="283.2" y="420.0" width="39.5" height="100.0" fill="none" stroke="#1f56a8" stroke-width="1.8"/>
+<rect x="322.6" y="353.3" width="39.5" height="166.7" fill="none" stroke="#1f56a8" stroke-width="1.8"/>
+<rect x="362.1" y="320.0" width="39.5" height="200.0" fill="none" stroke="#1f56a8" stroke-width="1.8"/>
+<rect x="401.6" y="186.7" width="39.5" height="333.3" fill="none" stroke="#1f56a8" stroke-width="1.8"/>
+<rect x="441.1" y="186.7" width="39.5" height="333.3" fill="none" stroke="#1f56a8" stroke-width="1.8"/>
+<rect x="480.5" y="120.0" width="39.5" height="400.0" fill="none" stroke="#1f56a8" stroke-width="1.8"/>
+<rect x="520.0" y="86.7" width="39.5" height="433.3" fill="none" stroke="#1f56a8" stroke-width="1.8"/>
+<rect x="559.5" y="186.7" width="39.5" height="333.3" fill="none" stroke="#1f56a8" stroke-width="1.8"/>
+<rect x="598.9" y="220.0" width="39.5" height="300.0" fill="none" stroke="#1f56a8" stroke-width="1.8"/>
+<rect x="638.4" y="286.7" width="39.5" height="233.3" fill="none" stroke="#1f56a8" stroke-width="1.8"/>
+<rect x="677.9" y="353.3" width="39.5" height="166.7" fill="none" stroke="#1f56a8" stroke-width="1.8"/>
+<rect x="717.4" y="420.0" width="39.5" height="100.0" fill="none" stroke="#1f56a8" stroke-width="1.8"/>
+<rect x="756.8" y="486.7" width="39.5" height="33.3" fill="none" stroke="#1f56a8" stroke-width="1.8"/>
+<rect x="796.3" y="486.7" width="39.5" height="33.3" fill="none" stroke="#1f56a8" stroke-width="1.8"/>
+<rect x="875.3" y="486.7" width="39.5" height="33.3" fill="none" stroke="#1f56a8" stroke-width="1.8"/>
+<rect x="107.1" y="510.0" width="8" height="10" fill="#1a1a1a"/>
+<rect x="241.3" y="510.0" width="8" height="10" fill="#1a1a1a"/>
+<rect x="375.5" y="510.0" width="8" height="10" fill="#1a1a1a"/>
+<rect x="509.7" y="510.0" width="8" height="10" fill="#1a1a1a"/>
+<rect x="643.9" y="510.0" width="8" height="10" fill="#1a1a1a"/>
+<rect x="778.1" y="510.0" width="8" height="10" fill="#1a1a1a"/>
+<rect x="912.3" y="510.0" width="8" height="10" fill="#1a1a1a"/>
+<text x="111.1" y="554.0" font-size="26" text-anchor="middle" fill="#1a1a1a" xml:space="preserve"><tspan font-size="26.0" font-style="italic">x̄</tspan><tspan font-size="26.0"> − 3</tspan><tspan font-size="26.0" font-style="italic">s</tspan></text>
+<text x="111.1" y="585.2" font-size="26" text-anchor="middle" fill="#1a1a1a" xml:space="preserve"><tspan font-size="26.0">64.82</tspan></text>
+<text x="245.3" y="554.0" font-size="26" text-anchor="middle" fill="#1a1a1a" xml:space="preserve"><tspan font-size="26.0" font-style="italic">x̄</tspan><tspan font-size="26.0"> − 2</tspan><tspan font-size="26.0" font-style="italic">s</tspan></text>
+<text x="245.3" y="585.2" font-size="26" text-anchor="middle" fill="#1a1a1a" xml:space="preserve"><tspan font-size="26.0">66.52</tspan></text>
+<text x="379.5" y="554.0" font-size="26" text-anchor="middle" fill="#1a1a1a" xml:space="preserve"><tspan font-size="26.0" font-style="italic">x̄</tspan><tspan font-size="26.0"> − </tspan><tspan font-size="26.0" font-style="italic">s</tspan></text>
+<text x="379.5" y="585.2" font-size="26" text-anchor="middle" fill="#1a1a1a" xml:space="preserve"><tspan font-size="26.0">68.22</tspan></text>
+<text x="513.7" y="554.0" font-size="26" text-anchor="middle" fill="#1a1a1a" xml:space="preserve"><tspan font-size="26.0" font-style="italic">x̄</tspan></text>
+<text x="513.7" y="585.2" font-size="26" text-anchor="middle" fill="#1a1a1a" xml:space="preserve"><tspan font-size="26.0">69.92</tspan></text>
+<text x="647.9" y="554.0" font-size="26" text-anchor="middle" fill="#1a1a1a" xml:space="preserve"><tspan font-size="26.0" font-style="italic">x̄</tspan><tspan font-size="26.0"> + </tspan><tspan font-size="26.0" font-style="italic">s</tspan></text>
+<text x="647.9" y="585.2" font-size="26" text-anchor="middle" fill="#1a1a1a" xml:space="preserve"><tspan font-size="26.0">71.62</tspan></text>
+<text x="782.1" y="554.0" font-size="26" text-anchor="middle" fill="#1a1a1a" xml:space="preserve"><tspan font-size="26.0" font-style="italic">x̄</tspan><tspan font-size="26.0"> + 2</tspan><tspan font-size="26.0" font-style="italic">s</tspan></text>
+<text x="782.1" y="585.2" font-size="26" text-anchor="middle" fill="#1a1a1a" xml:space="preserve"><tspan font-size="26.0">73.32</tspan></text>
+<text x="916.3" y="554.0" font-size="26" text-anchor="middle" fill="#1a1a1a" xml:space="preserve"><tspan font-size="26.0" font-style="italic">x̄</tspan><tspan font-size="26.0"> + 3</tspan><tspan font-size="26.0" font-style="italic">s</tspan></text>
+<text x="916.3" y="585.2" font-size="26" text-anchor="middle" fill="#1a1a1a" xml:space="preserve"><tspan font-size="26.0">75.02</tspan></text>
+</svg>

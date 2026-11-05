@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 760" role="img" aria-labelledby="title desc" font-family="'STIX Two Text','Times New Roman',Times,'Liberation Serif',serif">
+<title id="title">Figure 10.2 Plot of height and weight pairs</title>
+<desc id="desc">Scatter plot of height (66 to 78 inches) against weight (140 to 200 pounds) for the 12 men in the sample; the points rise from (68, 151) and (69, 146) to (75, 188), in a loose upward band.</desc>
+<rect width="1000" height="760" fill="#fff"/>
+<rect x="80.0" y="20.0" width="880.0" height="670.0" fill="none" stroke="#1a1a1a" stroke-width="1.6"/>
+<line x1="80.0" y1="690.0" x2="80.0" y2="682.0" stroke="#1a1a1a" stroke-width="1.6"/>
+<line x1="80.0" y1="20.0" x2="80.0" y2="28.0" stroke="#1a1a1a" stroke-width="1.6"/>
+<text x="80.0" y="724.0" font-size="24" text-anchor="middle" fill="#1a1a1a" xml:space="preserve"><tspan font-size="24.0">66</tspan></text>
+<line x1="226.7" y1="690.0" x2="226.7" y2="682.0" stroke="#1a1a1a" stroke-width="1.6"/>
+<line x1="226.7" y1="20.0" x2="226.7" y2="28.0" stroke="#1a1a1a" stroke-width="1.6"/>
+<text x="226.7" y="724.0" font-size="24" text-anchor="middle" fill="#1a1a1a" xml:space="preserve"><tspan font-size="24.0">68</tspan></text>
+<line x1="373.3" y1="690.0" x2="373.3" y2="682.0" stroke="#1a1a1a" stroke-width="1.6"/>
+<line x1="373.3" y1="20.0" x2="373.3" y2="28.0" stroke="#1a1a1a" stroke-width="1.6"/>
+<text x="373.3" y="724.0" font-size="24" text-anchor="middle" fill="#1a1a1a" xml:space="preserve"><tspan font-size="24.0">70</tspan></text>
+<line x1="520.0" y1="690.0" x2="520.0" y2="682.0" stroke="#1a1a1a" stroke-width="1.6"/>
+<line x1="520.0" y1="20.0" x2="520.0" y2="28.0" stroke="#1a1a1a" stroke-width="1.6"/>
+<text x="520.0" y="724.0" font-size="24" text-anchor="middle" fill="#1a1a1a" xml:space="preserve"><tspan font-size="24.0">72</tspan></text>
+<line x1="666.7" y1="690.0" x2="666.7" y2="682.0" stroke="#1a1a1a" stroke-width="1.6"/>
+<line x1="666.7" y1="20.0" x2="666.7" y2="28.0" stroke="#1a1a1a" stroke-width="1.6"/>
+<text x="666.7" y="724.0" font-size="24" text-anchor="middle" fill="#1a1a1a" xml:space="preserve"><tspan font-size="24.0">74</tspan></text>
+<line x1="813.3" y1="690.0" x2="813.3" y2="682.0" stroke="#1a1a1a" stroke-width="1.6"/>
+<line x1="813.3" y1="20.0" x2="813.3" y2="28.0" stroke="#1a1a1a" stroke-width="1.6"/>
+<text x="813.3" y="724.0" font-size="24" text-anchor="middle" fill="#1a1a1a" xml:space="preserve"><tspan font-size="24.0">76</tspan></text>
+<line x1="960.0" y1="690.0" x2="960.0" y2="682.0" stroke="#1a1a1a" stroke-width="1.6"/>
+<line x1="960.0" y1="20.0" x2="960.0" y2="28.0" stroke="#1a1a1a" stroke-width="1.6"/>
+<text x="960.0" y="724.0" font-size="24" text-anchor="middle" fill="#1a1a1a" xml:space="preserve"><tspan font-size="24.0">78</tspan></text>
+<line x1="80.0" y1="690.0" x2="88.0" y2="690.0" stroke="#1a1a1a" stroke-width="1.6"/>
+<line x1="960.0" y1="690.0" x2="952.0" y2="690.0" stroke="#1a1a1a" stroke-width="1.6"/>
+<text x="72.0" y="698.4" font-size="24" text-anchor="end" fill="#1a1a1a" xml:space="preserve"><tspan font-size="24.0">140</tspan></text>
+<line x1="80.0" y1="578.3" x2="88.0" y2="578.3" stroke="#1a1a1a" stroke-width="1.6"/>
+<line x1="960.0" y1="578.3" x2="952.0" y2="578.3" stroke="#1a1a1a" stroke-width="1.6"/>
+<text x="72.0" y="586.7" font-size="24" text-anchor="end" fill="#1a1a1a" xml:space="preserve"><tspan font-size="24.0">150</tspan></text>
+<line x1="80.0" y1="466.7" x2="88.0" y2="466.7" stroke="#1a1a1a" stroke-width="1.6"/>
+<line x1="960.0" y1="466.7" x2="952.0" y2="466.7" stroke="#1a1a1a" stroke-width="1.6"/>
+<text x="72.0" y="475.1" font-size="24" text-anchor="end" fill="#1a1a1a" xml:space="preserve"><tspan font-size="24.0">160</tspan></text>
+<line x1="80.0" y1="355.0" x2="88.0" y2="355.0" stroke="#1a1a1a" stroke-width="1.6"/>
+<line x1="960.0" y1="355.0" x2="952.0" y2="355.0" stroke="#1a1a1a" stroke-width="1.6"/>
+<text x="72.0" y="363.4" font-size="24" text-anchor="end" fill="#1a1a1a" xml:space="preserve"><tspan font-size="24.0">170</tspan></text>
+<line x1="80.0" y1="243.3" x2="88.0" y2="243.3" stroke="#1a1a1a" stroke-width="1.6"/>
+<line x1="960.0" y1="243.3" x2="952.0" y2="243.3" stroke="#1a1a1a" stroke-width="1.6"/>
+<text x="72.0" y="251.7" font-size="24" text-anchor="end" fill="#1a1a1a" xml:space="preserve"><tspan font-size="24.0">180</tspan></text>
+<line x1="80.0" y1="131.7" x2="88.0" y2="131.7" stroke="#1a1a1a" stroke-width="1.6"/>
+<line x1="960.0" y1="131.7" x2="952.0" y2="131.7" stroke="#1a1a1a" stroke-width="1.6"/>
+<text x="72.0" y="140.1" font-size="24" text-anchor="end" fill="#1a1a1a" xml:space="preserve"><tspan font-size="24.0">190</tspan></text>
+<line x1="80.0" y1="20.0" x2="88.0" y2="20.0" stroke="#1a1a1a" stroke-width="1.6"/>
+<line x1="960.0" y1="20.0" x2="952.0" y2="20.0" stroke="#1a1a1a" stroke-width="1.6"/>
+<text x="72.0" y="28.4" font-size="24" text-anchor="end" fill="#1a1a1a" xml:space="preserve"><tspan font-size="24.0">200</tspan></text>
+<circle cx="226.7" cy="567.2" r="10.0" fill="#1f56a8" stroke="none" stroke-width="0"/>
+<circle cx="300.0" cy="623.0" r="10.0" fill="#1f56a8" stroke="none" stroke-width="0"/>
+<circle cx="373.3" cy="500.2" r="10.0" fill="#1f56a8" stroke="none" stroke-width="0"/>
+<circle cx="373.3" cy="422.0" r="10.0" fill="#1f56a8" stroke="none" stroke-width="0"/>
+<circle cx="446.7" cy="343.8" r="10.0" fill="#1f56a8" stroke="none" stroke-width="0"/>
+<circle cx="520.0" cy="466.7" r="10.0" fill="#1f56a8" stroke="none" stroke-width="0"/>
+<circle cx="520.0" cy="433.2" r="10.0" fill="#1f56a8" stroke="none" stroke-width="0"/>
+<circle cx="520.0" cy="243.3" r="10.0" fill="#1f56a8" stroke="none" stroke-width="0"/>
+<circle cx="593.3" cy="355.0" r="10.0" fill="#1f56a8" stroke="none" stroke-width="0"/>
+<circle cx="593.3" cy="299.2" r="10.0" fill="#1f56a8" stroke="none" stroke-width="0"/>
+<circle cx="666.7" cy="265.7" r="10.0" fill="#1f56a8" stroke="none" stroke-width="0"/>
+<circle cx="740.0" cy="154.0" r="10.0" fill="#1f56a8" stroke="none" stroke-width="0"/>
+</svg>

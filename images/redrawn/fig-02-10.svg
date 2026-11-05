@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 420" role="img" aria-labelledby="title desc" font-family="'STIX Two Text','Times New Roman',Times,'Liberation Serif',serif">
+<title id="title">Figure 2.10 Dot plots of data sets</title>
+<desc id="desc">Dot plots on a scale from 32 to 50. (a) Set I: values tightly clustered at 38, 39, 39, 39, 40, 40, 40, 40, 42, and 43. (b) Set II: values spread out at 33, 34, 36, 37, 40, 40, 42, 45, 46, and 47. Both sets have mean 40.</desc>
+<rect width="1000" height="420" fill="#fff"/>
+<rect x="40.0" y="20.0" width="440.0" height="300.0" fill="none" stroke="#1a1a1a" stroke-width="1.6"/>
+<line x1="62.0" y1="320.0" x2="62.0" y2="312.0" stroke="#1a1a1a" stroke-width="1.6"/>
+<line x1="62.0" y1="20.0" x2="62.0" y2="28.0" stroke="#1a1a1a" stroke-width="1.6"/>
+<text x="62.0" y="348.0" font-size="20" text-anchor="middle" fill="#1a1a1a" xml:space="preserve"><tspan font-size="20.0">32</tspan></text>
+<line x1="106.0" y1="320.0" x2="106.0" y2="312.0" stroke="#1a1a1a" stroke-width="1.6"/>
+<line x1="106.0" y1="20.0" x2="106.0" y2="28.0" stroke="#1a1a1a" stroke-width="1.6"/>
+<text x="106.0" y="348.0" font-size="20" text-anchor="middle" fill="#1a1a1a" xml:space="preserve"><tspan font-size="20.0">34</tspan></text>
+<line x1="150.0" y1="320.0" x2="150.0" y2="312.0" stroke="#1a1a1a" stroke-width="1.6"/>
+<line x1="150.0" y1="20.0" x2="150.0" y2="28.0" stroke="#1a1a1a" stroke-width="1.6"/>
+<text x="150.0" y="348.0" font-size="20" text-anchor="middle" fill="#1a1a1a" xml:space="preserve"><tspan font-size="20.0">36</tspan></text>
+<line x1="194.0" y1="320.0" x2="194.0" y2="312.0" stroke="#1a1a1a" stroke-width="1.6"/>
+<line x1="194.0" y1="20.0" x2="194.0" y2="28.0" stroke="#1a1a1a" stroke-width="1.6"/>
+<text x="194.0" y="348.0" font-size="20" text-anchor="middle" fill="#1a1a1a" xml:space="preserve"><tspan font-size="20.0">38</tspan></text>
+<line x1="238.0" y1="320.0" x2="238.0" y2="312.0" stroke="#1a1a1a" stroke-width="1.6"/>
+<line x1="238.0" y1="20.0" x2="238.0" y2="28.0" stroke="#1a1a1a" stroke-width="1.6"/>
+<text x="238.0" y="348.0" font-size="20" text-anchor="middle" fill="#1a1a1a" xml:space="preserve"><tspan font-size="20.0">40</tspan></text>
+<line x1="282.0" y1="320.0" x2="282.0" y2="312.0" stroke="#1a1a1a" stroke-width="1.6"/>
+<line x1="282.0" y1="20.0" x2="282.0" y2="28.0" stroke="#1a1a1a" stroke-width="1.6"/>
+<text x="282.0" y="348.0" font-size="20" text-anchor="middle" fill="#1a1a1a" xml:space="preserve"><tspan font-size="20.0">42</tspan></text>
+<line x1="326.0" y1="320.0" x2="326.0" y2="312.0" stroke="#1a1a1a" stroke-width="1.6"/>
+<line x1="326.0" y1="20.0" x2="326.0" y2="28.0" stroke="#1a1a1a" stroke-width="1.6"/>
+<text x="326.0" y="348.0" font-size="20" text-anchor="middle" fill="#1a1a1a" xml:space="preserve"><tspan font-size="20.0">44</tspan></text>
+<line x1="370.0" y1="320.0" x2="370.0" y2="312.0" stroke="#1a1a1a" stroke-width="1.6"/>
+<line x1="370.0" y1="20.0" x2="370.0" y2="28.0" stroke="#1a1a1a" stroke-width="1.6"/>
+<text x="370.0" y="348.0" font-size="20" text-anchor="middle" fill="#1a1a1a" xml:space="preserve"><tspan font-size="20.0">46</tspan></text>
+<line x1="414.0" y1="320.0" x2="414.0" y2="312.0" stroke="#1a1a1a" stroke-width="1.6"/>
+<line x1="414.0" y1="20.0" x2="414.0" y2="28.0" stroke="#1a1a1a" stroke-width="1.6"/>
+<text x="414.0" y="348.0" font-size="20" text-anchor="middle" fill="#1a1a1a" xml:space="preserve"><tspan font-size="20.0">48</tspan></text>
+<line x1="458.0" y1="320.0" x2="458.0" y2="312.0" stroke="#1a1a1a" stroke-width="1.6"/>
+<line x1="458.0" y1="20.0" x2="458.0" y2="28.0" stroke="#1a1a1a" stroke-width="1.6"/>
+<text x="458.0" y="348.0" font-size="20" text-anchor="middle" fill="#1a1a1a" xml:space="preserve"><tspan font-size="20.0">50</tspan></text>
+<circle cx="194.0" cy="280.0" r="9.0" fill="#1f56a8" stroke="none" stroke-width="0"/>
+<circle cx="216.0" cy="280.0" r="9.0" fill="#1f56a8" stroke="none" stroke-width="0"/>
+<circle cx="216.0" cy="254.0" r="9.0" fill="#1f56a8" stroke="none" stroke-width="0"/>
+<circle cx="216.0" cy="228.0" r="9.0" fill="#1f56a8" stroke="none" stroke-width="0"/>
+<circle cx="238.0" cy="280.0" r="9.0" fill="#1f56a8" stroke="none" stroke-width="0"/>
+<circle cx="238.0" cy="254.0" r="9.0" fill="#1f56a8" stroke="none" stroke-width="0"/>
+<circle cx="238.0" cy="228.0" r="9.0" fill="#1f56a8" stroke="none" stroke-width="0"/>
+<circle cx="238.0" cy="202.0" r="9.0" fill="#1f56a8" stroke="none" stroke-width="0"/>
+<circle cx="282.0" cy="280.0" r="9.0" fill="#1f56a8" stroke="none" stroke-width="0"/>
+<circle cx="304.0" cy="280.0" r="9.0" fill="#1f56a8" stroke="none" stroke-width="0"/>
+<text x="260.0" y="395.0" font-size="28" text-anchor="middle" fill="#1a1a1a" xml:space="preserve"><tspan font-size="28.0">(a) Set I</tspan></text>
+<rect x="530.0" y="20.0" width="440.0" height="300.0" fill="none" stroke="#1a1a1a" stroke-width="1.6"/>
+<line x1="552.0" y1="320.0" x2="552.0" y2="312.0" stroke="#1a1a1a" stroke-width="1.6"/>
+<line x1="552.0" y1="20.0" x2="552.0" y2="28.0" stroke="#1a1a1a" stroke-width="1.6"/>
+<text x="552.0" y="348.0" font-size="20" text-anchor="middle" fill="#1a1a1a" xml:space="preserve"><tspan font-size="20.0">32</tspan></text>
+<line x1="596.0" y1="320.0" x2="596.0" y2="312.0" stroke="#1a1a1a" stroke-width="1.6"/>
+<line x1="596.0" y1="20.0" x2="596.0" y2="28.0" stroke="#1a1a1a" stroke-width="1.6"/>
+<text x="596.0" y="348.0" font-size="20" text-anchor="middle" fill="#1a1a1a" xml:space="preserve"><tspan font-size="20.0">34</tspan></text>
+<line x1="640.0" y1="320.0" x2="640.0" y2="312.0" stroke="#1a1a1a" stroke-width="1.6"/>
+<line x1="640.0" y1="20.0" x2="640.0" y2="28.0" stroke="#1a1a1a" stroke-width="1.6"/>
+<text x="640.0" y="348.0" font-size="20" text-anchor="middle" fill="#1a1a1a" xml:space="preserve"><tspan font-size="20.0">36</tspan></text>
+<line x1="684.0" y1="320.0" x2="684.0" y2="312.0" stroke="#1a1a1a" stroke-width="1.6"/>
+<line x1="684.0" y1="20.0" x2="684.0" y2="28.0" stroke="#1a1a1a" stroke-width="1.6"/>
+<text x="684.0" y="348.0" font-size="20" text-anchor="middle" fill="#1a1a1a" xml:space="preserve"><tspan font-size="20.0">38</tspan></text>
+<line x1="728.0" y1="320.0" x2="728.0" y2="312.0" stroke="#1a1a1a" stroke-width="1.6"/>
+<line x1="728.0" y1="20.0" x2="728.0" y2="28.0" stroke="#1a1a1a" stroke-width="1.6"/>
+<text x="728.0" y="348.0" font-size="20" text-anchor="middle" fill="#1a1a1a" xml:space="preserve"><tspan font-size="20.0">40</tspan></text>
+<line x1="772.0" y1="320.0" x2="772.0" y2="312.0" stroke="#1a1a1a" stroke-width="1.6"/>
+<line x1="772.0" y1="20.0" x2="772.0" y2="28.0" stroke="#1a1a1a" stroke-width="1.6"/>
+<text x="772.0" y="348.0" font-size="20" text-anchor="middle" fill="#1a1a1a" xml:space="preserve"><tspan font-size="20.0">42</tspan></text>
+<line x1="816.0" y1="320.0" x2="816.0" y2="312.0" stroke="#1a1a1a" stroke-width="1.6"/>
+<line x1="816.0" y1="20.0" x2="816.0" y2="28.0" stroke="#1a1a1a" stroke-width="1.6"/>
+<text x="816.0" y="348.0" font-size="20" text-anchor="middle" fill="#1a1a1a" xml:space="preserve"><tspan font-size="20.0">44</tspan></text>
+<line x1="860.0" y1="320.0" x2="860.0" y2="312.0" stroke="#1a1a1a" stroke-width="1.6"/>
+<line x1="860.0" y1="20.0" x2="860.0" y2="28.0" stroke="#1a1a1a" stroke-width="1.6"/>
+<text x="860.0" y="348.0" font-size="20" text-anchor="middle" fill="#1a1a1a" xml:space="preserve"><tspan font-size="20.0">46</tspan></text>
+<line x1="904.0" y1="320.0" x2="904.0" y2="312.0" stroke="#1a1a1a" stroke-width="1.6"/>
+<line x1="904.0" y1="20.0" x2="904.0" y2="28.0" stroke="#1a1a1a" stroke-width="1.6"/>
+<text x="904.0" y="348.0" font-size="20" text-anchor="middle" fill="#1a1a1a" xml:space="preserve"><tspan font-size="20.0">48</tspan></text>
+<line x1="948.0" y1="320.0" x2="948.0" y2="312.0" stroke="#1a1a1a" stroke-width="1.6"/>
+<line x1="948.0" y1="20.0" x2="948.0" y2="28.0" stroke="#1a1a1a" stroke-width="1.6"/>
+<text x="948.0" y="348.0" font-size="20" text-anchor="middle" fill="#1a1a1a" xml:space="preserve"><tspan font-size="20.0">50</tspan></text>
+<circle cx="574.0" cy="280.0" r="9.0" fill="#1f56a8" stroke="none" stroke-width="0"/>
+<circle cx="596.0" cy="280.0" r="9.0" fill="#1f56a8" stroke="none" stroke-width="0"/>
+<circle cx="640.0" cy="280.0" r="9.0" fill="#1f56a8" stroke="none" stroke-width="0"/>
+<circle cx="662.0" cy="280.0" r="9.0" fill="#1f56a8" stroke="none" stroke-width="0"/>
+<circle cx="728.0" cy="280.0" r="9.0" fill="#1f56a8" stroke="none" stroke-width="0"/>
+<circle cx="728.0" cy="254.0" r="9.0" fill="#1f56a8" stroke="none" stroke-width="0"/>
+<circle cx="772.0" cy="280.0" r="9.0" fill="#1f56a8" stroke="none" stroke-width="0"/>
+<circle cx="838.0" cy="280.0" r="9.0" fill="#1f56a8" stroke="none" stroke-width="0"/>
+<circle cx="860.0" cy="280.0" r="9.0" fill="#1f56a8" stroke="none" stroke-width="0"/>
+<circle cx="882.0" cy="280.0" r="9.0" fill="#1f56a8" stroke="none" stroke-width="0"/>
+<text x="750.0" y="395.0" font-size="28" text-anchor="middle" fill="#1a1a1a" xml:space="preserve"><tspan font-size="28.0">(b) Set II</tspan></text>
+</svg>

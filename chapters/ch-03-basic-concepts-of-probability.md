@@ -56,8 +56,8 @@ Similarly the event that corresponds to the phrase "a number greater than two is
 
 A graphical representation of a sample space and events is a **Venn diagram**, as shown in [Figure 3.1 \"Venn Diagrams for Two Sample Spaces\"](/chapters/ch-03-basic-concepts-of-probability.md#src-fwk-shafer-ch03-s01-s01-f01) for [Note 3.6 \"Example 1\"](/chapters/ch-03-basic-concepts-of-probability.md#src-fwk-shafer-ch03-s01-s01-n03) and [Note 3.7 \"Example 2\"](/chapters/ch-03-basic-concepts-of-probability.md#src-fwk-shafer-ch03-s01-s01-n04). In general the sample space *S* is represented by a rectangle, outcomes by points within the rectangle, and events by ovals that enclose the outcomes that compose them.
 
-``````{figure} /images/section_07/97b468eaa2da56c52e300c556c23a24f.jpg
-:alt: Statistical diagram: Figure 3.1 Venn Diagrams for Two Sample Spaces
+``````{figure} /images/redrawn/fig-03-01.svg
+:alt: (a) One coin toss: a rectangle containing the outcomes h and t. (b) One die roll: a rectangle containing the outcomes 1 through 6, with a blue loop around 3, 4, 5, and 6 and a red loop around 2, 4, and 6.
 :name: src-fwk-shafer-ch03-s01-s01-f01
 
 Figure 3.1 Venn Diagrams for Two Sample Spaces
@@ -89,8 +89,8 @@ Solution:
 
 Two of the outcomes are "two boys then a girl," which we might denote $bbg$, and "a girl then two boys," which we would denote $gbb.$ Clearly there are many outcomes, and when we try to list all of them it could be difficult to be sure that we have found them all unless we proceed systematically. The tree diagram shown in [Figure 3.2 \"Tree Diagram For Three-Child Families\"](/chapters/ch-03-basic-concepts-of-probability.md#src-fwk-shafer-ch03-s01-s01-f02), gives a systematic approach.
 
-``````{figure} /images/section_07/e9de1d9b1c09ed5a0870567d7e5ad809.jpg
-:alt: Statistical diagram: Figure 3.2 Tree Diagram For Three-Child Families
+``````{figure} /images/redrawn/fig-03-02.svg
+:alt: A tree diagram with three levels of branches, b (boy) or g (girl) for each child in birth order. Its eight paths give the outcomes bbb, bbg, bgb, bgg, gbb, gbg, ggb, and ggg.
 :name: src-fwk-shafer-ch03-s01-s01-f02
 
 Figure 3.2 Tree Diagram For Three-Child Families
@@ -126,8 +126,8 @@ $$P(E) = P\left( e_{1} \right) + P\left( e_{2} \right) + \text{ }\cdot \text{ }\
 
 [Figure 3.3 \"Sample Spaces and Probability\"](/chapters/ch-03-basic-concepts-of-probability.md#src-fwk-shafer-ch03-s01-s02-f01) graphically illustrates the definitions.
 
-``````{figure} /images/section_07/b1371037e2e863e76e91bc00adf37f63.jpg
-:alt: Statistical diagram: Figure 3.3 Sample Spaces and Probability
+``````{figure} /images/redrawn/fig-03-03.svg
+:alt: A sample space S drawn as a rectangle containing outcomes e₁, e₂, e₃, e₄, e₅, and more, each tagged with its probability p₁, p₂, …. For the events A = {e₁, e₂} and B = {e₂, e₃, e₄}, P(A) = p₁ + p₂ and P(B) = p₂ + p₃ + p₄.
 :name: src-fwk-shafer-ch03-s01-s02-f01
 
 Figure 3.3 Sample Spaces and Probability
@@ -649,8 +649,8 @@ Let *O* denote the event "at least one head." There are many ways to obtain at l
 
 To say that the event *A* ∩ *B* occurred means that on a particular trial of the experiment both *A* and *B* occurred. A visual representation of the intersection of events *A* and *B* in a sample space *S* is given in [Figure 3.4 \"The Intersection of Events \"](/chapters/ch-03-basic-concepts-of-probability.md#src-fwk-shafer-ch03-s02-s02-f01). The intersection corresponds to the shaded lens-shaped region that lies within both ovals.
 
-``````{figure} /images/section_07/c839ee4bf3bb6c5efce796861aee5142.jpg
-:alt: Statistical diagram: Figure 3.4 The Intersection of Events A and B
+``````{figure} /images/redrawn/fig-03-04.svg
+:alt: Venn diagram of two overlapping circles A and B in a rectangle; only the overlap, A ∩ B, is shaded.
 :name: src-fwk-shafer-ch03-s02-s02-f01
 
 Figure 3.4 The Intersection of Events *A* and *B*
@@ -730,8 +730,8 @@ Since $E = \left\{ 2,4,6 \right\}$ and we want *A* to have no elements in common
 
 To say that the event *A* ∪ *B* occurred means that on a particular trial of the experiment either *A* or *B* occurred (or both did). A visual representation of the union of events *A* and *B* in a sample space *S* is given in [Figure 3.5 \"The Union of Events \"](/chapters/ch-03-basic-concepts-of-probability.md#src-fwk-shafer-ch03-s02-s03-f01). The union corresponds to the shaded region.
 
-``````{figure} /images/section_07/2b9ac417d3f9501644f5bcc1cfdd8ebb.jpg
-:alt: Statistical diagram: Figure 3.5 The Union of Events A and B
+``````{figure} /images/redrawn/fig-03-05.svg
+:alt: Venn diagram of two overlapping circles A and B in a rectangle; everything inside either circle, A ∪ B, is shaded.
 :name: src-fwk-shafer-ch03-s02-s03-f01
 
 Figure 3.5 The Union of Events *A* and *B*
@@ -972,8 +972,8 @@ When information is presented in a two-way classification table it is typically 
 
 7.  The Venn diagram provided shows a sample space and two events *A* and *B*. Suppose $P(a) = 0.13$, $P(b) = 0.09$, $P(c) = 0.27$, $P(d) = 0.20$, and $P(e) = 0.31.$ Confirm that the probabilities of the outcomes add up to 1, then compute the following probabilities.
 
-    ``````{figure} /images/section_07/3ba777e453d1118c377ee69b788d0a74.jpg
-    :alt: Statistical diagram: The Venn diagram provided shows a sample space and two events A and B . Suppose P ( a ) = 0.13 , P ( b ) = 0.09 , P ( c ) = 0.27 , P ( d ) = 0.20 , and P ( e ) = 0.31 . Confirm that the probabilities of the outcomes add up to 1, then compute the following probabilities.
+    ``````{figure} /images/redrawn/fig-03-ex7.svg
+    :alt: Venn diagram of a sample space with outcomes a, b, c, d, and e and two overlapping events A (red) and B (blue). The outcome a is outside both events, b is in A only, c is in both A and B, and d and e are in B only.
     :name: src-fwk-shafer-ch03-s02-qs01-fx02
 
 
@@ -989,8 +989,8 @@ When information is presented in a two-way classification table it is typically 
 
 8.  The Venn diagram provided shows a sample space and two events *A* and *B*. Suppose $P(a) = 0.32$, $P(b) = 0.17$, $P(c) = 0.28$, and $P(d) = 0.23.$ Confirm that the probabilities of the outcomes add up to 1, then compute the following probabilities.
 
-    ``````{figure} /images/section_07/cd8dc002db8c5f132bed316a3634ec00.jpg
-    :alt: Statistical diagram: The Venn diagram provided shows a sample space and two events A and B . Suppose P ( a ) = 0.32 , P ( b ) = 0.17 , P ( c ) = 0.28 , and P ( d ) = 0.23 . Confirm that the probabilities of the outcomes add up to 1, then compute the following probabilities.
+    ``````{figure} /images/redrawn/fig-03-ex8.svg
+    :alt: Venn diagram of a sample space with outcomes a, b, c, and d and two overlapping events A (red) and B (blue). The outcome a is outside both events, b and c are in both A and B, and d is in B only.
     :name: src-fwk-shafer-ch03-s02-qs01-fx01
 
 
@@ -1665,8 +1665,8 @@ Solution:
 
 A tree diagram for the situation of drawing one marble after the other without replacement is shown in [Figure 3.6 \"Tree Diagram for Drawing Two Marbles\"](/chapters/ch-03-basic-concepts-of-probability.md#src-fwk-shafer-ch03-s03-s03-f01). The circle and rectangle will be explained later, and should be ignored for now.
 
-``````{figure} /images/section_07/d49c86e68633de7735225880cc896d8b.jpg
-:alt: Statistical diagram: Figure 3.6 Tree Diagram for Drawing Two Marbles
+``````{figure} /images/redrawn/fig-03-06.svg
+:alt: Tree diagram for drawing two marbles without replacement from a jar of 7 black (B) and 3 white (W). The first draw is B with probability 7/10 or W with probability 3/10; after B, the second is B with probability 6/9 or W with 3/9; after W, B with 7/9 or W with 2/9. The path probabilities are P(B₁ ∩ B₂) = 0.47, P(B₁ ∩ W₂) = 0.23, P(W₁ ∩ B₂) = 0.23, and P(W₁ ∩ W₂) = 0.07. The two-blue outcome is circled and the two mixed outcomes are boxed together.
 :name: src-fwk-shafer-ch03-s03-s03-f01
 
 Figure 3.6 Tree Diagram for Drawing Two Marbles

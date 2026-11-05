@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 640" role="img" aria-labelledby="title desc" font-family="'STIX Two Text','Times New Roman',Times,'Liberation Serif',serif">
+<title id="title">Figure 4.4 Probability distribution for three coins and three children</title>
+<desc id="desc">Probability histogram for the number of heads in three coin tosses, or boys among three children: bars of height 0.125 at 0, 0.375 at 1, 0.375 at 2, and 0.125 at 3.</desc>
+<rect width="1000" height="640" fill="#fff"/>
+<line x1="100.0" y1="560.0" x2="960.0" y2="560.0" stroke="#1a1a1a" stroke-width="1.6"/>
+<line x1="100.0" y1="560.0" x2="100.0" y2="20.0" stroke="#1a1a1a" stroke-width="1.6"/>
+<rect x="186.0" y="416.4" width="172.0" height="143.6" fill="none" stroke="#1f56a8" stroke-width="1.8"/>
+<rect x="358.0" y="129.1" width="172.0" height="430.9" fill="none" stroke="#1f56a8" stroke-width="1.8"/>
+<rect x="530.0" y="129.1" width="172.0" height="430.9" fill="none" stroke="#1f56a8" stroke-width="1.8"/>
+<rect x="702.0" y="416.4" width="172.0" height="143.6" fill="none" stroke="#1f56a8" stroke-width="1.8"/>
+<line x1="100.0" y1="416.4" x2="108.0" y2="416.4" stroke="#1a1a1a" stroke-width="1.6"/>
+<text x="92.0" y="424.8" font-size="24" text-anchor="end" fill="#1a1a1a" xml:space="preserve"><tspan font-size="24.0">0.125</tspan></text>
+<line x1="100.0" y1="272.8" x2="108.0" y2="272.8" stroke="#1a1a1a" stroke-width="1.6"/>
+<text x="92.0" y="281.2" font-size="24" text-anchor="end" fill="#1a1a1a" xml:space="preserve"><tspan font-size="24.0">0.25</tspan></text>
+<line x1="100.0" y1="129.1" x2="108.0" y2="129.1" stroke="#1a1a1a" stroke-width="1.6"/>
+<text x="92.0" y="137.5" font-size="24" text-anchor="end" fill="#1a1a1a" xml:space="preserve"><tspan font-size="24.0">0.375</tspan></text>
+<line x1="272.0" y1="560.0" x2="272.0" y2="552.0" stroke="#1a1a1a" stroke-width="1.6"/>
+<text x="272.0" y="594.0" font-size="26" text-anchor="middle" fill="#1a1a1a" xml:space="preserve"><tspan font-size="26.0">0</tspan></text>
+<line x1="444.0" y1="560.0" x2="444.0" y2="552.0" stroke="#1a1a1a" stroke-width="1.6"/>
+<text x="444.0" y="594.0" font-size="26" text-anchor="middle" fill="#1a1a1a" xml:space="preserve"><tspan font-size="26.0">1</tspan></text>
+<line x1="616.0" y1="560.0" x2="616.0" y2="552.0" stroke="#1a1a1a" stroke-width="1.6"/>
+<text x="616.0" y="594.0" font-size="26" text-anchor="middle" fill="#1a1a1a" xml:space="preserve"><tspan font-size="26.0">2</tspan></text>
+<line x1="788.0" y1="560.0" x2="788.0" y2="552.0" stroke="#1a1a1a" stroke-width="1.6"/>
+<text x="788.0" y="594.0" font-size="26" text-anchor="middle" fill="#1a1a1a" xml:space="preserve"><tspan font-size="26.0">3</tspan></text>
+</svg>

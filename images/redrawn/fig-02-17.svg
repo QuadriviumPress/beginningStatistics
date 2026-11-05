@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 660" role="img" aria-labelledby="title desc" font-family="'STIX Two Text','Times New Roman',Times,'Liberation Serif',serif">
+<title id="title">Figure 2.17 Distribution of heights</title>
+<desc id="desc">A bell curve of heights with vertical lines at μ − 2σ = 66.9, μ − σ = 68.2, μ + σ = 71.0, and μ + 2σ = 72.4, around μ = 69.6. About 68% of heights lie between 68.2 and 71.0, and about 95% between 66.9 and 72.4.</desc>
+<rect width="1000" height="660" fill="#fff"/>
+<rect x="70.0" y="20.0" width="900.0" height="620.0" fill="none" stroke="#1a1a1a" stroke-width="1.6"/>
+<line x1="70.0" y1="540.0" x2="970.0" y2="540.0" stroke="#1a1a1a" stroke-width="1.6"/>
+<text transform="translate(54.0,280.0) rotate(-90)" font-size="26" text-anchor="middle" fill="#1a1a1a" xml:space="preserve"><tspan font-size="26.0">Relative Frequency</tspan></text>
+<path d="M70.0,539.8 L73.8,539.8 L77.5,539.8 L81.3,539.8 L85.0,539.7 L88.8,539.7 L92.5,539.7 L96.2,539.6 L100.0,539.6 L103.8,539.5 L107.5,539.4 L111.2,539.4 L115.0,539.3 L118.7,539.2 L122.5,539.1 L126.2,539.0 L130.0,538.9 L133.7,538.8 L137.5,538.6 L141.3,538.5 L145.0,538.3 L148.7,538.1 L152.5,537.9 L156.2,537.7 L160.0,537.4 L163.8,537.2 L167.5,536.9 L171.2,536.5 L175.0,536.2 L178.8,535.8 L182.5,535.4 L186.2,534.9 L190.0,534.4 L193.8,533.9 L197.5,533.3 L201.2,532.6 L205.0,531.9 L208.8,531.2 L212.5,530.4 L216.2,529.5 L220.0,528.6 L223.8,527.6 L227.5,526.5 L231.2,525.4 L235.0,524.2 L238.8,522.8 L242.5,521.4 L246.2,519.9 L250.0,518.3 L253.7,516.6 L257.5,514.8 L261.2,512.9 L265.0,510.9 L268.8,508.7 L272.5,506.5 L276.2,504.1 L280.0,501.5 L283.8,498.9 L287.5,496.1 L291.2,493.1 L295.0,490.0 L298.8,486.8 L302.5,483.4 L306.2,479.8 L310.0,476.1 L313.8,472.3 L317.5,468.3 L321.2,464.1 L325.0,459.8 L328.8,455.3 L332.5,450.6 L336.2,445.8 L340.0,440.9 L343.8,435.8 L347.5,430.6 L351.2,425.2 L355.0,419.6 L358.8,414.0 L362.5,408.2 L366.2,402.3 L370.0,396.3 L373.7,390.1 L377.5,383.9 L381.2,377.6 L385.0,371.2 L388.8,364.8 L392.5,358.3 L396.3,351.7 L400.0,345.2 L403.7,338.6 L407.5,332.0 L411.2,325.4 L415.0,318.8 L418.8,312.3 L422.5,305.9 L426.2,299.5 L430.0,293.2 L433.8,287.0 L437.5,280.9 L441.2,274.9 L445.0,269.1 L448.8,263.5 L452.5,258.0 L456.2,252.8 L460.0,247.7 L463.8,242.9 L467.5,238.3 L471.2,234.0 L475.0,229.9 L478.7,226.1 L482.5,222.6 L486.2,219.4 L490.0,216.5 L493.8,214.0 L497.5,211.7 L501.2,209.8 L505.0,208.2 L508.8,207.0 L512.5,206.1 L516.2,205.6 L520.0,205.4 L523.8,205.6 L527.5,206.1 L531.2,207.0 L535.0,208.2 L538.8,209.8 L542.5,211.7 L546.2,214.0 L550.0,216.5 L553.8,219.4 L557.5,222.6 L561.2,226.1 L565.0,229.9 L568.8,234.0 L572.5,238.3 L576.2,242.9 L580.0,247.7 L583.8,252.8 L587.5,258.0 L591.2,263.5 L595.0,269.1 L598.7,274.9 L602.5,280.9 L606.2,287.0 L610.0,293.2 L613.8,299.5 L617.5,305.9 L621.2,312.3 L625.0,318.8 L628.8,325.4 L632.5,332.0 L636.2,338.6 L640.0,345.2 L643.8,351.7 L647.5,358.3 L651.2,364.8 L655.0,371.2 L658.8,377.6 L662.5,383.9 L666.3,390.1 L670.0,396.3 L673.8,402.3 L677.5,408.2 L681.2,414.0 L685.0,419.6 L688.8,425.2 L692.5,430.6 L696.2,435.8 L700.0,440.9 L703.8,445.8 L707.5,450.6 L711.2,455.3 L715.0,459.8 L718.8,464.1 L722.5,468.3 L726.2,472.3 L730.0,476.1 L733.7,479.8 L737.5,483.4 L741.2,486.8 L745.0,490.0 L748.8,493.1 L752.5,496.1 L756.2,498.9 L760.0,501.5 L763.8,504.1 L767.5,506.5 L771.2,508.7 L775.0,510.9 L778.8,512.9 L782.5,514.8 L786.2,516.6 L790.0,518.3 L793.7,519.9 L797.5,521.4 L801.3,522.8 L805.0,524.2 L808.8,525.4 L812.5,526.5 L816.2,527.6 L820.0,528.6 L823.8,529.5 L827.5,530.4 L831.2,531.2 L835.0,531.9 L838.8,532.6 L842.5,533.3 L846.2,533.9 L850.0,534.4 L853.8,534.9 L857.5,535.4 L861.2,535.8 L865.0,536.2 L868.8,536.5 L872.5,536.9 L876.2,537.2 L880.0,537.4 L883.7,537.7 L887.5,537.9 L891.3,538.1 L895.0,538.3 L898.8,538.5 L902.5,538.6 L906.2,538.8 L910.0,538.9 L913.8,539.0 L917.5,539.1 L921.2,539.2 L925.0,539.3 L928.8,539.4 L932.5,539.4 L936.2,539.5 L940.0,539.6 L943.8,539.6 L947.5,539.7 L951.3,539.7 L955.0,539.7 L958.7,539.8 L962.5,539.8 L966.2,539.8 L970.0,539.8" fill="none" stroke="#1f56a8" stroke-width="4.5" stroke-linejoin="round"/>
+<line x1="289.2" y1="70.0" x2="289.2" y2="540.0" stroke="#1a9a48" stroke-width="2"/>
+<line x1="750.8" y1="70.0" x2="750.8" y2="540.0" stroke="#1a9a48" stroke-width="2"/>
+<line x1="466.5" y1="100.0" x2="297.2" y2="100.0" stroke="#1a9a48" stroke-width="1.4"/>
+<line x1="297.2" y1="100.0" x2="310.9" y2="93.9" stroke="#1a9a48" stroke-width="1.4"/>
+<line x1="297.2" y1="100.0" x2="310.9" y2="106.1" stroke="#1a9a48" stroke-width="1.4"/>
+<line x1="573.5" y1="100.0" x2="742.8" y2="100.0" stroke="#1a9a48" stroke-width="1.4"/>
+<line x1="742.8" y1="100.0" x2="729.1" y2="106.1" stroke="#1a9a48" stroke-width="1.4"/>
+<line x1="742.8" y1="100.0" x2="729.1" y2="93.9" stroke="#1a9a48" stroke-width="1.4"/>
+<text x="520.0" y="110.5" font-size="30" text-anchor="middle" fill="#1a9a48" xml:space="preserve"><tspan font-size="30.0">≈ 95%</tspan></text>
+<line x1="404.6" y1="140.0" x2="404.6" y2="540.0" stroke="#d9262c" stroke-width="2"/>
+<line x1="635.4" y1="140.0" x2="635.4" y2="540.0" stroke="#d9262c" stroke-width="2"/>
+<line x1="466.5" y1="170.0" x2="412.6" y2="170.0" stroke="#d9262c" stroke-width="1.4"/>
+<line x1="412.6" y1="170.0" x2="426.3" y2="163.9" stroke="#d9262c" stroke-width="1.4"/>
+<line x1="412.6" y1="170.0" x2="426.3" y2="176.1" stroke="#d9262c" stroke-width="1.4"/>
+<line x1="573.5" y1="170.0" x2="627.4" y2="170.0" stroke="#d9262c" stroke-width="1.4"/>
+<line x1="627.4" y1="170.0" x2="613.7" y2="176.1" stroke="#d9262c" stroke-width="1.4"/>
+<line x1="627.4" y1="170.0" x2="613.7" y2="163.9" stroke="#d9262c" stroke-width="1.4"/>
+<text x="520.0" y="180.5" font-size="30" text-anchor="middle" fill="#d9262c" xml:space="preserve"><tspan font-size="30.0">≈ 68%</tspan></text>
+<line x1="289.2" y1="540.0" x2="289.2" y2="532.0" stroke="#1a1a1a" stroke-width="1.6"/>
+<line x1="404.6" y1="540.0" x2="404.6" y2="532.0" stroke="#1a1a1a" stroke-width="1.6"/>
+<line x1="520.0" y1="540.0" x2="520.0" y2="532.0" stroke="#1a1a1a" stroke-width="1.6"/>
+<line x1="635.4" y1="540.0" x2="635.4" y2="532.0" stroke="#1a1a1a" stroke-width="1.6"/>
+<line x1="750.8" y1="540.0" x2="750.8" y2="532.0" stroke="#1a1a1a" stroke-width="1.6"/>
+<text x="289.2" y="572.0" font-size="26" text-anchor="middle" fill="#1a1a1a" xml:space="preserve"><tspan font-size="26.0" font-style="italic">μ</tspan><tspan font-size="26.0"> − 2</tspan><tspan font-size="26.0" font-style="italic">σ</tspan></text>
+<text x="289.2" y="603.2" font-size="26" text-anchor="middle" fill="#1a1a1a" xml:space="preserve"><tspan font-size="26.0">66.9</tspan></text>
+<text x="404.6" y="572.0" font-size="26" text-anchor="middle" fill="#1a1a1a" xml:space="preserve"><tspan font-size="26.0" font-style="italic">μ</tspan><tspan font-size="26.0"> − </tspan><tspan font-size="26.0" font-style="italic">σ</tspan></text>
+<text x="404.6" y="603.2" font-size="26" text-anchor="middle" fill="#1a1a1a" xml:space="preserve"><tspan font-size="26.0">68.2</tspan></text>
+<text x="520.0" y="572.0" font-size="26" text-anchor="middle" fill="#1a1a1a" xml:space="preserve"><tspan font-size="26.0" font-style="italic">μ</tspan></text>
+<text x="520.0" y="603.2" font-size="26" text-anchor="middle" fill="#1a1a1a" xml:space="preserve"><tspan font-size="26.0">69.6</tspan></text>
+<text x="635.4" y="572.0" font-size="26" text-anchor="middle" fill="#1a1a1a" xml:space="preserve"><tspan font-size="26.0" font-style="italic">μ</tspan><tspan font-size="26.0"> + </tspan><tspan font-size="26.0" font-style="italic">σ</tspan></text>
+<text x="635.4" y="603.2" font-size="26" text-anchor="middle" fill="#1a1a1a" xml:space="preserve"><tspan font-size="26.0">71.0</tspan></text>
+<text x="750.8" y="572.0" font-size="26" text-anchor="middle" fill="#1a1a1a" xml:space="preserve"><tspan font-size="26.0" font-style="italic">μ</tspan><tspan font-size="26.0"> + 2</tspan><tspan font-size="26.0" font-style="italic">σ</tspan></text>
+<text x="750.8" y="603.2" font-size="26" text-anchor="middle" fill="#1a1a1a" xml:space="preserve"><tspan font-size="26.0">72.4</tspan></text>
+</svg>

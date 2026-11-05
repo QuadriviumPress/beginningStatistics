@@ -22,7 +22,7 @@ npm run import:source -- /path/to/beginning-statistics
 - Source HTML, checksums, counts, local assets, and provenance are recorded in `source/manifest.json`. Only combined chapters are archived; section URLs resolve to their local chapter targets.
 - `verify` checks source coverage, links, figures, and checksums. `build` and `check` also verify rendered table, image, equation, and list-item coverage and run PWA setup.
 - Source numbering is literal, so automatic numbering is disabled. All mathematical content is converted from MathML to TeX.
-- Source author photographs are replaced with original typographic name cards. Source diagrams and table scans are retained at their original resolution. Their rights and hashes are recorded in the manifest and image credits.
+- Source author photographs are replaced with original typographic name cards. All 128 diagrams are redrawn as accessible SVG by `scripts/render_figures.py` (`images/redrawn/`); the appendix table scans and two equation images are retained at their original resolution. Their rights and hashes are recorded in the manifest and image credits.
 - The textbook retains CC BY-NC-SA 3.0; template code retains MIT in `LICENSE-CODE`.
 - Imports regenerate Markdown. Preserve editorial corrections in the importer with source-drift checks and document them in `SOURCES.md`.
 

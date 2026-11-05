@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 330" role="img" aria-labelledby="title desc" font-family="'STIX Two Text','Times New Roman',Times,'Liberation Serif',serif">
+<title id="title">Figure 3.1 Venn diagrams for two sample spaces</title>
+<desc id="desc">(a) One coin toss: a rectangle containing the outcomes h and t. (b) One die roll: a rectangle containing the outcomes 1 through 6, with a blue loop around 3, 4, 5, and 6 and a red loop around 2, 4, and 6.</desc>
+<rect width="1000" height="330" fill="#fff"/>
+<rect x="10.0" y="10.0" width="420.0" height="210.0" fill="none" stroke="#8c8c8c" stroke-width="3"/>
+<circle cx="90.0" cy="115.0" r="2.6" fill="#1a1a1a" stroke="none" stroke-width="0"/>
+<text x="100.0" y="125.2" font-size="34" text-anchor="start" fill="#1a1a1a" xml:space="preserve"><tspan font-size="34.0" font-style="italic">h</tspan></text>
+<circle cx="320.0" cy="115.0" r="2.6" fill="#1a1a1a" stroke="none" stroke-width="0"/>
+<text x="330.0" y="125.2" font-size="34" text-anchor="start" fill="#1a1a1a" xml:space="preserve"><tspan font-size="34.0" font-style="italic">t</tspan></text>
+<rect x="560.0" y="10.0" width="420.0" height="210.0" fill="none" stroke="#8c8c8c" stroke-width="3"/>
+<ellipse cx="830" cy="105" rx="115" ry="95" fill="none" stroke="#1f56a8" stroke-width="3"/>
+<ellipse cx="770" cy="155" rx="160" ry="32" fill="none" stroke="#d9262c" stroke-width="3"/>
+<circle cx="640.0" cy="65.0" r="2.6" fill="#1a1a1a" stroke="none" stroke-width="0"/>
+<text x="650.0" y="74.0" font-size="30" text-anchor="start" fill="#1a1a1a" xml:space="preserve"><tspan font-size="30.0">1</tspan></text>
+<circle cx="745.0" cy="65.0" r="2.6" fill="#1a1a1a" stroke="none" stroke-width="0"/>
+<text x="755.0" y="74.0" font-size="30" text-anchor="start" fill="#1a1a1a" xml:space="preserve"><tspan font-size="30.0">3</tspan></text>
+<circle cx="850.0" cy="65.0" r="2.6" fill="#1a1a1a" stroke="none" stroke-width="0"/>
+<text x="860.0" y="74.0" font-size="30" text-anchor="start" fill="#1a1a1a" xml:space="preserve"><tspan font-size="30.0">5</tspan></text>
+<circle cx="640.0" cy="162.0" r="2.6" fill="#1a1a1a" stroke="none" stroke-width="0"/>
+<text x="650.0" y="171.0" font-size="30" text-anchor="start" fill="#1a1a1a" xml:space="preserve"><tspan font-size="30.0">2</tspan></text>
+<circle cx="745.0" cy="162.0" r="2.6" fill="#1a1a1a" stroke="none" stroke-width="0"/>
+<text x="755.0" y="171.0" font-size="30" text-anchor="start" fill="#1a1a1a" xml:space="preserve"><tspan font-size="30.0">4</tspan></text>
+<circle cx="850.0" cy="162.0" r="2.6" fill="#1a1a1a" stroke="none" stroke-width="0"/>
+<text x="860.0" y="171.0" font-size="30" text-anchor="start" fill="#1a1a1a" xml:space="preserve"><tspan font-size="30.0">6</tspan></text>
+<text x="220.0" y="300.0" font-size="28" text-anchor="middle" fill="#1a1a1a" xml:space="preserve"><tspan font-size="28.0">(a): One Coin Toss</tspan></text>
+<text x="770.0" y="300.0" font-size="28" text-anchor="middle" fill="#1a1a1a" xml:space="preserve"><tspan font-size="28.0">(b): One Die Roll</tspan></text>
+</svg>

@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 300" role="img" aria-labelledby="title desc" font-family="'STIX Two Text','Times New Roman',Times,'Liberation Serif',serif">
+<title id="title">Figure 2.13 The box plot</title>
+<desc id="desc">A box plot above a number line marked x_min, Q₁, Q₂, Q₃, and x_max. The box spans Q₁ to Q₃ with a line at Q₂, and whiskers extend to x_min and x_max.</desc>
+<rect width="1000" height="300" fill="#fff"/>
+<line x1="70.0" y1="30.0" x2="70.0" y2="130.0" stroke="#8c8c8c" stroke-width="2"/>
+<line x1="930.0" y1="30.0" x2="930.0" y2="130.0" stroke="#8c8c8c" stroke-width="2"/>
+<line x1="70.0" y1="80.0" x2="377.0" y2="80.0" stroke="#8c8c8c" stroke-width="2"/>
+<line x1="622.1" y1="80.0" x2="930.0" y2="80.0" stroke="#8c8c8c" stroke-width="2"/>
+<rect x="377.0" y="40.0" width="245.1" height="80.0" fill="none" stroke="#8c8c8c" stroke-width="2"/>
+<line x1="500.0" y1="40.0" x2="500.0" y2="120.0" stroke="#8c8c8c" stroke-width="2"/>
+<line x1="20.0" y1="200.0" x2="980.0" y2="200.0" stroke="#8c8c8c" stroke-width="2"/>
+<circle cx="70.0" cy="200.0" r="7.0" fill="#1a1a1a" stroke="none" stroke-width="0"/>
+<text x="70.0" y="248.0" font-size="32" text-anchor="middle" fill="#1a1a1a" xml:space="preserve"><tspan font-size="32.0" font-style="italic">x</tspan><tspan dy="9.6" font-size="22.4">min</tspan></text>
+<circle cx="377.0" cy="200.0" r="7.0" fill="#1a1a1a" stroke="none" stroke-width="0"/>
+<text x="377.0" y="248.0" font-size="32" text-anchor="middle" fill="#1a1a1a" xml:space="preserve"><tspan font-size="32.0" font-style="italic">Q</tspan><tspan dy="9.6" font-size="22.4">1</tspan></text>
+<circle cx="500.0" cy="200.0" r="7.0" fill="#1a1a1a" stroke="none" stroke-width="0"/>
+<text x="500.0" y="248.0" font-size="32" text-anchor="middle" fill="#1a1a1a" xml:space="preserve"><tspan font-size="32.0" font-style="italic">Q</tspan><tspan dy="9.6" font-size="22.4">2</tspan></text>
+<circle cx="622.1" cy="200.0" r="7.0" fill="#1a1a1a" stroke="none" stroke-width="0"/>
+<text x="622.1" y="248.0" font-size="32" text-anchor="middle" fill="#1a1a1a" xml:space="preserve"><tspan font-size="32.0" font-style="italic">Q</tspan><tspan dy="9.6" font-size="22.4">3</tspan></text>
+<circle cx="930.0" cy="200.0" r="7.0" fill="#1a1a1a" stroke="none" stroke-width="0"/>
+<text x="930.0" y="248.0" font-size="32" text-anchor="middle" fill="#1a1a1a" xml:space="preserve"><tspan font-size="32.0" font-style="italic">x</tspan><tspan dy="9.6" font-size="22.4">max</tspan></text>
+</svg>

@@ -21,8 +21,8 @@ For a discrete random variable *X* the probability that *X* assumes one of its p
 
 *The* **probability distribution of a continuous random variable** *X* *is an assignment of probabilities to intervals of decimal numbers using a function* $f(x)$, *called a* density function[^stats-1], *in the following way: the probability that* *X* *assumes a value in the interval* $\left\lbrack {a,b} \right\rbrack$ *is equal to the area of the region that is bounded above by the graph of the equation* $y = f(x)$, *bounded below by the* *x-axis, and bounded on the left and right by the vertical lines through* *a* *and* *b*, *as illustrated in [Figure 5.1 \"Probability Given as Area of a Region under a Curve\"](/chapters/ch-05-continuous-random-variables.md#src-fwk-shafer-ch05-s01-s01-f01)*.
 
-``````{figure} /images/section_09/a4a078a33c22b212350844a6cd8789b6.jpg
-:alt: Statistical diagram: Figure 5.1 Probability Given as Area of a Region under a Curve
+``````{figure} /images/redrawn/fig-05-01.svg
+:alt: A two-humped density curve y = f(x). The region under the curve between the points a and b on the horizontal axis is shaded; a heading states that P(a < X < b) equals the area of the shaded region.
 :name: src-fwk-shafer-ch05-s01-s01-f01
 
 Figure 5.1 Probability Given as Area of a Region under a Curve
@@ -47,8 +47,8 @@ $$P\left( {a \leq X \leq b} \right) = P\left( {a < X \leq b} \right) = P\left( {
 
 A random variable *X* has the uniform distribution on the interval $\lbrack 0,1\rbrack$: the density function is $f(x) = 1$ if *x* is between 0 and 1 and $f(x) = 0$ for all other values of *x*, as shown in [Figure 5.2 \"Uniform Distribution on \"](/chapters/ch-05-continuous-random-variables.md#src-fwk-shafer-ch05-s01-s01-f02).
 
-``````{figure} /images/section_09/448f6a710bd6be21e3ed02d391ce7f37.jpg
-:alt: Statistical diagram: Figure 5.2 Uniform Distribution on [ 0,1 ]
+``````{figure} /images/redrawn/fig-05-02.svg
+:alt: Graph of the density y = f(x) of the uniform distribution on [0, 1]: a horizontal segment at height 1 from x = 0 to x = 1, and the value 0 elsewhere along the x-axis, with open circles at 0 and 1.
 :name: src-fwk-shafer-ch05-s01-s01-f02
 
 Figure 5.2 Uniform Distribution on $\lbrack 0,1\rbrack$
@@ -64,8 +64,8 @@ Solution:
 2.  *P*(*X* ≤ 0.2) is the area of the rectangle of height 1 and base length $0.2 - 0 = 0.2$, hence is ${\text{base} \times \text{height} = (0.2) \cdot (1) = 0.2}.$ See [Figure 5.3 \"Probabilities from the Uniform Distribution on \"](/chapters/ch-05-continuous-random-variables.md#src-fwk-shafer-ch05-s01-s01-f03)(b).
 3.  *P*(0.4 \< *X* \< 0.7) is the area of the rectangle of height 1 and length $0.7 - 0.4 = 0.3$, hence is ${\text{base} \times \text{height} = (0.3) \cdot (1) = 0.3}.$ See [Figure 5.3 \"Probabilities from the Uniform Distribution on \"](/chapters/ch-05-continuous-random-variables.md#src-fwk-shafer-ch05-s01-s01-f03)(c).
 
-``````{figure} /images/section_09/ac3caf957cb7bb7eea18975c85163769.jpg
-:alt: Statistical diagram: Figure 5.3 Probabilities from the Uniform Distribution on [ 0,1 ]
+``````{figure} /images/redrawn/fig-05-03.svg
+:alt: Three copies of the uniform density on [0, 1], height 1. In (a) the rectangle from 0.75 to 1 is shaded; in (b) the rectangle from 0 to 0.2; in (c) the rectangle from 0.4 to 0.7.
 :name: src-fwk-shafer-ch05-s01-s01-f03
 
 Figure 5.3 Probabilities from the Uniform Distribution on $\lbrack 0,1\rbrack$
@@ -79,8 +79,8 @@ Solution:
 
 The graph of the density function is a horizontal line above the interval from 0 to 30 and is the *x*-axis everywhere else. Since the total area under the curve must be 1, the height of the horizontal line is 1/30. See [Figure 5.4 \"Probability of Waiting At Most 10 Minutes for a Bus\"](/chapters/ch-05-continuous-random-variables.md#src-fwk-shafer-ch05-s01-s01-f04). The probability sought is $P\left( {0 \leq X \leq 10} \right).$ By definition, this probability is the area of the rectangular region bounded above by the horizontal line $\left. f(x) = 1/ 30 \right.$, bounded below by the *x*-axis, bounded on the left by the vertical line at 0 (the *y*-axis), and bounded on the right by the vertical line at 10. This is the shaded region in [Figure 5.4 \"Probability of Waiting At Most 10 Minutes for a Bus\"](/chapters/ch-05-continuous-random-variables.md#src-fwk-shafer-ch05-s01-s01-f04). Its area is the base of the rectangle times its height, $\left. 10 \cdot \left( 1/ 30 \right) = 1/ 3. \right.$ Thus $\left. P\left( {0 \leq X \leq 10} \right) = 1/ 3. \right.$
 
-``````{figure} /images/section_09/e3d67c5e6cd01f669ae7b76b8061c519.jpg
-:alt: Statistical diagram: Figure 5.4 Probability of Waiting At Most 10 Minutes for a Bus
+``````{figure} /images/redrawn/fig-05-04.svg
+:alt: Uniform density of height 1/30 on the interval from 0 to 30 minutes. The rectangle from 0 to 10 is shaded.
 :name: src-fwk-shafer-ch05-s01-s01-f04
 
 Figure 5.4 Probability of Waiting At Most 10 Minutes for a Bus
@@ -96,8 +96,8 @@ where $\pi \approx 3.14159$ and *e* ≈ 2.71828 is the base of the natural logar
 
 Each different choice of specific numerical values for the pair *μ* and *σ* gives a different bell curve. The value of *μ* determines the location of the curve, as shown in [Figure 5.5 \"Bell Curves with \"](/chapters/ch-05-continuous-random-variables.md#src-fwk-shafer-ch05-s01-s02-f01). In each case the curve is symmetric about *μ*.
 
-``````{figure} /images/section_09/ea1abb45110eb47d1b8439f5242afaaa.jpg
-:alt: Statistical diagram: Figure 5.5 Bell Curves with σ = 0.25 and Different Values of μ
+``````{figure} /images/redrawn/fig-05-05.svg
+:alt: Three bell curves of the same shape, standard deviation 0.25, centered at μ = −2 (red), μ = −1 (blue), and μ = 1 (green), with a dashed line at each center.
 :name: src-fwk-shafer-ch05-s01-s02-f01
 
 Figure 5.5 Bell Curves with *σ* = 0.25 and Different Values of *μ*
@@ -105,8 +105,8 @@ Figure 5.5 Bell Curves with *σ* = 0.25 and Different Values of *μ*
 
 The value of *σ* determines whether the bell curve is tall and thin or short and squat, subject always to the condition that the total area under the curve be equal to 1. This is shown in [Figure 5.6 \"Bell Curves with \"](/chapters/ch-05-continuous-random-variables.md#src-fwk-shafer-ch05-s01-s02-f02), where we have arbitrarily chosen to center the curves at *μ* = 6.
 
-``````{figure} /images/section_09/14fc6536402c36855bba94c6a80f7143.jpg
-:alt: Statistical diagram: Figure 5.6 Bell Curves with μ = 6 and Different Values of σ
+``````{figure} /images/redrawn/fig-05-06.svg
+:alt: Three bell curves all centered at μ = 6. The curve with σ = 0.5 (red) is tall and narrow, σ = 1 (blue) is intermediate, and σ = 2 (green) is low and wide.
 :name: src-fwk-shafer-ch05-s01-s02-f02
 
 Figure 5.6 Bell Curves with *μ* = 6 and Different Values of *σ*
@@ -128,8 +128,8 @@ Figure 5.6 Bell Curves with *μ* = 6 and Different Values of *σ*
 
 The density curve for the normal distribution is symmetric about the mean.
 
-``````{figure} /images/section_09/a9f781e1b0891ceedd50cd7fea7d0f39.jpg
-:alt: Statistical diagram: Figure 5.7 Density Function for a Normally Distributed Random Variable with Mean μ and Standard Deviation σ
+``````{figure} /images/redrawn/fig-05-07.svg
+:alt: A normal density curve with the horizontal axis marked at μ − 3σ, μ − 2σ, μ − σ, μ, μ + σ, μ + 2σ, and μ + 3σ. Dashed vertical lines rise to the curve at μ − σ, μ, and μ + σ.
 :name: src-fwk-shafer-ch05-s01-s02-f03
 
 Figure 5.7 Density Function for a Normally Distributed Random Variable with Mean *μ* and Standard Deviation *σ*
@@ -143,8 +143,8 @@ Solution:
 
 The distribution of heights looks like the bell curve in [Figure 5.8 \"Density Function for Heights of 25-Year-Old Men\"](/chapters/ch-05-continuous-random-variables.md#src-fwk-shafer-ch05-s01-s02-f04). The important point is that it is centered at its mean, 69.75, and is symmetric about the mean.
 
-``````{figure} /images/section_09/84f83698360490b5801c74626547f18e.jpg
-:alt: Statistical diagram: Figure 5.8 Density Function for Heights of 25-Year-Old Men
+``````{figure} /images/redrawn/fig-05-08.svg
+:alt: A normal density curve centered at μ = 69.75, marked with a dashed line, with standard deviation σ = 2.59.
 :name: src-fwk-shafer-ch05-s01-s02-f04
 
 Figure 5.8 Density Function for Heights of 25-Year-Old Men
@@ -186,8 +186,8 @@ We will learn how to compute other probabilities in the next two sections.
 
 9.  The figure provided shows the density curves of three normally distributed random variables *X<sub>A</sub>*, *X<sub>B</sub>*, and *X<sub>C</sub>*. Their standard deviations (in no particular order) are 15, 7, and 20. Use the figure to identify the values of the means $\mathit{\mu}_{A}$, $\mathit{\mu}_{B}$, and $\mathit{\mu}_{C}$ and standard deviations $\mathit{\sigma}_{A}$, $\mathit{\sigma}_{B}$, and $\mathit{\sigma}_{C}$ of the three random variables.
 
-    ``````{figure} /images/section_09/db1dd132366ddd980393bbe96e159b16.jpg
-    :alt: Statistical diagram: The figure provided shows the density curves of three normally distributed random variables X A , X B , and X C . Their standard deviations (in no particular order) are 15, 7, and 20. Use the figure to identify the values of the means μ A , μ B , and μ C and standard deviations σ A , σ B , and σ C of the three random variables.
+    ``````{figure} /images/redrawn/fig-05-ex9.svg
+    :alt: Three normal density curves: X_A (red), tall and narrow, centered at 100; X_B (blue), low and wide, centered at 200; and X_C (green), of intermediate height and width, centered at 300.
     :name: src-fwk-shafer-ch05-s01-s02-fx01
 
 
@@ -195,8 +195,8 @@ We will learn how to compute other probabilities in the next two sections.
 
 10. The figure provided shows the density curves of three normally distributed random variables *X<sub>A</sub>*, *X<sub>B</sub>*, and *X<sub>C</sub>*. Their standard deviations (in no particular order) are 20, 5, and 10. Use the figure to identify the values of the means $\mathit{\mu}_{A}$, $\mathit{\mu}_{B}$, and $\mathit{\mu}_{C}$ and standard deviations $\mathit{\sigma}_{A}$, $\mathit{\sigma}_{B}$, and $\mathit{\sigma}_{C}$ of the three random variables.
 
-    ``````{figure} /images/section_09/083b12c9ea22873dfeb903eb53fdebc1.jpg
-    :alt: Statistical diagram: The figure provided shows the density curves of three normally distributed random variables X A , X B , and X C . Their standard deviations (in no particular order) are 20, 5, and 10. Use the figure to identify the values of the means μ A , μ B , and μ C and standard deviations σ A , σ B , and σ C of the three random variables.
+    ``````{figure} /images/redrawn/fig-05-ex10.svg
+    :alt: Three normal density curves: X_A (red), of intermediate height, centered at −60; X_B (blue), the tallest and narrowest, centered at 0; and X_C (green), the lowest and widest, centered at 60.
     :name: src-fwk-shafer-ch05-s01-s02-fx02
 
 
@@ -274,8 +274,8 @@ We will learn how to compute other probabilities in the next two sections.
 
 The density function for a standard normal random variable is shown in [Figure 5.9 \"Density Curve for a Standard Normal Random Variable\"](/chapters/ch-05-continuous-random-variables.md#src-fwk-shafer-ch05-s02-f01).
 
-``````{figure} /images/section_09/e7a042db29b39bb94416c06789301faa.jpg
-:alt: Statistical diagram: Figure 5.9 Density Curve for a Standard Normal Random Variable
+``````{figure} /images/redrawn/fig-05-09.svg
+:alt: The standard normal density curve, with σ = 1, centered at 0. Dashed vertical lines rise to the curve at −1, 0, and 1.
 :name: src-fwk-shafer-ch05-s02-f01
 
 Figure 5.9 Density Curve for a Standard Normal Random Variable
@@ -294,8 +294,8 @@ Solution:
 
 1.  [Figure 5.10 \"Computing Probabilities Using the Cumulative Table\"](/chapters/ch-05-continuous-random-variables.md#src-fwk-shafer-ch05-s02-f02) shows how this probability is read directly from the table without any computation required. The digits in the ones and tenths places of 1.48, namely 1.4, are used to select the appropriate row of the table; the hundredths part of 1.48, namely 0.08, is used to select the appropriate column of the table. The four decimal place number in the interior of the table that lies in the intersection of the row and column selected, 0.9306, is the probability sought: $P\left( {Z < 1.48} \right) = 0.9306.$
 
-``````{figure} /images/section_09/f6da1521baeec4bd3bc7a7f1ac4b0856.jpg
-:alt: Statistical diagram: Figure 5.10 Computing Probabilities Using the Cumulative Table
+``````{figure} /images/redrawn/fig-05-10.svg
+:alt: Left: an excerpt of the cumulative normal table, where the row for 1.4 meets the column for 0.08 at the entry 0.9306. Right: a standard normal curve shaded to the left of 1.48, labeled as the area of the shaded region, 0.9306.
 :name: src-fwk-shafer-ch05-s02-f02
 
 Figure 5.10 Computing Probabilities Using the Cumulative Table
@@ -322,8 +322,8 @@ Solution:
 
     [Figure 5.11 \"Computing a Probability for a Right Half-Line\"](/chapters/ch-05-continuous-random-variables.md#src-fwk-shafer-ch05-s02-f03) illustrates the ideas geometrically. Since the total area under the curve is 1 and the area of the region to the left of 1.60 is (from the table) 0.9452, the area of the region to the right of 1.60 must be $1 - 0.9452 = 0.0548.$
 
-``````{figure} /images/section_09/825418e6f94fa960122a168586bd6a2a.jpg
-:alt: Statistical diagram: Figure 5.11 Computing a Probability for a Right Half-Line
+``````{figure} /images/redrawn/fig-05-11.svg
+:alt: Standard normal curve with the right tail beyond 1.60 shaded. An arrow to the left from 1.60 is labeled Normal Table: area = 0.9452; an arrow to the right labels the shaded area 1 − 0.9452.
 :name: src-fwk-shafer-ch05-s02-f03
 
 Figure 5.11 Computing a Probability for a Right Half-Line
@@ -348,8 +348,8 @@ Solution:
 
     $$P\left( {0.5 < Z < 1.57} \right) = P\left( {Z < 1.57} \right) - P\left( {Z < 0.50} \right) = 0.9418 - 0.6915 = 0.2503$$
 
-``````{figure} /images/section_09/dfc636f4179f8c33cf374a1102616139.jpg
-:alt: Statistical diagram: Figure 5.12 Computing a Probability for an Interval of Finite Length
+``````{figure} /images/redrawn/fig-05-12.svg
+:alt: Standard normal curve with the region between 0.5 and 1.57 shaded. Arrows to the left from each end are labeled with the table areas: 0.9418 to the left of 1.57 and 0.6915 to the left of 0.5.
 :name: src-fwk-shafer-ch05-s02-f04
 
 Figure 5.12 Computing a Probability for an Interval of Finite Length
@@ -362,8 +362,8 @@ Figure 5.12 Computing a Probability for an Interval of Finite Length
      & = & {0.5359 - 0.0054 = 0.5305}
     \end{array}$$
 
-``````{figure} /images/section_09/79129be55c91f8e8442bb1ce46d64e75.jpg
-:alt: Statistical diagram: Figure 5.13 Computing a Probability for an Interval of Finite Length
+``````{figure} /images/redrawn/fig-05-13.svg
+:alt: Standard normal curve with the region between −2.55 and 0.09 shaded. Arrows to the left from each end are labeled with the table areas: 0.5359 to the left of 0.09 and 0.0054 to the left of −2.55.
 :name: src-fwk-shafer-ch05-s02-f05
 
 Figure 5.13 Computing a Probability for an Interval of Finite Length
@@ -553,8 +553,8 @@ The new endpoints $\left. \left( {a - \mathit{\mu}} \right)/\mathit{\sigma} \rig
 
 [Figure 5.14 \"Probability for an Interval of Finite Length\"](/chapters/ch-05-continuous-random-variables.md#src-fwk-shafer-ch05-s03-f01) illustrates the meaning of the equality geometrically: the two shaded regions, one under the density curve for *X* and the other under the density curve for *Z*, have the same area. Instead of drawing both bell curves, though, we will always draw a single generic bell-shaped curve with both an *x*-axis and a *z*-axis below it.
 
-``````{figure} /images/section_09/f958d10c46786d0d9891e06a1f2994f0.jpg
-:alt: Statistical diagram: Figure 5.14 Probability for an Interval of Finite Length
+``````{figure} /images/redrawn/fig-05-14.svg
+:alt: Left: a normal curve for X on the x axis, shaded between a and b, with its mean μ between them. Right: the standard normal curve on the z axis, shaded between (a − μ)/σ and (b − μ)/σ, around 0. Arrows from the heading “Same shaded area” point to both shaded regions.
 :name: src-fwk-shafer-ch05-s03-f01
 
 Figure 5.14 Probability for an Interval of Finite Length
@@ -578,8 +578,8 @@ Solution:
      & = & 0.9452
     \end{array}$$
 
-``````{figure} /images/section_09/5a732b9a593ef6f25ed10e15b5cf81db.jpg
-:alt: Statistical diagram: Figure 5.15 Probability Computation for a General Normal Random Variable
+``````{figure} /images/redrawn/fig-05-15.svg
+:alt: Normal curve centered at 10 on the x axis, shaded to the left of 14. A z axis below aligns 10 with 0 and 14 with 1.60. An arrow to the left from 14 is labeled Normal Table: area = 0.9452.
 :name: src-fwk-shafer-ch05-s03-f02
 
 Figure 5.15 Probability Computation for a General Normal Random Variable
@@ -594,8 +594,8 @@ Figure 5.15 Probability Computation for a General Normal Random Variable
      & = & 0.7333
     \end{array}$$
 
-``````{figure} /images/section_09/272b0cb85ce96627d502c2ff029199ad.jpg
-:alt: Statistical diagram: Figure 5.16 Probability Computation for a General Normal Random Variable
+``````{figure} /images/redrawn/fig-05-16.svg
+:alt: Normal curve centered at 10 on the x axis, shaded between 8 and 14. A z axis below aligns 8, 10, and 14 with −0.8, 0, and 1.60. Arrows to the left are labeled with the table areas 0.9452 (from 14) and 0.2119 (from 8).
 :name: src-fwk-shafer-ch05-s03-f03
 
 Figure 5.16 Probability Computation for a General Normal Random Variable
@@ -609,8 +609,8 @@ Solution:
 
 Let *X* denote the tread life of a randomly selected tire. To make the numbers easier to work with we will choose thousands of miles as the units. Thus *μ* = 37.5, *σ* = 4.5, and the problem is to compute $P\left( {30 < X < 40} \right).$ [Figure 5.17 \"Probability Computation for Tire Tread Wear\"](/chapters/ch-05-continuous-random-variables.md#src-fwk-shafer-ch05-s03-f04) illustrates the following computation:
 
-``````{figure} /images/section_09/2712ed90b9f7e7fd3e0589acd6c734e0.jpg
-:alt: Statistical diagram: Figure 5.17 Probability Computation for Tire Tread Wear
+``````{figure} /images/redrawn/fig-05-17.svg
+:alt: Normal curve centered at 37.5 on the x axis, shaded between 30 and 40. A z axis below aligns 30, 37.5, and 40 with −1.67, 0, and 0.56. Arrows to the left are labeled with the table areas 0.7123 (from 40) and 0.0475 (from 30).
 :name: src-fwk-shafer-ch05-s03-f04
 
 Figure 5.17 Probability Computation for Tire Tread Wear
@@ -634,8 +634,8 @@ Solution:
 
 Let *X* denote the score made on the *CEE* by a randomly selected individual. Then *X* is normally distributed with mean 510 and standard deviation 60. The probability that *X* lies in a particular interval is the same as the proportion of all exam scores that lie in that interval. Thus the solution to the problem is *P*(*X* \> 650), expressed as a percentage. [Figure 5.18 \"Probability Computation for Exam Scores\"](/chapters/ch-05-continuous-random-variables.md#src-fwk-shafer-ch05-s03-f05) illustrates the following computation:
 
-``````{figure} /images/section_09/f652f315d2286107695053b9212f66de.jpg
-:alt: Statistical diagram: Figure 5.18 Probability Computation for Exam Scores
+``````{figure} /images/redrawn/fig-05-18.svg
+:alt: Normal curve centered at 510 on the x axis, with the small right tail beyond 650 shaded. A z axis below aligns 510 with 0 and 650 with 2.33. An arrow to the left from 650 is labeled Normal Table: area = 0.9901.
 :name: src-fwk-shafer-ch05-s03-f05
 
 Figure 5.18 Probability Computation for Exam Scores
@@ -863,8 +863,8 @@ The proportion of all *CEE* scores that exceed 650 is 0.0099, hence 0.99% or abo
 
 *The* **left** tail[^stats-5] *of a density curve* $y = f(x)$ *of a continuous random variable* *X* *cut off by a value* $x*$ *of* *X* *is the region under the curve that is to the left of* $x*$, *as shown by the shading in [Figure 5.19 \"Right and Left Tails of a Distribution\"](/chapters/ch-05-continuous-random-variables.md#src-fwk-shafer-ch05-s04-f01)(a). The* **right tail** *cut off by* $x*$ *is defined similarly, as indicated by the shading in [Figure 5.19 \"Right and Left Tails of a Distribution\"](/chapters/ch-05-continuous-random-variables.md#src-fwk-shafer-ch05-s04-f01)(b)*.
 
-``````{figure} /images/section_09/bbb58b35dd040bcf4d8b4d3f7c72b679.jpg
-:alt: Statistical diagram: Figure 5.19 Right and Left Tails of a Distribution
+``````{figure} /images/redrawn/fig-05-19.svg
+:alt: Two copies of a right-skewed density curve. In (a) the left tail, the region to the left of a point x*, is shaded. In (b) the right tail, the region to the right of x*, is shaded.
 :name: src-fwk-shafer-ch05-s04-f01
 
 Figure 5.19 Right and Left Tails of a Distribution
@@ -882,8 +882,8 @@ At times it is important to be able to solve the kind of problem illustrated by 
 
 The idea for solving such a problem is fairly simple, although sometimes its implementation can be a bit complicated. In a nutshell, one reads the cumulative probability table for *Z* in reverse, looking up the relevant area in the interior of the table and reading off the value of *Z* from the margins.
 
-``````{figure} /images/section_09/30641707b126e7384ae5b3e6745117f7.jpg
-:alt: Statistical diagram: Figure 5.20 Z Value that Produces a Known Area
+``````{figure} /images/redrawn/fig-05-20.svg
+:alt: Standard normal curve with the left tail below an unknown point z* shaded; an arrow labels its area as 0.0125.
 :name: src-fwk-shafer-ch05-s04-s01-f01
 
 Figure 5.20 *Z* Value that Produces a Known Area
@@ -901,8 +901,8 @@ The number that is known, 0.0125, is the area of a left tail, and as already men
 
 Find the value $z*$ of *Z* as determined by [Figure 5.21](/chapters/ch-05-continuous-random-variables.md#src-fwk-shafer-ch05-s04-s01-f02): the value $z*$ that cuts off a right tail of area 0.0250 in the standard normal distribution. In symbols, find the number $z*$ such that $P\left( {Z > {z*}} \right) = 0.0250.$
 
-``````{figure} /images/section_09/c01e6ac6766ff9e8602e238df3d23be1.jpg
-:alt: Statistical diagram: Figure 5.21 Z Value that Produces a Known Area
+``````{figure} /images/redrawn/fig-05-21.svg
+:alt: Standard normal curve with the right tail beyond an unknown point z* shaded and labeled Area = 0.0250. An arrow to the left from z* is labeled Area = 1 − 0.0250 = 0.9750.
 :name: src-fwk-shafer-ch05-s04-s01-f02
 
 Figure 5.21 *Z* Value that Produces a Known Area
@@ -916,8 +916,8 @@ The important distinction between this example and the previous one is that here
 
 *The value of the standard normal random variable* *Z* *that cuts off a right tail of area* *c* *is denoted* *z<sub>c</sub>*. *By symmetry, value of* *Z* *that cuts off a left tail of area* *c* *is* $\text{-}z_{c}.$ *See [Figure 5.22 \"The Numbers \"](/chapters/ch-05-continuous-random-variables.md#src-fwk-shafer-ch05-s04-s01-f03)*.
 
-``````{figure} /images/section_09/e4499588e283aa8c3339ac767a95ccef.jpg
-:alt: Statistical diagram: Figure 5.22 The Numbers z c and − z c
+``````{figure} /images/redrawn/fig-05-22.svg
+:alt: Standard normal curve with both tails shaded, below −z_c and above z_c, symmetric about 0. Each tail is labeled Area = c.
 :name: src-fwk-shafer-ch05-s04-s01-f03
 
 Figure 5.22 The Numbers *z<sub>c</sub>* and $\text{-}z_{c}$
@@ -939,8 +939,8 @@ The answer to the second half of the problem is automatic: since $\text{-}z_{.01
 
 We could just as well have solved this problem by looking for $z_{.01}$ first, and it is instructive to rework the problem this way. To begin with, we must first subtract 0.01 from 1 to find the area $1 - 0.0100 = 0.9900$ of the *left* tail cut off by the unknown number $z_{.01}.$ See [Figure 5.23 \"Computation of the Number \"](/chapters/ch-05-continuous-random-variables.md#src-fwk-shafer-ch05-s04-s01-f04). Then we search for the area 0.9900 in [Figure 12.2 \"Cumulative Normal Probability\"](/appendices/appendix.md#src-fwk-shafer-ch12-f02). It is not there, but falls between the numbers 0.9898 and 0.9901 in the row with heading 2.3. Since 0.9901 is closer to 0.9900 than 0.9898 is, we use the column heading above it, 0.03, to obtain the approximation $z_{.01} \approx 2.33.$ Then finally $\text{-}z_{.01} \approx \text{-}2.33.$
 
-``````{figure} /images/section_09/14236fa81644aae933a0c3cab3039fc4.jpg
-:alt: Statistical diagram: Figure 5.23 Computation of the Number z . 01
+``````{figure} /images/redrawn/fig-05-23.svg
+:alt: Standard normal curve with the right tail beyond z₀.₀₁ shaded and labeled Area = 0.01. An arrow to the left from z₀.₀₁ is labeled Area = 1 − 0.01 = 0.99.
 :name: src-fwk-shafer-ch05-s04-s01-f04
 
 Figure 5.23 Computation of the Number $z_{.01}$
@@ -970,8 +970,8 @@ All the ideas for the solution are illustrated in [Figure 5.24 \"Tail of a Norma
 
 $${x*} = \mathit{\mu} + {z*}\mathit{\sigma} = 10 + 1.50 \cdot 2.5 = 13.75.$$
 
-``````{figure} /images/section_09/bce69683fbb8a21dbc078449d5aea822.jpg
-:alt: Statistical diagram: Figure 5.24 Tail of a Normally Distributed Random Variable
+``````{figure} /images/redrawn/fig-05-24.svg
+:alt: Normal curve with mean 10 and σ = 2.5 on the x axis, shaded to the left of an unknown point x*. A z axis below aligns 10 with 0 and x* with z*. An arrow to the left from x* is labeled Area = 0.9332.
 :name: src-fwk-shafer-ch05-s04-s02-f01
 
 Figure 5.24 Tail of a Normally Distributed Random Variable
@@ -987,8 +987,8 @@ The situation is illustrated in [Figure 5.25 \"Tail of a Normally Distributed Ra
 
 $${x*} = \mathit{\mu} + {z*}\mathit{\sigma} = 175 + \left( {\text{-}0.39} \right) \cdot 12 = 170.32$$
 
-``````{figure} /images/section_09/d3132061252ea04fa375f45f9265544e.jpg
-:alt: Statistical diagram: Figure 5.25 Tail of a Normally Distributed Random Variable
+``````{figure} /images/redrawn/fig-05-25.svg
+:alt: Normal curve with mean 175 and σ = 12 on the x axis, shaded to the right of an unknown point x* just below the mean. A z axis below aligns x* with z* and 175 with 0. An arrow to the right from x* is labeled Area = 0.65, and an arrow to the left is labeled Area = 1 − 0.65 = 0.35.
 :name: src-fwk-shafer-ch05-s04-s02-f02
 
 Figure 5.25 Tail of a Normally Distributed Random Variable
@@ -1002,8 +1002,8 @@ Solution:
 
 Let *X* denote the score made on the *CEE* by a randomly selected individual. Then *X* is normally distributed with mean 510 and standard deviation 60. The probability that *X* lies in a particular interval is the same as the proportion of all exam scores that lie in that interval. Thus the minimum score that is in the top 5% of all *CEE* is the score $x*$ that cuts off a right tail in the distribution of *X* of area 0.05 (5% expressed as a proportion). See [Figure 5.26 \"Tail of a Normally Distributed Random Variable\"](/chapters/ch-05-continuous-random-variables.md#src-fwk-shafer-ch05-s04-s02-f03).
 
-``````{figure} /images/section_09/41425a476cf02dd0a5716a9b894cb84c.jpg
-:alt: Statistical diagram: Figure 5.26 Tail of a Normally Distributed Random Variable
+``````{figure} /images/redrawn/fig-05-26.svg
+:alt: Normal curve with mean 510 and σ = 60 on the x axis, with the right tail beyond an unknown point x* shaded. A z axis below aligns 510 with 0 and x* with z* = z₀.₀₅. An arrow to the right from x* is labeled Area = 0.05, and an arrow to the left is labeled Area = 1 − 0.05 = 0.95.
 :name: src-fwk-shafer-ch05-s04-s02-f03
 
 Figure 5.26 Tail of a Normally Distributed Random Variable
@@ -1027,8 +1027,8 @@ and
 
 $$x_{\,\text{slow}} = \mathit{\mu} + z_{.125}\mathit{\sigma} = 29 + (1.15) \cdot 2 = 31.3$$
 
-``````{figure} /images/section_09/2854b11aad3fae019aa6ee83b90275ab.jpg
-:alt: Statistical diagram: Figure 5.27 Distribution of Times to Run a Course
+``````{figure} /images/redrawn/fig-05-27.svg
+:alt: Normal curve centered at 29 on the x axis, shaded between x_fast and x_slow, which are symmetric about the mean. A bracket over the shaded region is labeled Area = 0.75. A z axis below aligns x_fast, 29, and x_slow with −z₀.₁₂₅, 0, and z₀.₁₂₅.
 :name: src-fwk-shafer-ch05-s04-s02-f04
 
 Figure 5.27 Distribution of Times to Run a Course

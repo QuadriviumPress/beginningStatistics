@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 660" role="img" aria-labelledby="title desc" font-family="'STIX Two Text','Times New Roman',Times,'Liberation Serif',serif">
+<title id="title">Figure 2.14 x-scale versus z-score</title>
+<desc id="desc">A bell curve over two aligned scales. On the x scale the marks are μ − 3σ, μ − 2σ, μ − σ, μ, μ + σ, μ + 2σ, and μ + 3σ; on the z scale below, the same marks are −3, −2, −1, 0, 1, 2, and 3.</desc>
+<rect width="1000" height="660" fill="#fff"/>
+<rect x="70.0" y="20.0" width="900.0" height="600.0" fill="none" stroke="#1a1a1a" stroke-width="1.6"/>
+<line x1="70.0" y1="420.0" x2="970.0" y2="420.0" stroke="#1a1a1a" stroke-width="1.6"/>
+<text transform="translate(54.0,220.0) rotate(-90)" font-size="26" text-anchor="middle" fill="#1a1a1a" xml:space="preserve"><tspan font-size="26.0">Relative Frequency</tspan></text>
+<path d="M134.3,419.4 L137.5,419.4 L140.7,419.3 L143.9,419.2 L147.1,419.1 L150.4,419.0 L153.6,418.9 L156.8,418.8 L160.0,418.7 L163.2,418.5 L166.4,418.4 L169.6,418.2 L172.9,418.1 L176.1,417.9 L179.3,417.6 L182.5,417.4 L185.7,417.1 L188.9,416.9 L192.1,416.6 L195.4,416.2 L198.6,415.9 L201.8,415.5 L205.0,415.1 L208.2,414.6 L211.4,414.1 L214.6,413.6 L217.9,413.0 L221.1,412.4 L224.3,411.8 L227.5,411.1 L230.7,410.3 L233.9,409.5 L237.1,408.6 L240.4,407.7 L243.6,406.7 L246.8,405.6 L250.0,404.5 L253.2,403.3 L256.4,402.0 L259.6,400.6 L262.9,399.2 L266.1,397.6 L269.3,396.0 L272.5,394.2 L275.7,392.4 L278.9,390.5 L282.1,388.4 L285.4,386.3 L288.6,384.0 L291.8,381.6 L295.0,379.1 L298.2,376.4 L301.4,373.7 L304.6,370.8 L307.9,367.7 L311.1,364.6 L314.3,361.2 L317.5,357.8 L320.7,354.2 L323.9,350.4 L327.1,346.6 L330.4,342.5 L333.6,338.3 L336.8,334.0 L340.0,329.5 L343.2,324.9 L346.4,320.1 L349.6,315.2 L352.9,310.1 L356.1,304.9 L359.3,299.5 L362.5,294.0 L365.7,288.4 L368.9,282.7 L372.1,276.8 L375.4,270.8 L378.6,264.7 L381.8,258.5 L385.0,252.2 L388.2,245.8 L391.4,239.4 L394.6,232.8 L397.9,226.2 L401.1,219.6 L404.3,212.9 L407.5,206.2 L410.7,199.4 L413.9,192.7 L417.1,185.9 L420.4,179.2 L423.6,172.5 L426.8,165.8 L430.0,159.2 L433.2,152.7 L436.4,146.2 L439.6,139.9 L442.9,133.6 L446.1,127.5 L449.3,121.5 L452.5,115.7 L455.7,110.0 L458.9,104.5 L462.1,99.2 L465.4,94.1 L468.6,89.3 L471.8,84.6 L475.0,80.2 L478.2,76.1 L481.4,72.2 L484.6,68.6 L487.9,65.2 L491.1,62.2 L494.3,59.4 L497.5,57.0 L500.7,54.9 L503.9,53.0 L507.1,51.6 L510.4,50.4 L513.6,49.6 L516.8,49.1 L520.0,48.9 L523.2,49.1 L526.4,49.6 L529.6,50.4 L532.9,51.6 L536.1,53.0 L539.3,54.9 L542.5,57.0 L545.7,59.4 L548.9,62.2 L552.1,65.2 L555.4,68.6 L558.6,72.2 L561.8,76.1 L565.0,80.2 L568.2,84.6 L571.4,89.3 L574.6,94.1 L577.9,99.2 L581.1,104.5 L584.3,110.0 L587.5,115.7 L590.7,121.5 L593.9,127.5 L597.1,133.6 L600.4,139.9 L603.6,146.2 L606.8,152.7 L610.0,159.2 L613.2,165.8 L616.4,172.5 L619.6,179.2 L622.9,185.9 L626.1,192.7 L629.3,199.4 L632.5,206.2 L635.7,212.9 L638.9,219.6 L642.1,226.2 L645.4,232.8 L648.6,239.4 L651.8,245.8 L655.0,252.2 L658.2,258.5 L661.4,264.7 L664.6,270.8 L667.9,276.8 L671.1,282.7 L674.3,288.4 L677.5,294.0 L680.7,299.5 L683.9,304.9 L687.1,310.1 L690.4,315.2 L693.6,320.1 L696.8,324.9 L700.0,329.5 L703.2,334.0 L706.4,338.3 L709.6,342.5 L712.9,346.6 L716.1,350.4 L719.3,354.2 L722.5,357.8 L725.7,361.2 L728.9,364.6 L732.1,367.7 L735.4,370.8 L738.6,373.7 L741.8,376.4 L745.0,379.1 L748.2,381.6 L751.4,384.0 L754.6,386.3 L757.9,388.4 L761.1,390.5 L764.3,392.4 L767.5,394.2 L770.7,396.0 L773.9,397.6 L777.1,399.2 L780.4,400.6 L783.6,402.0 L786.8,403.3 L790.0,404.5 L793.2,405.6 L796.4,406.7 L799.6,407.7 L802.9,408.6 L806.1,409.5 L809.3,410.3 L812.5,411.1 L815.7,411.8 L818.9,412.4 L822.1,413.0 L825.4,413.6 L828.6,414.1 L831.8,414.6 L835.0,415.1 L838.2,415.5 L841.4,415.9 L844.6,416.2 L847.9,416.6 L851.1,416.9 L854.3,417.1 L857.5,417.4 L860.7,417.6 L863.9,417.9 L867.1,418.1 L870.4,418.2 L873.6,418.4 L876.8,418.5 L880.0,418.7 L883.2,418.8 L886.4,418.9 L889.6,419.0 L892.9,419.1 L896.1,419.2 L899.3,419.3 L902.5,419.4 L905.7,419.4" fill="none" stroke="#1f56a8" stroke-width="4.5" stroke-linejoin="round"/>
+<rect x="71" y="419.0" width="898" height="8" fill="#fff"/>
+<line x1="110.0" y1="445.0" x2="935.0" y2="445.0" stroke="#1a1a1a" stroke-width="1.6"/>
+<text x="950.0" y="453.0" font-size="28" text-anchor="start" fill="#1a1a1a" xml:space="preserve"><tspan font-size="28.0" font-style="italic">x</tspan></text>
+<line x1="198.6" y1="445.0" x2="198.6" y2="435.0" stroke="#1a1a1a" stroke-width="1.6"/>
+<text x="198.6" y="481.0" font-size="26" text-anchor="middle" fill="#1a1a1a" xml:space="preserve"><tspan font-size="26.0" font-style="italic">μ</tspan><tspan font-size="26.0"> − 3</tspan><tspan font-size="26.0" font-style="italic">σ</tspan></text>
+<line x1="305.7" y1="445.0" x2="305.7" y2="435.0" stroke="#1a1a1a" stroke-width="1.6"/>
+<text x="305.7" y="481.0" font-size="26" text-anchor="middle" fill="#1a1a1a" xml:space="preserve"><tspan font-size="26.0" font-style="italic">μ</tspan><tspan font-size="26.0"> − 2</tspan><tspan font-size="26.0" font-style="italic">σ</tspan></text>
+<line x1="412.9" y1="445.0" x2="412.9" y2="435.0" stroke="#1a1a1a" stroke-width="1.6"/>
+<text x="412.9" y="481.0" font-size="26" text-anchor="middle" fill="#1a1a1a" xml:space="preserve"><tspan font-size="26.0" font-style="italic">μ</tspan><tspan font-size="26.0"> − </tspan><tspan font-size="26.0" font-style="italic">σ</tspan></text>
+<line x1="520.0" y1="445.0" x2="520.0" y2="435.0" stroke="#1a1a1a" stroke-width="1.6"/>
+<text x="520.0" y="481.0" font-size="26" text-anchor="middle" fill="#1a1a1a" xml:space="preserve"><tspan font-size="26.0" font-style="italic">μ</tspan></text>
+<line x1="627.1" y1="445.0" x2="627.1" y2="435.0" stroke="#1a1a1a" stroke-width="1.6"/>
+<text x="627.1" y="481.0" font-size="26" text-anchor="middle" fill="#1a1a1a" xml:space="preserve"><tspan font-size="26.0" font-style="italic">μ</tspan><tspan font-size="26.0"> + </tspan><tspan font-size="26.0" font-style="italic">σ</tspan></text>
+<line x1="734.3" y1="445.0" x2="734.3" y2="435.0" stroke="#1a1a1a" stroke-width="1.6"/>
+<text x="734.3" y="481.0" font-size="26" text-anchor="middle" fill="#1a1a1a" xml:space="preserve"><tspan font-size="26.0" font-style="italic">μ</tspan><tspan font-size="26.0"> + 2</tspan><tspan font-size="26.0" font-style="italic">σ</tspan></text>
+<line x1="841.4" y1="445.0" x2="841.4" y2="435.0" stroke="#1a1a1a" stroke-width="1.6"/>
+<text x="841.4" y="481.0" font-size="26" text-anchor="middle" fill="#1a1a1a" xml:space="preserve"><tspan font-size="26.0" font-style="italic">μ</tspan><tspan font-size="26.0"> + 3</tspan><tspan font-size="26.0" font-style="italic">σ</tspan></text>
+<line x1="110.0" y1="520.0" x2="935.0" y2="520.0" stroke="#1a1a1a" stroke-width="1.6"/>
+<text x="950.0" y="528.0" font-size="28" text-anchor="start" fill="#1a1a1a" xml:space="preserve"><tspan font-size="28.0" font-style="italic">z</tspan></text>
+<line x1="198.6" y1="520.0" x2="198.6" y2="510.0" stroke="#1a1a1a" stroke-width="1.6"/>
+<text x="198.6" y="556.0" font-size="26" text-anchor="middle" fill="#1a1a1a" xml:space="preserve"><tspan font-size="26.0">−3</tspan></text>
+<line x1="305.7" y1="520.0" x2="305.7" y2="510.0" stroke="#1a1a1a" stroke-width="1.6"/>
+<text x="305.7" y="556.0" font-size="26" text-anchor="middle" fill="#1a1a1a" xml:space="preserve"><tspan font-size="26.0">−2</tspan></text>
+<line x1="412.9" y1="520.0" x2="412.9" y2="510.0" stroke="#1a1a1a" stroke-width="1.6"/>
+<text x="412.9" y="556.0" font-size="26" text-anchor="middle" fill="#1a1a1a" xml:space="preserve"><tspan font-size="26.0">−1</tspan></text>
+<line x1="520.0" y1="520.0" x2="520.0" y2="510.0" stroke="#1a1a1a" stroke-width="1.6"/>
+<text x="520.0" y="556.0" font-size="26" text-anchor="middle" fill="#1a1a1a" xml:space="preserve"><tspan font-size="26.0">0</tspan></text>
+<line x1="627.1" y1="520.0" x2="627.1" y2="510.0" stroke="#1a1a1a" stroke-width="1.6"/>
+<text x="627.1" y="556.0" font-size="26" text-anchor="middle" fill="#1a1a1a" xml:space="preserve"><tspan font-size="26.0">1</tspan></text>
+<line x1="734.3" y1="520.0" x2="734.3" y2="510.0" stroke="#1a1a1a" stroke-width="1.6"/>
+<text x="734.3" y="556.0" font-size="26" text-anchor="middle" fill="#1a1a1a" xml:space="preserve"><tspan font-size="26.0">2</tspan></text>
+<line x1="841.4" y1="520.0" x2="841.4" y2="510.0" stroke="#1a1a1a" stroke-width="1.6"/>
+<text x="841.4" y="556.0" font-size="26" text-anchor="middle" fill="#1a1a1a" xml:space="preserve"><tspan font-size="26.0">3</tspan></text>
+</svg>

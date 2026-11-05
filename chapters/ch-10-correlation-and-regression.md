@@ -45,8 +45,8 @@ y & {\text{-}40} & 5 & 32 & 68 & 122
 
 We can plot these data by choosing a pair of perpendicular lines in the plane, called the coordinate axes, as shown in [Figure 10.1 \"Plot of Celsius and Fahrenheit Temperature Pairs\"](/chapters/ch-10-correlation-and-regression.md#src-fwk-shafer-ch10-s01-f01). Then to each pair of numbers in the table we associate a unique point in the plane, the point that lies *x* units to the right of the vertical axis (to the left if $x < 0$) and *y* units above the horizontal axis (below if $y < 0$). The relationship between *x* and *y* is called a **linear relationship** because the points so plotted all lie on a single straight line. The number $\frac{9}{5}$ in the equation $y = \frac{9}{5}x + 32$ is the **slope** of the line, and measures its steepness. It describes how *y* changes in response to a change in *x*: if *x* increases by 1 unit then *y* increases (since $\frac{9}{5}$ is positive) by $\frac{9}{5}$ unit. If the slope had been negative then *y* would have decreased in response to an increase in *x*. The number 32 in the formula $y = \frac{9}{5}x + 32$ is the *y***-intercept** of the line; it identifies where the line crosses the *y*-axis. You may recall from an earlier course that every non-vertical line in the plane is described by an equation of the form $y = mx + b$, where *m* is the slope of the line and *b* is its *y*-intercept.
 
-``````{figure} /images/section_14/f6698546a4f99e443e31429904be4b1b.jpg
-:alt: Statistical diagram: Figure 10.1 Plot of Celsius and Fahrenheit Temperature Pairs
+``````{figure} /images/redrawn/fig-10-01.svg
+:alt: Five points on a straight line: (−40, −40), (−15, 5), (0, 32), (20, 68), and (50, 122), Celsius on the x-axis and Fahrenheit on the y-axis.
 :name: src-fwk-shafer-ch10-s01-f01
 
 Figure 10.1 Plot of Celsius and Fahrenheit Temperature Pairs
@@ -61,8 +61,8 @@ $$\begin{matrix}
 
 A plot of these data is shown in [Figure 10.2 \"Plot of Height and Weight Pairs\"](/chapters/ch-10-correlation-and-regression.md#src-fwk-shafer-ch10-s01-f02). Such a plot is called a **scatter diagram** or **scatter plot**. Looking at the plot it is evident that there exists a linear relationship between height *x* and weight *y*, but not a perfect one. The points appear to be following a line, but not exactly. There is an element of randomness present.
 
-``````{figure} /images/section_14/4c2bb10b324e3867ac83a97c18105190.jpg
-:alt: Statistical diagram: Figure 10.2 Plot of Height and Weight Pairs
+``````{figure} /images/redrawn/fig-10-02.svg
+:alt: Scatter plot of height (66 to 78 inches) against weight (140 to 200 pounds) for the 12 men in the sample; the points rise from (68, 151) and (69, 146) to (75, 188), in a loose upward band.
 :name: src-fwk-shafer-ch10-s01-f02
 
 Figure 10.2 Plot of Height and Weight Pairs
@@ -247,8 +247,8 @@ In this chapter we will analyze situations in which variables *x* and *y* exhibi
 
 [Figure 10.3 \"Linear Relationships of Varying Strengths\"](/chapters/ch-10-correlation-and-regression.md#src-fwk-shafer-ch10-s02-f01) illustrates linear relationships between two variables *x* and *y* of varying strengths. It is visually apparent that in the situation in panel (a), *x* could serve as a useful predictor of *y*, it would be less useful in the situation illustrated in panel (b), and in the situation of panel (c) the linear relationship is so weak as to be practically nonexistent. The *linear correlation coefficient* is a number computed directly from the data that measures the strength of the linear relationship between the two variables *x* and  *y*.
 
-``````{figure} /images/section_14/1a22032a1f4d609c4190985036b7f704.jpg
-:alt: Statistical diagram: Figure 10.3 Linear Relationships of Varying Strengths
+``````{figure} /images/redrawn/fig-10-03.svg
+:alt: Three scatter plots, each with a downward trend. (a) The points lie in a narrow band, a strong linear relationship. (b) The band is wider. (c) The points are widely scattered, a weak relationship.
 :name: src-fwk-shafer-ch10-s02-f01
 
 Figure 10.3 Linear Relationships of Varying Strengths
@@ -276,8 +276,8 @@ The linear correlation coefficient has the following properties, illustrated in 
     1.  If \|*r*\| is near 1 (that is, if *r* is near either 1 or −1) then the linear relationship between *x* and *y* is strong.
     2.  If \|*r*\| is near 0 (that is, if *r* is near 0 and of either sign) then the linear relationship between *x* and *y* is weak.
 
-``````{figure} /images/section_14/07aa5db140b70615a15e8631c2d7a2c4.jpg
-:alt: Statistical diagram: Figure 10.4 Linear Correlation Coefficient R
+``````{figure} /images/redrawn/fig-10-04.svg
+:alt: Six scatter plots with their correlation coefficients: (a) r = −1, points exactly on a falling line; (b) r = −0.94, close to a falling line; (c) r = +0.08, a shapeless cluster; (d) r = +1, exactly on a rising line; (e) r = +0.86, close to a rising line; (f) r = 0.00, points on an arch, a strong but nonlinear relationship.
 :name: src-fwk-shafer-ch10-s02-f02
 
 Figure 10.4 Linear Correlation Coefficient *R*
@@ -826,8 +826,8 @@ The line with equation $y = \mathit{\beta}_{1}x + \mathit{\beta}_{0}$ is called 
 
 [Figure 10.5 \"The Simple Linear Model Concept\"](/chapters/ch-10-correlation-and-regression.md#src-fwk-shafer-ch10-s03-f01) illustrates the model. The symbols $N\left( {\mathit{\mu},\mathit{\sigma}^{2}} \right)$ denote a normal distribution with mean *μ* and variance $\mathit{\sigma}^{2}$, hence standard deviation *σ*.
 
-``````{figure} /images/section_14/88a6e0919d8617c025826c1e187ad591.jpg
-:alt: Statistical diagram: Figure 10.5 The Simple Linear Model Concept
+``````{figure} /images/redrawn/fig-10-05.svg
+:alt: The line E(Y) = β₁x + β₀ rising across the plane. At three values x₁, x₂, and x₃, a normal curve drawn sideways and centered on the line shows the distribution of y, N(β₁xᵢ + β₀, σ²), with the same spread at each x.
 :name: src-fwk-shafer-ch10-s03-f01
 
 Figure 10.5 The Simple Linear Model Concept
@@ -919,8 +919,8 @@ y & 0 & 1 & 2 & 3 & 3
 
 The idea for measuring the goodness of fit of a straight line to data is illustrated in [Figure 10.6 \"Plot of the Five-Point Data and the Line\"](/chapters/ch-10-correlation-and-regression.md#src-fwk-shafer-ch10-s04-s01-f01), in which the graph of the line $\hat{y} = \frac{1}{2}x\text{-}1$ has been superimposed on the scatter plot for the sample data set.
 
-``````{figure} /images/section_14/2f707e3177c1a3f56b84fb8ded3894aa.jpg
-:alt: Statistical diagram: Figure 10.6 Plot of the Five-Point Data and the Line y ^ = 1 2 x − 1
+``````{figure} /images/redrawn/fig-10-06.svg
+:alt: The five points (2, 0), (2, 1), (6, 2), (8, 3), and (10, 3) with the line ŷ = ½x − 1. Vertical segments show error₂, from (2, 1) down to the line, and error₅, from (10, 3) up to the line.
 :name: src-fwk-shafer-ch10-s04-s01-f01
 
 Figure 10.6 Plot of the Five-Point Data and the Line $\hat{y} = \frac{1}{2}x\text{-}1$
@@ -1187,8 +1187,8 @@ Solution:
 
 1.  The scatter diagram is shown in [Figure 10.7 \"Scatter Diagram for Age and Value of Used Automobiles\"](/chapters/ch-10-correlation-and-regression.md#src-fwk-shafer-ch10-s04-s02-f01).
 
-``````{figure} /images/section_14/afedcf81f03671c53e89f2cd1f907135.jpg
-:alt: Statistical diagram: Figure 10.7 Scatter Diagram for Age and Value of Used Automobiles
+``````{figure} /images/redrawn/fig-10-07.svg
+:alt: Scatter plot of age (0 to 8 years) against value (15 to 35 thousand dollars) for the ten automobiles in Table 10.3; value tends to fall with age.
 :name: src-fwk-shafer-ch10-s04-s02-f01
 
 Figure 10.7 Scatter Diagram for Age and Value of Used Automobiles
@@ -1226,8 +1226,8 @@ Figure 10.7 Scatter Diagram for Age and Value of Used Automobiles
 
     [Figure 10.8 \"Scatter Diagram and Regression Line for Age and Value of Used Automobiles\"](/chapters/ch-10-correlation-and-regression.md#src-fwk-shafer-ch10-s04-s02-f02) shows the scatter diagram with the graph of the least squares regression line superimposed.
 
-``````{figure} /images/section_14/9ee6d62cabb1f73795e6b98adf97a7be.jpg
-:alt: Statistical diagram: Figure 10.8 Scatter Diagram and Regression Line for Age and Value of Used Automobiles
+``````{figure} /images/redrawn/fig-10-08.svg
+:alt: The scatter plot of age against value for the ten automobiles, with the least squares regression line ŷ = −2.05x + 32.83 falling from about 32.8 at age 0 to about 16.4 at age 8.
 :name: src-fwk-shafer-ch10-s04-s02-f02
 
 Figure 10.8 Scatter Diagram and Regression Line for Age and Value of Used Automobiles
@@ -1700,8 +1700,8 @@ We will perform the test using the critical value approach.
 
   The data provide sufficient evidence, at the 2% level of significance, to conclude that the slope of the population regression line is nonzero, so that *x* is useful as a predictor of *y*.
 
-``````{figure} /images/section_14/9f1c174c40e1d4364dca3822c4cc03d5.jpg
-:alt: Statistical diagram: Figure 10.9 Rejection Region and Test Statistic for Note 10.33 "Example 8"
+``````{figure} /images/redrawn/fig-10-09.svg
+:alt: Student t curve with 3 degrees of freedom for Hₐ: β₁ ≠ 0. Both tails, each of area α/2 = 0.01, are shaded beyond the critical values −t_α/2 = −4.541 and t_α/2 = 4.541. On the number line below, the two rejection intervals are red, and the test statistic T = 4.914, marked with a star, lies inside the right one.
 :name: src-fwk-shafer-ch10-s05-s02-f01
 
 Figure 10.9 Rejection Region and Test Statistic for [Note 10.33 \"Example 8\"](/chapters/ch-10-correlation-and-regression.md#src-fwk-shafer-ch10-s05-s02-n02){.xref xrefstyle="select: title"}
@@ -1740,8 +1740,8 @@ We will perform the test using the critical value approach.
 
   The data provide sufficient evidence, at the 5% level of significance, to conclude that vehicles of this make and model and in this age range lose more than \$1,100 per year in value, on average.
 
-``````{figure} /images/section_14/da0a5676198f1c1c85bdb57bbd79e2b1.jpg
-:alt: Statistical diagram: Figure 10.10 Rejection Region and Test Statistic for Note 10.34 "Example 9"
+``````{figure} /images/redrawn/fig-10-10.svg
+:alt: Student t curve with 8 degrees of freedom for Hₐ: β₁ < 0. The left tail of area α = 0.05 is shaded below the critical value −t_α = −1.860. On the number line below, the rejection region t ≤ −1.860 is red, and the test statistic T = −1.869, marked with a star, lies just inside it.
 :name: src-fwk-shafer-ch10-s05-s02-f02
 
 Figure 10.10 Rejection Region and Test Statistic for [Note 10.34 \"Example 9\"](/chapters/ch-10-correlation-and-regression.md#src-fwk-shafer-ch10-s05-s02-n03){.xref xrefstyle="select: title"}
@@ -1916,8 +1916,8 @@ For the Basic and Application exercises in this section use the computations tha
 
 If the scatter diagram of a set of $\left( {x,y} \right)$ pairs shows neither an upward nor a downward trend, then the horizontal line $\hat{y} = \overset{-}{y}$ fits it well, as illustrated in [Figure 10.11](/chapters/ch-10-correlation-and-regression.md#src-fwk-shafer-ch10-s06-f01). The lack of any upward or downward trend means that when an element of the population is selected at random, knowing the value of the measurement *x* for that element is not helpful in predicting the value of the measurement *y*.
 
-``````{figure} /images/section_14/e3940708a65910fcf14d0a5e9ba1f037.jpg
-:alt: Statistical diagram: Figure 10.11
+``````{figure} /images/redrawn/fig-10-11.svg
+:alt: Scatter plot of points with no trend, scattered above and below a horizontal line ŷ = ȳ at the mean of the y values.
 :name: src-fwk-shafer-ch10-s06-f01
 
 Figure 10.11
@@ -1927,8 +1927,8 @@ The line $\hat{y} = \overset{-}{y}$ fits the scatter diagram well.
 
 If the scatter diagram shows a linear trend upward or downward then it is useful to compute the least squares regression line $\hat{y} = {\hat{\mathit{\beta}}}_{1}x + {\hat{\mathit{\beta}}}_{0}$ and use it in predicting *y*. [Figure 10.12 \"Same Scatter Diagram with Two Approximating Lines\"](/chapters/ch-10-correlation-and-regression.md#src-fwk-shafer-ch10-s06-f02) illustrates this. In each panel we have plotted the height and weight data of [Section 10.1 \"Linear Relationships Between Variables\"](/chapters/ch-10-correlation-and-regression.md#src-fwk-shafer-ch10-s01). This is the same scatter plot as [Figure 10.2 \"Plot of Height and Weight Pairs\"](/chapters/ch-10-correlation-and-regression.md#src-fwk-shafer-ch10-s01-f02), with the average value line $\hat{y} = \overset{-}{y}$ superimposed on it in the left panel and the least squares regression line imposed on it in the right panel. The errors are indicated graphically by the vertical line segments.
 
-``````{figure} /images/section_14/ec63299e191a4e57190a20c7b48bd7ef.jpg
-:alt: Statistical diagram: Figure 10.12 Same Scatter Diagram with Two Approximating Lines
+``````{figure} /images/redrawn/fig-10-12.svg
+:alt: The height and weight data plotted twice. (a) With the horizontal line ŷ = ȳ, with vertical segments from each point to the line. (b) With the least squares regression line, with much shorter vertical segments.
 :name: src-fwk-shafer-ch10-s06-f02
 
 Figure 10.12 Same Scatter Diagram with Two Approximating Lines
@@ -2522,8 +2522,8 @@ Table 10.4 Absence and Score Data
 
 A scatter plot of the data is given in [Figure 10.13 \"Plot of the Absence and Exam Score Pairs\"](/chapters/ch-10-correlation-and-regression.md#src-fwk-shafer-ch10-s08-f01). There is a downward trend in the plot which indicates that on average students with more absences tend to do worse on the final examination.
 
-``````{figure} /images/section_14/13a3aacb719bc1a9c4ee14e3c9aef408.jpg
-:alt: Statistical diagram: Figure 10.13 Plot of the Absence and Exam Score Pairs
+``````{figure} /images/redrawn/fig-10-13.svg
+:alt: Scatter plot of days absent (0 to 7) against final exam score (29 to 99) for the 26 students in Table 10.4; scores tend to fall as absences rise.
 :name: src-fwk-shafer-ch10-s08-f01
 
 Figure 10.13 Plot of the Absence and Exam Score Pairs

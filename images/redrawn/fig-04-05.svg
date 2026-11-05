@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 640" role="img" aria-labelledby="title desc" font-family="'STIX Two Text','Times New Roman',Times,'Liberation Serif',serif">
+<title id="title">Figure 4.5 Probability distribution of the binomial random variable in Example 7</title>
+<desc id="desc">Probability histogram of the binomial distribution with n = 5 and p = 0.17: bars of height 0.3939 at 0, 0.4034 at 1, 0.1652 at 2, 0.0338 at 3, 0.0035 at 4, and 0.0001 at 5.</desc>
+<rect width="1000" height="640" fill="#fff"/>
+<line x1="100.0" y1="560.0" x2="960.0" y2="560.0" stroke="#1a1a1a" stroke-width="1.6"/>
+<line x1="100.0" y1="560.0" x2="100.0" y2="20.0" stroke="#1a1a1a" stroke-width="1.6"/>
+<rect x="113.0" y="193.3" width="130.3" height="366.7" fill="none" stroke="#1f56a8" stroke-width="1.8"/>
+<rect x="243.3" y="184.4" width="130.3" height="375.6" fill="none" stroke="#1f56a8" stroke-width="1.8"/>
+<rect x="373.6" y="406.1" width="130.3" height="153.9" fill="none" stroke="#1f56a8" stroke-width="1.8"/>
+<rect x="503.9" y="528.5" width="130.3" height="31.5" fill="none" stroke="#1f56a8" stroke-width="1.8"/>
+<rect x="634.2" y="556.8" width="130.3" height="3.2" fill="none" stroke="#1f56a8" stroke-width="1.8"/>
+<rect x="764.5" y="559.9" width="130.3" height="0.1" fill="none" stroke="#1f56a8" stroke-width="1.8"/>
+<line x1="100.0" y1="466.9" x2="108.0" y2="466.9" stroke="#1a1a1a" stroke-width="1.6"/>
+<text x="92.0" y="475.3" font-size="24" text-anchor="end" fill="#1a1a1a" xml:space="preserve"><tspan font-size="24.0">0.1</tspan></text>
+<line x1="100.0" y1="373.8" x2="108.0" y2="373.8" stroke="#1a1a1a" stroke-width="1.6"/>
+<text x="92.0" y="382.2" font-size="24" text-anchor="end" fill="#1a1a1a" xml:space="preserve"><tspan font-size="24.0">0.2</tspan></text>
+<line x1="100.0" y1="280.7" x2="108.0" y2="280.7" stroke="#1a1a1a" stroke-width="1.6"/>
+<text x="92.0" y="289.1" font-size="24" text-anchor="end" fill="#1a1a1a" xml:space="preserve"><tspan font-size="24.0">0.3</tspan></text>
+<line x1="100.0" y1="187.6" x2="108.0" y2="187.6" stroke="#1a1a1a" stroke-width="1.6"/>
+<text x="92.0" y="196.0" font-size="24" text-anchor="end" fill="#1a1a1a" xml:space="preserve"><tspan font-size="24.0">0.4</tspan></text>
+<line x1="100.0" y1="94.5" x2="108.0" y2="94.5" stroke="#1a1a1a" stroke-width="1.6"/>
+<text x="92.0" y="102.9" font-size="24" text-anchor="end" fill="#1a1a1a" xml:space="preserve"><tspan font-size="24.0">0.5</tspan></text>
+<line x1="178.2" y1="560.0" x2="178.2" y2="552.0" stroke="#1a1a1a" stroke-width="1.6"/>
+<text x="178.2" y="594.0" font-size="26" text-anchor="middle" fill="#1a1a1a" xml:space="preserve"><tspan font-size="26.0">0</tspan></text>
+<line x1="308.5" y1="560.0" x2="308.5" y2="552.0" stroke="#1a1a1a" stroke-width="1.6"/>
+<text x="308.5" y="594.0" font-size="26" text-anchor="middle" fill="#1a1a1a" xml:space="preserve"><tspan font-size="26.0">1</tspan></text>
+<line x1="438.8" y1="560.0" x2="438.8" y2="552.0" stroke="#1a1a1a" stroke-width="1.6"/>
+<text x="438.8" y="594.0" font-size="26" text-anchor="middle" fill="#1a1a1a" xml:space="preserve"><tspan font-size="26.0">2</tspan></text>
+<line x1="569.1" y1="560.0" x2="569.1" y2="552.0" stroke="#1a1a1a" stroke-width="1.6"/>
+<text x="569.1" y="594.0" font-size="26" text-anchor="middle" fill="#1a1a1a" xml:space="preserve"><tspan font-size="26.0">3</tspan></text>
+<line x1="699.4" y1="560.0" x2="699.4" y2="552.0" stroke="#1a1a1a" stroke-width="1.6"/>
+<text x="699.4" y="594.0" font-size="26" text-anchor="middle" fill="#1a1a1a" xml:space="preserve"><tspan font-size="26.0">4</tspan></text>
+<line x1="829.7" y1="560.0" x2="829.7" y2="552.0" stroke="#1a1a1a" stroke-width="1.6"/>
+<text x="829.7" y="594.0" font-size="26" text-anchor="middle" fill="#1a1a1a" xml:space="preserve"><tspan font-size="26.0">5</tspan></text>
+</svg>

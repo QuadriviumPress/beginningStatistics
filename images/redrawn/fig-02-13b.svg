@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 300" role="img" aria-labelledby="title desc" font-family="'STIX Two Text','Times New Roman',Times,'Liberation Serif',serif">
+<title id="title">Box plot for the Example 14 data</title>
+<desc id="desc">Box plot of the data, drawn to scale above a number line marked 1.39, 1.90, 2.62, 3.33, and 4.00: whiskers from 1.39 to 1.90 and from 3.33 to 4.00, and a box from 1.90 to 3.33 with a line at the median 2.62.</desc>
+<rect width="1000" height="300" fill="#fff"/>
+<line x1="70.0" y1="30.0" x2="70.0" y2="130.0" stroke="#1a1a1a" stroke-width="2"/>
+<line x1="930.0" y1="30.0" x2="930.0" y2="130.0" stroke="#1a1a1a" stroke-width="2"/>
+<line x1="70.0" y1="80.0" x2="238.0" y2="80.0" stroke="#1a1a1a" stroke-width="2"/>
+<line x1="709.2" y1="80.0" x2="930.0" y2="80.0" stroke="#1a1a1a" stroke-width="2"/>
+<rect x="238.0" y="40.0" width="471.2" height="80.0" fill="none" stroke="#1a1a1a" stroke-width="2"/>
+<line x1="475.3" y1="40.0" x2="475.3" y2="120.0" stroke="#1a1a1a" stroke-width="2"/>
+<line x1="20.0" y1="200.0" x2="980.0" y2="200.0" stroke="#1a1a1a" stroke-width="2"/>
+<circle cx="70.0" cy="200.0" r="7.0" fill="#1a1a1a" stroke="none" stroke-width="0"/>
+<text x="70.0" y="248.0" font-size="30" text-anchor="middle" fill="#1a1a1a" xml:space="preserve"><tspan font-size="30.0">1.39</tspan></text>
+<circle cx="238.0" cy="200.0" r="7.0" fill="#1a1a1a" stroke="none" stroke-width="0"/>
+<text x="238.0" y="248.0" font-size="30" text-anchor="middle" fill="#1a1a1a" xml:space="preserve"><tspan font-size="30.0">1.90</tspan></text>
+<circle cx="475.3" cy="200.0" r="7.0" fill="#1a1a1a" stroke="none" stroke-width="0"/>
+<text x="475.3" y="248.0" font-size="30" text-anchor="middle" fill="#1a1a1a" xml:space="preserve"><tspan font-size="30.0">2.62</tspan></text>
+<circle cx="709.2" cy="200.0" r="7.0" fill="#1a1a1a" stroke="none" stroke-width="0"/>
+<text x="709.2" y="248.0" font-size="30" text-anchor="middle" fill="#1a1a1a" xml:space="preserve"><tspan font-size="30.0">3.33</tspan></text>
+<circle cx="930.0" cy="200.0" r="7.0" fill="#1a1a1a" stroke="none" stroke-width="0"/>
+<text x="930.0" y="248.0" font-size="30" text-anchor="middle" fill="#1a1a1a" xml:space="preserve"><tspan font-size="30.0">4.00</tspan></text>
+</svg>

@@ -1,0 +1,112 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 700" role="img" aria-labelledby="title desc" font-family="'STIX Two Text','Times New Roman',Times,'Liberation Serif',serif">
+<title id="title">Figure 10.4 Linear correlation coefficient R</title>
+<desc id="desc">Six scatter plots with their correlation coefficients: (a) r = −1, points exactly on a falling line; (b) r = −0.94, close to a falling line; (c) r = +0.08, a shapeless cluster; (d) r = +1, exactly on a rising line; (e) r = +0.86, close to a rising line; (f) r = 0.00, points on an arch, a strong but nonlinear relationship.</desc>
+<rect width="1000" height="700" fill="#fff"/>
+<line x1="20.0" y1="290.0" x2="310.0" y2="290.0" stroke="#1a1a1a" stroke-width="1.6"/>
+<line x1="310.0" y1="290.0" x2="297.2" y2="295.7" stroke="#1a1a1a" stroke-width="1.6"/>
+<line x1="310.0" y1="290.0" x2="297.2" y2="284.3" stroke="#1a1a1a" stroke-width="1.6"/>
+<line x1="20.0" y1="290.0" x2="20.0" y2="10.0" stroke="#1a1a1a" stroke-width="1.6"/>
+<line x1="20.0" y1="10.0" x2="25.7" y2="22.8" stroke="#1a1a1a" stroke-width="1.6"/>
+<line x1="20.0" y1="10.0" x2="14.3" y2="22.8" stroke="#1a1a1a" stroke-width="1.6"/>
+<circle cx="101.8" cy="117.5" r="5.5" fill="#1a1a1a" stroke="none" stroke-width="0"/>
+<circle cx="116.6" cy="124.2" r="5.5" fill="#1a1a1a" stroke="none" stroke-width="0"/>
+<circle cx="131.9" cy="131.2" r="5.5" fill="#1a1a1a" stroke="none" stroke-width="0"/>
+<circle cx="161.5" cy="145.2" r="5.5" fill="#1a1a1a" stroke="none" stroke-width="0"/>
+<circle cx="191.7" cy="159.2" r="5.5" fill="#1a1a1a" stroke="none" stroke-width="0"/>
+<circle cx="221.5" cy="173.2" r="5.5" fill="#1a1a1a" stroke="none" stroke-width="0"/>
+<circle cx="236.3" cy="180.0" r="5.5" fill="#1a1a1a" stroke="none" stroke-width="0"/>
+<circle cx="251.4" cy="187.0" r="5.5" fill="#1a1a1a" stroke="none" stroke-width="0"/>
+<circle cx="266.5" cy="194.2" r="5.5" fill="#1a1a1a" stroke="none" stroke-width="0"/>
+<circle cx="281.3" cy="201.0" r="5.5" fill="#1a1a1a" stroke="none" stroke-width="0"/>
+<text x="165.0" y="272.0" font-size="26" text-anchor="middle" fill="#1a1a1a" xml:space="preserve"><tspan font-size="26.0" font-style="italic">r</tspan><tspan font-size="26.0"> = −1</tspan></text>
+<text x="165.0" y="324.0" font-size="26" text-anchor="middle" fill="#1a1a1a" xml:space="preserve"><tspan font-size="26.0">(</tspan><tspan font-size="26.0" font-style="italic">a</tspan><tspan font-size="26.0">)</tspan></text>
+<line x1="350.0" y1="290.0" x2="640.0" y2="290.0" stroke="#1a1a1a" stroke-width="1.6"/>
+<line x1="640.0" y1="290.0" x2="627.2" y2="295.7" stroke="#1a1a1a" stroke-width="1.6"/>
+<line x1="640.0" y1="290.0" x2="627.2" y2="284.3" stroke="#1a1a1a" stroke-width="1.6"/>
+<line x1="350.0" y1="290.0" x2="350.0" y2="10.0" stroke="#1a1a1a" stroke-width="1.6"/>
+<line x1="350.0" y1="10.0" x2="355.7" y2="22.8" stroke="#1a1a1a" stroke-width="1.6"/>
+<line x1="350.0" y1="10.0" x2="344.3" y2="22.8" stroke="#1a1a1a" stroke-width="1.6"/>
+<circle cx="433.2" cy="61.8" r="5.5" fill="#1a1a1a" stroke="none" stroke-width="0"/>
+<circle cx="448.6" cy="89.5" r="5.5" fill="#1a1a1a" stroke="none" stroke-width="0"/>
+<circle cx="470.9" cy="82.8" r="5.5" fill="#1a1a1a" stroke="none" stroke-width="0"/>
+<circle cx="478.2" cy="110.5" r="5.5" fill="#1a1a1a" stroke="none" stroke-width="0"/>
+<circle cx="500.8" cy="152.2" r="5.5" fill="#1a1a1a" stroke="none" stroke-width="0"/>
+<circle cx="500.8" cy="117.5" r="5.5" fill="#1a1a1a" stroke="none" stroke-width="0"/>
+<circle cx="515.6" cy="159.2" r="5.5" fill="#1a1a1a" stroke="none" stroke-width="0"/>
+<circle cx="537.9" cy="159.2" r="5.5" fill="#1a1a1a" stroke="none" stroke-width="0"/>
+<circle cx="560.5" cy="187.0" r="5.5" fill="#1a1a1a" stroke="none" stroke-width="0"/>
+<text x="495.0" y="272.0" font-size="26" text-anchor="middle" fill="#1a1a1a" xml:space="preserve"><tspan font-size="26.0" font-style="italic">r</tspan><tspan font-size="26.0"> = −0.94</tspan></text>
+<text x="495.0" y="324.0" font-size="26" text-anchor="middle" fill="#1a1a1a" xml:space="preserve"><tspan font-size="26.0">(</tspan><tspan font-size="26.0" font-style="italic">b</tspan><tspan font-size="26.0">)</tspan></text>
+<line x1="680.0" y1="290.0" x2="970.0" y2="290.0" stroke="#1a1a1a" stroke-width="1.6"/>
+<line x1="970.0" y1="290.0" x2="957.2" y2="295.7" stroke="#1a1a1a" stroke-width="1.6"/>
+<line x1="970.0" y1="290.0" x2="957.2" y2="284.3" stroke="#1a1a1a" stroke-width="1.6"/>
+<line x1="680.0" y1="290.0" x2="680.0" y2="10.0" stroke="#1a1a1a" stroke-width="1.6"/>
+<line x1="680.0" y1="10.0" x2="685.7" y2="22.8" stroke="#1a1a1a" stroke-width="1.6"/>
+<line x1="680.0" y1="10.0" x2="674.3" y2="22.8" stroke="#1a1a1a" stroke-width="1.6"/>
+<circle cx="809.6" cy="125.9" r="5.5" fill="#1a1a1a" stroke="none" stroke-width="0"/>
+<circle cx="809.6" cy="129.8" r="5.5" fill="#1a1a1a" stroke="none" stroke-width="0"/>
+<circle cx="817.2" cy="152.2" r="5.5" fill="#1a1a1a" stroke="none" stroke-width="0"/>
+<circle cx="824.7" cy="145.2" r="5.5" fill="#1a1a1a" stroke="none" stroke-width="0"/>
+<circle cx="839.8" cy="159.2" r="5.5" fill="#1a1a1a" stroke="none" stroke-width="0"/>
+<circle cx="839.8" cy="124.2" r="5.5" fill="#1a1a1a" stroke="none" stroke-width="0"/>
+<circle cx="839.8" cy="96.5" r="5.5" fill="#1a1a1a" stroke="none" stroke-width="0"/>
+<circle cx="854.6" cy="138.5" r="5.5" fill="#1a1a1a" stroke="none" stroke-width="0"/>
+<circle cx="876.9" cy="145.2" r="5.5" fill="#1a1a1a" stroke="none" stroke-width="0"/>
+<circle cx="876.9" cy="117.5" r="5.5" fill="#1a1a1a" stroke="none" stroke-width="0"/>
+<text x="825.0" y="272.0" font-size="26" text-anchor="middle" fill="#1a1a1a" xml:space="preserve"><tspan font-size="26.0" font-style="italic">r</tspan><tspan font-size="26.0"> = +0.08</tspan></text>
+<text x="825.0" y="324.0" font-size="26" text-anchor="middle" fill="#1a1a1a" xml:space="preserve"><tspan font-size="26.0">(</tspan><tspan font-size="26.0" font-style="italic">c</tspan><tspan font-size="26.0">)</tspan></text>
+<line x1="20.0" y1="635.0" x2="310.0" y2="635.0" stroke="#1a1a1a" stroke-width="1.6"/>
+<line x1="310.0" y1="635.0" x2="297.2" y2="640.7" stroke="#1a1a1a" stroke-width="1.6"/>
+<line x1="310.0" y1="635.0" x2="297.2" y2="629.3" stroke="#1a1a1a" stroke-width="1.6"/>
+<line x1="20.0" y1="635.0" x2="20.0" y2="355.0" stroke="#1a1a1a" stroke-width="1.6"/>
+<line x1="20.0" y1="355.0" x2="25.7" y2="367.8" stroke="#1a1a1a" stroke-width="1.6"/>
+<line x1="20.0" y1="355.0" x2="14.3" y2="367.8" stroke="#1a1a1a" stroke-width="1.6"/>
+<circle cx="34.8" cy="586.0" r="5.5" fill="#1a1a1a" stroke="none" stroke-width="0"/>
+<circle cx="42.0" cy="572.3" r="5.5" fill="#1a1a1a" stroke="none" stroke-width="0"/>
+<circle cx="49.6" cy="558.0" r="5.5" fill="#1a1a1a" stroke="none" stroke-width="0"/>
+<circle cx="57.1" cy="544.3" r="5.5" fill="#1a1a1a" stroke="none" stroke-width="0"/>
+<circle cx="64.4" cy="530.6" r="5.5" fill="#1a1a1a" stroke="none" stroke-width="0"/>
+<circle cx="71.9" cy="516.6" r="5.5" fill="#1a1a1a" stroke="none" stroke-width="0"/>
+<circle cx="87.0" cy="488.6" r="5.5" fill="#1a1a1a" stroke="none" stroke-width="0"/>
+<circle cx="101.8" cy="460.8" r="5.5" fill="#1a1a1a" stroke="none" stroke-width="0"/>
+<circle cx="116.6" cy="432.8" r="5.5" fill="#1a1a1a" stroke="none" stroke-width="0"/>
+<circle cx="139.2" cy="391.4" r="5.5" fill="#1a1a1a" stroke="none" stroke-width="0"/>
+<text x="165.0" y="617.0" font-size="26" text-anchor="middle" fill="#1a1a1a" xml:space="preserve"><tspan font-size="26.0" font-style="italic">r</tspan><tspan font-size="26.0"> = +1</tspan></text>
+<text x="165.0" y="669.0" font-size="26" text-anchor="middle" fill="#1a1a1a" xml:space="preserve"><tspan font-size="26.0">(</tspan><tspan font-size="26.0" font-style="italic">d</tspan><tspan font-size="26.0">)</tspan></text>
+<line x1="350.0" y1="635.0" x2="640.0" y2="635.0" stroke="#1a1a1a" stroke-width="1.6"/>
+<line x1="640.0" y1="635.0" x2="627.2" y2="640.7" stroke="#1a1a1a" stroke-width="1.6"/>
+<line x1="640.0" y1="635.0" x2="627.2" y2="629.3" stroke="#1a1a1a" stroke-width="1.6"/>
+<line x1="350.0" y1="635.0" x2="350.0" y2="355.0" stroke="#1a1a1a" stroke-width="1.6"/>
+<line x1="350.0" y1="355.0" x2="355.7" y2="367.8" stroke="#1a1a1a" stroke-width="1.6"/>
+<line x1="350.0" y1="355.0" x2="344.3" y2="367.8" stroke="#1a1a1a" stroke-width="1.6"/>
+<circle cx="448.6" cy="509.6" r="5.5" fill="#1a1a1a" stroke="none" stroke-width="0"/>
+<circle cx="455.9" cy="530.3" r="5.5" fill="#1a1a1a" stroke="none" stroke-width="0"/>
+<circle cx="470.9" cy="509.6" r="5.5" fill="#1a1a1a" stroke="none" stroke-width="0"/>
+<circle cx="478.2" cy="474.8" r="5.5" fill="#1a1a1a" stroke="none" stroke-width="0"/>
+<circle cx="500.8" cy="488.6" r="5.5" fill="#1a1a1a" stroke="none" stroke-width="0"/>
+<circle cx="515.6" cy="460.8" r="5.5" fill="#1a1a1a" stroke="none" stroke-width="0"/>
+<circle cx="523.1" cy="488.6" r="5.5" fill="#1a1a1a" stroke="none" stroke-width="0"/>
+<circle cx="530.7" cy="440.1" r="5.5" fill="#1a1a1a" stroke="none" stroke-width="0"/>
+<circle cx="545.8" cy="460.8" r="5.5" fill="#1a1a1a" stroke="none" stroke-width="0"/>
+<circle cx="553.0" cy="439.8" r="5.5" fill="#1a1a1a" stroke="none" stroke-width="0"/>
+<text x="495.0" y="617.0" font-size="26" text-anchor="middle" fill="#1a1a1a" xml:space="preserve"><tspan font-size="26.0" font-style="italic">r</tspan><tspan font-size="26.0"> = +0.86</tspan></text>
+<text x="495.0" y="669.0" font-size="26" text-anchor="middle" fill="#1a1a1a" xml:space="preserve"><tspan font-size="26.0">(</tspan><tspan font-size="26.0" font-style="italic">e</tspan><tspan font-size="26.0">)</tspan></text>
+<line x1="680.0" y1="635.0" x2="970.0" y2="635.0" stroke="#1a1a1a" stroke-width="1.6"/>
+<line x1="970.0" y1="635.0" x2="957.2" y2="640.7" stroke="#1a1a1a" stroke-width="1.6"/>
+<line x1="970.0" y1="635.0" x2="957.2" y2="629.3" stroke="#1a1a1a" stroke-width="1.6"/>
+<line x1="680.0" y1="635.0" x2="680.0" y2="355.0" stroke="#1a1a1a" stroke-width="1.6"/>
+<line x1="680.0" y1="355.0" x2="685.7" y2="367.8" stroke="#1a1a1a" stroke-width="1.6"/>
+<line x1="680.0" y1="355.0" x2="674.3" y2="367.8" stroke="#1a1a1a" stroke-width="1.6"/>
+<circle cx="779.8" cy="495.6" r="5.5" fill="#1a1a1a" stroke="none" stroke-width="0"/>
+<circle cx="784.1" cy="471.8" r="5.5" fill="#1a1a1a" stroke="none" stroke-width="0"/>
+<circle cx="797.2" cy="450.8" r="5.5" fill="#1a1a1a" stroke="none" stroke-width="0"/>
+<circle cx="817.2" cy="435.4" r="5.5" fill="#1a1a1a" stroke="none" stroke-width="0"/>
+<circle cx="841.5" cy="427.0" r="5.5" fill="#1a1a1a" stroke="none" stroke-width="0"/>
+<circle cx="867.6" cy="427.0" r="5.5" fill="#1a1a1a" stroke="none" stroke-width="0"/>
+<circle cx="891.7" cy="435.4" r="5.5" fill="#1a1a1a" stroke="none" stroke-width="0"/>
+<circle cx="911.7" cy="451.0" r="5.5" fill="#1a1a1a" stroke="none" stroke-width="0"/>
+<circle cx="924.8" cy="471.8" r="5.5" fill="#1a1a1a" stroke="none" stroke-width="0"/>
+<circle cx="929.1" cy="495.6" r="5.5" fill="#1a1a1a" stroke="none" stroke-width="0"/>
+<text x="825.0" y="617.0" font-size="26" text-anchor="middle" fill="#1a1a1a" xml:space="preserve"><tspan font-size="26.0" font-style="italic">r</tspan><tspan font-size="26.0"> = 0.00</tspan></text>
+<text x="825.0" y="669.0" font-size="26" text-anchor="middle" fill="#1a1a1a" xml:space="preserve"><tspan font-size="26.0">(</tspan><tspan font-size="26.0" font-style="italic">f</tspan><tspan font-size="26.0">)</tspan></text>
+</svg>
